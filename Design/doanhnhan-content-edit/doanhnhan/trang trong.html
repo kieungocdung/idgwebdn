@@ -1,0 +1,628 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>Hiệp hội doanh nhân</title>
+	<link rel="stylesheet" type="text/css" href="style.css"/>
+	<link rel="stylesheet" type="text/css" href="skin.css"/>
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/jquery.jcarousel.js"></script>
+	<script type="text/javascript">
+
+		function mycarousel_initCallback(carousel)
+		{
+		    // Disable autoscrolling if the user clicks the prev or next button.
+		    carousel.buttonNext.bind('click', function() {
+		        carousel.startAuto(0);
+		    });
+		
+		    carousel.buttonPrev.bind('click', function() {
+		        carousel.startAuto(0);
+		    });
+		
+		    // Pause autoscrolling if the user moves with the cursor over the clip.
+		    carousel.clip.hover(function() {
+		        carousel.stopAuto();
+		    }, function() {
+		        carousel.startAuto();
+		    });
+		};
+		
+		$(document).ready(function() {
+		    $('#mycarousel').jcarousel({
+		        wrap: 'last',
+		        initCallback: mycarousel_initCallback
+		    });
+		});
+
+	</script>
+	<style type="text/css">
+	.document-tools .email {
+    background-position: left 3px;
+    margin-right: 15px;
+    padding-left: 18px;
+	background-image: url("images/email.gif");
+    background-repeat: no-repeat;
+	width:130px;
+	float:left;
+}
+.document-tools .print {
+    background-position: left 3px;
+    margin-right: 15px;
+    padding-left: 18px;
+    background-image: url("images/print.gif");
+    background-repeat: no-repeat;
+	width:130px;
+	float:left;
+}.document-tools {
+    clear: both;
+    margin-bottom: 0.86em;
+    margin-top: 0;
+	display:block;
+	list-style: none outside none;
+}
+.g-w16
+{padding:0px 20px 0px 20px;}
+	.g-container h1 {
+    color: #333333;
+    font-size: 1.2em;
+    text-transform: none;
+	margin-bottom:20px;
+	 
+}
+.story-body ul{
+	width:100%;
+	list-style: none outside none;
+	clear:both;
+	margin-bottom:0.86em;
+	}
+.socialmedia-links {
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+.socialmedia-links {
+    border: 1px solid #CCCCCC;
+    padding: 10px;
+	
+}
+.socialmedia-links li  a{
+    float: left;
+    margin-right: 20px;color:#006699;
+	
+}.socialmedia-links-km li:hover{
+ text-decoration:underline;
+}.socialmedia-links li:hover{
+ text-decoration:underline;
+}
+.document-tools .email a:hover
+{text-direction:underline;
+}
+.document-tools li a
+{
+color:#006699;
+}
+.document-tools li a:hover
+{
+text-decoration:underline;
+}
+.socialmedia-links li {
+    float: left;
+    margin-right: 0px;
+}
+.socialmedia-links li img
+{
+float:left; padding-right:3px;
+}
+.socialmedia-links ul {
+    padding-top: 2em;
+	list-style: none outside none;
+}
+.socialmedia-links-km {
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+.socialmedia-links-km {
+  
+    padding: 5px;
+	
+}
+
+.socialmedia-links-km li  a{
+    float: left;
+    margin-right: 20px;color:#006699;
+	
+}
+.socialmedia-links-km ul {
+    padding-top: 2em;
+	list-style: none outside none;
+}
+
+#services-nav {
+    background-color: #F7F7F7;
+    height: 70px;
+    margin: 10px 0 0;
+    padding: 10px 15px 0 10px;
+}
+#services-nav a#services-rss {
+    
+    padding-left: 2px;
+}
+#services-nav a {
+    display: block;
+    margin: 0px 5px 10px 5px;
+    padding: 10px 0;
+	float:left;
+	
+}
+#services-nav h2
+{
+padding-bottom: 10px;
+}
+#services-nav a#services-uploader {
+   
+    padding-left: 2px;
+}
+#services-nav a#services-widget {
+    
+    padding-left: 2px;
+}
+#services-nav a#services-mobile {
+    
+    padding-left: 2px;
+}
+	</style>
+</head>
+<body>
+	<div id="all">
+		<div id="header">
+			<div id="banner">
+				<a href="">
+					<img src="images/doanhnghiep_logo.jpg"/>
+				</a>
+				<div id="bn-buttons">
+					<a href="#">CLB Doanh nhân</a>
+					<a href="#">CLB Doanh nhân</a>
+					<a href="#">CLB Doanh nhân</a>
+					<a href="#">CLB Doanh nhân</a>
+				</div>
+			</div>
+			<div id="menu">
+				<ul>
+					<li><a href="#">Trang chủ</a></li>
+					<li class="actived">
+						<a href="#">Thời sự - Kinh tế</a>
+						
+					</li>
+					<li><a href="#">Doanh nhân</a></li>
+					<li>
+						<a href="#">Sống xanh</a>
+						
+					</li>
+					<li><a href="#">Hành Trang pháp lý</a></li>
+					<li>
+						<a href="#">Văn hóa - Thể thao</a>
+					</li>
+				</ul>
+			</div><!--  End of #menu -->
+			<div id="h-bottom">
+				<div id="time">
+					Thứ bảy, 18/06/2011, 10:00 GMT
+				</div>
+				<div id="search">
+					<form name="frmSearch" method="post" action="">
+						<label for="txtKey">Tìm kiếm</label>
+						<div class="wrapper">
+							<input type="text" name="key" id="txtKey" size="25"/>
+						</div>
+					</form>
+				</div>
+			</div><!-- End of #h-bottom -->
+		</div><!-- End of #header --> 
+		<div id="main">
+		  <div id="m-left">
+            
+            <div class="g-group">
+            <div class="g-container">
+<ul class="document-tools blq-clearfix">
+	<li class="email">
+		<a class="popup325x520" href="http://www.bbc.co.uk/worldservice/apps/vi/sendemail/i/http://www.bbc.co.uk/vietnamese/vietnam/2011/06/110618_viet_us_scs.shtml?t=Mỹ-Việt ra thông cáo chung về Biển Đông">Gửi cho bạn bè</a>
+	</li>
+		<li class="print">
+		<a href="/vietnamese/vietnam/2011/06/110618_viet_us_scs.shtml?print=1">In trang này </a>
+	</li>
+</ul>
+
+            </div>
+         </div>
+            
+            
+            
+	<div id="feature">
+<div class="clear-fix">&nbsp;<div class=" g-w16 g-first">
+                        <div class="g-container">
+                            <h1>
+                                Mỹ tìm kiếm quân nhân mất tích ngoài khơi VN</h1>
+                        </div>
+                        <div class="g-container story-body">
+                            <div class="bodytext">
+                                <div class="module align-center ">
+                                    <div class="image img-w466">
+                                        <img alt="Tàu USNS Bowditch" height="262" 
+                                            src="http://wscdn.bbc.co.uk/worldservice/assets/images/2011/06/20/110620065914_usns_bowditch_466x262_usnavy_nocredit.jpg" 
+                                            width="466" /></div>
+                                </div>
+                                <p class="ingress">
+                                    Một tàu khảo sát đại dương của hải quân Hoa Kỳ vừa có đợt tìm kiếm 
+                                    binh lính mất tích thời chiến tranh ở ngoài khơi thềm lục địa Việt 
+                                    Nam.</p>
+                                <p>
+                                    Đây là lần thứ hai Mỹ tổ chức tìm người mất tích ở dưới biển theo 
+                                    khuôn khổ hợp tác nhân đạo giữa hai nước. Lần trước là vào năm 2009.</p>
+                                <p>
+                                    Nguồn tin Đại sứ quán Mỹ cho hay, tàu khảo sát đại dương USNS Bowditch 
+                                    đã tiến hành tìm kiếm ở ngoài khơi miền Trung Việt Nam từ 24/05-20/06.</p>
+                                <p>
+                                    Ông Ron Ward, từ Bộ Chỉ huy Hỗn hợp Kiểm kê Tù binh và Người mất tích của Hoa 
+                                    Kỳ (JPAC), nói với BBC rằng tàu USNS Bowditch đã hoạt động trong các 
+                                    vùng biển thuộc Quảng Trị, Thừa Thiên-Huế, Quảng Nam và Đà Nẵng, &quot;ở 
+                                    bên trong vùng biển Việt Nam&quot;.</p>
+                                <p>
+                                    Ông cũng cho hay, thủy thủ đoàn 35 người của chiếc tàu khảo sát đại 
+                                    dương này hoàn toàn là dân sự.</p>
+                                <p>
+                                    Tàu USNS Bowditch được nói là chuyên làm nhiệm vụ khảo sát đại dương ở các 
+                                    vùng ven biển và ngoài khơi.</p>
+                                <p>
+                                    Hoạt động trong đợt khảo sát tìm kiếm lần này cũng tương tự như hoạt 
+                                    động của tàu USNS Bruce C. Heezen hồi năm 2009.</p>
+                                <p>
+                                    Ông Ron Ward nói: &quot;Chúng tôi hy vọng sẽ tổ chức tìm kiếm thêm ít nhất 
+                                    là một lần nữa, tuy chưa thống nhất khi nào&quot;.</p>
+                                <p>
+                                    Hiện diện của các tàu hải quân Hoa Kỳ ngày càng thường xuyên hơn trong 
+                                    các vùng biển của Việt Nam.</p>
+                                <p>
+                                    Tháng tới, trong một cuộc phối hợp khác do Bộ Quốc phòng Việt Nam và 
+                                    Mỹ tổ chức, tàu hải quân hai nước sẽ tham gia diễn tập tìm kiếm cứu 
+                                    nạn chung, được biết cũng ở ngoài khơi miền Trung.</p>
+                            </div>
+                        </div>
+                        <div class="g-container story-body">
+                        <div class="socialmedia-links-km">
+                            <ul class="document-tools blq-clearfix">
+                                <li class="email"><a class="popup325x520" 
+                                        href="http://www.bbc.co.uk/worldservice/apps/vi/sendemail/i/http://www.bbc.co.uk/vietnamese/vietnam/2011/06/110620_us_mia_search.shtml?t=Mỹ tìm kiếm quân nhân mất tích ngoài khơi VN">
+                                    Gửi cho bạn bè</a> </li>
+                                <li class="print">
+                                    <a href="vietnamese/vietnam/2011/06/110620_us_mia_search.shtml?print=1">In trang 
+                                    này </a></li>
+                            </ul></div>
+                            <div class="socialmedia-links">
+                                <h3>
+                                    Chia sẻ với bạn qua:</h3>
+                                <p class="help">
+                                    <a href="http://www.bbc.co.uk/vietnamese/institutional/2009/02/000000_help.shtml">
+                                    Cái này là gì?</a></p>
+                                <ul class="blq-clearfix">
+                                    <li class="delicious">
+                                       <img src="images/icon.png" alt="" />
+                                        <a href="http://del.icio.us/post?url=http://www.bbc.co.uk/vietnamese/vietnam/2011/06/110620_us_mia_search.shtml">
+                                        Delicious</a> </li>
+                                    <li class="digg">
+                                    <img src="images/icon2.png" alt="" />
+                                        <a href="http://digg.com/submit?url=http://www.bbc.co.uk/vietnamese/vietnam/2011/06/110620_us_mia_search.shtml">
+                                        Digg</a> </li>
+                                    <li class="google">
+                                       <img src="images/icon3.png" alt="" />
+                                        <a href="http://www.google.com/bookmarks/mark?op=edit&amp;bkmk=http://www.bbc.co.uk/vietnamese/vietnam/2011/06/110620_us_mia_search.shtml">
+                                        Google</a> </li>
+                                    <li class="facebook">
+                                       <img src="images/icon4.png" alt="" />
+                                        <a href="http://www.facebook.com/sharer.php?u=http://www.bbc.co.uk/vietnamese/vietnam/2011/06/110620_us_mia_search.shtml">
+                                        Facebook</a> </li>
+                                    <li class="myspace">
+                                       <img src="images/icon5.png" alt="" />
+                                        <a href="http://www.myspace.com/index.cfm?fuseaction=postto&amp;u=http://www.bbc.co.uk/vietnamese/vietnam/2011/06/110620_us_mia_search.shtml&amp;l=5">
+                                        My Space</a> </li>
+                                </ul>
+                            </div>
+                        </div>
+                                    <div id="services-nav">
+            <h2>Dịch vụ</h2>
+            <ul>	
+                <li><img src="images/cta_rss.jpg" alt="" /><a id="services-rss" href="http://www.bbc.co.uk/vietnamese/institutional/rss.shtml">RSS</a></li>
+                <li><img src="images/cta_uploader.gif" alt="" /><a id="services-uploader" href="http://www.bbc.co.uk/vietnamese/yourpics/">Gửi hình/video của bạn</a></li>
+                <li><img src="images/cta_widget.gif" alt="" /><a id="services-widget" href="http://www.bbc.co.uk/vietnamese/institutional/2009/05/090512_widgettermsandconditions.shtml">Nhận tin bằng Widget</a></li>
+                <li><img src="images/mobiles.gif" alt="" /><a id="services-mobile" href="http://www.bbc.co.uk/vietnamese/services/2009/09/000000_mobile.shtml">Điện thoại di động</a></li>
+            </ul>
+            </div>
+                        <div class="g-container"></div>
+                        </div>
+                    </div>
+				</div><!-- End of feature -->
+				<div id="hot-topic">
+					<div class="ht-top">
+						<h4>Chủ đề nóng</h4>
+						<div class="ht-paging">
+							<a href="#" class="current">1</a>
+							<a href="#">2</a>
+							<a href="#">3</a>
+							<a href="#">4</a>
+							<a href="#">5</a>
+							<a href="#">6</a>
+							<a href="#">7</a>
+							<a href="#">8</a>
+							<a href="#">9</a>
+							<a href="#">10</a>
+						</div>
+					</div>
+					<div class="ht-container">
+						<div class="ht-item">
+							<img src="images/ht-image1.jpg" alt="ht-image1">
+							<h5><a href="#">Đường xuống cấp...</a></h5>
+							<p>
+								Quốc lộ 1A cũ- đoạn qua Bắc Giang- Bắc Ninh về Hà Nội một thời từng là tuyến giao thông huyết mạch ...
+							</p>
+						</div>
+						<div class="ht-item">
+							<img src="images/ht-image1.jpg" alt="ht-image1">
+							<h5><a href="#">Đường xuống cấp...</a></h5>
+							<p>
+								Quốc lộ 1A cũ- đoạn qua Bắc Giang- Bắc Ninh về Hà Nội một thời từng là tuyến giao thông huyết mạch ...
+							</p>
+						</div>
+						<div class="ht-item">
+							<img src="images/ht-image1.jpg" alt="ht-image1">
+							<h5><a href="#">Đường xuống cấp...</a></h5>
+							<p>
+								Quốc lộ 1A cũ- đoạn qua Bắc Giang- Bắc Ninh về Hà Nội một thời từng là tuyến giao thông huyết mạch ...
+							</p>
+						</div>
+						<div class="ht-item last">
+							<img src="images/ht-image1.jpg" alt="ht-image1">
+							<h5><a href="#">Đường xuống cấp...</a></h5>
+							<p>
+								Quốc lộ 1A cũ- đoạn qua Bắc Giang- Bắc Ninh về Hà Nội một thời từng là tuyến giao thông huyết mạch ...
+							</p>
+						</div>
+						<div class="clear-fix"></div>
+					</div>
+				</div><!-- End of #hot-topic -->
+				
+				<!-- End of #categories -->
+			</div><!--  End of #m-left -->
+			<div id="m-right">
+            
+            <div class="box-right">
+            <div class="box-right-content">
+                <div class="box-right-title">
+                    <div class="box-right-text icon-visited">
+                       Cẩm nang doanh nghiệp
+                    </div>
+                </div>
+                <div class="box-right-body">
+                  <div class="bh-container">
+						<div class="item">
+							<img src="images/hb1.jpg" alt="hb1"/>
+							<a href="">Luật doanh nghiệp</a>
+						</div>
+						<div class="item">
+							<img src="images/hb1.jpg" alt="hb1"/>
+							<a href="">Luật doanh nghiệp</a>
+						</div>
+						<div class="item">
+							<img src="images/hb1.jpg" alt="hb1"/>
+							<a href="">Luật doanh nghiệp</a>
+						</div>
+						<div class="item">
+							<img src="images/hb1.jpg" alt="hb1"/>
+							<a href="">Luật doanh nghiệp</a>
+						</div>
+						<div class="item">
+							<img src="images/hb1.jpg" alt="hb1"/>
+							<a href="">Luật doanh nghiệp</a>
+						</div>
+						<div class="item">
+							<img src="images/hb1.jpg" alt="hb1"/>
+							<a href="">Luật doanh nghiệp</a>
+						</div>
+						<div class="item">
+							<img src="images/hb1.jpg" alt="hb1"/>
+							<a href="">Luật doanh nghiệp</a>
+						</div>
+						<div class="item">
+							<img src="images/hb1.jpg" alt="hb1"/>
+							<a href="">Luật doanh nghiệp</a>
+						</div>
+					</div>	
+                </div>
+            </div>
+        </div>
+				<div class="box-right">
+              <div class="box-right-content">
+                <div class="box-right-title">
+                    <div class="box-right-text icon-vote">
+                        Bài đọc nhiều nhất
+                    </div>
+                </div>
+               <div class="box-right-body">
+                   <ul>
+							<li><a href="">Chiến đấu vì Trường sa, Hoàng Sa</a></li>
+							<li><a href="">Chiến đấu vì Trường sa, Hoàng Sa</a></li>
+							<li><a href="">Chiến đấu vì Trường sa, Hoàng Sa</a></li>
+							<li><a href="">Chiến đấu vì Trường sa, Hoàng Sa</a></li>
+							<li><a href="">Chiến đấu vì Trường sa, Hoàng Sa</a></li>
+							<li><a href="">Chiến đấu vì Trường sa, Hoàng Sa</a></li>
+				  </ul>
+                </div>
+            </div>
+        </div>
+        
+		<div class="box-right">
+            <div class="box-right-content">
+                <div class="box-right-title">
+                    <div class="box-right-text icon-visited">
+                       Tin liên quan
+                    </div>
+                </div>
+                <div class="box-right-body">
+                   	<div class="spt-container">
+						<div class="item">
+							<img src="images/spt1.jpg" alt="spt1"/>
+							<p><a href="#">Hành lang pháp lý nào cho doanh nghiệp nước ngoài</a></p>
+						</div>
+						<div class="item">
+							<img src="images/spt1.jpg" alt="spt1"/>
+							<p><a href="#">Hành lang pháp lý nào cho doanh nghiệp nước ngoài</a></p>
+							
+						</div>
+					</div>
+                    	<div class="spt-container">
+						<div class="item">
+							<img src="images/spt1.jpg" alt="spt1"/>
+							<p><a href="#">Hành lang pháp lý nào cho doanh nghiệp nước ngoài</a></p>
+						</div>
+						<div class="item">
+							<img src="images/spt1.jpg" alt="spt1"/>
+							<p><a href="#">Hành lang pháp lý nào cho doanh nghiệp nước ngoài</a></p>
+						</div>
+					</div>
+                </div>
+            </div>
+        </div><!-- End of #access-statistic -->
+      
+<style type="text/css">
+    .box-right-body span
+    {
+        width: 100px;
+        foat:left;
+	
+    }
+    .box-right-body p
+    { 
+        margin-top: 20px;
+		padding-left:5px;
+    }
+</style>
+<div class="box-right">
+    <div class="box-right-content">
+        <div class="box-right-title">
+            <div class="box-right-text icon-vote">
+                Gửi câu hỏi cho chúng tôi
+            </div>
+        </div>
+        <div class="box-right-body">
+            <div class="body">
+                <div class="box-right-body">
+                    <p>
+                        <span>Nhập họ tên</span> <span>
+                            <input id="txtName" maxlength="255" type="text" class="field text large requi" /></span>
+                    </p>
+                    <p>
+                        <span>Số điện thoại</span> <span>
+                            <input id="phone" maxlength="11" class="field text requi medium" type="text" /></span>
+                    </p>
+                    <p>
+                        <span>Email</span> <span>
+                            <input id="Email" maxlength="50" class="field text requi medium" type="text" /></span>
+                    </p>
+                    <p align="center">
+                        <textarea style="margin-top: 20px" id="content" cols="30" rows="5"></textarea>
+                    </p>
+                </div>
+            </div>
+            <div>
+                <div align="center">
+                    <input type="button" id="send" value="Gửi" onclick="return sendQA()" />
+                    <input type="reset" id="reset" value="Làm lại" />
+                    <div class="clear">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+		<div class="box-right"></div><!-- End of #access-statistic -->
+				
+			</div><!--  End of #m-right -->
+			<div class="clear-fix"></div>
+		</div><!--  End of #main -->
+		<div id="footer">
+			<div id="special-business">
+				<div class="sb-title">
+                Doanh nhân tiêu biểu
+				</div>
+				<div class="sb-container">
+					<ul id="mycarousel" class="jcarousel-skin-tango">
+					    <li>
+					    	<a href="#">
+						    	
+						    		<img src="images/sb.jpg"alt="" />
+						    		<span>Công ty thương mại abc</span>
+					    	</a>
+					    </li>
+					    <li>
+					    	<a href="#">
+						    	
+						    		<img src="images/sb.jpg"alt="" />
+						    		<span>Công ty thương mại abc</span>
+					    	</a>
+					    </li>
+					    <li>
+					    	<a href="#">
+						    	
+						    		<img src="images/sb.jpg"alt="" />
+						    		<span>Công ty thương mại abc</span>
+					    	</a>
+					    </li>
+					    <li>
+					    	<a href="#">
+						    	
+						    		<img src="images/sb.jpg"alt="" />
+						    		<span>Công ty thương mại abc</span>
+					    	</a>
+					    </li>
+					    <li>
+					    	<a href="#">
+						    	
+						    		<img src="images/sb.jpg"alt="" />
+						    		<span>Công ty thương mại abc</span>
+					    	</a>
+					    </li>
+					    <li>
+					    	<a href="#">
+						    	
+						    		<img src="images/sb.jpg"alt="" />
+						    		<span>Công ty thương mại abc</span>
+					    	</a>
+					    </li>
+					    <li>
+					    	<a href="#">
+						    	
+						    		<img src="images/sb.jpg"alt="" />
+						    		<span>Công ty thương mại abc</span>
+					    	</a>
+					    </li>
+					   
+  					</ul>
+				</div>
+			</div><!-- End of #special-bussiness -->
+			<div id="f-menu">
+				<ul>
+					<li><a href="#">Trang chủ</a></li>
+					<li><a href="#">Thời sự - Kinh tế</a></li>
+					<li><a href="#">Doanh nhân</a></li>
+					<li><a href="#">Sống xanh</a></li>
+					<li><a href="#">Hành lanh pháp lý</a></li>
+					<li><a href="#">Văn hóa - thể thao</a></li>
+					
+				</ul>
+			</div><!--  end of #f-menu -->
+			<div id="copyright">
+				Copyright &copy; IDG Website: http://idg1805.com
+			</div>
+		</div><!-- End of footer -->
+		
+	</div><!-- End of #all -->
+</body>
+</html>
