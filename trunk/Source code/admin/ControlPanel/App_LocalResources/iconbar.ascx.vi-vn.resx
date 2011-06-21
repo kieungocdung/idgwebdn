@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="ResMimeType">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="Version">
+    <value>1.0.0.0</value>
+  </resheader>
+  <resheader name="Reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="Writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AddTab.Text">
+    <value>Thêm</value>
+  </data>
+  <data name="AddTab.AlternateText">
+    <value>Thêm Trang</value>
+  </data>
+  <data name="EditTab.Text">
+    <value>Thiết Lập</value>
+  </data>
+  <data name="EditTab.AlternateText">
+    <value>Thiết Lập Trang Hiện Tại</value>
+  </data>
+  <data name="DeleteTab.Text">
+    <value>Xoá</value>
+  </data>
+  <data name="DeleteTab.AlternateText">
+    <value>Xoá Trang Hiện Tại</value>
+  </data>
+  <data name="DeleteTabConfirm.Text">
+    <value>Bạn Có Chắc Là Bạn Muốn Xoá Trang Này?</value>
+  </data>
+  <data name="CopyTab.Text">
+    <value>Copy </value>
+  </data>
+  <data name="CopyTab.AlternateText">
+    <value>Copy Trang Hiện Tại</value>
+  </data>
+  <data name="Tab.Text">
+    <value>Trang:</value>
+  </data>
+  <data name="Module.Text">
+    <value>Module: </value>
+  </data>
+  <data name="Pane.Text">
+    <value>Pane: </value>
+  </data>
+  <data name="Title.Text">
+    <value>Tiêu Đề:</value>
+  </data>
+  <data name="Align.Text">
+    <value>Sắp Hàng:</value>
+  </data>
+  <data name="Permission.Text">
+    <value>Tính Hiển Thị:</value>
+  </data>
+  <data name="Position.Text">
+    <value>Chèn:</value>
+  </data>
+  <data name="AddModule.Text">
+    <value>Thêm</value>
+  </data>
+  <data name="AddModule.AlternateText">
+    <value>Thêm Module</value>
+  </data>
+  <data name="Site.Text">
+    <value>Site </value>
+  </data>
+  <data name="Site.AlternateText">
+    <value>Thay Đổi Thiết Lập Trang</value>
+  </data>
+  <data name="Users.Text">
+    <value>Người Dùng</value>
+  </data>
+  <data name="Users.AlternateText">
+    <value>Thêm Người Dùng</value>
+  </data>
+  <data name="Files.Text">
+    <value>File</value>
+  </data>
+  <data name="Files.AlternateText">
+    <value>Thêm File Mới</value>
+  </data>
+  <data name="Help.Text">
+    <value>Trợ Giúp</value>
+  </data>
+  <data name="Help.AlternateText">
+    <value>Trợ Giúp</value>
+  </data>
+  <data name="PageFunctions.Text">
+    <value>Các Chức Năng Của Trang</value>
+  </data>
+  <data name="AddNewModule.Text">
+    <value>Thêm Module</value>
+  </data>
+  <data name="CommonTasks.Text">
+    <value>Tác Vụ</value>
+  </data>
+  <data name="Top.Text">
+    <value>Đỉnh</value>
+  </data>
+  <data name="Bottom.Text">
+    <value>Dưới Cùng</value>
+  </data>
+  <data name="PermissionView.Text">
+    <value>Giống Như Trang</value>
+  </data>
+  <data name="PermissionEdit.Text">
+    <value>Chỉ Soạn Trang</value>
+  </data>
+  <data name="optModuleTypeNew.Text">
+    <value>Thêm Module Mới</value>
+  </data>
+  <data name="optModuleTypeExisting.Text">
+    <value>Thêm Module Có Sẵn</value>
+  </data>
+  <data name="SelectModule.Text">
+    <value>Chọn Một Module</value>
+  </data>
+  <data name="SelectPage.Text">
+    <value>Chọn Một Trang</value>
+  </data>
+  <data name="Roles.AlternateText">
+    <value>Quản Lý Các Nhóm Thành Viên</value>
+  </data>
+  <data name="Roles.Text">
+    <value>Nhóm</value>
+  </data>
+  <data name="Mode.Text">
+    <value>Chế Độ:</value>
+  </data>
+  <data name="ModeEdit.Text">
+    <value>Sửa</value>
+  </data>
+  <data name="ModeView.Text">
+    <value>Xem</value>
+  </data>
+  <data name="hypUpgrade.Text">
+    <value>Click Để Lấy Phiên Bản Mới Nhất</value>
+  </data>
+  <data name="Above.Text">
+    <value>Ở trên</value>
+  </data>
+  <data name="Below.Text">
+    <value>Dưới đây</value>
+  </data>
+  <data name="cmdAdmin.Text">
+    <value>Admin</value>
+  </data>
+  <data name="cmdHost.Text">
+    <value>Host</value>
+  </data>
+  <data name="DefaultModule.Text">
+    <value>DNN_HTML</value>
+  </data>
+  <data name="ExportTab.AlternateText">
+    <value>Xuất khẩu trang</value>
+  </data>
+  <data name="ExportTab.Text">
+    <value>Xuất khẩu</value>
+  </data>
+  <data name="Extensions.AlternateText">
+    <value>Xem Phần mở rộng</value>
+  </data>
+  <data name="Extensions.Text">
+    <value>Phần mở rộng</value>
+  </data>
+  <data name="hypMessageUrl.Text">
+    <value>http://www.dotnetnuke.com</value>
+  </data>
+  <data name="imgAdmin.AlternateText">
+    <value>Trang Admin</value>
+  </data>
+  <data name="imgHost.AlternateText">
+    <value>Trang Host</value>
+  </data>
+  <data name="ImportTab.AlternateText">
+    <value>Nhập khẩu trang</value>
+  </data>
+  <data name="ImportTab.Text">
+    <value>Nhập khẩu</value>
+  </data>
+  <data name="Instance.Text">
+    <value>Module:</value>
+  </data>
+  <data name="ModeLayout.Text">
+    <value>Giao diện</value>
+  </data>
+</root>

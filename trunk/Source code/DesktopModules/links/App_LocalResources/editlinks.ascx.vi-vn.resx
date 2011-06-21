@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+<!-- 
+    Vietnamese Translation 2005 by Nguyen Viet Trung,  viechinguyen@gmail.com
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="ResMimeType">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="Version">
+    <value>1.0.0.0</value>
+  </resheader>
+  <resheader name="Reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="Writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="plTitle.Text">
+    <value>Tiêu Đề</value>
+  </data>
+  <data name="plTitle.Help">
+    <value>Nhập vào một Tiêu Đề/Tên cho liên kết</value>
+  </data>
+  <data name="valTitle.ErrorMessage">
+    <value>Bạn phải nhập một tiêu đề cho liên kết</value>
+  </data>
+  <data name="plURL.Text">
+    <value>Liên Kết</value>
+  </data>
+  <data name="plURL.Help">
+    <value>Chọn URL cho liên kết</value>
+  </data>
+  <data name="plDescription.Text">
+    <value>Mô Tả</value>
+  </data>
+  <data name="plDescription.Help">
+    <value>Nhập một mô tả cho liên kết. Mô tả này là tuỳ chọn hiện ra bởi nút(...).</value>
+  </data>
+  <data name="plViewOrder.Text">
+    <value>Thứ Tự Hiển Thị</value>
+  </data>
+  <data name="plViewOrder.Help">
+    <value>Nhập một số tượng trưng cho vị trí trong danh sách cho liên kết này.</value>
+  </data>
+  <data name="valViewOrder.ErrorMessage">
+    <value>Thứ Tự Hiển Thị phải là một số hoặc một chuỗi rỗng</value>
+  </data>
+  <data name="plNewWindow.Text">
+    <value>Mở Ở Cửa Sổ Mới</value>
+  </data>
+  <data name="plNewWindow.Help">
+    <value>Chọn xem liên kết có được mở ở một cửa sổ trình duyệt mới</value>
+  </data>
+  <data name="ModuleHelp.Text">
+    <value>&lt;h1&gt;Về Module Liên Kết&lt;/h1&gt;
+
+&lt;p&gt;Module Liên Kết tao ra một danh sách các siêu liên kết đến tất cả tab, hình ảnh hoặc file trên portal hoặc ở một trang web bên ngoài. Các liên kết có thể được hiển thị theo chiều ngang, chiều dọc hoặc ở hộp danh sách thả xuống. Các liên kết mặc định được xuất hiện theo thứ tự alphabet. Một trường chỉ mục sẽ tạo điều kiện cho bạn sắp xếp theo ý muốn. Một mô tả bổ sung có thể được đặt để xuất hiện hoặc khi con trỏ chuột trỏ qua hoặc trên click của một liên kết động.  Có cả chức năng theo dõi và ghi lại các click vào liên kết.&lt;/p&gt;
+
+&lt;h1&gt;Thêm Liên Kết&lt;/h1&gt;
+
+&lt;ol&gt;&lt;li&gt;Thêm một module &lt;b&gt;Liên Kết&lt;/b&gt; hoặc chuyển đến một module &lt;b&gt;Liên Kết&lt;/b&gt; sẵn có.&lt;/li&gt;
+&lt;li&gt;Click &lt;b&gt;Thêm Liên Kết&lt;/b&gt;. 
+&lt;li&gt;Ở &lt;b&gt;Tiêu Đề&lt;/b&gt;, nhập tiêu đề cho liên kết. 
+&lt;li&gt;Ở &lt;b&gt;Kiểu Liên Kết&lt;/b&gt;, chọn &lt;b&gt;URL&lt;/b&gt;, &lt;b&gt;Trang&lt;/b&gt; hoặc &lt;b&gt;File&lt;/b&gt; và sau đó &lt;b&gt;Liên Kết&lt;/b&gt; chọn hoặc nhập vào liên kết, trang hoặc file cần thiết.
+&lt;li&gt;Ở &lt;b&gt;Theo Dõi Số Lần Liên Kết Này Được Click?&lt;/b&gt; (tuỳ chọn), chọn hộp kiểm nếu cần.
+&lt;li&gt;Ở &lt;b&gt;Ghi Lại Người Dùng, Ngày Tháng Và Thời Gian Cho Mỗi Click Vào Liên Kết&lt;/b&gt; (tuỳ chọn), chọn hộp kiểm nếu cần thiết.
+&lt;li&gt;Ở &lt;b&gt;Mô Tả&lt;/b&gt;, nhập vào một mô tả về liên kết.
+&lt;li&gt;Ở &lt;b&gt;Thứ Tự Hiển Thị&lt;/b&gt; (tuỳ chọn), nhập vào Thứ tự hiển thị cho liên kết.
+&lt;li&gt;Click &lt;b&gt;Cập Nhật&lt;/b&gt;.&lt;/ol&gt;</value>
+  </data>
+  <data name="ControlTitle_edit.Text">
+    <value>Thay Đổi Liên Kết</value>
+  </data>
+</root>

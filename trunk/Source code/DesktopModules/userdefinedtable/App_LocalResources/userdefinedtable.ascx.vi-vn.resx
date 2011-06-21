@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="ResMimeType">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="Version">
+    <value>1.0.0.0</value>
+  </resheader>
+  <resheader name="Reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="Writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ContentOptions.Action">
+    <value>Quản Lý Bảng Người Dùng</value>
+  </data>
+  <data name="AddContent.Action">
+    <value>Thêm hàng mới</value>
+  </data>
+  <data name="ModuleHelp.Text">
+    <value>&lt;h1&gt;Về Module Bảng Người Dùng &lt;/h1&gt;&lt;p&gt;Module Bảng Người Dùng  dựng một bảng dữ liệu.  Kiểu dữ liệu gồm chữ, số nguyên, thập phân, ngày tháng hoặc đúng/sai. Các cột có thể được đặt để chỉ hiển thị cho Tài Khoản Quản Trị. Tiêu đề cột là các liên kết mà, khi được click, sẽ sắp xếp lại dữ liệu  A-Z hoặc Z-A.&lt;/p&gt;&lt;h1&gt;Làm Việc Với Bảng Người Dùng&lt;/h1&gt;&lt;ul&gt;&lt;li&gt;Chọn &lt;b&gt;Quản Lý Bảng Người Dùng&lt;/b&gt; để tạo bảng của bạn&lt;li&gt;Click &lt;b&gt;Thêm Hàng Mới&lt;/b&gt; để nhập dữ liệu vào bảng.&lt;/li&gt;&lt;/ul&gt;</value>
+  </data>
+  <data name="ViewOptions.Action">
+    <value>Xem các tùy chọn cho trang này</value>
+  </data>
+  <data name="XslFailed.ErrorMessage">
+    <value>Chuyển Đổi XSL thất bại. Chuyển lại DataGrid</value>
+  </data>
+  <data name="NoFieldsDefined.ErrorMessage">
+    <value>Chưa có trường nào được định nghĩa. Hãy đến &lt;a href="{0}"&gt;Quản Lý Bảng&lt;/a&gt; trước đã.</value>
+  </data>
+</root>

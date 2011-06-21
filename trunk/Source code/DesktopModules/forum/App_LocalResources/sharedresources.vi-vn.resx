@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="ResMimeType">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="Version">
+    <value>1.0.0.0</value>
+  </resheader>
+  <resheader name="Reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="Writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AttachmentMessage.Text">
+    <value>&lt;b&gt;File Upload:&lt;/b&gt;&lt;br&gt; [Files] &lt;br&gt; &lt;br&gt; Click &lt;b&gt;Lưu&lt;/b&gt; để chèn file đính kèm vào bài viết.</value>
+  </data>
+  <data name="Flash.Text">
+    <value>Flash: </value>
+  </data>
+  <data name="Movie.Text">
+    <value>Phim: </value>
+  </data>
+  <data name="Image.Text">
+    <value>Hình Ảnh: </value>
+  </data>
+  <data name="MaxFileSize.Text">
+    <value>Cỡ File Lớn Nhất: </value>
+  </data>
+  <data name="None.Text">
+    <value>Không </value>
+  </data>
+  <data name="Poor.Text">
+    <value>Tồi </value>
+  </data>
+  <data name="Fair.Text">
+    <value>Khá</value>
+  </data>
+  <data name="Good.Text">
+    <value>Tốt</value>
+  </data>
+  <data name="Great.Text">
+    <value>Rất Tốt </value>
+  </data>
+  <data name="Excellent.Text">
+    <value>Hoàn Hảo</value>
+  </data>
+  <data name="AllDays.Text">
+    <value>Tất Cả Các Ngày</value>
+  </data>
+  <data name="Today.Text">
+    <value>Hôm Nay </value>
+  </data>
+  <data name="PastThreeDays.Text">
+    <value>3 Ngày Trước </value>
+  </data>
+  <data name="PastWeek.Text">
+    <value>Tuần Trước </value>
+  </data>
+  <data name="PastTwoWeek.Text">
+    <value>Hai Tuần Trước </value>
+  </data>
+  <data name="PastMonth.Text">
+    <value>Tháng Trước </value>
+  </data>
+  <data name="PastThreeMonth.Text">
+    <value>3 Tháng Trước </value>
+  </data>
+  <data name="PastYear.Text">
+    <value>Năm Ngoái </value>
+  </data>
+  <data name="LastVisit.Text">
+    <value>Lần Ghé Thăm Gần Nhất </value>
+  </data>
+  <data name="HasContributed.Text">
+    <value>đã đóng góp </value>
+  </data>
+  <data name="ToAll.Text">
+    <value>Đến Tất Cả Thành Viên </value>
+  </data>
+  <data name="ToAdmin.Text">
+    <value>Đến Quản Trị </value>
+  </data>
+  <data name="DefaultForumGroupName.Text">
+    <value>Thảo Luận</value>
+  </data>
+  <data name="DefaultForumName.Text">
+    <value>Chung</value>
+  </data>
+  <data name="AcceptedFileType.Text">
+    <value>Tên File Mở Rộng Được Chấp Nhận</value>
+  </data>
+  <data name="AggregatedForumDescription.Text">
+    <value>Bảng tổng hợp của tất cả chủ đề công khai.</value>
+  </data>
+  <data name="AggregatedForumName.Text">
+    <value>Tất Cả Forum Công Khai</value>
+  </data>
+  <data name="AggregatedGroupName.Text">
+    <value>Tổng Hợp</value>
+  </data>
+  <data name="EmailForumEmail.Text">
+    <value> Forum email :: </value>
+  </data>
+  <data name="FileNameExists.Text">
+    <value>File với cùng tên đã có trên thư mục, hãy đổi tên trước khi upload!</value>
+  </data>
+  <data name="ForumCount.Text">
+    <value>Forum </value>
+  </data>
+  <data name="ForumTextWrote.Text">
+    <value> đã viết </value>
+  </data>
+  <data name="ForumUtilToday.Text">
+    <value>Hôm nay @ </value>
+  </data>
+  <data name="ForumUtilYesterday.Text">
+    <value>Hôm qua @ </value>
+  </data>
+  <data name="NewPost.Text">
+    <value>Bài Mới </value>
+  </data>
+  <data name="NoAnonDownloads.Text">
+    <value>Đăng nhập để tải về file đính kèm </value>
+  </data>
+  <data name="NoneSpecified.Text">
+    <value>(Chưa xác định) </value>
+  </data>
+  <data name="Rank_0.Text">
+    <value>Không Có Đánh Giá </value>
+  </data>
+  <data name="Rank_1.Text">
+    <value>Hạng Nhất </value>
+  </data>
+  <data name="Rank_2.Text">
+    <value>Hạng Nhì </value>
+  </data>
+  <data name="Rank_3.Text">
+    <value>Hạng Ba </value>
+  </data>
+  <data name="Rank_4.Text">
+    <value>Hạng Tư </value>
+  </data>
+  <data name="Rank_5.Text">
+    <value>Hạng 5 </value>
+  </data>
+  <data name="RatingHaveRating.Text">
+    <value>{0} trên 5 sao - dựa vào {1} đánh giá </value>
+  </data>
+  <data name="RatingNoRating.Text">
+    <value>Không Có Đánh Giá </value>
+  </data>
+  <data name="RestrictedFileType.Text">
+    <value>&lt;br&gt;File &lt;b&gt; {0} &lt;/b&gt; Thuộc Kiểu File Bị Cấm. Kiểu FileHợp Lệ Gồm ( *.{1} ).</value>
+  </data>
+  <data name="subscribe.Text">
+    <value>Đăng ký nhận thông báo </value>
+  </data>
+  <data name="WhatsNewFrom.Text">
+    <value>từ </value>
+  </data>
+  <data name="WhatsNewLast.Text">
+    <value>Cuối </value>
+  </data>
+  <data name="WhatsNewNoNewPost.Text">
+    <value>Không có bài viết </value>
+  </data>
+  <data name="WhatsNewNothingNew.Text">
+    <value>Không có gì mới </value>
+  </data>
+  <data name="WhatsNewPost.Text">
+    <value> bài mới </value>
+  </data>
+  <data name="WhatsNewPosts.Text">
+    <value> bài mới </value>
+  </data>
+  <data name="WhatsNewToday.Text">
+    <value> hôm nay </value>
+  </data>
+  <data name="Yesterday.Text">
+    <value>Hôm qua </value>
+  </data>
+  <data name="YourPost.Text">
+    <value>Bài Của Bạn </value>
+  </data>
+</root>

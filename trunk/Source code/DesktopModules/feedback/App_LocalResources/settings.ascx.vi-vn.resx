@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="ResMimeType">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="Version">
+    <value>1.0.0.0</value>
+  </resheader>
+  <resheader name="Reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="Writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="plSendTo.Text">
+    <value>Gửi Đến</value>
+  </data>
+  <data name="plSendTo.Help">
+    <value>Nhập địa chỉ email của người nhận thông điệp</value>
+  </data>
+  <data name="plWidth.Text">
+    <value>Độ Rộng</value>
+  </data>
+  <data name="plWidth.Help">
+    <value>Nhập độ rộng (theo pixel) cho các hộp chữ</value>
+  </data>
+  <data name="plRows.Text">
+    <value>Hàng</value>
+  </data>
+  <data name="plRows.Help">
+    <value>Nhập số hàng được hiển thị trên hộp nội dung</value>
+  </data>
+  <data name="valWidth.ErrorMessage">
+    <value>&lt;br&gt;Chiều Rộng Phải Là Một Số Nguyên</value>
+  </data>
+  <data name="valRows.ErrorMessage">
+    <value>&lt;br&gt;Giá Trị Số Hàng Phải Là Số Nguyên</value>
+  </data>
+  <data name="ControlTitle_settings.Text">
+    <value>Cấu Hình Phản Hồi</value>
+  </data>
+  <data name="ModuleHelp.Text">
+    <value>		&lt;h1&gt;Về Cấu Hình Module Phản Hồi &lt;/h1&gt;
+		&lt;p&gt;Module Phản hồi cho phép các thành viên website có thẩm quyền khả năng chuyển một thông điệp đến một địa chỉ email.  Có 3 thiết lập của module điều khiển cách thức hiển thị và hoạt động được thực hiện bên trong module.   &lt;/p&gt;
+		&lt;ul&gt;
+				&lt;li&gt;
+						&lt;div align="left"&gt;
+								&lt;b&gt;Gửi Đến&lt;/b&gt;– đây là địa chỉ email nơi mà thông tin được chuyển đến. Email phải có định dạng hợp lệ.   &lt;/div&gt;
+				&lt;/li&gt;
+		&lt;/ul&gt;
+		&lt;ul&gt;
+				&lt;li&gt;
+						&lt;div align="left"&gt;
+								&lt;b&gt;Chiều Rộng &lt;/b&gt;– đặt số pixel cho chiều rộng của phần hiển thị nội dung thông điệp.  Lưu ý: giữ giá trị này nhỏ hơn độ rộng đã được xác định của ô chứa nơi module được đặt, nếu không sẽ không có đủ chỗ để có thể sử dụng các thiết lập mong muốn.   &lt;/div&gt;
+				&lt;/li&gt;
+		&lt;/ul&gt;
+		&lt;ul&gt;
+				&lt;li&gt;
+						&lt;div align="left"&gt;
+								&lt;b&gt;Hàng &lt;/b&gt;– đặt số hàng cho phép cho nội dung thông điệp. Lưu ý: Một lần nữa, cố gắng đặt giá trị này nhỏ hơn chiều cao của ô chứa. &lt;/div&gt;
+				&lt;/li&gt;
+		&lt;/ul&gt;
+</value>
+  </data>
+  <data name="plOptout.Text">
+    <value>Optout </value>
+  </data>
+  <data name="plOptout.Help">
+    <value>Nếu chọn, người gửi được phép lựa chọn có được nhận một bản sao lưu của phản hồi được gửi đi. Nếu không chọn mục này mà Gửi Bản Sao được chọn thì người dùng vẫn nhận được bản sao của phản hồi được gửi.</value>
+  </data>
+  <data name="plCategory.Text">
+    <value>Thể Loại</value>
+  </data>
+  <data name="plCategory.Help">
+    <value>Chọn thể loại cho thông điệp&lt;br&gt;(thể loại được định nghĩa trên các danh sách của phản hồi)</value>
+  </data>
+  <data name="plCategorySelectable.Text">
+    <value>Hiển Thị Danh Sách Thể Loại</value>
+  </data>
+  <data name="plCategorySelectable.Help">
+    <value>Người gửi có thể lựa chọn thể loại?</value>
+  </data>
+  <data name="plSubject.Text">
+    <value>Tiêu Đề</value>
+  </data>
+  <data name="plSubject.Help">
+    <value>Tiêu đề cho phản hồi</value>
+  </data>
+  <data name="plSubjectSelectable.Text">
+    <value>Hiển Thị Danh Sách Tiêu Đề</value>
+  </data>
+  <data name="plSubjectSelectable.Help">
+    <value>Người dùng được cung cấp một danh sách thả xuống của các Tiêu đề</value>
+  </data>
+  <data name="plSubjectEditable.Text">
+    <value>Có Thể Sửa Tiêu Đề?</value>
+  </data>
+  <data name="plSubjectEditable.Help">
+    <value>Người dùng được cung cấp một ô chữ để nhập tiêu đề.</value>
+  </data>
+  <data name="plSubjectHidden.Text">
+    <value>Ẩn Trường Tiêu Đề</value>
+  </data>
+  <data name="plSubjectHidden.Help">
+    <value>Trường Tiêu đề bị ẩn đối với người dùng.</value>
+  </data>
+  <data name="plModerated.Text">
+    <value>Kiểm Duyệt</value>
+  </data>
+  <data name="plModerated.Help">
+    <value>Nếu chọn, cho phép quản trị module xác nhận các phản hồi</value>
+  </data>
+  <data name="plNotify.Text">
+    <value>Thông Báo</value>
+  </data>
+  <data name="plNotify.Help">
+    <value>Bạn có muốn được thông báo về các phản hồi?</value>
+  </data>
+  <data name="plAsync.Text">
+    <value>Gửi Email Không Đồng Bộ</value>
+  </data>
+  <data name="plAsync.Help">
+    <value>Nếu mục này được chọn, email sẽ được gửi một cách không đồng bộ?</value>
+  </data>
+  <data name="plAllowPaging.Text">
+    <value>Cho Phép Phân Trang</value>
+  </data>
+  <data name="plAllowPaging.Help">
+    <value>Bạn có muốn cho phép phân trang?</value>
+  </data>
+  <data name="plPageSize.Text">
+    <value>Cỡ Trang</value>
+  </data>
+  <data name="plPageSize.Help">
+    <value>Nếu bạn cho phép phân trang, đây là cỡ trang mặc định</value>
+  </data>
+  <data name="plSendCopy.Text">
+    <value>Gửi Bản Sao</value>
+  </data>
+  <data name="plSendCopy.Help">
+    <value>Bạn có muốn gửi một bản sao đến cho người dùng</value>
+  </data>
+  <data name="valSendTo.ErrorMessage">
+    <value>&lt;br&gt;Email Không Hợp Lệ</value>
+  </data>
+  <data name="plUseCaptcha.Text">
+    <value>Sử Dụng Captcha</value>
+  </data>
+  <data name="plUseCaptcha.Help">
+    <value>Xác định có sử dụng một điều khiển captcha khi gửi phản hồi hay không?</value>
+  </data>
+</root>

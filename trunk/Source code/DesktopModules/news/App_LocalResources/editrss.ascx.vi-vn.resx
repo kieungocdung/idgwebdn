@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <!-- 
+    Vietnamese Translation 2005 by Nguyen Viet Trung,  viechinguyen@gmail.com
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="ResMimeType">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="Version">
+    <value>1.0.0.0</value>
+  </resheader>
+  <resheader name="Reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="Writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="plRSS.Text">
+    <value>Nguồn News Feed</value>
+  </data>
+  <data name="plXSL.Text">
+    <value>News Feed Style Sheet </value>
+  </data>
+  <data name="lblSecurityTitle.Text">
+    <value>Tuỳ Chọn An Ninh</value>
+  </data>
+  <data name="lblSecurity.Text">
+    <value>Thông Tin Tài Khoản</value>
+  </data>
+  <data name="lblDomain.Text">
+    <value>Tên Miền/Tên Người Dùng</value>
+  </data>
+  <data name="lblPassword.Text">
+    <value>Password </value>
+  </data>
+  <data name="ModuleHelp.Text">
+    <value>&lt;h1&gt;Về Module News Feeds (RSS) &lt;/h1&gt;
+
+&lt;p&gt;Module News Feed (tạm dịch:  Cung Cấp Thông Tin) cung cấp cho người dùng thông tin cập nhật nhất theo chủ đề trên một dải các chủ đề rộng lớn. Thông tin bao gồm một tiêu đề liên kết đến nguồn tài liệu, nguồn và ngày phát hành.&lt;/p&gt;
+
+&lt;h1&gt;Thay Đổi News Feed&lt;/h1&gt;
+
+&lt;ol&gt;&lt;li&gt;Thêm một module &lt;b&gt;News Feed&lt;/b&gt; , hoặc chuyển đến một module &lt;b&gt;News Feed&lt;/b&gt; sẵn có.&lt;/li&gt;
+&lt;li&gt;Click &lt;b&gt;Thay Đổi Newsfeed&lt;/b&gt;. 
+&lt;li&gt;Ở &lt;b&gt;Nguồn News Feed &lt;/b&gt;, chọn &lt;b&gt;Nội Bộ&lt;/b&gt; và &lt;b&gt;Tải Lên File Mới&lt;/b&gt;, hoặc chọn &lt;b&gt;Bên Ngoài&lt;/b&gt; và nhập Url. 
+&lt;li&gt;At &lt;b&gt;Style Sheet News Feed &lt;/b&gt; (tuỳ chọn),  chọn &lt;b&gt;Nội Bộ&lt;/b&gt; và &lt;b&gt;Tải Lên File Mới&lt;/b&gt;, hoặc chọn &lt;b&gt;Bên Ngoài&lt;/b&gt; và nhập Url. 
+&lt;li&gt;Ở &lt;b&gt;Tuỳ Chọn An Ninh&lt;/b&gt; (tuỳ chọn), nhập &lt;b&gt;tên miền/tên người sử dụng&lt;/b&gt; và &lt;b&gt;password&lt;/b&gt; được cung cấp cho bạn bởi nhà cung cấp News Feed của bạn. 
+&lt;li&gt;Click &lt;b&gt;Cập Nhật&lt;/b&gt;.&lt;/ol&gt;
+
+</value>
+  </data>
+  <data name="ControlTitle_edit.Text">
+    <value>Thay Đổi News Feeds (RSS)</value>
+  </data>
+  <data name="lblDomain.Help">
+    <value>Nhập tên miền và tên người dùng cần thiết để truy cập Nguồn News Feed</value>
+  </data>
+  <data name="lblPassword.Help">
+    <value>Nhập password cho tài khoản cần để truy cập nguồn News Feed</value>
+  </data>
+  <data name="plRSS.Help">
+    <value>Chọn nguồn cho News Feed</value>
+  </data>
+  <data name="plXSL.Help">
+    <value>Chọn style sheet dùng để chuyển đổi nguồn</value>
+  </data>
+</root>

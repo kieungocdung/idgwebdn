@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="ResMimeType">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="Version">
+    <value>1.0.0.0</value>
+  </resheader>
+  <resheader name="Reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="Writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="plEmail.Text">
+    <value>Email </value>
+  </data>
+  <data name="plEmail.Help">
+    <value>Nhập vào địa chỉ email của bạn</value>
+  </data>
+  <data name="valEmail1.Text">
+    <value>&lt;br&gt;Cần Phải Nhập Email.</value>
+  </data>
+  <data name="valEmail2.Text">
+    <value>&lt;br&gt;Email Phải Là Một Giá Trị Hợp Lệ</value>
+  </data>
+  <data name="plName.Text">
+    <value>Tên</value>
+  </data>
+  <data name="plName.Help">
+    <value>Nhập vào tên của bạn</value>
+  </data>
+  <data name="plSubject.Text">
+    <value>Tiêu Đề</value>
+  </data>
+  <data name="plSubject.Help">
+    <value>Chọn một tiêu đề từ danh sách</value>
+  </data>
+  <data name="plSubject2.Text">
+    <value>Tiêu Đề</value>
+  </data>
+  <data name="plSubject2.Help">
+    <value>Nhập tiêu đề cho thông điệp của bạn</value>
+  </data>
+  <data name="plBody.Text">
+    <value>Thông Điệp</value>
+  </data>
+  <data name="plBody.Help">
+    <value>Nhập thông điệp của bạn</value>
+  </data>
+  <data name="plCopy.Text">
+    <value>Gửi Bản Sao</value>
+  </data>
+  <data name="plCopy.Help">
+    <value>Gửi một bản sao của thông điệp đến chính bạn?</value>
+  </data>
+  <data name="cmdSend.Text">
+    <value>Gửi</value>
+  </data>
+  <data name="MessageSent.Text">
+    <value>&lt;br&gt;Thông điệp của bạn đã được gửi đi</value>
+  </data>
+  <data name="Moderate.Text">
+    <value>Kiểm Duyệt Bài Viết</value>
+  </data>
+  <data name="MessagePending.Text">
+    <value>Một Phản hồi đã được gửi cần phải được hiển thị công khai, hãy đăng nhập vào website và thay đổi trạng thái cho bài viết</value>
+  </data>
+  <data name="ModuleHelp.Text">
+    <value>&lt;h1&gt;Về Module Phản Hồi&lt;/h1&gt;
+
+&lt;p&gt;Module Phản hồi cho phép khách viếng thăm được gửi các thông điệp đến Quản trị.&lt;/p&gt;
+
+&lt;h1&gt;Gửi Phản Hồi&lt;/h1&gt;
+
+&lt;ol&gt;&lt;li&gt;Tạo một instance của module &lt;b&gt;Phản Hồi&lt;/b&gt; , hoặc tìm đến một instance có sẵn. &lt;/li&gt;
+&lt;li&gt;Ở mục &lt;b&gt;Email&lt;/b&gt;, nhập vào địa chỉ email của bạn. 
+&lt;li&gt;Ở mục &lt;b&gt;Tên&lt;/b&gt;, nhập tên bạn. 
+&lt;li&gt;Mục &lt;b&gt;Tiêu Đề&lt;/b&gt;, nhập vào tiêu đề cho email. 
+&lt;li&gt;Ở mục &lt;b&gt;Nội Dung&lt;/b&gt;, nhập vào thông điệp của bạn. 
+&lt;li&gt;Click &lt;b&gt;Gửi&lt;/b&gt;.&lt;/ol&gt;</value>
+  </data>
+  <data name="plCategory.Text">
+    <value>Thể Loại</value>
+  </data>
+  <data name="plCategory.Help">
+    <value>Chọn một thể loại nếu có</value>
+  </data>
+  <data name="cmdCancel.Text">
+    <value>Hủy Bỏ</value>
+  </data>
+  <data name="Private">
+    <value>Riêng Tư</value>
+  </data>
+  <data name="Public">
+    <value>Công Khai</value>
+  </data>
+  <data name="Remove">
+    <value>Xóa</value>
+  </data>
+  <data name="EditContent.Action">
+    <value>Danh Sách Phản Hồi</value>
+  </data>
+  <data name="ContentOptions.Action">
+    <value>Quản Trị Phản Hồi</value>
+  </data>
+  <data name="plCaptcha.Text">
+    <value>Mã An Ninh</value>
+  </data>
+  <data name="plCaptcha.Help">
+    <value>Nhập mã an ninh.</value>
+  </data>
+  <data name="CaptchaText.Text">
+    <value>Nhập mã ở trên vào hộp dưới đây</value>
+  </data>
+  <data name="InvalidCaptcha.Text">
+    <value>Mã An Ninh Không Hợp Lệ</value>
+  </data>
+</root>

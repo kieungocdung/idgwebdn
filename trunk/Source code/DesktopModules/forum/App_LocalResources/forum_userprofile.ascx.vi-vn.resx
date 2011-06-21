@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="ResMimeType">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="Version">
+    <value>1.0.0.0</value>
+  </resheader>
+  <resheader name="Reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="Writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="plAlias.Text">
+    <value>Alias: </value>
+  </data>
+  <data name="plAlias.Help">
+    <value>Alias trên forum của người dùng.&lt;br&gt;Các tên tài khoản bị trùng lắp là không được phép trên một portal.</value>
+  </data>
+  <data name="plEmail.Text">
+    <value>Email: </value>
+  </data>
+  <data name="plEmail.Help">
+    <value>Email của người dùng.</value>
+  </data>
+  <data name="plURL.Text">
+    <value>Website: </value>
+  </data>
+  <data name="plURL.Help">
+    <value>Địa chỉ website của người dùng.</value>
+  </data>
+  <data name="plMSN.Text">
+    <value>MSN: </value>
+  </data>
+  <data name="plMSN.Help">
+    <value>Tài khoản MSN của người dùng.</value>
+  </data>
+  <data name="plYahoo.Text">
+    <value>Yahoo: </value>
+  </data>
+  <data name="plYahoo.Help">
+    <value>Tài khoản Yahoo của người dùng.</value>
+  </data>
+  <data name="plAIM.Text">
+    <value>AIM: </value>
+  </data>
+  <data name="plAIM.Help">
+    <value>Tài khoản AOL của người dùng.</value>
+  </data>
+  <data name="ICQ.Text">
+    <value>ICQ: </value>
+  </data>
+  <data name="ICQ.Help">
+    <value>Thông tin tài khoản ICQ</value>
+  </data>
+  <data name="plStatistic.Text">
+    <value>Thống Kê:</value>
+  </data>
+  <data name="plStatistic.Help">
+    <value>Thống kê bài viết của người dùng.</value>
+  </data>
+  <data name="lblStatistic.Text">
+    <value>
+    </value>
+  </data>
+  <data name="lblStatistic.Help">
+    <value>
+    </value>
+  </data>
+  <data name="lblInfo.Text">
+    <value>
+    </value>
+  </data>
+  <data name="lblInfo.Help">
+    <value>
+    </value>
+  </data>
+  <data name="ForumHome.Text">
+    <value>Forum Home </value>
+  </data>
+  <data name="Configuration.Text">
+    <value>Cấu Hình</value>
+  </data>
+  <data name="Search.Text">
+    <value>Tìm Kiếm</value>
+  </data>
+  <data name="ManageForums.Text">
+    <value>Quản Lý Forum</value>
+  </data>
+  <data name="MySettings.Text">
+    <value>Thiết Lập Cá Nhân</value>
+  </data>
+  <data name="ManageUsers.Text">
+    <value>Quản Lý Người Dùng</value>
+  </data>
+  <data name="ModuleHelp.Text">
+    <value>&lt;h1&gt;Forum - Thiết Lập Cá Nhân&lt;/h1&gt;&lt;p&gt;</value>
+  </data>
+  <data name="ControlTitle_userprofile.Text">
+    <value>Hồ Sơ Người Dùng</value>
+  </data>
+  <data name="HasContributed.Text">
+    <value>đã đóng góp 2</value>
+  </data>
+  <data name="MyPosts.Text">
+    <value>Bài Cá Nhân</value>
+  </data>
+  <data name="ModeratorSettings.Text">
+    <value>Thiết Lập Moderator</value>
+  </data>
+  <data name="chkIsTrusted.Text">
+    <value>
+    </value>
+  </data>
+  <data name="plIsTrusted.Text">
+    <value>Tin Tưởng?</value>
+  </data>
+  <data name="plIsTrusted.Help">
+    <value>Nếu được chọn, người dùng được tin tưởng như là một người dùng không bị kiểm duyệt trên tất cả forum bị kiểm duyệt.</value>
+  </data>
+  <data name="cmdManageUser.Text">
+    <value>Quản Lý Thành Viên</value>
+  </data>
+  <data name="cmdPMUser.Text">
+    <value>Tin Nhắn Cá Nhân</value>
+  </data>
+  <data name="Contributed.Text">
+    <value>Đã đóng góp {0} bài.</value>
+  </data>
+  <data name="JoinedDate.Text">
+    <value>Ngày Tham Gia: </value>
+  </data>
+  <data name="lblUserProfile.Text">
+    <value>Hồ Sơ Thành Viên</value>
+  </data>
+  <data name="lnkUserPosts.Text">
+    <value>Xem tất cả bài của thành viên này</value>
+  </data>
+  <data name="MostRecent.Text">
+    <value>Bài Mới Nhất: {0}</value>
+  </data>
+</root>

@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="ResMimeType">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="Version">
+    <value>1.0.0.0</value>
+  </resheader>
+  <resheader name="Reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="Writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="plTitle.Text">
+    <value>Tiêu Đề</value>
+  </data>
+  <data name="plTitle.Help">
+    <value>Nhập tiêu đề cho bài viết.</value>
+  </data>
+  <data name="plDescription.Text">
+    <value>Nội Dung</value>
+  </data>
+  <data name="plDescription.Help">
+    <value>Nhập nội dung cho bài viết.</value>
+  </data>
+  <data name="Title.ErrorMessage">
+    <value>Bạn phải nhập tiêu đề cho bài viết.</value>
+  </data>
+  <data name="Description.ErrorMessage">
+    <value>Bạn phải nhập vào nội dung cho bài viết.</value>
+  </data>
+  <data name="plShortDescription.Help">
+    <value>Nhập một mô tả ngắn gọn về bài viết.</value>
+  </data>
+  <data name="ShortDescription.ErrorMessage">
+    <value>Bạn phải nhập một mô tả ngắn gọn về bài viết.</value>
+  </data>
+  <data name="plViewOrder.Text">
+    <value>Thứ Tự Hiển Thị</value>
+  </data>
+  <data name="plViewOrder.Help">
+    <value>
+    </value>
+  </data>
+  <data name="ViewOrder.ErrorMessage">
+    <value>&lt;br&gt;Thứ tự hiển thị phải là một số nguyên.</value>
+  </data>
+  <data name="ModuleHelp.Text">
+    <value>&lt;h1&gt;Về Module Thông Báo&lt;/h1&gt;&lt;p&gt;Module Thông Báo tạo ra một danh sách của những thông báo bằng chữ đơn giản gồm một tiêu đề và một lời mô tả. Tuỳ chọn bao gồm một liên kết đọc thêm đến một file, một trang hoặc một site khác, có ngày tháng và ngày hết hạn. Có cả chức năng theo dõi và ghi lại số lần click vào liên kết. Các thông báo được sắp xếp từ mới nhất đến cũ nhất, trừ khi thứ tự sắp xếp được xác định.&lt;/p&gt;&lt;h1&gt;Thêm Một Thông Báo Mới&lt;/h1&gt;&lt;ol&gt;&lt;li&gt;Thêm một module &lt;b&gt;Thông Báo&lt;/b&gt; , hoặc chuyển đến một module &lt;b&gt;Thông Báo&lt;/b&gt; sẵn có.&lt;li&gt;Click &lt;b&gt;Thêm Thông Báo Mới&lt;/b&gt;. 
+&lt;li&gt; Trên &lt;b&gt;Tiêu Đề&lt;/b&gt;, nhập một tiêu đề cho thông báo.&lt;li&gt;Với tuỳ chọn &lt;b&gt;Thêm Ngày&lt;/b&gt; , bỏ dấu chọn nếu bạn không muốn ngày tháng hiện tại được hiển thị bên cạnh tiêu đề.&lt;li&gt;Ở &lt;b&gt;Mô Tả&lt;/b&gt;, nhập một mô tả về Thông báo.&lt;li&gt;Ở  &lt;b&gt;Kiểu Liên Kết&lt;/b&gt; (tuỳ chọn), chọn &lt;b&gt;URL&lt;/b&gt;, &lt;b&gt;Trang&lt;/b&gt; hoặc &lt;b&gt;File&lt;/b&gt; và sau đó ở &lt;b&gt;Liên Kết&lt;/b&gt; chọn hoặc nhập liên kết cần thiết, trang hoặc file.
+&lt;li&gt;Ở &lt;b&gt;Theo Dõi Số Lần Liên Kết Này Được Click?&lt;/b&gt; (tuỳ chọn), đánh dấu chọn nếu cần.&lt;li&gt;Ở &lt;b&gt;Ghi lại tên người dùng, ngày tháng, và thời gian cho mỗi click&lt;/b&gt; (tuỳ chọn), chọn hộp kiểm nếu cần.&lt;li&gt;Ở &lt;b&gt;Hết Hạn&lt;/b&gt; (tuỳ chọn) click vào Lịch và chọn ngày hết hạn của Thông báo.&lt;li&gt;Ở &lt;b&gt;Thứ Tự Hiển Thị&lt;/b&gt; (tuỳ chọn), nhập thứ tự hiển thị cho thông báo.
+&lt;li&gt;Click &lt;b&gt;Cập Nhật&lt;/b&gt;.&lt;/ol&gt;</value>
+  </data>
+  <data name="ControlTitle_edit.Text">
+    <value>Soạn Bài</value>
+  </data>
+  <data name="plShortDescription.Text">
+    <value>Mô Tả</value>
+  </data>
+  <data name="plKeywords.Text">
+    <value>Từ Khóa</value>
+  </data>
+  <data name="plCategories.Text">
+    <value>Thể Loại</value>
+  </data>
+  <data name="plCategories.Help">
+    <value>Chọn các thể loại cho bài viết này.</value>
+  </data>
+  <data name="Error.Text">
+    <value>Hãy lựa chọn một thể loại cho bài viết.</value>
+  </data>
+  <data name="plKeywords.Help">
+    <value>Nhập một vài từ khóa cho bài viết, ngăn cách nhau bởi một dấu phảy (vd ',').</value>
+  </data>
+</root>

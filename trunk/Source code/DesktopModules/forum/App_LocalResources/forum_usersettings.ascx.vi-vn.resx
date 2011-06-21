@@ -1,0 +1,364 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="ResMimeType">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="Version">
+    <value>1.0.0.0</value>
+  </resheader>
+  <resheader name="Reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="Writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="GeneralInformation.Text">
+    <value>Thông Tin Chung</value>
+  </data>
+  <data name="UserProfile.Text">
+    <value>Hồ Sơ Người Dùng</value>
+  </data>
+  <data name="Settings.Text">
+    <value>Thiết Lập Người Dùng</value>
+  </data>
+  <data name="TrackingSettings.Text">
+    <value>Theo Dõi/Đóng Góp</value>
+  </data>
+  <data name="AdminSettings.Text">
+    <value>Thiết Lập Quản Trị</value>
+  </data>
+  <data name="chkDisplayEmail.Text">
+    <value>Hiển thị email trên trang hồ sơ</value>
+  </data>
+  <data name="plUserID.Text">
+    <value>ID Thành Viên: </value>
+  </data>
+  <data name="plUserID.Help">
+    <value>DNN UserID&lt;br&gt;(Chỉ Đọc)</value>
+  </data>
+  <data name="plUserName.Text">
+    <value>Tên Tài Khoản:</value>
+  </data>
+  <data name="plUserName.Help">
+    <value>Tên tài khoản DNN của người dùng.&lt;br&gt;(Chỉ Đọc)&lt;br&gt;Để thay đổi, sử dụng liên kết để thay đổi thông tin tài khoản của bạn trên site.
+ </value>
+  </data>
+  <data name="plFullName.Text">
+    <value>Họ Tên:</value>
+  </data>
+  <data name="plFullName.Help">
+    <value>Họ tên người dùng.&lt;br&gt;(Chỉ Đọc)&lt;br&gt;Để thay đổi, sử dụng liên kết đến trang hồ sơ tài khoản của bạn trên site.
+ </value>
+  </data>
+  <data name="plWebsite.Text">
+    <value>Website: </value>
+  </data>
+  <data name="plWebsite.Help">
+    <value>Địa chỉ website của người dùng.&lt;br&gt; (Chỉ Đọc)Để thay đổi, sử dụng sử dụng liên kết để thay đổi thông tin tài khoản của bạn trên site.
+ </value>
+  </data>
+  <data name="plEmail.Text">
+    <value>Email: </value>
+  </data>
+  <data name="plEmail.Help">
+    <value>Địa chỉ email của thành viên.&lt;br&gt;(Chỉ Đọc)&lt;br&gt;Để thay đổi, sử dụng liên kết để thay đổi hồ sơ tài khoản trên site này.&lt;br&gt;&lt;b&gt;Hiển thị email trên trang hồ sơ&lt;/b&gt;&lt;br&gt;Mục này sẽ hiển thị các địa chỉ email của thành viên một cách công khai cho cac thành viên khác của module này.&lt;br&gt;&lt;b&gt;Tip&lt;/b&gt;&lt;br&gt;Mục này mặc định bị tắt.</value>
+  </data>
+  <data name="plAlias.Text">
+    <value>Alias: </value>
+  </data>
+  <data name="plAlias.Help">
+    <value>Alias của Forum.&lt;br&gt;Không chấp nhận sự trùng lặp trên một portal.</value>
+  </data>
+  <data name="plMSN.Text">
+    <value>MSN: </value>
+  </data>
+  <data name="plMSN.Help">
+    <value>Thông tin MSN</value>
+  </data>
+  <data name="plYahoo.Text">
+    <value>Yahoo: </value>
+  </data>
+  <data name="plYahoo.Help">
+    <value>Thông tin Yahoo</value>
+  </data>
+  <data name="plAIM.Text">
+    <value>AIM: </value>
+  </data>
+  <data name="plAIM.Help">
+    <value>Thông tin AOL</value>
+  </data>
+  <data name="plICQ.Text">
+    <value>ICQ: </value>
+  </data>
+  <data name="plICQ.Help">
+    <value>Thông Tin ICQ</value>
+  </data>
+  <data name="plOccupation.Text">
+    <value>Nghề Nghiệp:</value>
+  </data>
+  <data name="plOccupation.Help">
+    <value>Nghề nghiệp của bạn.</value>
+  </data>
+  <data name="plInterests.Text">
+    <value>Sở Thích:</value>
+  </data>
+  <data name="plInterests.Help">
+    <value>Sở thích cá nhân.</value>
+  </data>
+  <data name="dlSkin.Text">
+    <value>Skin: </value>
+  </data>
+  <data name="dlSkin.Help">
+    <value>Giao diện bạn yêu thích.</value>
+  </data>
+  <data name="dlCollapseGroups.Text">
+    <value>Xem Nhóm:</value>
+  </data>
+  <data name="dlCollapseGroups.Help">
+    <value>Cách thức bạn muốn thấy khi bạn đến forum.&lt;br&gt;Mục này xác định các nhóm có được mở/giấu khi bạn xem chúng.</value>
+  </data>
+  <data name="plThreadsPerPage.Text">
+    <value>Bài Trên Trang:</value>
+  </data>
+  <data name="plThreadsPerPage.Help">
+    <value>Số bài viết được hiển thị trên trang.</value>
+  </data>
+  <data name="plPostsPerPage.Text">
+    <value>Bài Viết Trên Trang:</value>
+  </data>
+  <data name="plPostsPerPage.Help">
+    <value>Số bài viết được hiển thị trên mỗi trang.</value>
+  </data>
+  <data name="plSignature.Text">
+    <value>Chữ Ký:</value>
+  </data>
+  <data name="plSignature.Help">
+    <value>Thông điệp được hiển thị ở cuối bài viết của bạn.</value>
+  </data>
+  <data name="plOnlineStatus.Text">
+    <value>Hiển Thị Trạng Thái Online?</value>
+  </data>
+  <data name="plOnlineStatus.Help">
+    <value>Hiển thị trạng thái online trên forum của bạn.</value>
+  </data>
+  <data name="plAvatar.Text">
+    <value>Avatar: </value>
+  </data>
+  <data name="plAvatar.Help">
+    <value>Hình ảnh hiển thị trên phần đầu của tất cả bài viết của bạn.</value>
+  </data>
+  <data name="plDefaultForum.Text">
+    <value>Forum Mặc Định:</value>
+  </data>
+  <data name="plDefaultForum.Help">
+    <value>Nếu được chọn, forum mặc định của bạn sẽ được hiển thị trên mỗi lần ghé thăm đến trang này.</value>
+  </data>
+  <data name="plTrackingForum.Text">
+    <value>Forum Theo Dõi:</value>
+  </data>
+  <data name="plTrackingForum.Help">
+    <value>Chọn forum bạn muốn nhận email thông báo khi có bài mới.</value>
+  </data>
+  <data name="plWhatsNewForum.Text">
+    <value>Theo Dõi Whats New:</value>
+  </data>
+  <data name="plWhatsNewForum.Help">
+    <value>Chọn forum bạn muốn hiển thị thông tin whats new</value>
+  </data>
+  <data name="plTrackingDuration.Text">
+    <value>Khoảng Theo Dõi Whats New:</value>
+  </data>
+  <data name="plTrackingDuration.Help">
+    <value>Khoảng Thời Gian bạn muốn theo dói whatsnew.</value>
+  </data>
+  <data name="plIsTrusted.Text">
+    <value>Được Tin Tưởng?</value>
+  </data>
+  <data name="plIsTrusted.Help">
+    <value>Nếu được chọn, bài viết của thành viên sẽ không bị kiểm duyệt.</value>
+  </data>
+  <data name="plModerator.Text">
+    <value>Là Moderator?</value>
+  </data>
+  <data name="plModerator.Help">
+    <value>Nếu được chọn, thành viên sẽ là một moderator của module forum này.</value>
+  </data>
+  <data name="plModerateForum.Text">
+    <value>Forum Được Kiểm Duyệt:</value>
+  </data>
+  <data name="plModerateForum.Help">
+    <value>Các forum được kiểm duyệt bởi thành viên này.</value>
+  </data>
+  <data name="plSystemAvatarsLookup.Text">
+    <value>Avatar Bổ Sung:</value>
+  </data>
+  <data name="plSystemAvatarsLookup.Help">
+    <value>Hình ảnh được hiển thị bên dưới avatar của thành viên.&lt;br&gt;Ô texbox dưới cùng chỉ là nơi lưu giữ để nhắc nhở bạn hình ảnh nào bạn vừa tải lên (nếu được áp dụng)&lt;br&gt;&lt;b&gt;Tip&lt;/b&gt;&lt;br&gt;Cách sử dụng thông thường nhất là cách thức các thành viên thuộc nhóm phát triển DNN có cùng một logo bên dưới tên của họ trên forum ASP.NET.</value>
+  </data>
+  <data name="NumericValidation.ErrorMessage">
+    <value>Phải là một số.</value>
+  </data>
+  <data name="AllExpanded">
+    <value>Mở Tất Cả</value>
+  </data>
+  <data name="AllCollapsed">
+    <value>Giấu Tất Cả</value>
+  </data>
+  <data name="AsLastViewed">
+    <value>Như Lần Xem Trước</value>
+  </data>
+  <data name="SaveAndBack.AlternateText">
+    <value>Lưu và trở về</value>
+  </data>
+  <data name="CancelAndBack.AlternateText">
+    <value>Hủy bỏ và quay về</value>
+  </data>
+  <data name="Configuration.Text">
+    <value>Cấu Hình</value>
+  </data>
+  <data name="ManageUsers.Text">
+    <value>Quản Lý Người Dùng</value>
+  </data>
+  <data name="ManageForums.Text">
+    <value>Quản Lý Forum</value>
+  </data>
+  <data name="MySettings.Text">
+    <value>Thiết Lập Cá Nhân</value>
+  </data>
+  <data name="MyProfile.Text">
+    <value>Hồ Sơ Cá Nhân</value>
+  </data>
+  <data name="Search.Text">
+    <value>Tìm Kiếm</value>
+  </data>
+  <data name="ForumHome.Text">
+    <value>Forum Home </value>
+  </data>
+  <data name="AddBlog.Text">
+    <value>Thêm Blog</value>
+  </data>
+  <data name="ManageCategory.Text">
+    <value>Quản Lý Thể Loại</value>
+  </data>
+  <data name="BlogHome.Text">
+    <value>Home </value>
+  </data>
+  <data name="ModuleHelp.Text">
+    <value>&lt;h1&gt;Forum - Thiết Lập Người Dùng&lt;/h1&gt;&lt;p&gt;Bạn có thể quản lý các thiết lập forum áp dụng đối với riêng bạn tại đây. Mục này được chia thành từng mục nhỏ.&lt;/p&gt;&lt;p&gt;&lt;li&gt;&lt;b&gt;Thông Tin Chung&lt;/b&gt;&lt;br&gt;Những thông tin này được lấy từ dữ liệu người dùng của site. Tất cả thuộc tính trên mục này là chỉ đọc ngoại trừ khả năng bật/tắt tùy chọn hiển thị địa chỉ email cho các thành viên khác trên forum.&lt;/li&gt;&lt;br&gt;&lt;li&gt;&lt;b&gt;Hồ Sơ Người Dùng&lt;/b&gt;&lt;br&gt;Mục này lưu giữ các thông tin chi tiết hơn về người dùng. Mục này cho phép người dùng mở rộng các thông tin cá nhân và giới thiệu với các thành viên khác thêm một chút về mình.&lt;/li&gt;&lt;br&gt;&lt;li&gt;&lt;b&gt;Thiết Lập Người Dùng&lt;/b&gt;&lt;br&gt;Mục này cho phép bạn thay đổi cách thức bạn xem forum và là nơi bạn đưa ra chữ ký  cho các bài viết của mình.&lt;/li&gt;&lt;br&gt;&lt;li&gt;&lt;b&gt;Theo Dõi/Đóng Góp&lt;/b&gt;&lt;br&gt;Mục này cho phép bạn thay đổi forum nào mà bạn đóng góp.  Tùy chọn What's New cũng được điều khiển ở đây.&lt;/li&gt;&lt;br&gt;&lt;li&gt;&lt;b&gt;Thiết Lập Quản Trị&lt;/b&gt;&lt;br&gt;Các quản trị viên có thể thay đổi các thiết lập cụ thể đến một thành viên ở đây, như thăng cấp cho họ làm moderator hoặc gắn một avatar vào hồ sơ của họ.&lt;/li&gt;&lt;br&gt;&lt;/p&gt;</value>
+  </data>
+  <data name="ControlTitle_usersettings.Text">
+    <value>Thiết Lập Người Dùng</value>
+  </data>
+  <data name="chkOnlineStatus.Text">
+    <value>
+    </value>
+  </data>
+  <data name="chkIsTrusted.Text">
+    <value>
+    </value>
+  </data>
+  <data name="chkModerator.Text">
+    <value>
+    </value>
+  </data>
+  <data name="lblInfo.Text">
+    <value>
+    </value>
+  </data>
+  <data name="AllExpanded.Text">
+    <value>Mở Tất Cả</value>
+  </data>
+  <data name="AllCollapsed.Text">
+    <value>Giấu Tất Cả</value>
+  </data>
+  <data name="AsLastViewed.Text">
+    <value>Như Lần Xem Trước</value>
+  </data>
+  <data name="Preview.Text">
+    <value>Xem Trước...</value>
+  </data>
+  <data name="MyPosts.Text">
+    <value>Bài Cá Nhân</value>
+  </data>
+  <data name="plEnableForumModNotify.Text">
+    <value>Cho Phép Email Kiểm Duyệt:</value>
+  </data>
+  <data name="plEnableForumModNotify.Help">
+    <value>Nếu được chọn, bạn sẽ nhận được thông báo qua email về bài viết chờ kiểm duyệt.</value>
+  </data>
+  <data name="chkEnablePM.Text">
+    <value />
+  </data>
+  <data name="chkEnablePMNotifications.Text">
+    <value />
+  </data>
+  <data name="chkGlobalMod.Text">
+    <value />
+  </data>
+  <data name="chkModReturn.Text">
+    <value />
+  </data>
+  <data name="cmdClearReads.Text">
+    <value>Xóa Trạng Thái Đọc</value>
+  </data>
+  <data name="lblUserSettings.Text">
+    <value>Thiết Lập Thành Viên</value>
+  </data>
+  <data name="plClearReads.Help">
+    <value>Nếu chọn, sẽ xóa tất cả trạng thái đọc cho tất cả forum và chủ đề của thành viên này.</value>
+  </data>
+  <data name="plClearReads.Text">
+    <value>Xóa Tất Cả Trạng Thái Đọc:</value>
+  </data>
+  <data name="plEnablePM.Help">
+    <value>Nếu chọn, bạn có thể nhận được tin nhắn.  </value>
+  </data>
+  <data name="plEnablePM.Text">
+    <value>Cho Phép Tin Nhắn:</value>
+  </data>
+  <data name="plEnablePMNotifications.Help">
+    <value>Nếu chọn, bạn sẽ nhận được một email khi có người gửi tin nhắn cho bạn.</value>
+  </data>
+  <data name="plEnablePMNotifications.Text">
+    <value>Nhận Email Tin Nhắn:</value>
+  </data>
+  <data name="plGlobalMod.Help">
+    <value>Nếu chọn, thành viên là global mod, người có thể kiểm duyệt tất cả diễn đàn gồm cả các diễn đàn không bị kiểm duyệt.</value>
+  </data>
+  <data name="plGlobalMod.Text">
+    <value>Là Global Moderator?</value>
+  </data>
+  <data name="plModReturn.Help">
+    <value>Nếu chọn, bạn sẽ luôn được đưa về khu vực kiểm duyệt nếu sửa đổi hoặc trả lời cho một bài viết ở mục này.</value>
+  </data>
+  <data name="plModReturn.Text">
+    <value>Trở Về Trang Kiểm Duyệt:</value>
+  </data>
+</root>

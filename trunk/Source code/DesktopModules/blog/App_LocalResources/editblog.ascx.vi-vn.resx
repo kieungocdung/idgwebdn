@@ -1,0 +1,234 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 1.3
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">1.3</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1">this is my long string</data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        [base64 mime encoded serialized .NET Framework object]
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        [base64 mime encoded string representing a byte array form of the .NET Framework object]
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used forserialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>1.3</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="cmdAdd.Text">
+    <value>Thêm</value>
+  </data>
+  <data name="msgEditChildBlog.Text">
+    <value>Sửa Blog Con</value>
+  </data>
+  <data name="lblTimeZone.Text">
+    <value>Múi Giờ:</value>
+  </data>
+  <data name="chkSyndicateIndependant.Text">
+    <value>Chia sẻ một cách độc lập&lt;br&gt;(Nếu không chọn blog này sẽ được chia sẻ như là một mục của blog mẹ)</value>
+  </data>
+  <data name="lblTitle.Text">
+    <value>Tiêu Đề:</value>
+  </data>
+  <data name="lblDateFormat.Text">
+    <value>Định Dạng Thời Gian:</value>
+  </data>
+  <data name="chkComments.Text">
+    <value>Cho phép người dùng gửi bình luận</value>
+  </data>
+  <data name="ControlTitle_editblog.Text">
+    <value>Cấu Hình Thiết Lập Blog</value>
+  </data>
+  <data name="lblOptionsDescription.Text">
+    <value>Các tùy chọn này kiểm soát chức năng của các blog của bạn.</value>
+  </data>
+  <data name="lblDescription.Text">
+    <value>Mô Tả:</value>
+  </data>
+  <data name="lblChildBlogsDescription.Text">
+    <value>Nếu bạn muốn chia blog của mình thành nhiều thể loại khác nhau, đây là nơi bạn xác định điều đó. Có các Blog Con cho phép bạn tạo ra các blog phụ bên trong blog của bạn. Mỗi blog có các tùy chọn riêng của nó về việc phổ biến và có thể được chia sẻ riêng rẽ ra khỏi blog mẹ.</value>
+  </data>
+  <data name="msgDeleteChildBlog.Text">
+    <value>Bạn có chắc là bạn muốn xóa blog con này?</value>
+  </data>
+  <data name="ModuleHelp.Text">
+    <value>&lt;h1&gt;Blog&lt;/h1&gt;
+&lt;p&gt;...&lt;/p&gt;
+       </value>
+  </data>
+  <data name="lblCulture.Text">
+    <value>Ngôn Ngữ:</value>
+  </data>
+  <data name="rdoUserName_UserName.Text">
+    <value>Tên Thành Viên</value>
+  </data>
+  <data name="lblUserIdentity.Text">
+    <value>Khi hiển thị định danh của bạn, sử dụng:</value>
+  </data>
+  <data name="valTitleDescription.ErrorMessage">
+    <value>Mô Tả Cho Tiêu Đề Là Bắt Buộc</value>
+  </data>
+  <data name="lblDateTime.Text">
+    <value>Tùy Chọn Thời Gian:</value>
+  </data>
+  <data name="chkSyndicate.Text">
+    <value>Chia sẻ blog này.</value>
+  </data>
+  <data name="rdoUserName_FullName.Text">
+    <value>Họ Và Tên</value>
+  </data>
+  <data name="lblChildBlogs.Text">
+    <value>Blog Con:</value>
+  </data>
+  <data name="chkPublic.Text">
+    <value>Phổ biến blog này</value>
+  </data>
+  <data name="lblOptions.Text">
+    <value>Tùy Chọn Blog:</value>
+  </data>
+  <data name="lblTitleDescription.Text">
+    <value>Đây là tiêu đề được hiển thị cho blog của bạn. Nó sẽ được hiển thị ở trên đầu danh sách và trong thư mục blog.</value>
+  </data>
+  <data name="lblSyndicationOptions.Text">
+    <value>Tùy Chọn Chia Sẻ:</value>
+  </data>
+  <data name="msgCreateBlog.Text">
+    <value>Tạo Blog Mới</value>
+  </data>
+  <data name="lblSyndicationEmail.Text">
+    <value>Sử dụng email này cho rss field "ManagingEditor"</value>
+  </data>
+  <data name="lblDateTimeDescription.Text">
+    <value>Các tùy chọn này xác định cách thức ngày tháng được hiển thị bên trong blog của bạn. Thiết lập này sẽ ảnh hưởng đến tất cả các thể loại và các mục bên trong blog của bạn.</value>
+  </data>
+  <data name="lblDescriptionDescription.Text">
+    <value>Đây là một mô tả ngắn gọn về blog của bạn. Đây là một nơi tốt để nói về dự định của bạn với blog và những thông tin gì người đọc có thể tìm thấy.</value>
+  </data>
+  <data name="msgEditBlog.Text">
+    <value>Sửa Blog</value>
+  </data>
+  <data name="chkAllowAnonymous.Text">
+    <value>Cho phép người dùng ẩn danh gửi bình luận</value>
+  </data>
+  <data name="chkEmailNotification.Text">
+    <value>Gửi email thông báo khi có bình luận và trackback</value>
+  </data>
+  <data name="msgCreateNewChildBlog.Text">
+    <value>Tạo Blog Con Mới</value>
+  </data>
+  <data name="valTitle.ErrorMessage">
+    <value>Cần phải nhập tiêu đề</value>
+  </data>
+  <data name="msgDeleteBlog.Text">
+    <value>Bạn có chắc là bạn muốn xóa blog này?</value>
+  </data>
+  <data name="chkAllowTrackbacks.Text">
+    <value>Cho phép Trackback bình luận</value>
+  </data>
+  <data name="chkMustApproveTrackbacks.Text">
+    <value>Bắt buộc kiểm duyệt Trackback</value>
+  </data>
+  <data name="chkMustApproveTrackbacks.Help">
+    <value>Nếu bạn chọn tùy chọn này bạn phải kiểm duyệt một bình luận Trackback trước khi lời bình luận được hiển thị trên danh sách bình luận.</value>
+  </data>
+  <data name="chkMustApproveComments.Text">
+    <value>Bắt buộc kiểm duyệt bình luận</value>
+  </data>
+  <data name="chkMustApproveComments.Help">
+    <value>Nếu bạn chọn tùy chọn này bạn phải kiểm duyệt một bình luận của người dùng trước khi lời bình luận được hiển thị trên danh sách bình luận.</value>
+  </data>
+  <data name="chkMustApproveAnonymous.Text">
+    <value>Bắt buộc kiểm duyệt bình luận ẩn danh</value>
+  </data>
+  <data name="chkMustApproveAnonymous.Help">
+    <value>Nếu bạn chọn tùy chọn này bạn phải kiểm duyệt một bình luận từ người dùng ẩn danh trước khi lời bình luận được hiển thị trên danh sách bình luận.</value>
+  </data>
+  <data name="chkAutoTrackbacks.Text">
+    <value>Tự Động Tìm Trackback (Client Mode)</value>
+  </data>
+  <data name="chkAutoTrackbacks.Help">
+    <value>Nếu bạn chọn tùy chọn này sẽ tự động tìm ra các trackback trong khi bạn lưu lại mục blog</value>
+  </data>
+</root>

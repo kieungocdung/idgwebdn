@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="ResMimeType">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="Version">
+    <value>1.0.0.0</value>
+  </resheader>
+  <resheader name="Reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="Writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="UploadButton.Text">
+    <value>Tải Lên</value>
+  </data>
+  <data name="CancelButton.Text">
+    <value>Hủy Bỏ</value>
+  </data>
+  <data name="DeleteButton.Text">
+    <value>Xóa</value>
+  </data>
+  <data name="ShowEMail.Text">
+    <value>hiển thị địa chỉ email của tôi</value>
+  </data>
+  <data name="Title.Text">
+    <value>Tiêu Đề</value>
+  </data>
+  <data name="Title.Help">
+    <value>Nhập tiêu đề cho file bạn đang tải lên</value>
+  </data>
+  <data name="Categories.Text">
+    <value>Thể Loại</value>
+  </data>
+  <data name="Categories.Help">
+    <value>Chọn một hoặc nhiều thể loại bạn muốn gắn với file này</value>
+  </data>
+  <data name="FileName.Text">
+    <value>File </value>
+  </data>
+  <data name="FileName.Help">
+    <value>Tìm đến file bạn muốn tải lên</value>
+  </data>
+  <data name="Image.Text">
+    <value>Ảnh</value>
+  </data>
+  <data name="Image.Help">
+    <value>Tìm đến file ảnh bạn muốn tải lên</value>
+  </data>
+  <data name="Description.Text">
+    <value>Mô Tả</value>
+  </data>
+  <data name="Description.Help">
+    <value>Nhập một mô tả chi tiết về file bạn đang tải lên</value>
+  </data>
+  <data name="Summary.Text">
+    <value>Tóm tắt</value>
+  </data>
+  <data name="Summary.Help">
+    <value>Nhập một tóm tắt ngắn gọn cho file bạn đang tải lên</value>
+  </data>
+  <data name="Author.Text">
+    <value>Tên</value>
+  </data>
+  <data name="Author.Help">
+    <value>Nhập họ tên của bạn</value>
+  </data>
+  <data name="EMail.Text">
+    <value>Địa Chỉ Email</value>
+  </data>
+  <data name="EMail.Help">
+    <value>Nhập một địa chỉ email hợp lệ, và nếu bạn không muốn địa chỉ email của bạn được hiển thị, chọn đánh dấu trước khi tải lên</value>
+  </data>
+  <data name="Header.Text">
+    <value>Tải Lên File</value>
+  </data>
+  <data name="Header.Help">
+    <value>Sử dụng trang này để tải lên một file </value>
+  </data>
+  <data name="DeleteConfirmation.Text">
+    <value>Bạn có chắc là bạn muốn xóa mục này?</value>
+  </data>
+  <data name="URL.Text">
+    <value>Resource URL </value>
+  </data>
+  <data name="URL.Help">
+    <value>Nhập URL cho Tài nguyên bạn đang tải lên</value>
+  </data>
+  <data name="UploadedBy.Text">
+    <value>Tải lên bởi</value>
+  </data>
+  <data name="ValidateTitle.Text">
+    <value>&lt;BR&gt;Một tiêu đề là bắt buộc</value>
+  </data>
+  <data name="ValidateFile.Text">
+    <value>&lt;BR&gt;Cần phải chọn một file</value>
+  </data>
+  <data name="ValidateName.Text">
+    <value>&lt;BR&gt;Bạn phải nhập vào tên của mình</value>
+  </data>
+  <data name="ValidateEMail.Text">
+    <value>&lt;BR&gt;Bạn phải nhập một địa chỉ email</value>
+  </data>
+  <data name="ValidateDescription.Text">
+    <value>&lt;BR&gt;Bạn phải nhập một mô tả</value>
+  </data>
+  <data name="ValidateSummary.Text">
+    <value>&lt;BR&gt;Bạn phải nhập một mô tả</value>
+  </data>
+  <data name="TheFile.Text">
+    <value>File </value>
+  </data>
+  <data name="SaveError.Text">
+    <value>Một lỗi xảy ra khi lưu lại file của bạn. Hãy liên lạc với Hosting Provider của bạn để bảo đảm các thiết lập an ninh cần thiết đã được mở trên server.&lt;br&gt;Lỗi cụ thể:</value>
+  </data>
+  <data name="RestrictedFilePrefix.Text">
+    <value>Kiểu file tải lên bị cấm. Kiểu file hợp lệ bao gồm </value>
+  </data>
+  <data name="RestrictedFileSuffix.Text">
+    <value>Hãy liên lạc với Hosting Provider của bạn nếu bạn muốn tải lên một kiểu file không được hỗ trợ</value>
+  </data>
+  <data name="FileTooLarge.Text">
+    <value>File vượt quá kích thước bạn hiện có. Hãy liên lạc với Hosting Provider của bạn để yêu cầu về tăng dung lượng đĩa cứng cho portal của bạn</value>
+  </data>
+  <data name="Guidelines.Text">
+    <value>GUIDELINES: Bằng việc tải lên file và ảnh này tôi đồng ý rằng chúng có thể được tải xuống bởi người khác trên website này.Tôi cũng tuyên bố là tôi có quyền tải lên các file này và tôi không vi phạm bất cứ luật về bản quyền nào khi tải lên chúng. Tôi đồng ý về việc giữ cho các quản trị và chủ của website này khỏi bất cứ tổn thương nào gây ra bởi file tôi tải lên.&lt;br&gt;</value>
+  </data>
+  <data name="NoModerationRequired.Text">
+    <value>LƯU Ý: vì bạn là một Kiểm Duyệt cho module này, file bạn tải lên sẽ không cần phải kiểm duyệt mà sẽ được tự động chấp nhận.</value>
+  </data>
+  <data name="ModerationRequired.Text">
+    <value>LƯU Ý: vì bạn là một Kiểm Duyệt cho module này, file bạn tải lên sẽ không cần phải kiểm duyệt mà sẽ được tự động chấp nhận.</value>
+  </data>
+  <data name="FileSentModerationRequired.Text">
+    <value>File bạn tải lên PHẢI được kiểm duyệt bởi một Quản trị \nTRƯỚC KHI nó được hiển thị trên website. Bạn sẽ nhận được một email\n thông báo khi file bạn tải lên được chấp nhận.\n\nBạn có muốn tải lên bây giờ?</value>
+  </data>
+  <data name="AuthorImage.Help">
+    <value>Tải lên một bức ảnh nhỏ của bạn. Ảnh sẽ được thu nhỏ lại với chiều rộng là pixel.</value>
+  </data>
+  <data name="AuthorImage.Text">
+    <value>Ảnh Của Bạn</value>
+  </data>
+  <data name="DownloadVersion.Text">
+    <value>Thêm vào việc đưa ra một bài viết trực tuyến, bạn có thể cung cấp một phiên bản tải xuống của bài viết của mình (.PDF, .DOC) . Đây là tùy chọn và có thể để trống.&lt;br&gt;</value>
+  </data>
+</root>

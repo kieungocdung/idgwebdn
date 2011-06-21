@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="ResMimeType">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="Version">
+    <value>1.0.0.0</value>
+  </resheader>
+  <resheader name="Reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="Writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="plAuthor.Text">
+    <value>Tác Giả:</value>
+  </data>
+  <data name="plAuthor.Help">
+    <value>Tác giả gốc của bài viết.</value>
+  </data>
+  <data name="lblAuthor.Text">
+    <value>
+    </value>
+  </data>
+  <data name="lblAuthor.Help">
+    <value>
+    </value>
+  </data>
+  <data name="plOriginalMessage.Text">
+    <value>Bài Viết:</value>
+  </data>
+  <data name="plOriginalMessage.Help">
+    <value>Thông điệp bạn đang trả lời.</value>
+  </data>
+  <data name="lblMessage.Text">
+    <value>
+    </value>
+  </data>
+  <data name="lblMessage.Help">
+    <value>
+    </value>
+  </data>
+  <data name="plSubject.Text">
+    <value>Tiêu Đề:</value>
+  </data>
+  <data name="plSubject.Help">
+    <value>Tiêu đề của bài viết.</value>
+  </data>
+  <data name="plMessage.Text">
+    <value>Nội Dung:</value>
+  </data>
+  <data name="plMessage.Help">
+    <value>Phần nội dung của bài viết.</value>
+  </data>
+  <data name="plAttachments.Text">
+    <value>Đính kèm:</value>
+  </data>
+  <data name="plAttachments.Help">
+    <value>Thêm một đính kèm vào mục blog này.</value>
+  </data>
+  <data name="InsertAttachment.Text">
+    <value>Đính Kèm</value>
+  </data>
+  <data name="RemoveAttachment.Text">
+    <value>Loại bỏ đính kèm</value>
+  </data>
+  <data name="InsertImage.Text">
+    <value>Chèn Hình Ảnh</value>
+  </data>
+  <data name="InsertSmiley.Text">
+    <value>Chèn Smiley</value>
+  </data>
+  <data name="plPinned.Text">
+    <value>Gắn?</value>
+  </data>
+  <data name="plPinned.Help">
+    <value>Gắn bài viết vào đầu nhóm.</value>
+  </data>
+  <data name="chkPinned.Text">
+    <value>
+    </value>
+  </data>
+  <data name="plNotify.Text">
+    <value>Thông Báo?</value>
+  </data>
+  <data name="plNotify.Help">
+    <value>Nếu được chọn, email cho bạn khi bài viết có trả lời.</value>
+  </data>
+  <data name="chkNotify.Text">
+    <value>
+    </value>
+  </data>
+  <data name="plClose.Text">
+    <value>Khóa?</value>
+  </data>
+  <data name="plClose.Help">
+    <value>Nếu được chọn, bài viết không cho phép trả lời.</value>
+  </data>
+  <data name="chkClose.Text">
+    <value>
+    </value>
+  </data>
+  <data name="lblInfo.Text">
+    <value>
+    </value>
+  </data>
+  <data name="lblInfo.Help">
+    <value>
+    </value>
+  </data>
+  <data name="plPreview.Text">
+    <value>Xem Trước:</value>
+  </data>
+  <data name="plPreview.Help">
+    <value>Hình xem trước của bài viết của bạn.</value>
+  </data>
+  <data name="lblPreview.Help">
+    <value>Xem Trước</value>
+  </data>
+  <data name="lblModerate.Text">
+    <value>Bạn đã gửi bài vào một forum được kiểm duyệt, một quản trị forum phải phê duyệt bài của bạn trước khi nó có thể được công khai. Hãy kiên nhẫn, điều này có thể sẽ mất từ vài phút đến nhiều giờ. Chú ý là bạn sẽ nhận được một email khi bài viết được phê duyệt.</value>
+  </data>
+  <data name="lblModerate.Help">
+    <value>Bạn đã gửi bài vào một forum được kiểm duyệt, một quản trị forum phải phê duyệt bài của bạn trước khi nó có thể được công khai. Hãy kiên nhẫn, điều này có thể sẽ mất từ vài phút đến nhiều giờ. Chú ý là bạn sẽ nhận được một email khi bài viết được phê duyệt.</value>
+  </data>
+  <data name="Configuration.Text">
+    <value>Cấu Hình</value>
+  </data>
+  <data name="ForumHome.Text">
+    <value>Forum Home </value>
+  </data>
+  <data name="Search.Text">
+    <value>Tìm Kiếm</value>
+  </data>
+  <data name="MySettings.Text">
+    <value>Thiết Lập Cá Nhân</value>
+  </data>
+  <data name="ManageUsers.Text">
+    <value>Quản Lý Người Dùng</value>
+  </data>
+  <data name="ManageForums.Text">
+    <value>Quản Lý Forum</value>
+  </data>
+  <data name="valSubject.Text">
+    <value>* Mục Cần Thiết</value>
+  </data>
+  <data name="OriginalPost.Text">
+    <value>Bài Gốc</value>
+  </data>
+  <data name="ControlTitle_postedit.Text">
+    <value>Thêm/Xóa Bài</value>
+  </data>
+  <data name="cmdPreview.Text">
+    <value>Xem Trước</value>
+  </data>
+  <data name="ModuleHelp.Text">
+    <value>&lt;h1&gt;Thêm/Thay Đổi Bài Viết&lt;/h1&gt;&lt;p&gt;Bạn có thể thêm/thay đổi bài viết ở đây. Bạn cần phải có một tiêu đề cho mỗi chủ đề.  Nút chèn hình ảnh và chèn smiley sẽ được hiển thị nếu tùy chọn này được quản trị cho phép. Từ đây là nơi bạn xác định xem nếu bài viết được gắn vào đầu trang hay không và có đính kèm hay không nếu điều này được quản trị cho phép.</value>
+  </data>
+  <data name="lblPreviewHead.Text">
+    <value>Xem Trước</value>
+  </data>
+  <data name="cmdBackToForum.Text">
+    <value>Trở Về Forum</value>
+  </data>
+  <data name="MyPosts.Text">
+    <value>Bài Cá Nhân</value>
+  </data>
+  <data name="ForumDenied.Text">
+    <value>Bạn Không Được Phép Gửi Bài vào Forum Này</value>
+  </data>
+  <data name="ForumRequired.Text">
+    <value>Bạn Phải Chọn Một Forum Để Gửi Bài</value>
+  </data>
+  <data name="lblPostEdit.Text">
+    <value>Thêm/Sửa Bài</value>
+  </data>
+  <data name="plForum.Help">
+    <value>Forum sẽ là nơi mà bài viết của bạn được gửi đến.</value>
+  </data>
+  <data name="plForum.Text">
+    <value>Forum: </value>
+  </data>
+  <data name="SubjectRequired.Text">
+    <value>Bạn Phải Đưa Ra Một Tiêu Đề Cho Bài Viết</value>
+  </data>
+</root>

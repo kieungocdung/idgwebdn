@@ -1,0 +1,227 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ModuleHelp.Text" xml:space="preserve">
+    <value>Tạo Một Thể Loại Mẹ Hoặc Anh Em 
+
+Tạo một thể loại mẹ hoặc anh em vào module Thể Loại Trợ Giúp. Các thể loại mẹ luôn được hiển thị ở module Thể loại. Các thể loại này có thể chứa một hoặc nhiều thể loại con được tạo bên dưới, được nhận biết bằng các nút Maximize  . Các thể loại anh em xuất hiện cùng cấp với thể loại được chọn.
+1.	Tạo một instance của module Trợ giúp hoặc tìm đến một instance có sẵn. 
+2.	Chọn Quản lý thể loại từ menu của module Thể loại 
+3.	Chọn một thể loại anh em cho thể loại này. 
+4.	Click Tạo Anh Em. Thể loại mới sẽ được thêm vào bên dưới của thể loại được chọn và sẽ được đặt tên là NewCategory. 
+5.	Ở mục Tên, nhập vào tên cho thể loại được hiển thị cho module. Tên mặc định sẽ là New Category. 
+6.	Ở mục Mô tả, nhập một mô tả cho thể loại. 
+7.	Ở mục Ảnh, chọn một hình ảnh đại diện cho thể loại. 
+8.	Ở mục Từ khóa, nhập một hoặc nhiều từ khóa ngăn cách nhau bởi dấu ','. VD. chocolate,cake,recipes, 
+9.	Ở mục Tính Hiển Thị, lựa chọn một trong các tùy chọn sau: 
+a.	Chọn checkbox nếu thể loại được hiển thị cho thành viên đăng ký. 
+b.	Bỏ chọn nếu Thể loại chỉ hiển thị cho Quản trị .
+10.	Click Cập Nhật. 
+Tạo Thể Loại Con 
+
+Tạo một thể loại con cho các thể loại của module Trợ giúp. Các Thể loại con được đặt ở dưới một Thể loại mẹ và có thể được xem bằng cách click vào nút Maximize  bên dưới thể loại mẹ của nó.
+1.	Tạo một module Trợ giúp hoặc tìm đến một module Trợ giúp có sẵn. 
+2.	Chọn Quản lý thể loại từ menu của module. 
+3.	Chọn một thể loại mẹ cho thể loại mới này. 
+4.	Click Tạo Con. Thể loại mới sẽ được tạo ra bên dưới thể loại này và sẽ được đặt tên là New Category. 
+5.	Ở mục Tên, nhập vào tên cho thể loại được hiển thị cho module. Tên mặc định sẽ là New Category. 
+6.	Ở mục Mô tả, nhập một mô tả cho thể loại. 
+7.	Ở mục Ảnh, chọn một hình ảnh đại diện cho thể loại. 
+8.	Ở mục Từ khóa, nhập một hoặc nhiều từ khóa ngăn cách nhau bởi dấu ','. VD. chocolate,cake,recipes, 
+9.	Ở mục Tính Hiển Thị, lựa chọn một trong các tùy chọn sau: 
+a.	Chọn checkbox nếu thể loại được hiển thị cho thành viên đăng ký. 
+b.	Bỏ chọn nếu Thể loại chỉ hiển thị cho Quản trị .
+10.	Click Cập Nhật. </value>
+  </data>
+  <data name="plName.Text" xml:space="preserve">
+    <value>Tên:</value>
+  </data>
+  <data name="plDescription.Text" xml:space="preserve">
+    <value>Mô Tả:</value>
+  </data>
+  <data name="plImage.Text" xml:space="preserve">
+    <value>Hình Ảnh:</value>
+  </data>
+  <data name="plKeywords.Text" xml:space="preserve">
+    <value>Từ Khóa:</value>
+  </data>
+  <data name="plVisible.Text" xml:space="preserve">
+    <value>Tính Hiển Thị:</value>
+  </data>
+  <data name="plName.Help" xml:space="preserve">
+    <value>Nhập tên cho Thể Loại.</value>
+  </data>
+  <data name="plDescription.Help" xml:space="preserve">
+    <value>Nhập một mô tả cho Thể loại</value>
+  </data>
+  <data name="plImage.Help" xml:space="preserve">
+    <value>Chọn một hình ảnh gắn liền với thể loại.</value>
+  </data>
+  <data name="plKeywords.Help" xml:space="preserve">
+    <value>Nhập một vài từ khóa cho thể loại này. Ngăn cách các từ khóa bằng một dấu phảy (vd ',').</value>
+  </data>
+  <data name="plVisible.Help" xml:space="preserve">
+    <value>Thể loại có được phép hiển thị công khai hay không</value>
+  </data>
+  <data name="cmdAddNew.Text" xml:space="preserve">
+    <value>Tạo Mới</value>
+  </data>
+  <data name="cmdAddSibling.Text" xml:space="preserve">
+    <value>Tạo Anh Em</value>
+  </data>
+  <data name="cmdAddChild.Text" xml:space="preserve">
+    <value>Thêm Con</value>
+  </data>
+  <data name="lnkBackToStore.Text" xml:space="preserve">
+    <value>Trở Về</value>
+  </data>
+  <data name="cmdUpdate.Text" xml:space="preserve">
+    <value>Cập Nhật</value>
+  </data>
+  <data name="valCategoryNameRequired.Text" xml:space="preserve">
+    <value>&lt;BR&gt;Cần phải nhập tên cho thể loại.</value>
+  </data>
+  <data name="ControlTitle_categoryedit.Text" xml:space="preserve">
+    <value>Quản Lý Thể Loại</value>
+  </data>
+  <data name="plParent.Text" xml:space="preserve">
+    <value>Mẹ:</value>
+  </data>
+  <data name="plParent.Help" xml:space="preserve">
+    <value>Chọn Thể loại mẹ cho thể loại này.</value>
+  </data>
+  <data name="Delete.Error" xml:space="preserve">
+    <value>Bạn không thể xóa một Thể loại có chưa các bài hướng dẫn hoặc các Thể loại con. Trước hết hãy tách các bài hướng dẫn và xóa các thể loại con trước khi xóa thể loại này.</value>
+  </data>
+  <data name="plViewOrder.Text" xml:space="preserve">
+    <value>Thứ Tự Hiển Thị:</value>
+  </data>
+  <data name="plViewOrder.Help" xml:space="preserve">
+    <value>Click nút lên hoặc xuống để chuyển thứ tự hiển thị cho mục này.</value>
+  </data>
+  <data name="cmdDown.Help" xml:space="preserve">
+    <value>Click để chuyển thể loại xuống dưới</value>
+  </data>
+  <data name="cmdUp.Help" xml:space="preserve">
+    <value>Click để chuyển thể loại lên trên.</value>
+  </data>
+  <data name="cmdRefresh.Help" xml:space="preserve">
+    <value>Làm tươi chế độ hiển thị. Nếu một kết quả không mong muốn xuất hiện hãy thực hiện chức năng này.</value>
+  </data>
+</root>

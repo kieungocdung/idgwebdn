@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <!-- 
+    Vietnamese Translation 2005 by Nguyen Viet Trung,  viechinguyen@gmail.com
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="ResMimeType">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="Version">
+    <value>1.0.0.0</value>
+  </resheader>
+  <resheader name="Reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="Writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="plControl.Text">
+    <value>Kiểu Điều Khiển</value>
+  </data>
+  <data name="plControl.Help">
+    <value>Chọn kiểu điều khiển được sử dụng để hiển thị liên kết</value>
+  </data>
+  <data name="List.Text">
+    <value>Danh Sách</value>
+  </data>
+  <data name="Dropdown.Text">
+    <value>Thả Xuống</value>
+  </data>
+  <data name="ploptView.Text">
+    <value>Định Dạng Hiển Thị Danh Sách</value>
+  </data>
+  <data name="ploptView.Help">
+    <value>Nếu sử dụng một Điều Khiển Danh Sách, chọn hướng hiển thị</value>
+  </data>
+  <data name="Vertical.Text">
+    <value>Đứng</value>
+  </data>
+  <data name="Horizontal.Text">
+    <value>Ngang</value>
+  </data>
+  <data name="plInfo.Text">
+    <value>Hiển Thị Thông Tin Liên Kết</value>
+  </data>
+  <data name="plInfo.Help">
+    <value>Chọn xem bạn có muốn một nút (...) tuỳ chọn cho biết thêm thông tin về liên kết đã định</value>
+  </data>
+  <data name="ControlTitle_settings.Text">
+    <value>Cấu Hình Liên Kết</value>
+  </data>
+  <data name="ModuleHelp.Text">
+    <value>		&lt;h1&gt;Về Cấu Hình Module Liên Kết &lt;/h1&gt;
+		&lt;p&gt;Module Liên Kết cung cấp cách thức hiển thị siêu liên kết trong một module. Có 3 tuỳ chọn cấu hình quyết định hiển thị và những hoạt động cho liên kết bên trong module. &lt;/p&gt;
+		&lt;ul&gt;
+				&lt;li&gt;
+						&lt;div align="left"&gt;
+								&lt;b&gt;Kiểu Điều Khiển&lt;/b&gt; - chỉ dẫn cách thức liên kết được hiển thị, hoặc ở một danh sách các siêu liên kết, hoặc ở một danh sách thả xuống. &lt;/div&gt;
+						&lt;ul&gt;
+								&lt;li&gt;
+										&lt;div align="left"&gt;
+												&lt;b&gt;
+														&lt;em&gt;Danh Sách&lt;/em&gt;
+												&lt;/b&gt;– cho phép hiển thị liên kết với định dạng siêu liên kết quen thuộc. Sử dụng cách thức này tất cả các module liên kết đều được hiển thị trong một khu vực nơi đặt module đó. &lt;/div&gt;
+								&lt;/li&gt;
+								&lt;li&gt;
+										&lt;div align="left"&gt;
+												&lt;b&gt;
+														&lt;em&gt;Thả Xuống&lt;/em&gt;
+												&lt;/b&gt;– tuỳ chọn này rất hữu ích cho việc thu nhỏ diện tích bị choán bởi module. Tất cả các liên kết xuất hiện trong một thứ tự mà người dùng đã định từ một danh sách thả xuống. &lt;/div&gt;
+								&lt;/li&gt;
+						&lt;/ul&gt;
+				&lt;/li&gt;
+		&lt;/ul&gt;
+		&lt;ul&gt;
+				&lt;li&gt;
+						&lt;div align="left"&gt;
+								&lt;b&gt;Định Dạng Hiển Thị Danh Sách&lt;/b&gt; – khi một &lt;b&gt;Kiểu Điều Khiển&lt;/b&gt; của liên kết được đặt là &lt;b&gt;&lt;em&gt;Danh Sách&lt;/em&gt;&lt;/b&gt;, tuỳ chọn này quyết định định hướng hiển thị của các liên kết bên trong khu vực mà module được đặt. &lt;/div&gt;
+						&lt;ul&gt;
+								&lt;li&gt;
+										&lt;div align="left"&gt;
+												&lt;b&gt;
+														&lt;em&gt;Đứng&lt;/em&gt;
+												&lt;/b&gt;– các liên kết xuất hiện theo chiều thẳng đứng&lt;/div&gt;
+								&lt;/li&gt;
+								&lt;li&gt;
+										&lt;div align="left"&gt;
+												&lt;b&gt;
+														&lt;em&gt;Ngang &lt;/em&gt;
+												&lt;/b&gt;– Các liên kết xuất hiện theo chiều ngang của trang. &lt;/div&gt;
+								&lt;/li&gt;
+						&lt;/ul&gt;
+				&lt;/li&gt;
+		&lt;/ul&gt;
+		&lt;ul&gt;
+				&lt;li&gt;
+						&lt;div align="left"&gt;
+								&lt;b&gt;Hiển Thị Thông Tin Liên Kết&lt;/b&gt; – hiển thị một &lt;em&gt;ellipse&lt;/em&gt; (…) siêu liên kết cho phép  một dòng ghi chú tuỳ chọn của liên kết được hiển thị khi ellipse được click.&lt;/div&gt;
+				&lt;/li&gt;
+		&lt;/ul&gt;
+</value>
+  </data>
+  <data name="plIcon.Text">
+    <value>Icon Hiển Thị</value>
+  </data>
+  <data name="plNoWrap.Help">
+    <value>Nếu không cho phép wrapping, vùng nội dung của module Liên kết sẽ được mở rộng để chứa đủ nội dung module, nếu không nội dung sẽ bị giới hạn.</value>
+  </data>
+  <data name="plNoWrap.Text">
+    <value>Wrap Liên Kết</value>
+  </data>
+</root>

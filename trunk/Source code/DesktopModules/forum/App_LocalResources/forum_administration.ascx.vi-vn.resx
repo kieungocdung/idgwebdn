@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="ResMimeType">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="Version">
+    <value>1.0.0.0</value>
+  </resheader>
+  <resheader name="Reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="Writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="MySettings.Text">
+    <value>Thiết Lập Cá Nhân</value>
+  </data>
+  <data name="MyProfile.Text">
+    <value>Hồ Sơ</value>
+  </data>
+  <data name="Search.Text">
+    <value>Tìm Kiếm</value>
+  </data>
+  <data name="ForumHome.Text">
+    <value>Forum Home </value>
+  </data>
+  <data name="lblForumAdministration.Text">
+    <value>Quản Trị Forum</value>
+  </data>
+  <data name="ControlTitle_forumadministration.Text">
+    <value>Quản Trị Forum</value>
+  </data>
+  <data name="cmdManageSettings.Text">
+    <value>Thiết Lập Chung</value>
+  </data>
+  <data name="lblGeneralSettings.Text">
+    <value>Thay đổi cấu hình forum được sử dụng trong cả module.</value>
+  </data>
+  <data name="cmdManageUsers.Text">
+    <value>Thành Viên Forum</value>
+  </data>
+  <data name="lblManageUsers.Text">
+    <value>Thay đổi các thiết lập hồ sơ người dùng. &lt;br&gt; Bạn cũng có thể thực hiện các tác vụ kiểm duyệt và quản trị khác đối với người dùng.</value>
+  </data>
+  <data name="cmdForumHome.Text">
+    <value>Forum Home </value>
+  </data>
+  <data name="cmdWordFilter.Text">
+    <value>Lọc Từ</value>
+  </data>
+  <data name="lblWordFilter.Text">
+    <value>Quản lý việc lọc từ trên tiêu đề và nội dung bài viết.</value>
+  </data>
+  <data name="cmdManageForums.Text">
+    <value>Quản Lý Forum/Nhóm</value>
+  </data>
+  <data name="lblManageForums.Text">
+    <value>Thêm, sửa đổi thứ tự sắp xếp của forum và nhóm.</value>
+  </data>
+  <data name="imgGeneralSettings.Text">
+    <value>Thiết Lập Chung</value>
+  </data>
+  <data name="imgManageForums.Text">
+    <value>Quản Lý Forum</value>
+  </data>
+  <data name="imgWordFilter.Text">
+    <value>Lọc Từ</value>
+  </data>
+  <data name="imgForumHome.Text">
+    <value>Forum Home </value>
+  </data>
+  <data name="imgManageUsers.Text">
+    <value>Quản Lý Thành Viên</value>
+  </data>
+  <data name="cmdGallery.Text">
+    <value>Gallery &amp; Emoticon</value>
+  </data>
+  <data name="lblGallerySmile.Text">
+    <value>Quản Lý tương tác với Gallery.&lt;br&gt;Emoticon cũng được quản lý ở đây.</value>
+  </data>
+  <data name="imgGallery.Text">
+    <value>Gallery &amp; Emoticon</value>
+  </data>
+  <data name="cmdStatsRanks.Text">
+    <value>Thống Kê &amp; Xếp Hạng</value>
+  </data>
+  <data name="lblRankings.Text">
+    <value>Kiểm soát việc xếp hạng người dùng hoặc thống kê module ở đây.</value>
+  </data>
+  <data name="imgRankings.Text">
+    <value>Thống Kê &amp; Xếp Hạng</value>
+  </data>
+</root>

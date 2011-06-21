@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="ResMimeType">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="Version">
+    <value>1.0.0.0</value>
+  </resheader>
+  <resheader name="Reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="Writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="plGroup.Text">
+    <value>Nhóm Forum</value>
+  </data>
+  <data name="ControlTitle_settings.Text">
+    <value>Cấu Hình Forum</value>
+  </data>
+  <data name="plGroup.Help">
+    <value>Nhóm Forum mà từ đó bạn muốn lấy nội dung.&lt;br&gt;&lt;b&gt;Tip&lt;/b&gt;&lt;br&gt;Bạn phải sử dụng Thêm Module Có sẵn từ bảng điều khiển để lấy nội dung từ forum "mẹ".</value>
+  </data>
+  <data name="ModuleHelp.Text">
+    <value>&lt;h1&gt;Cấu Hình Forum&lt;/h1&gt;&lt;br&gt;Chức năng này cần vài bước để được mở. Kết quả cuối cùng là một module forum "mẹ" cho phép bạn có một số không giới hạn các forum "con" tất cả dựa vào cùng một ModuleID và một cấu hình. Điều này cho phép bạn lấy và gửi các nội dung từ "mẹ" thông qua bất cứ trang nào bên trong một portal bởi Nhóm Forum.&lt;br&gt;Hãy nhớ, tất cả thay đổi trong cấu hình forum ảnh hưởng đến tất cả các module lấy thông tin từ "mẹ".&lt;/br&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;Tip&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;Thiết Lập Trang có thể giới hạn truy cập theo vai trò để cho bạn thêm lựa chọn trong việc điều khiển.</value>
+  </data>
+  <data name="plEnableFooter.Text">
+    <value>Cho Phép Footer</value>
+  </data>
+  <data name="plEnableFooter.Help">
+    <value>Nếu được chọn, sẽ cho phép footer của forum. Các forum con sẽ không cho phép footer của forum.  </value>
+  </data>
+  <data name="chkEnableFooter.Text">
+    <value>
+    </value>
+  </data>
+</root>

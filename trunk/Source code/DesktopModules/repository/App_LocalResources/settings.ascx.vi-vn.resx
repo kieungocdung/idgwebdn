@@ -1,0 +1,243 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="ResMimeType">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="Version">
+    <value>1.0.0.0</value>
+  </resheader>
+  <resheader name="Reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="Writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ControlTitle_settings.Text">
+    <value>Thiết Lập Repository</value>
+  </data>
+  <data name="plDescription.Text">
+    <value>Mô Tả Repository</value>
+  </data>
+  <data name="plDescription.Help">
+    <value>Nhập một mô tả cho repository của bạn. Đoạn chữ này sẽ xuát hiện trên đầu repository của trang của bạn.</value>
+  </data>
+  <data name="plCategory.Text">
+    <value>Thể Loại</value>
+  </data>
+  <data name="plCategory.Help">
+    <value>Nhập Thể loại cho  repository này. Để tạo một thể loại mới, nhập vào tên của thể loại và click vào liên kết Tạo Thể Loại. Để sửa một Thể loại, chọn hình chiếc bút chì. Sử dụng X và icon mũi tên để xóa hay di chuyển Thể Loại.</value>
+  </data>
+  <data name="plPageSize.Text">
+    <value>Nhập số Mục Trên Trang</value>
+  </data>
+  <data name="plRSSFeed.Text">
+    <value>Cho Phép RSS Feed</value>
+  </data>
+  <data name="plSecurityRoles.Text">
+    <value>Nhóm Người Dùng</value>
+  </data>
+  <data name="plSkin.Text">
+    <value>Repository Skin </value>
+  </data>
+  <data name="plRatingImage.Text">
+    <value>Tập hợp ảnh cho Đánh Giá</value>
+  </data>
+  <data name="plFolders.Text">
+    <value>Xác định thư mục để chứa các file Repository</value>
+  </data>
+  <data name="plNoImage.Text">
+    <value>Không Có Ảnh</value>
+  </data>
+  <data name="plPageSize.Help">
+    <value>Nhập số file được hiển thị trên một trang. Giá trị mặc định là 5</value>
+  </data>
+  <data name="plRSSFeed.Help">
+    <value>Chọn nếu bạn muốn lập một RSS feed cho các file trong repository của bạn cho các website khác. Bạn có thể tắt/bật chức năng này bất cứ lúc nào.</value>
+  </data>
+  <data name="plSecurityRoles.Help">
+    <value>Chọn nhóm người dùng bạn muốn gán cho mỗi chức năng của repository</value>
+  </data>
+  <data name="plSkin.Help">
+    <value>Chọn skin cho repository</value>
+  </data>
+  <data name="plRatingImage.Help">
+    <value>Chọn tập hợp ảnh để sử dụng cho chức năng Đánh Giá của repository</value>
+  </data>
+  <data name="plNoImage.Help">
+    <value>Nếu không có hình ảnh được tải lên, chọn ảnh để sử dụng</value>
+  </data>
+  <data name="plApprovedFolder.Text">
+    <value>Thư mục cho File đã được chấp nhận</value>
+  </data>
+  <data name="plUnapprovedFolder.Text">
+    <value>Thư Mục cho File Chờ Kiểm Duyệt</value>
+  </data>
+  <data name="plAnonymousFolder.Text">
+    <value>Thư Mục File Của Thành Viên Giấu Mặt</value>
+  </data>
+  <data name="plApprovedFolder.Help">
+    <value>Đường dẫn đầy đủ đến thư mục Repository. VD: C:\Inetpub\WWWRoot\DNN20\Portals\0\Repository</value>
+  </data>
+  <data name="plUnapprovedFolder.Help">
+    <value>Nhập đường dẫn đầy đủ đến nơi chứa thư mục Pending (thư mục chứa các file chờ kiểm duyệt). VD: C:\Inetpub\WWWRoot\DNN20\Portals\0\Repository\Pending</value>
+  </data>
+  <data name="plAnonymousFolder.Help">
+    <value>Nhập vào đường dẫn đầy đủ đến nơi file được tải lên bởi thành viên giấu mặt được đặt. VD: C:\Inetpub\WWWRoot\DNN20\Portals\0\Repository\Anonymous</value>
+  </data>
+  <data name="plUploadFields.Text">
+    <value>Kiểu Tải Lên</value>
+  </data>
+  <data name="plUploadFields.Help">
+    <value>Chọn xem repository này cho phép chỉ tải lên File, Ảnh, hoặc File với Ảnh</value>
+  </data>
+  <data name="plUserFolders.Text">
+    <value>Bạn có muốn lưu mỗi file của thành viên trong thư mục riêng của họ?</value>
+  </data>
+  <data name="plUserFolders.Help">
+    <value>Nếu chọn, file tải lên của mỗi thành viên sẽ được lưu trong thư mục của riêng họ với thư mục File Được Chấp Nhận. Nếu KHÔNG chọn, thì tất cả file tải lên của thành viên sẽ được lưu trực tiếp trong thư mục File Được Chấp Nhận.</value>
+  </data>
+  <data name="plDefaultSort.Text">
+    <value>Sắp Xếp Mặc Định</value>
+  </data>
+  <data name="plDefaultSort.Help">
+    <value>Chọn thứ tự sắp xếp mặc định</value>
+  </data>
+  <data name="plViewComments.Text">
+    <value>Xem Bình Luận Người Dùng</value>
+  </data>
+  <data name="plViewComments.Help">
+    <value>Chọn xem chỉ người dùng có thể gửi bình luận có thể xem chúng, hoặc mọi người có thể xem bình luận hay không</value>
+  </data>
+  <data name="plViewRatings.Text">
+    <value>Xem Đánh Giá</value>
+  </data>
+  <data name="plViewRatings.Help">
+    <value>Chọn xem chỉ người dùng gửi đánh giá có thể xem chúng, hoặc mọi người đều có thể đánh giá</value>
+  </data>
+  <data name="plAttribute.Text">
+    <value>Thuộc Tính</value>
+  </data>
+  <data name="plAttribute.Help">
+    <value>Thiết lập bất cứ thuộc tính thêm nào cho module này.</value>
+  </data>
+  <data name="plValues.Text">
+    <value>Giá Trị Thuộc Tính</value>
+  </data>
+  <data name="plValues.Help">
+    <value>Đặt các giá trị có thể cho các thuộc tính đã chọn</value>
+  </data>
+  <data name="DeleteCategory.Text">
+    <value>Bạn có chắc bạn muốn xóa Thể loại này?</value>
+  </data>
+  <data name="DeleteAttribute.Text">
+    <value>Bạn có chắc bạn muốn xóa Thuộc tính này?</value>
+  </data>
+  <data name="DeleteValue.Text">
+    <value>Bạn có chắc bạn muốn xóa Giá trị này?</value>
+  </data>
+  <data name="AddCategory.Text">
+    <value>Thêm Thể Loại</value>
+  </data>
+  <data name="CancelCategory.Text">
+    <value>Hủy Bỏ</value>
+  </data>
+  <data name="AddAttribute.Text">
+    <value>Thêm Thuộc Tính</value>
+  </data>
+  <data name="CancelAttribute.Text">
+    <value>Hủy Bỏ</value>
+  </data>
+  <data name="AddValue.Text">
+    <value>Thêm Giá Trị</value>
+  </data>
+  <data name="CancelValue.Text">
+    <value>Hủy Bỏ</value>
+  </data>
+  <data name="SortByDate.Text">
+    <value>Ngày</value>
+  </data>
+  <data name="SortByDownloads.Text">
+    <value>Tải Xuống</value>
+  </data>
+  <data name="SortByUserRating.Text">
+    <value>Đánh Giá Của Người Dùng</value>
+  </data>
+  <data name="SortByTitle.Text">
+    <value>Tiêu Đề</value>
+  </data>
+  <data name="SortByAuthor.Text">
+    <value>Tên Tác Giả</value>
+  </data>
+  <data name="UploadFiles.Text">
+    <value>File </value>
+  </data>
+  <data name="UploadLinks.Text">
+    <value>Liên Kết (URL)</value>
+  </data>
+  <data name="UploadImageFiles.Text">
+    <value>File Ảnh</value>
+  </data>
+  <data name="UploadImageLinks.Text">
+    <value>Liên Kết Ảnh (URL)</value>
+  </data>
+  <data name="ViewCommentsAuth.Text">
+    <value>Chỉ Thành Viên Đăng Ký</value>
+  </data>
+  <data name="ViewCommentsAll.Text">
+    <value>Tất Cả Người Dùng</value>
+  </data>
+  <data name="ViewRatingsAuth.Text">
+    <value>Chỉ Thành Viên Đăng Ký</value>
+  </data>
+  <data name="ViewRatingsAll.Text">
+    <value>Tất Cả Người Dùng</value>
+  </data>
+  <data name="UserFolders.Text">
+    <value>Lưu file được tải lên trong thư mục người dùng</value>
+  </data>
+  <data name="ModerationRoles.Text">
+    <value>Nhóm Thành Viên Kiểm Duyệt</value>
+  </data>
+  <data name="DownloadRoles.Text">
+    <value>Nhóm Thành Viên Download</value>
+  </data>
+  <data name="UploadRoles.Text">
+    <value>Nhóm Người Dùng Tải Lên</value>
+  </data>
+  <data name="CommentRoles.Text">
+    <value>Nhóm Thành Viên được Bình Luận</value>
+  </data>
+  <data name="RatingRoles.Text">
+    <value>Nhóm Thành Viên Đánh Giá</value>
+  </data>
+  <data name="SaveButton.Text">
+    <value>Lưu</value>
+  </data>
+</root>

@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="ResMimeType">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="Version">
+    <value>1.0.0.0</value>
+  </resheader>
+  <resheader name="Reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="Writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ControlTitle_edit.Text">
+    <value>Chọn một Mục Repository</value>
+  </data>
+  <data name="plModuleHeading.Text" mimetype="">
+    <value>File Tải Lên (Có Kiểm Duyệt)</value>
+  </data>
+  <data name="plModuleHeading.Help" type="" mimetype="">
+    <value>File bạn đang tải lên phải được chấp nhận bởi một Quản Trị trước khi chúng được hiển thị trên site này.</value>
+    <comment>
+    </comment>
+  </data>
+  <data name="plWarning.Text">
+    <value>Hãy chắc chắn file tải lên của bạn thỏa mãn mọi hướng dẫn của chúng tôi trước khi bạn tải lên. MỌI TRƯỜNG LÀ CẦN THIẾT TRỪ KHI ĐƯỢC ĐÁNH DẤU LÀ TÙY CHỌN.</value>
+  </data>
+  <data name="plTitle.Text">
+    <value>Tiêu Đề</value>
+  </data>
+  <data name="plTitle.Help">
+    <value>Nhập tiêu đề cho file. Đây là tên file sẽ xuất hiện trên đầu danh sách file của bạn.</value>
+  </data>
+  <data name="plFile.Text">
+    <value>File Để Tải Lên (Để trống nếu muốn giữ file hiện có)</value>
+  </data>
+  <data name="plFile.Help">
+    <value>Sử dụng nút Browse để chọn file bạn muốn tải lên</value>
+  </data>
+  <data name="plCategory.Text">
+    <value>Thể Loại</value>
+  </data>
+  <data name="plCategory.Help">
+    <value>Đặt một check cạnh mỗi thể loại bạn muốn file này gắn liền với</value>
+  </data>
+  <data name="plImage.Text">
+    <value>Ảnh (để trống để giữ ảnh hiện tại)</value>
+  </data>
+  <data name="plImage.Help">
+    <value>Sử dụng nút Browse để chọn file ảnh bạn muốn gắn liền với file bạn muốn tải lên</value>
+  </data>
+  <data name="plAuthorName.Text">
+    <value>Tên Đầy Đủ</value>
+  </data>
+  <data name="plAuthorName.Help">
+    <value>Hãy nhập tên của bạn. Tên của bạn sẽ xuất hiện như là Tác giả của file này</value>
+  </data>
+  <data name="plAuthorEMail.Text">
+    <value>Địa Chỉ Email</value>
+  </data>
+  <data name="plAuthorEMail.Help">
+    <value>Nhập địa chỉ Email của bạn. Địa chỉ này sẽ được quản trị sử dụng để liên lạc với bạn với bất cứ câu hỏi nào liên quan đến file bạn tải lên. Nó cũng được sử dụng để thông báo với bạn nếu file bạn tải lên được chấp nhận hay bị từ chối. Nó sẽ KHÔNG được hiển thị trên danh sách file TRỪ KHI bạn cho phép điều này bằng cách chọn mục 6</value>
+  </data>
+  <data name="plShowEMail.Text">
+    <value>Hiển Thị Email?</value>
+  </data>
+  <data name="plShowEMail.Help">
+    <value>Chọn nếu bạn muốn hiển thị email của mình</value>
+  </data>
+  <data name="plDescription.Text">
+    <value>Mô Tả Chi Tiết</value>
+  </data>
+  <data name="plDescription.Help">
+    <value>Nhập một mô tả chi tiết về file bạn đang tải lên</value>
+  </data>
+  <data name="plUploadGuidelines.Text">
+    <value>Hướng Dẫn Tải Lên File</value>
+  </data>
+  <data name="plUploadType.Text">
+    <value>Kiểu Tải Lên</value>
+  </data>
+  <data name="plUploadType.Help">
+    <value>Chọn Kiểu Tải Lên bạn muốn sử dụng. Nếu bạn muốn tải lên file, chọn File. Nếu bạn muốn sử dụng một Liên Kết, chọn Liên Kết(URL).</value>
+  </data>
+  <data name="plURL.Text">
+    <value>Nhập URL</value>
+  </data>
+  <data name="plURL.Help">
+    <value>Nhập một URL hợp lệ bạn muốn tải lên</value>
+  </data>
+  <data name="plImageUploadType.Text">
+    <value>Kiểu Ảnh</value>
+  </data>
+  <data name="plImageUploadType.Help">
+    <value>Chọn Kiểu Ảnh Tải Lên bạn muốn sử dụng. Nếu bạn đang tải lên một file, chọn File. Nếu bạn sử dụng liên kết, chọn Liên Kết (URL).</value>
+  </data>
+  <data name="plImageURL.Text">
+    <value>URL Ảnh</value>
+  </data>
+  <data name="plImageURL.Help">
+    <value>Nhập URL bạn muốn gắn liền với file tải lên này</value>
+  </data>
+  <data name="plSummary.Text">
+    <value>Tóm Tắt</value>
+  </data>
+  <data name="plSummary.Help">
+    <value>Nhập một tóm tắt cho file bạn đang tải lên</value>
+  </data>
+  <data name="NoModerationRequired.Text">
+    <value>LƯU Ý: vì bạn là một Kiểm Duyệt cho module này, file bạn tải lên sẽ không cần phải kiểm duyệt mà sẽ được tự động chấp nhận.</value>
+  </data>
+  <data name="ModerationRequired.Text">
+    <value>LƯU Ý: Đây là tải lên bị kiểm duyệt. File bạn tải lên sẽ KHÔNG được hiển thị cho đến khi quản trị xem xét và chấp nhận nó.</value>
+  </data>
+  <data name="UploadGuidelines.Text">
+    <value>Bằng việc tải lên file và ảnh này tôi đồng ý rằng chúng có thể được tải xuống bởi người khác trên website này.Tôi cũng tuyên bố là tôi có quyền tải lên các file này và tôi không vi phạm bất cứ luật về bản quyền nào khi tải lên chúng. Tôi đồng ý về việc giữ cho các quản trị và chủ của website này khỏi bất cứ tổn thương nào gây ra bởi file tôi tải lên.&lt;br&gt;</value>
+  </data>
+  <data name="SendFileButton.Text">
+    <value>Cập Nhật</value>
+  </data>
+  <data name="CancelButton.Text">
+    <value>Hủy Bỏ</value>
+  </data>
+  <data name="FileSentModerationRequired.Text">
+    <value>File bạn tải lên PHẢI được kiểm duyệt bởi một Quản trị \nTRƯỚC KHI nó được hiển thị trên website. Bạn sẽ nhận được một email\n thông báo khi file bạn tải lên được chấp nhận.\n\nBạn có muốn tải lên bây giờ?</value>
+  </data>
+  <data name="valTitle.Text">
+    <value>Bạn phải nhập một tiêu đề cho file bạn tải lên</value>
+  </data>
+  <data name="valFile.Text">
+    <value>Bạn phải nhập hoặc chọn một File để tải lên</value>
+  </data>
+  <data name="valURL.Text">
+    <value>Bạn phải nhập một URL hợp lệ cho file này</value>
+  </data>
+  <data name="valImageURL.Text">
+    <value>Bạn phải nhập một URL hợp lệ cho Ảnh này</value>
+  </data>
+  <data name="valName.Text">
+    <value>Bạn phải nhập vào Tên Đầy Đủ của mình</value>
+  </data>
+  <data name="valEMail.Text">
+    <value>Bạn phải nhập địa chỉ email</value>
+  </data>
+  <data name="CanShowEMail.Text">
+    <value>Có, có thể hiển thị email của tôi với file tôi tải lên</value>
+  </data>
+  <data name="DeleteItem.Text">
+    <value>Bạn có chắc là bạn muốn xóa mục này?</value>
+  </data>
+  <data name="DeleteButton.Text">
+    <value>Xóa</value>
+  </data>
+  <data name="DeleteError.Text">
+    <value>Một lỗi xảy ra khi cố gắng xóa file đã chọn. Hãy hỏi Hosting Provider của bạn để chắc chắn là các thiết lập An Ninh cần thiết đã được mở cho server này.</value>
+  </data>
+</root>

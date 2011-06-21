@@ -1,0 +1,307 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <!-- 
+    Vietnamese Translation 2005 by Nguyen Viet Trung,  viechinguyen@gmail.com
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="ResMimeType">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="Version">
+    <value>1.0.0.0</value>
+  </resheader>
+  <resheader name="Reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="Writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ModuleHelp.Text">
+    <value>&lt;h1&gt;Về Module XML/XSL &lt;/h1&gt;&lt;p&gt;Module XML/XSL dựng kết quả của một chuyển đổi XML/XSL . Các file XML và XSL được nhận diện bởi đường dẫn UNC của chúng trong các thuộc tính xmlsrc và xslsrc của module. Module XML/XSL gồm một trang soạn thảo, dùng để ổn định những thiết lập này lên cơ sở dữ liệu SQL .&lt;/p&gt;&lt;h1&gt;Soạn Thảo XML/XSL &lt;/h1&gt;&lt;ol&gt;&lt;li&gt;Thêm một module &lt;b&gt;XML/XSL&lt;/b&gt;, hoặc chuyển đến một module  &lt;b&gt;XML/XSL&lt;/b&gt; sẵn có.&lt;/li&gt;&lt;li&gt;Click &lt;b&gt;Soạn Thảo XML/XSL&lt;/b&gt;.&lt;li&gt;Ở &lt;b&gt;File Dữ Liệu XML &lt;/b&gt;, chọn &lt;b&gt;Bên Trong&lt;/b&gt; và chọn file hoặc &lt;b&gt;Tải Lên File Mới&lt;/b&gt;; hoặc chọn &lt;b&gt;Bên Ngoài&lt;/b&gt; và chọn Url.&lt;li&gt; Ở&lt;b&gt;Chuyển Đổi File XSL &lt;/b&gt; (tuỳ chọn), chọn &lt;b&gt;Bên Trong&lt;/b&gt; và chọn một style sheet hoặc &lt;b&gt;Tải Lên File Mới&lt;/b&gt;; hoặc chọn &lt;b&gt;Bên Ngoài&lt;/b&gt; và chọn Url.&lt;li&gt;Click &lt;b&gt;Cập Nhật&lt;/b&gt;.&lt;/ol&gt;</value>
+  </data>
+  <data name="Cancel.Text">
+    <value>Hủy Bỏ</value>
+  </data>
+  <data name="cmdAddParam.Text">
+    <value>Thêm Tham Số</value>
+  </data>
+  <data name="cmdClearSearchIndex.Text">
+    <value>Xóa Chỉ Mục Tìm Kiếm</value>
+  </data>
+  <data name="ControlTitle_edit.Text">
+    <value>Cấu Hình Module XML</value>
+  </data>
+  <data name="Delete.Text">
+    <value>Xóa</value>
+  </data>
+  <data name="DeleteParamConfirmation.Text">
+    <value>Bạn có chắc là bạn muốn loại bỏ mục này khỏi cơ sở dữ liệu? Một khi đã bị xóa sẽ không thể khôi phục lại.</value>
+  </data>
+  <data name="dshAdvancedTitle.Text">
+    <value>Tùy Chọn Nâng Cao</value>
+  </data>
+  <data name="dshUrlParams.Text">
+    <value>Tham Số Querystring</value>
+  </data>
+  <data name="dshXmlSource.Text">
+    <value>Cấu Hình XML Data Source</value>
+  </data>
+  <data name="dshXslParams.Text">
+    <value>Tham Số XSL</value>
+  </data>
+  <data name="dshXslTrans.Text">
+    <value>Cấu Hình XSLT</value>
+  </data>
+  <data name="FormPassThrough.Text">
+    <value>Pass-Through Form Post </value>
+  </data>
+  <data name="IndexRunAlways.Text">
+    <value>luôn luôn</value>
+  </data>
+  <data name="IndexRunNever.Text">
+    <value>không bao giờ (không cho phép tìm kiếm)</value>
+  </data>
+  <data name="IndexRunNextRun.Text">
+    <value>chỉ riêng lần chạy tới</value>
+  </data>
+  <data name="IndexRunOncePerDay.Text">
+    <value>một lần trong ngày</value>
+  </data>
+  <data name="IndexRunOncePerHour.Text">
+    <value>một lần mỗi giờ</value>
+  </data>
+  <data name="lblDomain.Text">
+    <value>Domain\username </value>
+  </data>
+  <data name="lblDynamicParameter.Text">
+    <value>Việc đánh chỉ mục đã bị tắt vì có các tham số động của query string hoặc các tham số xsl.</value>
+  </data>
+  <data name="lblOutput.Text">
+    <value>Mặc định module XML sẽ dựng kết quả (HTML) bên trong module. Tuy nhiên cũng có thể tạo ra các tải xuống. </value>
+  </data>
+  <data name="lblParamArgument.Text">
+    <value>Arg: </value>
+  </data>
+  <data name="lblPassword.Text">
+    <value>Password </value>
+  </data>
+  <data name="lblSearch.Text">
+    <value>Kết quả của module XML không được dùng để tìm kiếm bởi cơ chế tìm kiếm của DotNetNuke theo mặc định. Tuy nhiên nếu bạn muốn cho phép tìm kiếm và các thiết lập không phụ thuộc vào các tham số động thì bạn có thể bật nó lên.</value>
+  </data>
+  <data name="lblSecurity.Text">
+    <value>Thông Tin Tài Khoản</value>
+  </data>
+  <data name="lblSecurityTitle.Text">
+    <value>Tùy Chọn An Ninh (tùy chọn)</value>
+  </data>
+  <data name="lblXmlSource.Text">
+    <value>Ở mục này bạn có thể định nghĩa nguồn dữ liệu XML của bạn. Đó có thể là một file hoặc là một truy vấn http thông qua các querystring động.</value>
+  </data>
+  <data name="lblXslDefinition.Text">
+    <value>Bạn có thể định nghĩa nguồn XSL Stylesheet. Bạn cũng có thể định nghĩa các tham số phụ để cung cấp các thông tin ngữ cảnh.</value>
+  </data>
+  <data name="Name.Header">
+    <value>Name </value>
+  </data>
+  <data name="OutputInline.Text">
+    <value>bên trong module</value>
+  </data>
+  <data name="OutputLink.Text">
+    <value>dưới dạng liên kết để tải về</value>
+  </data>
+  <data name="OutputResponse.Text">
+    <value>dưới dạng tải về</value>
+  </data>
+  <data name="ParameterInvalid.Header">
+    <value>Tham Số Không Hợp Lệ</value>
+  </data>
+  <data name="ParameterInvalid.Text">
+    <value>Các tham số vừa xác định không hợp lệ. Hãy chắc chắn là &lt;b&gt;Name&lt;/b&gt; và, nếu cần, kiểu tham số đều được xác định.</value>
+  </data>
+  <data name="PassThrough.Text">
+    <value>Pass-Through QueryString </value>
+  </data>
+  <data name="plContentType.Help">
+    <value>Định nghĩa kiểu tải về. Chỉ được dùng nếu kết quả được đặt là một kiểu thuộc dạng tải về</value>
+  </data>
+  <data name="plContentType.Text">
+    <value>Kiểu Nội Dung</value>
+  </data>
+  <data name="plIndexRun.Help">
+    <value>Module cần phải được đánh chỉ mục để được xuất hiện trên các kết quả tìm kiếm của DotNetNuke. Việc tìm kiếm bị tắt theo mặc định. Hãy lưu ý là tần suất tìm kiếm được xác định bởi superuser. Bạn có thể định nghĩa ở đây việc module này được gộp thường xuyên như thế nào.</value>
+  </data>
+  <data name="plIndexRun.Text">
+    <value>Cho Phép Đánh Chỉ Mục</value>
+  </data>
+  <data name="plOutput.Help">
+    <value>Bạn có thể đưa ra kết quả chuyển đổi bên trong một trang DNN bình thường hoặc dưới dạng một Tải xuống riêng biệt.</value>
+  </data>
+  <data name="plOutput.Text">
+    <value>Kết Quả </value>
+  </data>
+  <data name="PortalID.Text">
+    <value>Portal ID </value>
+  </data>
+  <data name="PortalName.Text">
+    <value>Tên Portal</value>
+  </data>
+  <data name="Save.Text">
+    <value>Lưu</value>
+  </data>
+  <data name="StaticValue.Text">
+    <value>Giá Trị Tĩnh</value>
+  </data>
+  <data name="TabID.Text">
+    <value>Tab ID </value>
+  </data>
+  <data name="Type.Header">
+    <value>Kiểu</value>
+  </data>
+  <data name="UserCell.Text">
+    <value>Số Di Động</value>
+  </data>
+  <data name="UserCity.Text">
+    <value>Thành Phố</value>
+  </data>
+  <data name="UserCountry.Text">
+    <value>Nước</value>
+  </data>
+  <data name="UserCustomProperty.Text">
+    <value>Các thuộc tính của người dùng</value>
+  </data>
+  <data name="UserEmail.Text">
+    <value>Email</value>
+  </data>
+  <data name="UserFax.Text">
+    <value>Fax</value>
+  </data>
+  <data name="UserFirstName.Text">
+    <value>First Name</value>
+  </data>
+  <data name="UserFullName.Text">
+    <value>Full Name</value>
+  </data>
+  <data name="UserID.Text">
+    <value>User ID </value>
+  </data>
+  <data name="UserIM.Text">
+    <value>IM</value>
+  </data>
+  <data name="UserIsAuthorized.Text">
+    <value>Authorized</value>
+  </data>
+  <data name="UserIsLockedOut.Text">
+    <value>Tình Trạng Lock Out</value>
+  </data>
+  <data name="UserIsSuperUser.Text">
+    <value>SuperUser</value>
+  </data>
+  <data name="UserLastName.Text">
+    <value>Last Name</value>
+  </data>
+  <data name="UserLocale.Text">
+    <value>Locale</value>
+  </data>
+  <data name="UserPhone.Text">
+    <value>Số Điện Thoại</value>
+  </data>
+  <data name="UserPostalCode.Text">
+    <value>Mã Bưu Điện</value>
+  </data>
+  <data name="UserRegion.Text">
+    <value>Vùng</value>
+  </data>
+  <data name="UserStreet.Text">
+    <value>Phố</value>
+  </data>
+  <data name="UserTimeZone.Text">
+    <value>Múi Giờ</value>
+  </data>
+  <data name="UserUnit.Text">
+    <value>Đơn Vị</value>
+  </data>
+  <data name="UserUsername.Text">
+    <value>Username</value>
+  </data>
+  <data name="UserWebsite.Text">
+    <value>Website</value>
+  </data>
+  <data name="Value.Header">
+    <value>Dữ Liệu Gốc </value>
+  </data>
+  <data name="XmlWebPermisssion.ErrorMessage">
+    <value>WebRequests đến các nguồn xml bên ngoài đã được cấu hình là không được phép (Medium trust)</value>
+  </data>
+  <data name="XslWebPermisssion.ErrorMessage">
+    <value>WebRequests đến các nguồn xsl bên ngoài được cấu hình là không được phép (Medium trust)</value>
+  </data>
+  <data name="cmdClearEnableByParam.Text">
+    <value>Xóa/ Tắt</value>
+  </data>
+  <data name="CurrentCulture.Text">
+    <value>Ngôn Ngữ Hiện Tại</value>
+  </data>
+  <data name="dshQueryStringEncoding.Text">
+    <value>Mã Hóa URL Querystring</value>
+  </data>
+  <data name="HomeDirectory.Text">
+    <value>Thư Mục Gốc</value>
+  </data>
+  <data name="IsValueRequired.Header">
+    <value>Bắt Buộc</value>
+  </data>
+  <data name="lblEnableByQuerystring.Text">
+    <value>Trong một số trường hợp, module chỉ được chạy khi truy vấn có chứa các cặp querystring tham số/giá trị.</value>
+  </data>
+  <data name="ParameterFallback.Text">
+    <value>Phục Hồi</value>
+  </data>
+  <data name="plEnableParam.Help">
+    <value>Nếu tham số và giá trị Querystring đã được đặt, module chỉ chạy nếu cặp tham số này được sử dụng trong truy vấn.</value>
+  </data>
+  <data name="plEnableParam.Text">
+    <value>Tham Số Querystring</value>
+  </data>
+  <data name="plEnableValue.Help">
+    <value>Nếu tham số và giá trị Querystring đã được đặt, module chỉ chạy nếu cặp tham số này được sử dụng trong truy vấn.br/&gt; 
+Nếu có tham số nhưng &lt;b&gt;giá trị&lt;/b&gt; không có, module sẽ bị vô hiệu đối với mọi cách sử dụng mà có giá trị.</value>
+  </data>
+  <data name="plEnableValue.Text">
+    <value>Giá Trị Querystring</value>
+  </data>
+  <data name="plQueryStringEncoding.Help">
+    <value>Một số dịch vụ đòi hỏi các định dạng ký tự khác nhau. Mặc định là UTF8.</value>
+  </data>
+  <data name="plQueryStringEncoding.Text">
+    <value>Encoding </value>
+  </data>
+  <data name="Required.Header">
+    <value>Bắt Buộc</value>
+  </data>
+</root>

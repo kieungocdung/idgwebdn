@@ -1,0 +1,451 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 1.3
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">1.3</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1">this is my long string</data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        [base64 mime encoded serialized .NET Framework object]
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        [base64 mime encoded string representing a byte array form of the .NET Framework object]
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used forserialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>1.3</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ModerationSettings.Text">
+    <value>Cấu Hình Kiểm Duyệt</value>
+  </data>
+  <data name="MasterSettings.Text">
+    <value>Cấu Hình Lịch Con</value>
+  </data>
+  <data name="AdminSettings.Text">
+    <value>Thiết Lập Chung</value>
+  </data>
+  <data name="EnrollmentSettings.Text">
+    <value>Cấu Hình Đăng Ký</value>
+  </data>
+  <data name="plTimeInterval.Text">
+    <value>Thời Gian Sửa Đổi:</value>
+  </data>
+  <data name="plTimeInterval.Help">
+    <value>Nhập khoảng thời gian cho thời gian sự kiện (theo phút) - LƯU Ý: không thay đổi sau thiết lập ban đầu!</value>
+  </data>
+  <data name="plToolTip.Text">
+    <value>Hiển Thị Tooltip:</value>
+  </data>
+  <data name="plToolTip.Help">
+    <value>Chọn để hiển thị tooltip trên sự kiện</value>
+  </data>
+  <data name="plEventDimensions.Text">
+    <value>Sử dụng Stylesheet của site để đặt các thuộc tính</value>
+  </data>
+  <data name="plEventDimensions.Help">
+    <value>Đặt StyleSheet ".Event" để đặt các chiều</value>
+  </data>
+  <data name="plAllowRecurring.Text">
+    <value>Cho Phép Sự Kiện Lặp Lại</value>
+  </data>
+  <data name="plPreventConflicts.Text">
+    <value>Tránh Xung Đột Lịch</value>
+  </data>
+  <data name="plShowEventsAlways.Text">
+    <value>Hiển Thị Sự Kiện Tháng Sau (hoặc tháng trước)</value>
+  </data>
+  <data name="plAllowRecurring.Help">
+    <value>Xác định các sự kiện lặp lại có được phép hay không</value>
+  </data>
+  <data name="plPreventConflicts.Help">
+    <value>Chọn để tránh xung đột sự kiện</value>
+  </data>
+  <data name="plShowEventsAlways.Help">
+    <value>Hiển thị ngày bên ngoài các ngày của tháng (trên bảng lịch tháng)</value>
+  </data>
+  <data name="None.Text">
+    <value>Không</value>
+  </data>
+  <data name="ConfirmDelete.Text">
+    <value>Bạn có chắc bạn muốn xóa mục này?</value>
+  </data>
+  <data name="ErrorTimeInterval.Text">
+    <value>&lt;br&gt;Độ tăng thời gian phải là một số nguyên nằm trong khoảng từ 1 đến 1440 (1 ngày)...</value>
+  </data>
+  <data name="plEnrollment.Text">
+    <value>Cho phép đăng ký sự kiện (có thể sẽ bị kiểm duyệt, xem bên dưới)</value>
+  </data>
+  <data name="plPayPal.Text">
+    <value>Tài Khoản Paypal (sự kiện trả tiền):</value>
+  </data>
+  <data name="plEnrollment.Help">
+    <value>Cho phép đăng ký sự kiện</value>
+  </data>
+  <data name="plPayPal.Help">
+    <value>Tài khoản PayPal cho sự kiện trả tiền</value>
+  </data>
+  <data name="plModeratorRole.Text">
+    <value>Chức Danh Kiểm Duyệt (Ngoài Quản trị site - 'Không' = không kiểm duyệt)</value>
+  </data>
+  <data name="plModeratorRole.Help">
+    <value>Chọn Chức Danh để Kiểm duyệt (ngoài Quản trị site)</value>
+  </data>
+  <data name="plModerateAll.Text">
+    <value>Kiểm duyệt tất cả thay đổi của sự kiện/đăng ký</value>
+  </data>
+  <data name="plModerateAll.Help">
+    <value>Kiểm duyệt mọi thay đổi của sự kiện/đăng ký</value>
+  </data>
+  <data name="plMaster.Text">
+    <value>Gộp Các Module Sự Kiện Khác?</value>
+  </data>
+  <data name="plMaster.Help">
+    <value>Module Sự Kiện có thể gồm các module sự kiện khác</value>
+  </data>
+  <data name="plSubEvent.Text">
+    <value>Gộp Module Sự Kiện Khác: </value>
+  </data>
+  <data name="plSubEvent.Help">
+    <value>Chọn module sự kiện khác để thêm/gộp vào module sự kiện này</value>
+  </data>
+  <data name="lnkAddSubEvent.Text">
+    <value>Thêm</value>
+  </data>
+  <data name="SubEventsColumn0.Text">
+    <value>Gộp Sự Kiện</value>
+  </data>
+  <data name="SubEventColumn1.Text">
+    <value>Xóa</value>
+  </data>
+  <data name="ControlTitle_options.Text">
+    <value>Cấu Hình Quản Trị</value>
+  </data>
+  <data name="ControlTitle_settings.Text">
+    <value>Cấu Hình Module Sự Kiện</value>
+  </data>
+  <data name="ModuleHelp.Text">
+    <value>Nhập/Chọn các cấu hình cho module Sự kiện</value>
+  </data>
+  <data name="plShowEventNotify.Text">
+    <value>Cho Phép Email Thông Báo</value>
+  </data>
+  <data name="plShowEventNotify.Help">
+    <value>Chọn để cho phép email thông báo tự động (đòi hỏi phải cho phép module lịch sự kiện)</value>
+  </data>
+  <data name="plEnableSearch.Text">
+    <value>Cho Phép Tìm Kiếm DNN</value>
+  </data>
+  <data name="plFridayWeekend.Text">
+    <value>Cuối Tuần Bắt Đầu Bằng Thứ Sáu</value>
+  </data>
+  <data name="plFridayWeekend.Help">
+    <value>Chọn sẽ coi ngày cuối tuần là thứ 6 và thứ bảy thay vì thứ bảy và chủ nhật</value>
+  </data>
+  <data name="plUseStyleSheet.Text">
+    <value>Sử Dụng StyleSheet Để Thay Đổi Giao Diện!</value>
+  </data>
+  <data name="plUseStyleSheet.Help">
+    <value>Copy file module.css từ thư mục DesktopModules\Event tới Stylesheet của Site và sử dụng trình biên tập CSS để thay đổi giao diện module.</value>
+  </data>
+  <data name="plMonthEditTable.Text">
+    <value>Tắt Bảng Sự Kiện Tháng Người Dùng Không Có Quyền Sửa:</value>
+  </data>
+  <data name="plMonthEditTable.Help">
+    <value>Nếu chọn sẽ không hiển thị bảng sự kiện tháng cho người dùng không có quyền sửa</value>
+  </data>
+  <data name="plDisableMonthCell.Text">
+    <value>Tắt Chế Độ Hiển Thị Tháng Dạng Ô</value>
+  </data>
+  <data name="plDisableMonthCell.Help">
+    <value>Nếu chọn sẽ tắt chế độ hiển thị tháng dạng ô </value>
+  </data>
+  <data name="plEventEventCell.Text">
+    <value>Đặt Màu Nền Ô Sự Kiện</value>
+  </data>
+  <data name="plEventEventCell.Help">
+    <value>Được dùng để đặt màu nền của một ô có sự kiện</value>
+  </data>
+  <data name="plDisableEventNav.Text">
+    <value>Tắt Điều Khiển Điều Hướng:</value>
+  </data>
+  <data name="plDisableEventNav.Help">
+    <value>Nếu chọn sẽ tắt điều khiển điều hướng của module sự kiện... vd go, hôm nay,..</value>
+  </data>
+  <data name="plIgnoreInlineStyles.Text">
+    <value>Tắt Inline Style Form Sự Kiện Tháng:</value>
+  </data>
+  <data name="plIgnoreInlineStyles.Help">
+    <value>Nếu chọn sẽ tắt việc dựng các Inline Style của điều khiển hiển thị sự kiện</value>
+  </data>
+  <data name="NotificationSettings.Text">
+    <value>Cấu Hình Thông Báo</value>
+  </data>
+  <data name="plNotifyMessage.Text">
+    <value>Email Thông Báo</value>
+  </data>
+  <data name="plNotifyMessage.Help">
+    <value>Email thông báo: gồm 3 thuộc tính {0}</value>
+  </data>
+  <data name="EventListSettings.Text">
+    <value>Cấu Hình Danh Sách Sự Kiện</value>
+  </data>
+  <data name="plSelectedEvents.Text">
+    <value>Chọn Sự Kiện:</value>
+  </data>
+  <data name="plShowHeader.Text">
+    <value>Hiện Bảng Header:</value>
+  </data>
+  <data name="plNo.Text">
+    <value>Không</value>
+  </data>
+  <data name="plYes.Text">
+    <value>Có</value>
+  </data>
+  <data name="plSelectedDays.Text">
+    <value>Chọn Số Ngày:</value>
+  </data>
+  <data name="plDaysBeforeCurrent.Text">
+    <value>ngày trước ngày hiện tại</value>
+  </data>
+  <data name="plDaysAfterCurrent.Text">
+    <value>ngày sau ngày hiện tại</value>
+  </data>
+  <data name="plSelectedNumEvents.Text">
+    <value>Chọn Số Sự Kiện:</value>
+  </data>
+  <data name="plNext.Text">
+    <value>Tiếp</value>
+  </data>
+  <data name="plEventsCurrentDate.Text">
+    <value>sự kiện từ ngày hiện tại</value>
+  </data>
+  <data name="plWithinNext.Text">
+    <value>trong</value>
+  </data>
+  <data name="plDays.Text">
+    <value>ngày</value>
+  </data>
+  <data name="plSelectedEvents.Help">
+    <value>Chọn sự kiện để lập danh sách</value>
+  </data>
+  <data name="plShowHeader.Help">
+    <value>Chọn 'Có' để hiển thị header trên cột danh sách</value>
+  </data>
+  <data name="plSelectedDays.Help">
+    <value>Chọn "số ngày" để hiển thị trước/sau ngày hiện tại</value>
+  </data>
+  <data name="plSelectedNumEvents.Help">
+    <value>Chọn "số sự kiện" để hiển thị trước/sau ngày hiện tại</value>
+  </data>
+  <data name="plEventsFields.Text">
+    <value>Trường Sự Kiện Được Hiển Thị:</value>
+  </data>
+  <data name="plEventsFields.Help">
+    <value>Chọn Trường sự kiện được hiển thị</value>
+  </data>
+  <data name="1.Text">
+    <value>Ngày Giờ Bắt Đầu</value>
+  </data>
+  <data name="2.Text">
+    <value>Ngày Giờ Kết Thúc</value>
+  </data>
+  <data name="3.Text">
+    <value>Tên Sự Kiện (bắt buộc)</value>
+  </data>
+  <data name="4.Text">
+    <value>Ảnh</value>
+  </data>
+  <data name="plAvailable.Text">
+    <value>Có Sẵn</value>
+  </data>
+  <data name="plSelected.Text">
+    <value>Chọn</value>
+  </data>
+  <data name="Add.Text">
+    <value>Thêm</value>
+  </data>
+  <data name="AddAll.Text">
+    <value>Thêm Tất Cả</value>
+  </data>
+  <data name="Remove.Text">
+    <value>Loại Bỏ</value>
+  </data>
+  <data name="RemoveAll.Text">
+    <value>Loại Bỏ Tất Cả</value>
+  </data>
+  <data name="plListMode.Text">
+    <value>Cho Phép Chế Độ Danh Sách:</value>
+  </data>
+  <data name="plListMode.Help">
+    <value>Nếu chọn sẽ mở chế độ danh sách. Chú Ý: sẽ cần đến 2 instance của module. Instance 1: KHÔNG cho phép chế độ Danh sách.  Instance 2: cho phép chế độ danh sách và lựa chọn Instance 1 từ danh sách.</value>
+  </data>
+  <data name="plEnableSearch.Help">
+    <value>Nếu chọn sẽ gửi sự kiện đến Cơ chế tìm kiếm của DNN</value>
+  </data>
+  <data name="plPayPalURL.Text">
+    <value>PayPal URL </value>
+  </data>
+  <data name="plPayPalURL.Help">
+    <value>https://www.paypal.com (các trang thử nghiệm có thể thay thế bằng cách thử nghiệm giao diện https://www.sandbox.paypal.com)</value>
+  </data>
+  <data name="lblTheme.Text">
+    <value>Chủ Đề/Skin:</value>
+  </data>
+  <data name="lblTheme.Help">
+    <value>Chọn Chủ đề cho giao diện của instance module.</value>
+  </data>
+  <data name="lblDefaultView.Text">
+    <value>Chế Độ Hiển Thị Mặc Định:</value>
+  </data>
+  <data name="lblDefaultView.Help">
+    <value>Chọn chế độ hiển thị mặc định cho module Sự kiện; cũng xác định việc chỉ cho phép xem</value>
+  </data>
+  <data name="lblTimeZone.Text">
+    <value>Múi Giờ Sự Kiện:</value>
+  </data>
+  <data name="lblTimeZone.Help">
+    <value>Mục này đặt múi giờ được sử dụng khi tạo/cập nhật module Sự kiện</value>
+  </data>
+  <data name="5.Text">
+    <value>Mô Tả</value>
+  </data>
+  <data name="plImageEnabled.Text">
+    <value>Cho Phép Hình Ảnh:</value>
+  </data>
+  <data name="plImageEnabled.Help">
+    <value>Cho Phép/Không cho phép các hình ảnh về sự kiện (xem form sửa sự kiện)</value>
+  </data>
+  <data name="chkOnlyView.Text">
+    <value>Chỉ Xem?</value>
+  </data>
+  <data name="lblCategories.Text">
+    <value>Tắt Lựa Chọn Thể Loại:</value>
+  </data>
+  <data name="lblCategories.Help">
+    <value>Tắt việc lựa chọn thể loại ở tất cả các form</value>
+  </data>
+  <data name="lblModeratorEmail.Text">
+    <value>Email Kiểm Duyệt:</value>
+  </data>
+  <data name="lblModeratorEmail.Help">
+    <value>Nhập email thông báo khi sự kiện hoặc đăng ký đòi hỏi kiểm duyệt.</value>
+  </data>
+  <data name="lblModerateEmailSubject.Text">
+    <value>Tiêu Đề Email:</value>
+  </data>
+  <data name="lblModerateEmailSubject.Help">
+    <value>Tiêu đề email thông báo có thể chứa các thông số sau: {0} = Tiêu Đề, {1} = Ngày Bắt Đầu, {2} = Thời Gian Bắt Đầu, {3} = Thời Gian Kết Thúc, {4} = Múi Giờ </value>
+  </data>
+  <data name="lblModerateEmailMessage.Text">
+    <value>Nội Dung Email:</value>
+  </data>
+  <data name="lblModerateEmailMessage.Help">
+    <value>Nội dung email thông báo có thể chứa các thông số sau: {0} = Tiêu Đề, {1} = Ngày Bắt Đầu, {2} = Thời Gian Bắt Đầu, {3} = Thời Gian Kết Thúc, {4} = Múi Giờ </value>
+  </data>
+  <data name="txtModerateEmailSubject.Text">
+    <value>Các sự kiện/đăng ký cho module sự kiện DNN 'XXX' đòi hỏi được chấp nhận: {0}</value>
+  </data>
+  <data name="txtModerateEmailMessage.Text">
+    <value>Các sự kiện/đăng ký cho module sự kiện DNN 'XXX' đòi hỏi sự quan tâm và/hoặc kiểm duyệt: {0}</value>
+  </data>
+  <data name="lblFullTimeScale.Text">
+    <value>Hiển Thị Thời Gian Đầy Đủ Form Tuần:</value>
+  </data>
+  <data name="lblFullTimeScale.Help">
+    <value>Hiển thị thời gian đầy đủ ở form xem sự kiện tuần nếu cho phép</value>
+  </data>
+  <data name="lblAddSubModuleName.Text">
+    <value>Đưa Tên Module Con:</value>
+  </data>
+  <data name="lblAddSubModuleName.Help">
+    <value>Đưa tên module con vào Tiêu đề sự kiện ở tất cả các form</value>
+  </data>
+  <data name="lblMonthCellNoEvents.Text">
+    <value>Tắt Chế Độ Hiển Thị Tháng Dạng Ô:</value>
+  </data>
+  <data name="lblMonthCellNoEvents.Help">
+    <value>Nếu chọn sẽ tắt chế độ hiển thị sự kiện tháng theo ô và hiển thị liên kết đến Sự kiện ngày.</value>
+  </data>
+</root>

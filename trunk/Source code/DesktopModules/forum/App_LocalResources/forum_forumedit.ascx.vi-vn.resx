@@ -1,0 +1,211 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="ResMimeType">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="Version">
+    <value>1.0.0.0</value>
+  </resheader>
+  <resheader name="Reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="Writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="plForumID.Text">
+    <value>Forum ID: </value>
+  </data>
+  <data name="plForumID.Help">
+    <value>ForumID được lưu trong cơ sở dữ liệu.(Chỉ Đọc)</value>
+  </data>
+  <data name="chkActive.Text">
+    <value>Hoạt Động</value>
+  </data>
+  <data name="plGroupName.Text">
+    <value>Nhóm:</value>
+  </data>
+  <data name="plGroupName.Help">
+    <value>Tên của Nhóm Forum.</value>
+  </data>
+  <data name="plForumCreatorName.Text">
+    <value>Tạo Bởi:</value>
+  </data>
+  <data name="plForumCreatorName.Help">
+    <value>Tên người dùng tạo ra forum.</value>
+  </data>
+  <data name="plForumName.Text">
+    <value>Tên Forum:</value>
+  </data>
+  <data name="plForumName.Help">
+    <value>Tên của forum.</value>
+  </data>
+  <data name="plForumDescription.Text">
+    <value>Mô Tả:</value>
+  </data>
+  <data name="plForumDescription.Help">
+    <value>Một mô tả ngắn gọn về forum.</value>
+  </data>
+  <data name="plForumType.Text">
+    <value>Kiểu Forum:</value>
+  </data>
+  <data name="plForumType.Help">
+    <value>Kiểu forum.  (Tin Tức hoặc Bình Thường)</value>
+  </data>
+  <data name="plNotificationRoleLookup.Text">
+    <value>Vai Trò Thông Báo:</value>
+  </data>
+  <data name="plNotificationRoleLookup.Help">
+    <value>Vai trò được nhận thư thông báo.</value>
+  </data>
+  <data name="plEditRoleLookup.Text">
+    <value>Vai Trò Được Phép Gửi Bài:</value>
+  </data>
+  <data name="plEditRoleLookup.Help">
+    <value>Các Vai trò mà người dùng của nó được phép gửi bài trên forum này.&lt;br&gt;&lt;b&gt;Tip&lt;/b&gt;&lt;br&gt;Các vai trò phải được liệt kê như là một vai trò được phép cấu hình module để có thể gửi bài.</value>
+  </data>
+  <data name="plPrivate.Text">
+    <value>Giới Hạn Vai Trò?</value>
+  </data>
+  <data name="plPrivate.Help">
+    <value>Nếu được chọn, forum là một forum riêng tư và truy cập bị giới hạn ở các vai trò được phép ở trang này.</value>
+  </data>
+  <data name="chkPrivate.Text">
+    <value>
+    </value>
+  </data>
+  <data name="plPrivateRoleLookup.Text">
+    <value>Vai Trò Được Phép:</value>
+  </data>
+  <data name="plPrivateRoleLookup.Help">
+    <value>Vai trò được phép xem forum này.&lt;br&gt;Giới Hạn Vai Trò phải được chọn.&lt;br&gt;&lt;b&gt;Tip&lt;/b&gt;&lt;br&gt;Các vai trò phải được liệt kê dưới dạng một vai trò có quyền Cấu hình của module để có thể gửi bài.</value>
+  </data>
+  <data name="plModerated.Text">
+    <value>Bị Kiểm Duyệt?</value>
+  </data>
+  <data name="plModerated.Help">
+    <value>Nếu được chọn, forum bị kiểm duyệt và không phải ai có thể truy cập được.</value>
+  </data>
+  <data name="chkModerated.Text">
+    <value>
+    </value>
+  </data>
+  <data name="plModeratorLookup.Text">
+    <value>Moderator:</value>
+  </data>
+  <data name="plModeratorLookup.Help">
+    <value>Tên các moderator.</value>
+  </data>
+  <data name="plIntegrated.Text">
+    <value>Được Hợp Nhất?</value>
+  </data>
+  <data name="plIntegrated.Help">
+    <value>Được Hợp Nhất?</value>
+  </data>
+  <data name="chkIntegrated.Text">
+    <value>
+    </value>
+  </data>
+  <data name="plModules.Text">
+    <value>Hợp Nhất Module:</value>
+  </data>
+  <data name="plModules.Help">
+    <value>Hợp Nhất Module:</value>
+  </data>
+  <data name="MySettings.Text">
+    <value>Thiết Lập Cá Nhân</value>
+  </data>
+  <data name="ModuleHelp.Text">
+    <value>&lt;h1&gt;Forum - Quản Lý Forums&lt;/h1&gt;&lt;p&gt;Các nhóm Forum và các Forum có thể được tạo và cấu hình ở đây.  Một nhóm phải chứa ít nhất một Diễn đàn trước khi người dùng có thể gửi Chủ Đề trong Forum và Nhóm đó.  Forum phải cũng phải được cho phép.&lt;/p&gt;&lt;p&gt;Khi một Forum được thêm vào Nhóm, bạn có thể click vào hình chiếc bút chì bên cạnh tên Forum để cấu hình các thiết lập đó. Các Thiết lập Forum cho phép bạn điều khiển nếu Forum được kiểm duyệt, ai được phép xem Forum (Người dùng phải là một thành viên của một vai trò được phép cấu hình module này để có thể gửi bài vào bất cứ đâu trên module này.)  Thiết lập đặt module là riêng tư để nó có thể được xem bởi các vai trò xác định cũng được điều khiển ở đây.&lt;/p&gt;</value>
+  </data>
+  <data name="Search.Text">
+    <value>Tìm Kiếm</value>
+  </data>
+  <data name="ForumHome.Text">
+    <value>Forum Home </value>
+  </data>
+  <data name="ControlTitle_forumedit.Text">
+    <value>Cấu Hình Forum</value>
+  </data>
+  <data name="GeneralInformation.Text">
+    <value>Thông Tin Chung</value>
+  </data>
+  <data name="Active.Text">
+    <value>
+    </value>
+  </data>
+  <data name="GeneralSettings.Text">
+    <value>Thiết Lập Chung</value>
+  </data>
+  <data name="MyPosts.Text">
+    <value>Bài Cá Nhân</value>
+  </data>
+  <data name="plEnableForum.Text">
+    <value>Cho Phép Diễn Đàn?</value>
+  </data>
+  <data name="plEnableForum.Help">
+    <value>Nếu được chọn, forum được mở để những người có quyền gửi bài và xem bài có thể gửi và xem bài.</value>
+  </data>
+  <data name="ForumCount.Text">
+    <value>Forum trong nhóm này</value>
+  </data>
+  <data name="lblForumEdit.Text">
+    <value>Cấu Hình Forum</value>
+  </data>
+  <data name="plCreatedByUser.Help">
+    <value>Thành viên tạo ra forum.&lt;br&gt;</value>
+  </data>
+  <data name="plCreatedByUser.Text">
+    <value>Tạo Bởi:</value>
+  </data>
+  <data name="plCreatedDate.Help">
+    <value>Thời gian forum này được tạo.</value>
+  </data>
+  <data name="plCreatedDate.Text">
+    <value>Ngày Tạo:</value>
+  </data>
+  <data name="plModeratorRoleLookup.Help">
+    <value>Được dùng để xác định kiểm duyệt viên theo nhóm.</value>
+  </data>
+  <data name="plModeratorRoleLookup.Text">
+    <value>Kiểm Duyệt Viên Theo Nhóm:</value>
+  </data>
+  <data name="plUpdatedDate.Help">
+    <value>Thời gian forum này được cập nhật cuối cùng.</value>
+  </data>
+  <data name="plUpdatedDate.Text">
+    <value>Ngày Cập Nhật:</value>
+  </data>
+  <data name="plUpdatedName.Help">
+    <value>Thành viên cuối cùng cập nhật forum.</value>
+  </data>
+  <data name="plUpdatedName.Text">
+    <value>Cập Nhật Bởi:</value>
+  </data>
+</root>

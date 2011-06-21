@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="ResMimeType">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="Version">
+    <value>1.0.0.0</value>
+  </resheader>
+  <resheader name="Reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="Writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="plFromDate.Text">
+    <value>Từ Ngày:</value>
+  </data>
+  <data name="plFromDate.Help">
+    <value>Bài viết bạn đang tìm được gửi vào hoặc sau ngày này.</value>
+  </data>
+  <data name="plToDate.Text">
+    <value>Đến Ngày:</value>
+  </data>
+  <data name="plToDate.Help">
+    <value>Bài viết bạn đang tìm kiếm được gửi vào hoặc trước ngày này.</value>
+  </data>
+  <data name="plForums.Text">
+    <value>Tìm Tại:</value>
+  </data>
+  <data name="plForums.Help">
+    <value>Loại Forum bạn muốn gộp vào tìm kiếm này.</value>
+  </data>
+  <data name="plAuthors.Text">
+    <value>Tác Giả:</value>
+  </data>
+  <data name="plAuthors.Help">
+    <value>Tác giả của bài viết bạn đang tìm.</value>
+  </data>
+  <data name="plSubject.Text">
+    <value>Tiêu Đề Chứa:</value>
+  </data>
+  <data name="plSubject.Help">
+    <value>Tìm tiêu đề bài viết cho giá trị này.</value>
+  </data>
+  <data name="plBody.Text">
+    <value>Nội Dung Chứa:</value>
+  </data>
+  <data name="plBody.Help">
+    <value>Tìm nội dung của bài viết cho giá trị này.</value>
+  </data>
+  <data name="plThreadsPerPage.Text">
+    <value>Chủ Đề Trên Trang:</value>
+  </data>
+  <data name="plThreadsPerPage.Help">
+    <value>Cỡ Trang của kết quả tìm kiếm được trả về.</value>
+  </data>
+  <data name="lblInfo.Text">
+    <value>
+    </value>
+  </data>
+  <data name="lblInfo.Help">
+    <value>
+    </value>
+  </data>
+  <data name="ForumHome.Text">
+    <value>Forum Home </value>
+  </data>
+  <data name="Configuration.Text">
+    <value>Cấu Hình</value>
+  </data>
+  <data name="ManageUsers.Text">
+    <value>Quản Lý Người Dùng</value>
+  </data>
+  <data name="ManageForums.Text">
+    <value>Quản Lý Forum</value>
+  </data>
+  <data name="MySettings.Text">
+    <value>Thiết Lập Cá Nhân</value>
+  </data>
+  <data name="cmdSearch.Text">
+    <value>Tìm Kiếm </value>
+  </data>
+  <data name="ControlTitle_forumsearch.Text">
+    <value>Tìm Kiếm Forum</value>
+  </data>
+  <data name="MyPosts.Text">
+    <value>Bài Cá Nhân</value>
+  </data>
+  <data name="cmdCalFrom.Text">
+    <value>Calendar Popup </value>
+  </data>
+  <data name="cmdCalTo.Text">
+    <value>Calendar Popup </value>
+  </data>
+  <data name="dshAuthors.Text">
+    <value>Tìm Tác Giả</value>
+  </data>
+  <data name="dshForums.Text">
+    <value>Tìm Forum</value>
+  </data>
+  <data name="lblSearchForums.Text">
+    <value>Tìm Forum</value>
+  </data>
+</root>
