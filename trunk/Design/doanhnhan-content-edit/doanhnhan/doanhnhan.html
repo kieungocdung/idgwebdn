@@ -1,0 +1,543 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>Hiệp hội doanh nhân</title>
+	<link rel="stylesheet" type="text/css" href="style.css"/>
+	<link rel="stylesheet" type="text/css" href="skin.css"/>
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/jquery.jcarousel.js"></script>
+	<script type="text/javascript">
+
+		function mycarousel_initCallback(carousel)
+		{
+		    // Disable autoscrolling if the user clicks the prev or next button.
+		    carousel.buttonNext.bind('click', function() {
+		        carousel.startAuto(0);
+		    });
+		
+		    carousel.buttonPrev.bind('click', function() {
+		        carousel.startAuto(0);
+		    });
+		
+		    // Pause autoscrolling if the user moves with the cursor over the clip.
+		    carousel.clip.hover(function() {
+		        carousel.stopAuto();
+		    }, function() {
+		        carousel.startAuto();
+		    });
+		};
+		
+		$(document).ready(function() {
+		    $('#mycarousel').jcarousel({
+		        wrap: 'last',
+		        initCallback: mycarousel_initCallback
+		    });
+		});
+
+	</script>
+	
+</head>
+<body>
+	<div id="all">
+		<div id="header">
+			<div id="banner">
+				<a href="">
+					<img src="images/doanhnghiep_logo.jpg"/>
+				</a>
+				<div id="bn-buttons">
+					<a href="#">CLB Doanh nhân</a>
+					<a href="#">CLB Doanh nhân</a>
+					<a href="#">CLB Doanh nhân</a>
+					<a href="#">CLB Doanh nhân</a>
+				</div>
+			</div>
+			<div id="menu">
+				<ul>
+					<li><a href="#">Trang chủ</a></li>
+					<li class="actived">
+						<a href="#">Thời sự - Kinh tế</a>
+						
+					</li>
+					<li><a href="#">Doanh nhân</a></li>
+					<li>
+						<a href="#">Sống xanh</a>
+						
+					</li>
+					<li><a href="#">Hành Trang pháp lý</a></li>
+					<li>
+						<a href="#">Văn hóa - Thể thao</a>
+					</li>
+				</ul>
+			</div><!--  End of #menu -->
+			<div id="h-bottom">
+				<div id="time">
+					Thứ bảy, 18/06/2011, 10:00 GMT
+				</div>
+				<div id="search">
+					<form name="frmSearch" method="post" action="">
+						<label for="txtKey">Tìm kiếm</label>
+						<div class="wrapper">
+							<input type="text" name="key" id="txtKey" size="25"/>
+						</div>
+					</form>
+				</div>
+			</div><!-- End of #h-bottom -->
+		</div><!-- End of #header --> 
+		<div id="main">
+			<div id="newest-news">
+				<span>Tin mới nhất</span>
+				<h5><a href="#">BIDV Hải Dương cùng doanh nghiệp đi đến thành công</a></h5>
+			</div>
+			<div id="m-left">
+				<div id="feature">
+					<div id="feature-left">
+						<div id="focus">
+							<img src="images/focus-image.jpg" alt="focus-image"/>
+							<h1><a href="#">Giảm cung cấp tiền 100.000 tỷ đồng</a></h1>
+							<p>
+							Các giải pháp đưa ra sẽ đánh mạnh vào tổng cầu, giảm cung tiền
+							khoảng 100.000 tỷ đồng. Giúp giảm nhập siêu 3 - 4 tỷ USD để bớt 
+							áp lực lên tỉ giá.
+							</p>
+						</div>
+						<div id="dn-dn">
+							<h5>Doanh nghiệp - doanh nhân</h5>
+							<div>
+								<img src="images/dndn.jpg" alt="dndn"/>
+								<p>
+									Điều kiện sống ngày một nâng lên nhưng xu hướng trẻ cô đơn, 
+									có khoảng cách lớn giữa cha mẹ và con cái ngày một tăng. 
+									Điều này hoàn toàn không có lợi cho sự phát triển nhân cách 
+									của vị thành niên, gây ra những hệ lụy đau lòng
+								</p> 
+							</div>
+						</div>
+					</div><!--  End of #feature-left -->
+					<div id="feature-right">
+						<div class="fr-news">
+							<h5><a href="#">Trung quốc cản phóng viên thăm đối lập</a></h5>
+							<p>
+								Trung quốc đã tuyến bố phe đối lập không được can thiệp vào tình hình chính trị của họ Chiến tranh sẽ nổ ra nếu như phe đối lập can thiệp vào.
+							</p>
+						</div>
+						<div class="fr-news">
+							<h5><a href="#">Trung quốc cản phóng viên thăm đối lập</a></h5>
+							<p>
+								Trung quốc đã tuyến bố phe đối lập không được can thiệp vào tình hình chính trị của họ Chiến tranh sẽ nổ ra nếu như phe đối lập can thiệp vào.
+							</p>
+						</div>
+						<div class="fr-news">
+							<h5><a href="#">Trung quốc cản phóng viên thăm đối lập</a></h5>
+							<p>
+								Trung quốc đã tuyến bố phe đối lập không được can thiệp vào tình hình chính trị của họ Chiến tranh sẽ nổ ra nếu như phe đối lập can thiệp vào.
+							</p>
+						</div>
+					</div><!--  End of #feature-right -->
+					<div class="clear-fix"></div>
+				</div><!-- End of feature -->
+				<div id="hot-topic">
+					<div class="ht-top">
+						<h4>Chủ đề nóng</h4>
+						<div class="ht-paging">
+							<a href="#" class="current">1</a>
+							<a href="#">2</a>
+							<a href="#">3</a>
+							<a href="#">4</a>
+							<a href="#">5</a>
+							<a href="#">6</a>
+							<a href="#">7</a>
+							<a href="#">8</a>
+							<a href="#">9</a>
+							<a href="#">10</a>
+						</div>
+					</div>
+					<div class="ht-container">
+						<div class="ht-item">
+							<img src="images/ht-image1.jpg" alt="ht-image1">
+							<h5><a href="#">Đường xuống cấp...</a></h5>
+							<p>
+								Quốc lộ 1A cũ- đoạn qua Bắc Giang- Bắc Ninh về Hà Nội một thời từng là tuyến giao thông huyết mạch ...
+							</p>
+						</div>
+						<div class="ht-item">
+							<img src="images/ht-image1.jpg" alt="ht-image1">
+							<h5><a href="#">Đường xuống cấp...</a></h5>
+							<p>
+								Quốc lộ 1A cũ- đoạn qua Bắc Giang- Bắc Ninh về Hà Nội một thời từng là tuyến giao thông huyết mạch ...
+							</p>
+						</div>
+						<div class="ht-item">
+							<img src="images/ht-image1.jpg" alt="ht-image1">
+							<h5><a href="#">Đường xuống cấp...</a></h5>
+							<p>
+								Quốc lộ 1A cũ- đoạn qua Bắc Giang- Bắc Ninh về Hà Nội một thời từng là tuyến giao thông huyết mạch ...
+							</p>
+						</div>
+						<div class="ht-item last">
+							<img src="images/ht-image1.jpg" alt="ht-image1">
+							<h5><a href="#">Đường xuống cấp...</a></h5>
+							<p>
+								Quốc lộ 1A cũ- đoạn qua Bắc Giang- Bắc Ninh về Hà Nội một thời từng là tuyến giao thông huyết mạch ...
+							</p>
+						</div>
+						<div class="clear-fix"></div>
+					</div>
+				</div><!-- End of #hot-topic -->
+				
+				<div id="categories">
+					<div class="c-left">
+					
+						<div class = "c-item">
+							<h4 class="hd1"><a href="#">Thời sự - Kinh tế</a></h4>
+							<div class="c-newest">
+								<img src="images/thoisu-kinhte.jpg" alt="tskt"/>
+								<h5><a href="#">Hé lộ cẩm nang bán lẻ của Apple</a></h5>
+								<p>CEO Steve Jobs đã đưa Apple trở thành 
+									công ty công nghệ có giá trị vốn hóa thị 
+									trường lớn nhất thế giới với những sản phẩm
+									 công nghệ cao như iPad hay iPhone.
+								</p>
+							</div>
+							<div class="c-relate">
+								<ul>
+									<li><a href="#">5 tỷ USD - mấy phần là vốn thật? (17/06)</a></li>
+									<li><a href="#">Thị trường chứng khoán toàn cầu đồng loạt đi xuống (17/06)</a></li>
+									<li><a href="#">Xuất khẩu gạo: Nhiều doanh nghiệp có thể bị loại (17/06)</a></li>
+								</ul>
+							</div>
+						</div><!-- End of .c-item -->
+						
+						<div class = "c-item">
+							<h4 class="hd2"><a href="#">Thế giới</a></h4>
+							<div class="c-newest">
+								<img src="images/thegioi.jpg" alt="tg"/>
+								<h5><a href="#">Vàng vượt mức 37,9 triệu</a></h5>
+								<p>
+									TPO - Trong khi giá vàng thế giới dao
+									động nhẹ, thì giá vàng trong nước
+									sáng nay bắt đầu tăng mạnh, vượt 
+									trên 37,9 triệu đồng/lượng. 
+								</p>
+							</div>
+							<div class="c-relate">
+								<ul>
+									<li><a href="#">5 tỷ USD - mấy phần là vốn thật? (17/06)</a></li>
+									<li><a href="#">Thị trường chứng khoán toàn cầu đồng loạt đi xuống (17/06)</a></li>
+									<li><a href="#">Xuất khẩu gạo: Nhiều doanh nghiệp có thể bị loại (17/06)</a></li>
+								</ul>
+							</div>
+						</div><!-- End of .c-item -->
+						
+						<div class = "c-item">
+							<h4 class="hd2"><a href="#">Sống xanh</a></h4>
+							<div class="c-newest">
+								<img src="images/songxanh.jpg" alt="sx"/>
+								<h5><a href="#">Rủi ro tài chính vĩ mô: Lớn nhất là tỷ giá  </a></h5>
+								<p>Rủi ro tài chính vĩ mô đáng kể nhất mà 
+									Việt Nam có thể gặp phải trong trung 
+									hạn là vấn đề tiền tệ, cụ thể là tỷ giá”.
+								</p>
+							</div>
+							<div class="c-relate">
+								<ul>
+									<li><a href="#">5 tỷ USD - mấy phần là vốn thật? (17/06)</a></li>
+									<li><a href="#">Thị trường chứng khoán toàn cầu đồng loạt đi xuống (17/06)</a></li>
+									<li><a href="#">Xuất khẩu gạo: Nhiều doanh nghiệp có thể bị loại (17/06)</a></li>
+								</ul>
+							</div>
+						</div><!-- End of .c-item -->
+						
+					</div><!--  End of .c-left -->
+					<div class="c-right">
+						<div class = "c-item c-focus">
+							<h4 class="hd1"><a href="#">Tin thể thao</a></h4>
+							<div class="c-newest">
+								<img src="images/thethao.jpg" alt="thethao"/>
+								<h5><a href="#">Tứ đại gia sẵn sàng</a></h5>
+								<p>
+								TP - Đương kim vô địch Rafael Nadal và ba đối thủ 
+								hàng đầu thế giới đang tiến vào Wimbledon với kỳ 
+								vọng rất lớn dù cả bốn cây vợt mạnh nhất thế giới 
+								hiện nay cùng gặp phải những vấn đề nhỏ về thể lực 
+								trước thềm Grand Slam trên mặt sân cỏ. 
+								</p>
+							</div>
+							<div class="c-relate">
+								<ul>
+									<li><a href="#">Man City quyết chi đậm vì Luka Modric. (17/06)</a></li>
+									<li><a href="#">Văn Quyến: Nhạt nhòa một tài năng (17/06)</a></li>
+									<li><a href="#">Eto’o muốn thi đấu tại Premier League (17/06)</a></li>
+								</ul>
+							</div>
+						</div><!-- End of .c-item -->
+						
+						<div class = "c-item">
+							<h4 class="hd2"><a href="#">Tin văn hóa</a></h4>
+							<div class="c-newest">
+								<img src="images/vanhoa.jpg" alt="vh"/>
+								<h5><a href="#">Park Min Young suýt tụt áo vì… mèo </a></h5>
+								<p>Để gây ấn tượng trong cuộc 
+									họp báo giới thiệu bộ phim 
+									kinh dị mới nhất của mình, người đẹp xứ Hàn đã mang theo một con mèo 
+									nhưng không ngờ mèo đã làm cô suýt một phen 
+									‘lộ hàng’ trước đám đông. 
+	
+								</p>
+							</div>
+							<div class="c-relate">
+								<ul>
+									<li><a href="#">5 tỷ USD - mấy phần là vốn thật? (17/06)</a></li>
+									<li><a href="#">Thị trường chứng khoán toàn cầu đồng loạt đi xuống (17/06)</a></li>
+									<li><a href="#">Xuất khẩu gạo: Nhiều doanh nghiệp có thể bị loại (17/06)</a></li>
+								</ul>
+							</div>
+						</div><!-- End of .c-item -->
+					</div><!--  End of .c-right -->
+
+				</div><!-- End of #categories -->
+			</div><!--  End of #m-left -->
+			<div id="m-right">
+            
+            <div class="box-right">
+            <div class="box-right-content">
+                <div class="box-right-title">
+                    <div class="box-right-text icon-visited">
+                       Cẩm nang doanh nghiệp
+                    </div>
+                </div>
+                <div class="box-right-body">
+                  <div class="bh-container">
+						<div class="item">
+							<img src="images/hb1.jpg" alt="hb1"/>
+							<a href="">Luật doanh nghiệp</a>
+						</div>
+						<div class="item">
+							<img src="images/hb1.jpg" alt="hb1"/>
+							<a href="">Luật doanh nghiệp</a>
+						</div>
+						<div class="item">
+							<img src="images/hb1.jpg" alt="hb1"/>
+							<a href="">Luật doanh nghiệp</a>
+						</div>
+						<div class="item">
+							<img src="images/hb1.jpg" alt="hb1"/>
+							<a href="">Luật doanh nghiệp</a>
+						</div>
+						<div class="item">
+							<img src="images/hb1.jpg" alt="hb1"/>
+							<a href="">Luật doanh nghiệp</a>
+						</div>
+						<div class="item">
+							<img src="images/hb1.jpg" alt="hb1"/>
+							<a href="">Luật doanh nghiệp</a>
+						</div>
+						<div class="item">
+							<img src="images/hb1.jpg" alt="hb1"/>
+							<a href="">Luật doanh nghiệp</a>
+						</div>
+						<div class="item">
+							<img src="images/hb1.jpg" alt="hb1"/>
+							<a href="">Luật doanh nghiệp</a>
+						</div>
+					</div>	
+                </div>
+            </div>
+        </div>
+			<div class="box-right">
+              <div class="box-right-content">
+                <div class="box-right-title">
+                    <div class="box-right-text icon-vote">
+                        Bài đọc nhiều nhất
+                    </div>
+                </div>
+               <div class="box-right-body">
+                   <ul>
+							<li><a href="">Chiến đấu vì Trường sa, Hoàng Sa</a></li>
+							<li><a href="">Chiến đấu vì Trường sa, Hoàng Sa</a></li>
+							<li><a href="">Chiến đấu vì Trường sa, Hoàng Sa</a></li>
+							<li><a href="">Chiến đấu vì Trường sa, Hoàng Sa</a></li>
+							<li><a href="">Chiến đấu vì Trường sa, Hoàng Sa</a></li>
+							<li><a href="">Chiến đấu vì Trường sa, Hoàng Sa</a></li>
+				  </ul>
+                </div>
+            </div>
+        </div>
+        
+		<div class="box-right">
+            <div class="box-right-content">
+                <div class="box-right-title">
+                    <div class="box-right-text icon-visited">
+                       Phản biện chính sách
+                    </div>
+                </div>
+                <div class="box-right-body">
+                   <div class="item">
+							<img src="images/spt1.jpg" alt="spt1"/>
+							<p><a href="#">Hành lang pháp lý nào cho doanh nghiệp nước ngoài</a></p>
+							<p class="readmore"><a href="#">Xem tiếp</a></p>
+						</div>
+                </div>
+            </div>
+        </div><!-- End of #access-statistic -->
+      
+<style type="text/css">
+    .box-right-body span
+    {
+        width: 100px;
+        foat:left;
+	
+    }
+    .box-right-body p
+    { 
+        margin-top: 20px;
+		padding-left:5px;
+    }
+</style>
+<div class="box-right">
+    <div class="box-right-content">
+        <div class="box-right-title">
+            <div class="box-right-text icon-vote">
+                Gửi câu hỏi cho chúng tôi
+            </div>
+        </div>
+        <div class="box-right-body">
+            <div class="body">
+                <div class="box-right-body">
+                    <p>
+                        <span>Nhập họ tên</span> <span>
+                            <input id="txtName" maxlength="255" type="text" class="field text large requi" /></span>
+                    </p>
+                    <p>
+                        <span>Số điện thoại</span> <span>
+                            <input id="phone" maxlength="11" class="field text requi medium" type="text" /></span>
+                    </p>
+                    <p>
+                        <span>Email</span> <span>
+                            <input id="Email" maxlength="50" class="field text requi medium" type="text" /></span>
+                    </p>
+                    <p align="center">
+                        <textarea style="margin-top: 20px" id="content" cols="30" rows="5"></textarea>
+                    </p>
+                </div>
+            </div>
+            <div>
+                <div align="center">
+                    <input type="button" id="send" value="Gửi" onclick="return sendQA()" />
+                    <input type="reset" id="reset" value="Làm lại" />
+                    <div class="clear">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+		<div class="box-right">
+            <div class="box-right-content">
+                <div class="box-right-title">
+                    <div class="box-right-text icon-visited">
+                        Thống kê
+                    </div>
+                </div>
+                <div class="box-right-body">
+                    <div class="sltc-content">
+                        <p>
+                            <span>Đang truy cập: <strong>
+                                146</strong></span></p>
+                        <p>
+                            <span>Thành viên: <strong>
+                                13</strong></span>
+                        </p>
+                        <p>
+                            <span>Tổng số người truy cập: <strong>
+                                277,718</strong></span></p>
+                        <p>
+                            <span>Tổng lượt xem: <strong>
+                                2,387,795</strong></span></p>
+                    </div>
+                </div>
+            </div>
+        </div><!-- End of #access-statistic -->
+				
+			</div><!--  End of #m-right -->
+			<div class="clear-fix"></div>
+		</div><!--  End of #main -->
+		<div id="footer">
+			<div id="special-business">
+				<div class="sb-title">
+                Doanh nhân tiêu biểu  
+				</div>
+				<div class="sb-container">
+					<ul id="mycarousel" class="jcarousel-skin-tango">
+					    <li>
+					    	<a href="#">
+						    	
+						    		<img src="images/sb.jpg"alt="" />
+						    		<span>Công ty thương mại abc</span>
+					    	</a>
+					    </li>
+					    <li>
+					    	<a href="#">
+						    	
+						    		<img src="images/sb.jpg"alt="" />
+						    		<span>Công ty thương mại abc</span>
+					    	</a>
+					    </li>
+					    <li>
+					    	<a href="#">
+						    	
+						    		<img src="images/sb.jpg"alt="" />
+						    		<span>Công ty thương mại abc</span>
+					    	</a>
+					    </li>
+					    <li>
+					    	<a href="#">
+						    	
+						    		<img src="images/sb.jpg"alt="" />
+						    		<span>Công ty thương mại abc</span>
+					    	</a>
+					    </li>
+					    <li>
+					    	<a href="#">
+						    	
+						    		<img src="images/sb.jpg"alt="" />
+						    		<span>Công ty thương mại abc</span>
+					    	</a>
+					    </li>
+					    <li>
+					    	<a href="#">
+						    	
+						    		<img src="images/sb.jpg"alt="" />
+						    		<span>Công ty thương mại abc</span>
+					    	</a>
+					    </li>
+					    <li>
+					    	<a href="#">
+						    	
+						    		<img src="images/sb.jpg"alt="" />
+						    		<span>Công ty thương mại abc</span>
+					    	</a>
+					    </li>
+					   
+  					</ul>
+				</div>
+			</div><!-- End of #special-bussiness -->
+			<div id="f-menu">
+				<ul>
+					<li><a href="#">Trang chủ</a></li>
+					<li><a href="#">Thời sự - Kinh tế</a></li>
+					<li><a href="#">Doanh nhân</a></li>
+					<li><a href="#">Sống xanh</a></li>
+					<li><a href="#">Hành lanh pháp lý</a></li>
+					<li><a href="#">Văn hóa - thể thao</a></li>
+					
+				</ul>
+			</div><!--  end of #f-menu -->
+			<div id="copyright">
+				Copyright &copy; IDG Website: http://idg1805.com
+			</div>
+		</div><!-- End of footer -->
+		
+	</div><!-- End of #all -->
+</body>
+</html>
