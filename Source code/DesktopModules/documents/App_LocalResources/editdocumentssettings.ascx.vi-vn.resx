@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="ResMimeType">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="Version">
+    <value>1.0.0.0</value>
+  </resheader>
+  <resheader name="Reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="Writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="plUseCategoriesList.Text">
+    <value>Sử Dụng Danh Sách Thể Loại?</value>
+  </data>
+  <data name="plUseCategoriesList.Help">
+    <value>Quyết định có cho phép mục text tự do của thể loại văn bản, hay sử dụng danh sách 'Thể Loại Văn Bản' được định nghĩa trên trang chứa danh sách.</value>
+  </data>
+  <data name="plShowTitleLink.Text">
+    <value>Hiển thị tiêu đề liên kết?</value>
+  </data>
+  <data name="plShowTitleLink.Help">
+    <value>Quyết định có hiển thị tiêu đề dưới dạng một liên kết download, hay dưới dạng chữ.</value>
+  </data>
+  <data name="plDisplayColumns.Text">
+    <value>Hiển Thị Côt</value>
+  </data>
+  <data name="plDisplayColumns.Help">
+    <value>Chọn các hộp kiểm để bật hoặc tắt các cột. Bạn có thể đặt thứ tự hiển thị của các cột sử dụng mũi tên lên và xuống.</value>
+  </data>
+  <data name="plSorting.Text">
+    <value>Sắp xếp</value>
+  </data>
+  <data name="plSorting.Help">
+    <value>Thêm/loại bỏ thứ tự hiển thị các cột trên danh sách để sắp xếp  các văn bản theo cột được chọn.</value>
+  </data>
+  <data name="Name.Header">
+    <value>Tên</value>
+  </data>
+  <data name="Visible.Header">
+    <value>Hiện</value>
+  </data>
+  <data name="Title.Header">
+    <value>Tiêu Đề</value>
+  </data>
+  <data name="CreatedBy.Header">
+    <value>Tạo Bởi</value>
+  </data>
+  <data name="DownloadLink.Header">
+    <value>Link Download </value>
+  </data>
+  <data name="CreatedDate.Header">
+    <value>Ngày Tạo</value>
+  </data>
+  <data name="Description.Header">
+    <value>Mô Tả</value>
+  </data>
+  <data name="SortIndex.Header">
+    <value>Thứ Tự Hiển Thị</value>
+  </data>
+  <data name="ModifiedBy.Header">
+    <value>Thay Đổi Bởi</value>
+  </data>
+  <data name="ModifiedDate.Header">
+    <value>Ngày Thay Đổi</value>
+  </data>
+  <data name="Owner.Header">
+    <value>Tác Giả</value>
+  </data>
+  <data name="Category.Header">
+    <value>Thể Loại</value>
+  </data>
+  <data name="LastUpdated.Header">
+    <value>Ngày Cập Nhật Gần Nhất</value>
+  </data>
+  <data name="Size.Header">
+    <value>Kích Cỡ (Kb)</value>
+  </data>
+  <data name="ModuleHelp.Text">
+    <value>&lt;h1&gt;Về Module Documents &lt;/h1&gt;
+&lt;p&gt;Module Document tạo ra một danh sách các document với liên kết để xem (dựa vào liên kết với file của người dùng) hoặc download văn bản. Các văn bản có thể được đặt bên trong portal, hoặc có thể là một liên kết đến trang web bên ngoài. 
+&lt;/p&gt; 
+&lt;p&gt;
+  Tiêu đề văn bản, thể loại, mô tả, tên người dùng tạo ra văn bản, tác giả của văn bản, người dùng cuối cùng cập nhật văn bản, thời gian văn bản được tạo hoặc được cập nhật, và kích cỡ file (chỉ bên trong văn bản) đều được tự động có trên các danh sách. Còn có cả chức năng theo dõi và ghi lại các click trên các liên kết.&lt;/p&gt;&lt;p&gt;Trong trang thiết lập module, bạn có thể cấu hình các cột được hiển thị và thứ tự hiển thị của danh sách văn bản. Module Văn Bản hỗ trợ chức năng "lưu trữ an toàn" của DNN, vì thế các văn bản được lưu "an toàn" sẽ không thể được truy cập đến bởi người dùng không đăng ký.&lt;/p&gt;&lt;h1&gt; Thiết Lập Module Văn Bản&lt;/h1&gt;&lt;ol&gt;&lt;li&gt;&lt;b&gt;Sử Dụng Danh Sách Thể Loại:&lt;/b&gt; Quyết định có sử dụng một trường text tự do cho trường thể loại văn bản, hay sử dụng một danh sách được định nghĩa ở trang Host-&gt;List. Nếu bạn muốn sử dụng một danh sách thả xuống, hãy tạo ra một trang Danh Sách gọi là "Thể Loại Văn Bản". &lt;/li&gt;&lt;li&gt;&lt;b&gt;Hiển Thị Tiêu Đề Liên Kết:&lt;/b&gt; Quyết định có hiển thị tiêu đề văn bản hay không (nếu được gộp vào trên cột hiển thị) dưới dạng hyperlink đến văn bản. &lt;/li&gt;&lt;li&gt;&lt;b&gt; Cột Hiển Thị: &lt;/b&gt; Quyết định cột nào được hiển thị, và cho phép bạn đặt thứ tự hiển thị các cột. &lt;/li&gt;&lt;li&gt;&lt;b&gt;Sắp Xếp&lt;/b&gt; Đặt thứ tự sắp xếp mà văn bản được hiển thị. Bạn có thể thêm nhiều cách sắp xếp để thêm vào nhiều hơn một  "khóa" để sắp xếp. &lt;/li&gt; &lt;/ol&gt; &lt;h1&gt;Thêm Văn Bản&lt;/h1&gt; &lt;ol&gt; &lt;li&gt; Thêm một module&lt;b&gt;Văn bản&lt;/b&gt;, hoặc đến một module &lt;b&gt;Văn Bản&lt;/b&gt; hiện có. &lt;li&gt; Click &lt;b&gt;Thêm Văn Bản&lt;/b&gt;. &lt;li&gt; Ở &lt;b&gt;Tiêu Đề&lt;/b&gt;, nhập một tiêu đề cho văn bản. &lt;li&gt; Ở &lt;b&gt;Kiểu Liên Kết&lt;/b&gt;, chọn &lt;b&gt;URL&lt;/b&gt; hoặc &lt;b&gt;File&lt;/b&gt; và sau đó ở &lt;b&gt;Liên Kết&lt;/b&gt; chọn hoặc nhập URL hoặc file cần thiết. &lt;li&gt; Ở &lt;b&gt;Theo Dõi số Lần Liên Kết Được Click?&lt;/b&gt; (tùy chọn), chọn nếu cần thiết. &lt;li&gt; Ở &lt;b&gt;Ghi lại Người dùng, thời gian cho mỗi click&lt;/b&gt; (tùy chọn), chọn nếu cần thiết. &lt;li&gt; Ở &lt;b&gt;Thể Loại&lt;/b&gt; (tùy chọn), nhập một thể loại cho văn bản. &lt;li&gt; Click &lt;b&gt;Cập Nhật&lt;/b&gt;. &lt;/ol&gt; </value>
+  </data>
+  <data name="ControlTitle_settings.Text">
+    <value>Thiết Lập Module Document Văn Bản</value>
+  </data>
+  <data name="cmdAdd.Text">
+    <value>Thêm Thứ Tự Sắp Xếp</value>
+  </data>
+  <data name="cmdDelete.Text">
+    <value>Xóa Thứ Tự Sắp Xếp</value>
+  </data>
+  <data name="cmdUp.Text">
+    <value>Chuyển Lên</value>
+  </data>
+  <data name="cmdDown.Text">
+    <value>Chuyển Xuống</value>
+  </data>
+</root>

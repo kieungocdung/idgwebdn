@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="ResMimeType">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="Version">
+    <value>1.0.0.0</value>
+  </resheader>
+  <resheader name="Reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="Writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ReadMore.Text">
+    <value>xem thêm...</value>
+  </data>
+  <data name="AddContent.Action">
+    <value>Tạo Hướng Dẫn</value>
+  </data>
+  <data name="cmdRefresh.Help">
+    <value>Làm tươi thứ tự hiển thị. Thực hiện khi kết quả không mong muốn xuất hiện.</value>
+  </data>
+  <data name="lblCategoryName.Search">
+    <value>Kết Quả Tìm Kiếm</value>
+  </data>
+  <data name="NoPageCategories.ErrorMessage">
+    <value>Không có module thể loại nào cho trang này. Hãy tạo một module vào trang và gán nó sử dụng các cấu hình của module.</value>
+  </data>
+  <data name="NoCategoryAssigned.ErrorMessage">
+    <value>Hãy gán một module thể loại sử dụng trang cấu hình của module.</value>
+  </data>
+  <data name="CategoryModuleDeleted.ErrorMessage">
+    <value>Module thể loại được gán đã bị xóa. Hãy tạo một module thể loại khác và gán nó sử dụng các thiết lập của module.</value>
+  </data>
+  <data name="Previous.Text">
+    <value>Trước</value>
+  </data>
+  <data name="BackToCategory.Text">
+    <value>Trở Về Thể Loại</value>
+  </data>
+  <data name="Next.Text">
+    <value>Tiếp</value>
+  </data>
+  <data name="Separator.Text">
+    <value> của </value>
+  </data>
+</root>

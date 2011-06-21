@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="ResMimeType">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="Version">
+    <value>1.0.0.0</value>
+  </resheader>
+  <resheader name="Reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="Writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="chkFlash.Text">
+    <value>
+    </value>
+  </data>
+  <data name="chkImageTag.Text">
+    <value>
+    </value>
+  </data>
+  <data name="chkMovie.Text">
+    <value>
+    </value>
+  </data>
+  <data name="chkSmiley.Text">
+    <value>
+    </value>
+  </data>
+  <data name="ControlTitle_gallerysmiles.Text">
+    <value>Gallery &amp; Smile</value>
+  </data>
+  <data name="ForumHome.Text">
+    <value>Forum Home </value>
+  </data>
+  <data name="lblGallerySmiles.Text">
+    <value>Gallery &amp; Emoticon</value>
+  </data>
+  <data name="ModuleHelp.Text">
+    <value>&lt;h1&gt;Forum - Gallery &amp; Emoticon&lt;/h1&gt;&lt;p&gt;Khu vực này chỉ được truy cập đến bởi các quản trị.  Từ đây bạn có thể sử dụng gallery wizard để cấu hình các gallery của bạn để được sử dụng với module này.  Hãy lưu ý, bạn chỉ có thể sử dụng chức năng này nếu bạn đã cài đặt module gallery.&lt;/p&gt;</value>
+  </data>
+  <data name="NumericValidation.ErrorMessage">
+    <value>Phải là một số!</value>
+  </data>
+  <data name="MyPosts.Text">
+    <value>Bài Cá Nhân</value>
+  </data>
+  <data name="MyProfile.Text">
+    <value>Hồ Sơ Cá Nhân</value>
+  </data>
+  <data name="MySettings.Text">
+    <value>Thiết Lập Cá Nhân</value>
+  </data>
+  <data name="plFlash.Text">
+    <value>Cho Phép Flash?</value>
+  </data>
+  <data name="plFlash.Help">
+    <value>Nếu được chọn, cho phép thành viên gửi flash trên bài viết.</value>
+  </data>
+  <data name="plGalleryWizard.Text">
+    <value>Dùng Gallery Wizard:</value>
+  </data>
+  <data name="plGalleryWizard.Help">
+    <value>Được dùng để mở popup để tương tác với module Gallery</value>
+  </data>
+  <data name="plImageGallery.Text">
+    <value>Gallery Ảnh:</value>
+  </data>
+  <data name="plImageGallery.Help">
+    <value>Thư mục dùng để chứa các hình ảnh của module forum này.</value>
+  </data>
+  <data name="plImageTag.Text">
+    <value>Cho phép Tag Ảnh?</value>
+  </data>
+  <data name="plImageTag.Help">
+    <value>Hình ảnh được chèn vào bài viết được lưu dưới dạng một TAG và được chuyển đổi thành địa chỉ URL đầy đủ khi hiển thị trên forum.</value>
+  </data>
+  <data name="plMovie.Text">
+    <value>Cho Phép Phim?</value>
+  </data>
+  <data name="plMovie.Help">
+    <value>Nếu chọn, cho phép người dùng gửi các đoạn phim trên bài viết.</value>
+  </data>
+  <data name="plSmiley.Text">
+    <value>Cho Phép Smiley?</value>
+  </data>
+  <data name="plSmiley.Help">
+    <value>Nếu được chọn, cho phép người dùng gửi smiley/emoticon trên các bài viết. (Cần Có Module Gallery)</value>
+  </data>
+  <data name="plSmileyGallery.Text">
+    <value>Smiley Gallery: </value>
+  </data>
+  <data name="plSmileyGallery.Help">
+    <value>Thư mục chứa smiley/emoticon.</value>
+  </data>
+  <data name="plSystemGallery.Help">
+    <value>Module Gallery được dùng để chứa các avatar hệ thống, cần có module Gallery.</value>
+  </data>
+  <data name="plSystemGallery.Text">
+    <value>Gallery Avatar Hệ Thống:</value>
+  </data>
+  <data name="plUserGallery.Text">
+    <value>Gallery Avatar Thành Viên:</value>
+  </data>
+  <data name="plUserGallery.Help">
+    <value>Module Gallery chứa avatar của thành viên, cần có module Gallery.</value>
+  </data>
+  <data name="Search.Text">
+    <value>Tìm Kiếm</value>
+  </data>
+</root>

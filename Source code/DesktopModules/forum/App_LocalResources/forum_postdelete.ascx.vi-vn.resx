@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="ResMimeType">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="Version">
+    <value>1.0.0.0</value>
+  </resheader>
+  <resheader name="Reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="Writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="lblConfirm.Text">
+    <value>
+    </value>
+  </data>
+  <data name="lblConfirm.Help">
+    <value>
+    </value>
+  </data>
+  <data name="lblSubject.Text">
+    <value>
+    </value>
+  </data>
+  <data name="lblSubject.Help">
+    <value>
+    </value>
+  </data>
+  <data name="lblAuthor.Text">
+    <value>
+    </value>
+  </data>
+  <data name="lblAuthor.Help">
+    <value>
+    </value>
+  </data>
+  <data name="lblMessage.Text">
+    <value>
+    </value>
+  </data>
+  <data name="lblMessage.Help">
+    <value>
+    </value>
+  </data>
+  <data name="lblInfo.Text">
+    <value>
+    </value>
+  </data>
+  <data name="lblInfo.Help">
+    <value>
+    </value>
+  </data>
+  <data name="ForumHome.Text">
+    <value>Forum Home </value>
+  </data>
+  <data name="Configuration.Text">
+    <value>Cấu Hình</value>
+  </data>
+  <data name="Search.Text">
+    <value>Tìm Kiếm</value>
+  </data>
+  <data name="MySettings.Text">
+    <value>Thiết Lập Cá Nhân</value>
+  </data>
+  <data name="ManageCategory.Text">
+    <value>Quản Lý Thể Loại</value>
+  </data>
+  <data name="ManageForums.Text">
+    <value>Quản Lý Forum</value>
+  </data>
+  <data name="ManageUsers.Text">
+    <value>Quản Lý Người Dùng</value>
+  </data>
+  <data name="ConfirmMessage.Text">
+    <value>Bạn có chắc là bạn muốn xóa bài viết này?</value>
+  </data>
+  <data name="ControlTitle_postdelete.Text">
+    <value>Xóa Bài</value>
+  </data>
+  <data name="ModuleHelp.Text">
+    <value>&lt;h1&gt;Forum - Xóa Bài&lt;/h1&gt;&lt;p&gt;Ở đây các moderator có thể xóa một bài viết từ một chủ đề hoặc chỉ đơn giản là xóa nội dung của nó.&lt;/p&gt;</value>
+  </data>
+  <data name="MyPosts.Text">
+    <value>Bài Cá Nhân</value>
+  </data>
+  <data name="plReason.Text">
+    <value>Email Phản Hồi:</value>
+  </data>
+  <data name="plReason.Help">
+    <value>Đây là phản hồi được email đến người gửi bài về lý do bài viết bị xóa.</value>
+  </data>
+  <data name="valEmailedResponse.Text">
+    <value>Cần phải có phản hồi</value>
+  </data>
+  <data name="PostDeletedSubject.Text">
+    <value>Bài Viết Của Bạn Đã Bị Xóa.</value>
+  </data>
+  <data name="PostClearedSubject.Text">
+    <value>Bài Viết Của Bạn Đã Được Xóa Hết Nội Dung.</value>
+  </data>
+  <data name="AdvertisingPost.Text">
+    <value>Nội Dung Mang Tính Quảng Cáo.</value>
+  </data>
+  <data name="AdvertisingPostBody.Text">
+    <value>Bài viết của bạn bị xóa vì nó chứa đựng nội dung mang tính quảng cáo.</value>
+  </data>
+  <data name="DuplicatePost.Text">
+    <value>Bài Viết Trùng Lặp</value>
+  </data>
+  <data name="DuplicatePostBody.Text">
+    <value>Bài của bạn bị xóa bởi nó trùng lặp với một bài khác.</value>
+  </data>
+  <data name="lblDeletePost.Text">
+    <value>Xóa Bài</value>
+  </data>
+  <data name="OfftopicPost.Text">
+    <value>Bài Viết Lạc Chủ Đề</value>
+  </data>
+  <data name="OfftopicPostBody.Text">
+    <value>Bài viết của bạn bị xóa bởi nó không đi đúng với chủ đề.</value>
+  </data>
+  <data name="plDeleteTemplate.Text">
+    <value>Mẫu Email:</value>
+  </data>
+  <data name="PolicyPost.Text">
+    <value>Vi Phạm Điều Lệ Forum</value>
+  </data>
+  <data name="PolicyPostBody.Text">
+    <value>Bài viết của bạn bị xóa vì nó không tuân thủ điều lệ của forum.</value>
+  </data>
+  <data name="PostedBy.Text">
+    <value>Gửi Bởi: {0} vào {1}</value>
+  </data>
+  <data name="ProfanePost.Text">
+    <value>Nội Dung Mang Tính Báng Bổ</value>
+  </data>
+  <data name="ProfanePostBody.Text">
+    <value>Bài của bạn bị xóa vì nó chứa đựng nội dung mang tính báng bổ.</value>
+  </data>
+  <data name="SpamPost.Text">
+    <value>Bài Spam</value>
+  </data>
+  <data name="SpamPostBody.Text">
+    <value>Bài viết của bạn bị xóa vì nó có dấu hiệu của một spam.</value>
+  </data>
+</root>

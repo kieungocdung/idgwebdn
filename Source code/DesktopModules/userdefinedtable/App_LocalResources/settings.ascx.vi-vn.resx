@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="ResMimeType">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="Version">
+    <value>1.0.0.0</value>
+  </resheader>
+  <resheader name="Reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="Writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ModuleHelp.Text">
+    <value>		&lt;h1&gt;Các thiết lập cụ thể cho Module Bảng Người Dùng&lt;/h1&gt;
+		&lt;p&gt;Module Bảng Người Dùng cho phép bạn định nghĩa một bảng dữ liệu riêng biệt. &lt;/p&gt;
+		&lt;p&gt;Ở trang Thiết Lập Module, bạn có thể gán các &lt;strong&gt;quyền truy cập&lt;/strong&gt; mở rộng cho các nhóm thành viên, được định nghĩa trong portal của bạn:&lt;/p&gt;
+		&lt;ul&gt;
+				&lt;li&gt;sử dụng &lt;strong&gt;Xem Module&lt;/strong&gt;, để cho phép thành viên của một nhóm để xem tất cả bản ghi có sẵn. (các lựa chọn chỉ có nếu "Thừa kế quyền truy cập từ trang" không được chọn).&lt;/li&gt;
+				&lt;li&gt;chọn &lt;strong&gt;Sửa Module&lt;/strong&gt;, để cho phép tất cả thành viên của nhóm được định nghĩa các cột và các tùy chọn hiển thị sử dụng &lt;em&gt;Quản Lý Bảng.&lt;/em&gt;&lt;/li&gt;
+				&lt;li&gt;Nếu tất cả thành viên cần được sửa đổi các bản ghi, cho phép &lt;strong&gt;Sửa Bản Ghi&lt;/strong&gt;&lt;/li&gt;
+				&lt;li&gt;Sử dụng &lt;strong&gt;Tạo Bản Ghi Mới&lt;/strong&gt;, nếu nhóm thành viên được phép thêm hàng&lt;/li&gt;
+				&lt;li&gt;Nếu nhóm thành viên cần được phép xóa các bản ghi, chọn &lt;strong&gt;Xóa Bản Ghi&lt;/strong&gt;.&lt;/li&gt;
+				&lt;li&gt;Nếu có những nhóm thành viên không được phép xem dữ liệu ở một số cột xác định, định nghĩa chúng là ẩn và chọn &lt;strong&gt;Hiện Tất Cả Cột Người Dùng Định Nghĩa&lt;/strong&gt; cho tất cả các nhóm thành viên khác với quyền xem module, những thành viên này sẽ thấy được cột đó. Các quản trị luôn thấy được tất cả các cột, ngoai trừ chế độ xem trước.&lt;/li&gt;
+		&lt;/ul&gt;
+		&lt;p&gt;ở &lt;strong&gt;Thiết Lập Bảng Người Dùng &lt;/strong&gt;có các tùy chọn sau:&lt;/p&gt;
+		&lt;ul&gt;
+				&lt;li&gt;Thường thì tất cả người dùng đều có thể sửa và xóa bản ghi. Chọn &lt;strong&gt;Người dùng chỉ có thể thao tác trên mục của anh ta&lt;/strong&gt;, nếu quyền sửa được giới hạn trên các hàng, đã được nhập vào lúc đầu bởi người dùng này. &lt;br /&gt;Lưu ý: Quản Trị luôn được phép sửa tất cả bản ghi.&lt;/li&gt;
+				&lt;li&gt;Bạn có thể gán quyền truy cập để thêm, sửa hay xóa các bản ghi ngay cả cho các thành viên chưa đăng nhập. Trong trường hợp này, bạn có thể sẽ muốn bảo đảm là các mục dữ liệu không được thêm vào bởi các bot một cách tự động. Để thực hiện điều này, chọn &lt;strong&gt;Buộc Điều Khiển Captcha&lt;/strong&gt;, và người dùng buộc phải nhập vào mã an ninh được cho trong ảnh vào một hộp chữ.&lt;/li&gt;
+		&lt;/ul&gt;
+</value>
+  </data>
+  <data name="ControlTitle_settings.Text">
+    <value>Thiết Lập Bảng Người Dùng</value>
+  </data>
+  <data name="EditOwnData.Text">
+    <value>Người dùng chỉ được phép thao tác trên mục của anh ta.</value>
+  </data>
+  <data name="ForceCaptcha.Text">
+    <value>Buộc Điều Khiển Captcha trong khi sửa đổi đối với người dùng ẩn danh để chống lại Spam.</value>
+  </data>
+  <data name="InputFiltering.Text">
+    <value>Lọc dữ liệu nhập vào đối với các mã đánh dấu hoặc mã lệnh. Lưu ý: việc lọc này sẽ luôn được áp dụng đối với Người Dùng Ẩn Danh</value>
+  </data>
+</root>

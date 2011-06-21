@@ -1,0 +1,311 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="ResMimeType">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="Version">
+    <value>1.0.0.0</value>
+  </resheader>
+  <resheader name="Reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="Writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Visible.Header">
+    <value>Hiện</value>
+  </data>
+  <data name="Title.Header">
+    <value>Tiêu Đề</value>
+  </data>
+  <data name="Type.Header">
+    <value>Kiểu</value>
+  </data>
+  <data name="Text.Text">
+    <value>Đoạn Chữ</value>
+  </data>
+  <data name="Integer.Text">
+    <value>Integer </value>
+  </data>
+  <data name="Decimal.Text">
+    <value>Decimal </value>
+  </data>
+  <data name="Date.Text">
+    <value>Ngày</value>
+  </data>
+  <data name="TrueFalse.Text">
+    <value>True/false</value>
+  </data>
+  <data name="Save.Text">
+    <value>Lưu</value>
+  </data>
+  <data name="MoveUp.Text">
+    <value>Chuyển trường lên trên</value>
+  </data>
+  <data name="MoveDown.Text">
+    <value>Chuyển trường xuống dưới</value>
+  </data>
+  <data name="Ascending.Text">
+    <value>Xuôi</value>
+  </data>
+  <data name="Descending.Text">
+    <value>Ngược</value>
+  </data>
+  <data name="cmdAddField.Text">
+    <value>Thêm cột mới</value>
+  </data>
+  <data name="ModuleHelp.Text">
+    <value>		&lt;h1&gt;Quản lý Bảng Người Dùng &lt;/h1&gt;
+		&lt;p&gt;Module Bảng Người Dùng cho phép bạn định nghĩa một bảng dữ liệu riêng.&lt;/p&gt;
+		&lt;p&gt;Có thể có các kiểu dữ liệu sau:&lt;/p&gt;
+		&lt;ul&gt;
+				&lt;li&gt;Text, &lt;/li&gt;
+				&lt;li&gt;HTML text&lt;/li&gt;
+				&lt;li&gt;Integer&lt;/li&gt;
+				&lt;li&gt;Decimal&lt;/li&gt;
+				&lt;li&gt;Date and Time&lt;/li&gt;
+				&lt;li&gt;Date&lt;/li&gt;
+				&lt;li&gt;Time &lt;/li&gt;
+				&lt;li&gt;True/false &lt;/li&gt;
+				&lt;li&gt;Email&lt;/li&gt;
+				&lt;li&gt;Currency&lt;/li&gt;
+				&lt;li&gt;Link&lt;/li&gt;
+				&lt;li&gt;Image&lt;/li&gt;
+				&lt;li&gt;Download&lt;/li&gt;
+				&lt;li&gt;Calculated Column. &lt;/li&gt;
+		&lt;/ul&gt;
+		&lt;p&gt;Các cột có thể được đặt để chỉ hiện ra cho quản trị hoặc cho một số nhóm người dùng được phép. Các tiêu đề cột là các liên kết mà, khi click, sẽ sắp xếp lại dữ liệu A-Z hoặc Z-A. Bạn có thể xác định trước trường mà từ đó bảng được sắp xếp, và bằng cách xác định một cỡ trang, sẽ cho phép phân trang . Đối với các cột liên kết, bạn có thể xác định đoạn chữ liên kết và đối với hình ảnh là độ rộng hiển thị, để tất cả hình ảnh được lưu được căn chỉnh.&lt;/p&gt;
+		&lt;h1&gt;Tạo một Bảng người dùng&lt;/h1&gt;
+		&lt;ol&gt;
+				&lt;li&gt;Chuyển đến một trang với một instance có sẵn của module này hoặc tạo một instance trong một trang có sẵn&lt;/li&gt;
+				&lt;li&gt;Chọn &lt;strong&gt;Quản Lý Bảng  &lt;/strong&gt;từ menu của Module&lt;/li&gt;
+	
+				&lt;li&gt;check &lt;strong&gt;bắt buộc &lt;/strong&gt;, nếu cột này luôn cần được điền&lt;/li&gt;
+				&lt;li&gt;check &lt;strong&gt;hiện&lt;/strong&gt;, nuếu cột này có trên danh sách cho tất cả người dùng, hoặc chỉ quản trị và các nhóm người dùng được phép mới có thể &lt;em&gt;xem các cột được người dùng định nghĩa&lt;/em&gt;. Lưu ý là điều này chỉ ảnh hưởng đến sự hiển thị của bảng mặc định, trên form nhập, tất cả các trường đều được hiển thị&lt;/li&gt;
+			&lt;li&gt;Chọn một &lt;strong&gt;Kiểu Dữ Liệu&lt;/strong&gt;phù hợp, xác định loại dữ liệu được phép nhập vào.&lt;/li&gt;
+				&lt;li&gt;Nếu muốn, nhập vào một &lt;strong&gt;Giá Trị Mặc Định&lt;/strong&gt;, được nhập vào một cách tự động khi thêm một dòng mới.&lt;/li&gt;
+				&lt;li&gt;Thiết lập mở rộng được sử dụng tùy theo kiểu giá trị của trường&lt;/li&gt;
+				&lt;ol&gt;
+						&lt;li&gt;đối với chữ và số bạn có thể nhập một tập hợp giá trị, được đưa ra dưới dạng danh sách thả xuống. Nhập tất cả giá trị ngăn cách nhau bởi dấu phảy.&lt;/li&gt;
+						&lt;li&gt;Đối với Liên Kết và Download sử dụng tùy chọn này để nhập vào giá trị hiển thị, e.g. "Download File" hoặc nhập  HTML để sử dụng một ảnh như "&amp;lt;img src='~/download.gif' alt =Download' /&amp;gt;"&lt;/li&gt;
+						&lt;li&gt;Cho trường dữ liệu hình ảnh, bạn có thể nhập vào đoạn chữ, được sử dụng như đoạn chữ thay thế, khi di chuột qua sẽ hiện lên.&lt;/li&gt;
+						&lt;li&gt;Đối với cột tính toán nhập vào biểu thức để tính. Để tham chiếu đến các trường khác, sử dụng tên trường trong dấu ngoặc.&lt;/li&gt;
+				&lt;/ol&gt;
+				&lt;li&gt;Click Lưu để lưu lại các giá trị&lt;/li&gt;
+				&lt;li&gt;Thêm các trường khác, sử dụng &lt;strong&gt;chuyển lên &lt;/strong&gt;và &lt;strong&gt;chuyển xuống&lt;/strong&gt;, để xác định thứ tự của trường.&lt;/li&gt;
+				&lt;li&gt;Xác định &lt;strong&gt;Các thiết lập chung&lt;/strong&gt;, i.e. hiển thị liên kết và ảnh có luôn được thay đổi kích cỡ đến một độ rộng xác định hay không.&lt;/li&gt;
+				&lt;li&gt;Ở &lt;strong&gt;Thiết Lập Hiển Thị&lt;/strong&gt; chọn &lt;strong&gt;Cách Thức Dựng &lt;/strong&gt;"Hiển Thị Mặc Định Dạng Lưới" và chọn thứ tự trường và thứ tự hướng. Bạn cũng có thể cho phép việc phân trang bằng cách nhập vào cỡ trang.&lt;/li&gt;
+				&lt;li&gt;Click &lt;strong&gt;Cập Nhật Các Thiết Lập Và Trở Về&lt;/strong&gt; để lưu lại thay đổi.&lt;/li&gt;
+				&lt;li&gt;Click &lt;strong&gt;Thêm Hàng&lt;/strong&gt; để nhập vào dữ liệu mới&lt;/li&gt;
+		&lt;/ol&gt;
+		&lt;p&gt;Ngoại trừ cách dựng mặc định, bạn có thể sử dụng XML với định dạng XSL cho phép mở rộng tối đa nhất. Hãy sử dụng chức năng này chỉ trên một bản tham chiếu của module của bạn. Để sử dụng chức năng này, làm theo các bước sau:&lt;/p&gt;
+		&lt;ol&gt;
+				&lt;li&gt;Chuyển đến trang đích và thêm một &lt;em&gt;bản ghi có sẵn&lt;/em&gt;. Chọn module gốc từ trang trước đó&lt;/li&gt;
+				&lt;li&gt;nhập &lt;strong&gt;Quản Lý Bảng&lt;/strong&gt; và mở rộng mục&lt;strong&gt; Hiển Thị Thiết Lập&lt;/strong&gt;&lt;/li&gt;
+				&lt;li&gt;Chọn Phương Thức Dựng&lt;strong&gt;Định dạng chuyển đổi mặc định XSL &lt;/strong&gt;( hoặc ịnh dạng chuyển đổi người dùng định nghĩa XSL, nếu bạn tạo ra riêng của bạn) và basictable.xsl hoặc một file XSL tùy ý.&lt;/li&gt;
+				&lt;li&gt;Save your changes and view output.&lt;/li&gt;
+		&lt;/ol&gt;
+</value>
+  </data>
+  <data name="plSort.Text">
+    <value>Sắp Xếp</value>
+  </data>
+  <data name="plOrder.Text">
+    <value>Thứ Tự</value>
+  </data>
+  <data name="plSort.Help">
+    <value>Chọn các trường được dùng để sắp xếp</value>
+  </data>
+  <data name="plOrder.Help">
+    <value>xác định thứ tự sắp xếp</value>
+  </data>
+  <data name="ControlTitle_manage.Text">
+    <value>Quản Lý Bảng Người Dùng</value>
+  </data>
+  <data name="DeleteColumn.Text">
+    <value>Bạn có chắc bạn muốn xóa cột này ?</value>
+  </data>
+  <data name="DateTime.Text">
+    <value>Ngày và giờ</value>
+  </data>
+  <data name="Time.Text">
+    <value>Thời Gian</value>
+  </data>
+  <data name="EMail.Text">
+    <value>Email </value>
+  </data>
+  <data name="URL.Text">
+    <value>URL </value>
+  </data>
+  <data name="Required.Header">
+    <value>Bắt Buộc</value>
+  </data>
+  <data name="Default.Header">
+    <value>Mặc định</value>
+  </data>
+  <data name="Currency.Text">
+    <value>Tiền Tệ</value>
+  </data>
+  <data name="URLViewSettings.Text">
+    <value>Hiển thị tùy chọn cho trường URL:</value>
+  </data>
+  <data name="plURLFullPath.Help">
+    <value>Hiển thị đường dẫn đầy đủ cho các liên kết bên trong và bên ngoài hay chỉ điền vào tên / trang ?</value>
+  </data>
+  <data name="Image.Text">
+    <value>Ảnh</value>
+  </data>
+  <data name="ImageViewSettings.Text">
+    <value>tùy chọn hiển thị cho trường ảnh:</value>
+  </data>
+  <data name="plImageWidth.Text">
+    <value>Độ Rộng Ảnh</value>
+  </data>
+  <data name="plImageWidth.Help">
+    <value>Nhập độ rộng của ảnh được hiển thị. Để trống để dùng kích cỡ ban đầu.</value>
+  </data>
+  <data name="plURLFullPath.Text">
+    <value>Hiện đường dẫn đầy đủ?</value>
+  </data>
+  <data name="plPaging.Text">
+    <value>Phân Trang</value>
+  </data>
+  <data name="plPaging.Help">
+    <value>Đặt số mục trên một trang, nếu bạn muốn phân trang</value>
+  </data>
+  <data name="cmdApply.Text">
+    <value>áp dụng</value>
+  </data>
+  <data name="NoPaging.Text">
+    <value>&lt;không phân trang&gt;</value>
+  </data>
+  <data name="Settings.Text">
+    <value>Thiết Lập Chung</value>
+  </data>
+  <data name="PresentationSettings.Text">
+    <value>Thiết Lập Hiển Thị (cho trang hiện tại)</value>
+  </data>
+  <data name="plRenderMethod.Text">
+    <value>Phương Thức Dựng</value>
+  </data>
+  <data name="plRenderMethod.Help">
+    <value>Dữ liệu có thể được hiển thị sử dụng thiết kế bẳng mặc định, XSL có sẵn hoặc tùy biến.</value>
+  </data>
+  <data name="plPreDefinedStyleSheet.Text">
+    <value>File XSL Có Sẵn</value>
+  </data>
+  <data name="plPreDefinedStyleSheet.Help">
+    <value>Chọn một trong các XSL style sheet, là một phần của module UserDefinedTable.</value>
+  </data>
+  <data name="plUserDefinedStyleSheet.Text">
+    <value>File XSL người dùng định nghĩa</value>
+  </data>
+  <data name="plUserDefinedStyleSheet.Help">
+    <value>Xác định vị trí của từng XSL style sheet.</value>
+  </data>
+  <data name="cmdDownLoadStyleSheet.Text">
+    <value>Hiển thị mã nguồn XSL</value>
+  </data>
+  <data name="DataGrid.Text">
+    <value>Bảng lưới mặc định</value>
+  </data>
+  <data name="XslPreDefinedStyleSheet.Text">
+    <value>XSLTransformation Có Sẵn</value>
+  </data>
+  <data name="XslUserDefinedStyleSheet.Text">
+    <value>XSL Người Dùng Định Nghĩa</value>
+  </data>
+  <data name="CreatedBy.Text">
+    <value>Tạo bởi</value>
+  </data>
+  <data name="CreatedAt.Text">
+    <value>Được tạo vào </value>
+  </data>
+  <data name="ChangedAt.Text">
+    <value>Thay đổi vào</value>
+  </data>
+  <data name="ChangedBy.Text">
+    <value>Thay đổi bởi</value>
+  </data>
+  <data name="TextHtml.Text">
+    <value>Rich Text (Html) </value>
+  </data>
+  <data name="SpecialCharactersInFieldTitle.ErrorMessage">
+    <value>Tiêu đề trường chứa các ký tự đặc biệt như "*", ":", "," hay "?" </value>
+  </data>
+  <data name="AlternateItemStyleBackColor.Text">
+    <value>Mục Phụ</value>
+  </data>
+  <data name="plAlternatingItemStyleBackColor.Text">
+    <value>Màu Nền</value>
+  </data>
+  <data name="plAlternatingItemStyleBackColor.Help">
+    <value>Màu Nền và hàng lẻ</value>
+  </data>
+  <data name="Extended Settings.Header">
+    <value>Thiết Lập Mở Rộng</value>
+  </data>
+  <data name="UDT_InFieldTitle.ErrorMessage">
+    <value>Tiêu đề chứa "_UDT_" </value>
+  </data>
+  <data name="GridPresentationSettings.Text">
+    <value>Thiết Lập Bảng Lưới</value>
+  </data>
+  <data name="cmdSaveAndBack.Text">
+    <value>Lưu Thiết Lập và Trở Về</value>
+  </data>
+  <data name="plDnnCssClasses.Text">
+    <value>Cách sử dụng các lớp CSS </value>
+  </data>
+  <data name="plDnnCssClasses.Help">
+    <value>Cách sử dụng các lớp CSS </value>
+  </data>
+  <data name="chkDnnCssClasses.Text">
+    <value>áp dụng</value>
+  </data>
+  <data name="UniqueFieldName.ErrorMessage">
+    <value>Tiêu đề phải là đơn nhất</value>
+  </data>
+  <data name="UnsupportedCast.ErrorMessage">
+    <value>Bạn vừa thay đổi kiểu của trường &lt;b&gt;{2}&lt;/b&gt; từ "{0}" đến "{1}". Lưu ý là điều này có thể gây ra lỗi, đây là phép đổi không được hỗ trợ!</value>
+  </data>
+  <data name="cmdShowXmlData.Text">
+    <value>Hiển Thị Dữ Liệu Dưới Dạng XML</value>
+  </data>
+  <data name="plURLNewWindow.Help">
+    <value>Chọn tùy chọn này để tác giả có một checkbox để mở một URL được nhập vào trong 1 cửa sổ mới.</value>
+  </data>
+  <data name="plURLNewWindow.Text">
+    <value>Hiển thị "mở trên cửa sổ mới"</value>
+  </data>
+  <data name="URLEditSettings.Text">
+    <value>Sửa đổi tùy chọn cho trường URL này:</value>
+  </data>
+</root>

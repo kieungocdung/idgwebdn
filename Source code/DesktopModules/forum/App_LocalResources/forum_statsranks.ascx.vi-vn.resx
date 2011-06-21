@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="ResMimeType">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="Version">
+    <value>1.0.0.0</value>
+  </resheader>
+  <resheader name="Reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="Writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="PostRanks.Text">
+    <value>Xếp Hạng Bài Viết</value>
+  </data>
+  <data name="ForumStatistics.Text">
+    <value>Thống Kê</value>
+  </data>
+  <data name="plPostsPerPage.Text">
+    <value>Bài/Trang:</value>
+  </data>
+  <data name="plPostsPerPage.Help">
+    <value>Số bài viết được hiển thị trên một trang mỗi lần.&lt;br&gt;&lt;b&gt;Lưu ý&lt;/b&gt;&lt;br&gt;Sẽ bị override trên thiết lập của từng thành viên.  Chỉ áp dụng cho thành viên đăng ký.</value>
+  </data>
+  <data name="plPopularPostsView.Text">
+    <value>Chủ Đề Yêu Thích (lần xem):</value>
+  </data>
+  <data name="plPopularPostsView.Help">
+    <value>Số lần xem để chủ đề được coi là được yêu thích.</value>
+  </data>
+  <data name="plPopularPostsReply.Text">
+    <value>Chủ Đề Yêu Thích (trả lời):</value>
+  </data>
+  <data name="plPopularPostsReply.Help">
+    <value>Số bài trả lời để chủ đề được coi là chủ đề được yêu thích.</value>
+  </data>
+  <data name="plFisrtRank.Text">
+    <value>Hạng 1:</value>
+  </data>
+  <data name="plFisrtRank.Help">
+    <value>Số bài viết là bắt buộc để người dùng được xếp hạng 1.</value>
+  </data>
+  <data name="plSecondRank.Text">
+    <value>Hạng 2:</value>
+  </data>
+  <data name="plSecondRank.Help">
+    <value>Số bài viết là bắt buộc để người dùng được xếp hạng 2.</value>
+  </data>
+  <data name="plThirdRank.Text">
+    <value>Hạng 3:</value>
+  </data>
+  <data name="plThirdRank.Help">
+    <value>Số bài viết là bắt buộc để người dùng được xếp hạng 3.</value>
+  </data>
+  <data name="plFourthRank.Text">
+    <value>Hạng 4:</value>
+  </data>
+  <data name="plFourthRank.Help">
+    <value>Số bài viết là bắt buộc để người dùng được xếp hạng 4.</value>
+  </data>
+  <data name="plFifthRank.Text">
+    <value>Hạng 5:</value>
+  </data>
+  <data name="plFifthRank.Help">
+    <value>Số bài viết là bắt buộc để người dùng được xếp hạng 5.</value>
+  </data>
+  <data name="plStatistics.Text">
+    <value>Mở Thống Kê?</value>
+  </data>
+  <data name="plStatistics.Help">
+    <value>Nếu chọn, sẽ hiển thị bảng thống kê trên trang chính của forum.</value>
+  </data>
+  <data name="plStatsUpdateInterval.Text">
+    <value>Tần Suất Cập Nhật Chỉ Số:</value>
+  </data>
+  <data name="plStatsUpdateInterval.Help">
+    <value>Tần suất thống kê được cập nhật mới (theo giờ)</value>
+  </data>
+  <data name="NumericValidation.ErrorMessage">
+    <value>Phải là một số!</value>
+  </data>
+  <data name="SaveAndBack.AlternateText">
+    <value>Lưu và trở về</value>
+  </data>
+  <data name="CancelAndBack.AlternateText">
+    <value>Hủy bỏ và trở về</value>
+  </data>
+  <data name="MySettings.Text">
+    <value>Thiết Lập Cá Nhân</value>
+  </data>
+  <data name="MyProfile.Text">
+    <value>Hồ Sơ Cá Nhân</value>
+  </data>
+  <data name="Search.Text">
+    <value>Tìm Kiếm</value>
+  </data>
+  <data name="ForumHome.Text">
+    <value>Forum Home </value>
+  </data>
+  <data name="ModuleHelp.Text">
+    <value>&lt;h1&gt;Forum - Thống Kê và Xếp Hạng&lt;/h1&gt;&lt;p&gt;Khu vực này chỉ được truy cập đến bởi quản trị. Ở đây được chia thành 2 phần. Phần ở trên điều khiển việc Xếp Hạng Bài Viết, hãy chú ý là hạng Nhất phải là người có số bài nhiều nhất.  Phần dưới bật/tắt thống kê cho module. Bạn cũng có thể điều khiển tần suất cập nhật của chúng.&lt;/p&gt;</value>
+  </data>
+  <data name="chkStatistics.Text">
+    <value>
+    </value>
+  </data>
+  <data name="chkAttachment.Text">
+    <value>
+    </value>
+  </data>
+  <data name="ControlTitle_statsranks.Text">
+    <value>Thống Kê và Xếp Hạng</value>
+  </data>
+  <data name="plRatings.Text">
+    <value>Cho Phép Đánh Giá:</value>
+  </data>
+  <data name="plRatings.Help">
+    <value>Nếu được chọn, forum sẽ hiển thị đánh giá về các chủ đề và cho phép thành viên đăng ký được đưa ra đánh giá của riêng họ đối với mỗi chủ đề.</value>
+  </data>
+  <data name="chkRatings.Text">
+    <value>
+    </value>
+  </data>
+  <data name="lblStatsRanks.Text">
+    <value>Thống Kê và Xếp Hạng</value>
+  </data>
+  <data name="MyPosts.Text">
+    <value>Bài Cá Nhân</value>
+  </data>
+  <data name="Ratings.Text">
+    <value>Đánh Giá</value>
+  </data>
+  <data name="plRankings.Text">
+    <value>Hiển Thị Xếp Hạng:</value>
+  </data>
+  <data name="plRankings.Help">
+    <value>Nếu được chọn, việc xếp hạng sẽ được hiển thị trên khu vực avatar của từng thành viên.</value>
+  </data>
+</root>

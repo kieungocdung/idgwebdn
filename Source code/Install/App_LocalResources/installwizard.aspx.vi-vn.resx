@@ -1,0 +1,484 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AdminUser.Text" xml:space="preserve">
+    <value>Quản Trị Portal</value>
+  </data>
+  <data name="AdminUserError.Text" xml:space="preserve">
+    <value>&lt;b&gt;&lt;font color='red'&gt;Lỗi Tài Khoản Quản Trị:&lt;/font&gt;&lt;/b&gt;&lt;br/&gt;{0}</value>
+  </data>
+  <data name="Auto.Text" xml:space="preserve">
+    <value>&lt;b&gt;Tự Động&lt;/b&gt; - Cách thức cài đặt "Tự Động" sẽ bỏ  qua Wizard và sẽ sử dụng phương thức cài đặt tự động cũ.</value>
+  </data>
+  <data name="ChooseDatabase.Text" xml:space="preserve">
+    <value>Chọn Cơ Sở Dữ Liệu:</value>
+  </data>
+  <data name="ChooseDbError.Text" xml:space="preserve">
+    <value>Bạn phải chọn một Kiểu Cơ Sở Dữ Liệu</value>
+  </data>
+  <data name="ChooseInstall.Text" xml:space="preserve">
+    <value>&lt;h3&gt;Chọn Cách Thức Cài Đặt:&lt;/h3&gt;</value>
+  </data>
+  <data name="ChooseLanguage.Text" xml:space="preserve">
+    <value>&lt;h3&gt;Chọn Ngôn Ngữ:&lt;/h3&gt;</value>
+  </data>
+  <data name="Complete.Text" xml:space="preserve">
+    <value>Quá trình cài đặt cơ sở dữ liệu đã hoàn tất</value>
+  </data>
+  <data name="CompleteDetail.Text" xml:space="preserve">
+    <value>&lt;p&gt;Chúc mừng, bạn đã cài đặt DotNetNuke thành công.&lt;/p&gt;</value>
+  </data>
+  <data name="CompleteTitle.Text" xml:space="preserve">
+    <value>Chúc Mừng</value>
+  </data>
+  <data name="Confirm.Text" xml:space="preserve">
+    <value>Xác Nhận Mật Khẩu:</value>
+  </data>
+  <data name="ConfirmPassword.Text" xml:space="preserve">
+    <value>Mật khẩu xác nhận vừa nhập không giống với mật khẩu.</value>
+  </data>
+  <data name="ConnectError.Text" xml:space="preserve">
+    <value>&lt;b&gt;&lt;font color='red'&gt;Lỗi Kết Nối:&lt;/font&gt;&lt;/b&gt;&lt;br/&gt;{0}</value>
+  </data>
+  <data name="ConnectSuccess.Text" xml:space="preserve">
+    <value>&lt;b&gt;&lt;font color='green'&gt;Kết Nối Thành Công&lt;/font&gt;&lt;/b&gt;</value>
+  </data>
+  <data name="Containers.Text" xml:space="preserve">
+    <value>Container</value>
+  </data>
+  <data name="Database.Text" xml:space="preserve">
+    <value>Cơ Sở Dữ Liệu:</value>
+  </data>
+  <data name="DatabaseFile.Text" xml:space="preserve">
+    <value>Tên file:</value>
+  </data>
+  <data name="DatabaseFileHelp.Text" xml:space="preserve">
+    <value>Nhập tên file Cơ sở dữ liệu (được chứa trong thư mục App_Data)</value>
+  </data>
+  <data name="DatabaseHelp.Text" xml:space="preserve">
+    <value>Nhập tên cơ sở dữ liệu</value>
+  </data>
+  <data name="Email.Text" xml:space="preserve">
+    <value>Địa Chỉ Email:</value>
+  </data>
+  <data name="Failure.Text" xml:space="preserve">
+    <value>THẤT BẠI</value>
+  </data>
+  <data name="FileCreate.Text" xml:space="preserve">
+    <value>Tạo File</value>
+  </data>
+  <data name="FileDelete.Text" xml:space="preserve">
+    <value>Xóa File</value>
+  </data>
+  <data name="Finished.Text" xml:space="preserve">
+    <value>Kết Thúc (chuyển đến site)</value>
+  </data>
+  <data name="FirstName.Text" xml:space="preserve">
+    <value>Họ:</value>
+  </data>
+  <data name="FolderCreate.Text" xml:space="preserve">
+    <value>Tạo Thư Mục</value>
+  </data>
+  <data name="FolderDelete.Text" xml:space="preserve">
+    <value>Xóa Thư Mục</value>
+  </data>
+  <data name="Full.Text" xml:space="preserve">
+    <value>&lt;b&gt;Custom&lt;/b&gt; - Cách thức cài đặt "Custom" cho phép bạn tùy biến việc cài đặt DotNetNuke của mình. Chọn tùy chọn này nếu bạn muốn quyết định thành phần nào được cài đặt.</value>
+  </data>
+  <data name="HomePage.Text" xml:space="preserve">
+    <value>Trang Chủ</value>
+  </data>
+  <data name="HostUserError.Text" xml:space="preserve">
+    <value>&lt;b&gt;&lt;font color='red'&gt;Lỗi Tài Khoản Host:&lt;/font&gt;&lt;/b&gt;&lt;br/&gt;{0}</value>
+  </data>
+  <data name="Install.Error" xml:space="preserve">
+    <value>Có lỗi xảy ra trong quá trình cài đặt cơ sở dữ liệu.</value>
+  </data>
+  <data name="Install.Text" xml:space="preserve">
+    <value>Lệnh Cài Đặt Cơ Sở Dữ Liệu</value>
+  </data>
+  <data name="InstallComplete.Text" xml:space="preserve">
+    <value>Hoàn Thành Thực Thi Lênh Cơ Sở Dữ Liệu</value>
+  </data>
+  <data name="InstallDatabase.Text" xml:space="preserve">
+    <value>Đang cài đặt cơ sở dữ liệu - phiên bản {0}</value>
+  </data>
+  <data name="Installed.Text" xml:space="preserve">
+    <value>&lt;p&gt;DotNetNuke đã được cài đặt trên hệ thống này.&lt;/p&gt;</value>
+  </data>
+  <data name="Installing.Text" xml:space="preserve">
+    <value>Đang Thực Thi Lệnh Cài Đặt ...   </value>
+  </data>
+  <data name="InstallLanguagesError.Text" xml:space="preserve">
+    <value>&lt;b&gt;&lt;font color='red'&gt;Có lỗi xảy ra khi cài đặt ngôn ngữ(s):&lt;/font&gt;&lt;/b&gt;&lt;br/&gt;{0}</value>
+  </data>
+  <data name="InstallModuleError.Text" xml:space="preserve">
+    <value>&lt;b&gt;&lt;font color='red'&gt;Có lỗi xảy ra khi cài đặt module:&lt;/font&gt;&lt;/b&gt;&lt;br/&gt; {0}</value>
+  </data>
+  <data name="InstallPortalError.Text" xml:space="preserve">
+    <value>&lt;b&gt;&lt;font color='red'&gt;Có lỗi xảy ra khi cài đặt portal:&lt;/font&gt;&lt;/b&gt;&lt;br/&gt;{0}</value>
+  </data>
+  <data name="InstallScript.Text" xml:space="preserve">
+    <value>Nâng cấp cơ sở dữ liệu lên phiên bản {0}</value>
+  </data>
+  <data name="InstallSkinsError.Text" xml:space="preserve">
+    <value>&lt;b&gt;&lt;font color='red'&gt;Có lỗi xảy ra khi cài đặt Skin\Container:&lt;/font&gt;&lt;/b&gt;&lt;br/&gt; {0}</value>
+  </data>
+  <data name="Integrated.Text" xml:space="preserve">
+    <value>Integrated Security: </value>
+  </data>
+  <data name="IntegratedHelp.Text" xml:space="preserve">
+    <value>Chọn nếu bạn đang sử dụng Integrated Security của SQL Server, có nghĩa là bạn sẽ sử dụng tài khoản Windows của mình để truy cập SQL Server. Nếu bạn đang sử dụng SQL Server Express thì bạn sẽ cần đến tùy chọn này.  Nếu bạn được cung cấp  UserId/Password để truy cập đến cơ sở dữ liệu này, bỏ trống tùy chọn này và nhập vào  UserId/Password đó.</value>
+  </data>
+  <data name="InValidEmail.Text" xml:space="preserve">
+    <value>Tài khoản email không hợp lệ.</value>
+  </data>
+  <data name="Languages.Text" xml:space="preserve">
+    <value>Ngôn Ngữ</value>
+  </data>
+  <data name="LastName.Text" xml:space="preserve">
+    <value>Tên:</value>
+  </data>
+  <data name="MachineKey.Error" xml:space="preserve">
+    <value>Lỗi Cập Nhật Khóa Máy</value>
+  </data>
+  <data name="MinUserNamelength.Text" xml:space="preserve">
+    <value>Độ dài tối thiểu đối với tên tài khoản là 4 ký tự</value>
+  </data>
+  <data name="Modules.Text" xml:space="preserve">
+    <value>Module</value>
+  </data>
+  <data name="Next.Text" xml:space="preserve">
+    <value>Tiếp</value>
+  </data>
+  <data name="NoContainers.Text" xml:space="preserve">
+    <value>Không có container nào để cài đặt</value>
+  </data>
+  <data name="NoLanguages.Text" xml:space="preserve">
+    <value>Không có ngôn ngữ nào để cài đặt.</value>
+  </data>
+  <data name="NoModules.Text" xml:space="preserve">
+    <value>Không có module nào để cài đặt</value>
+  </data>
+  <data name="NoPassword.Text" xml:space="preserve">
+    <value>Bạn phải đưa ra password cho tài khoản</value>
+  </data>
+  <data name="NoSkins.Text" xml:space="preserve">
+    <value>Không có skin nào để cài</value>
+  </data>
+  <data name="Oracle.Text" xml:space="preserve">
+    <value>Cơ Sở Dữ Liệu Oracle</value>
+  </data>
+  <data name="Owner.Text" xml:space="preserve">
+    <value>Chạy bằng tài khoản db Owner:</value>
+  </data>
+  <data name="OwnerHelp.Text" xml:space="preserve">
+    <value>Chọn nếu bạn đang sử dụng cơ sở dữ liệu bằng tài khoản Sở hữu của cơ sở dữ liệu (Database Owner) - nếu bỏ trống bạn sẽ chạy với tài khoản UserID được chọn</value>
+  </data>
+  <data name="Page0.Title" xml:space="preserve">
+    <value>Chào Mừng</value>
+  </data>
+  <data name="Page0Detail.Text" xml:space="preserve">
+    <value>&lt;p&gt;Chào mừng bạn đến với Wizard cài đặt DotNetNuke. Wizard này sẽ hướng dẫn bạn thực hiện quá trình cài đặt của Ứng dụng DotNetNuke của bạn.&lt;/p&gt;
+&lt;p&gt;Bạn có thể di chuyển qua các bước của Wizard sử dụng các nút Tiếp và Trở Về.  Ở một số trang bạn sẽ thấy nút "Thử Nghiệm ...".  Nút này cho phép bạn thử nghiệm cấu hình trước khi tiếp tục, để xem tác dụng của sự thay đổi.&lt;/p&gt;
+&lt;p&gt;Bước đầu tiên là lựa chọn cách thức cài đặt vào lựa chọn ngôn ngữ bạn muốn sử dụng trong quá trình cài đặt.&lt;/p&gt;
+
+</value>
+  </data>
+  <data name="Page0Title.Text" xml:space="preserve">
+    <value>Wizard Cài Đặt DotNetNuke - Phiên Bản {0}</value>
+  </data>
+  <data name="Page1.Title" xml:space="preserve">
+    <value>Quyền Truy Cập File</value>
+  </data>
+  <data name="Page1Detail.Text" xml:space="preserve">
+    <value>&lt;p&gt;DotNetNuke có cơ chế tải lên cho nội dung, các module và skin. Những chức năng này đòi hỏi các thiết lập an ninh để ứng dụng có thể thực hiện các thao tác trên file như tạo, xóa...&lt;/p&gt;
+&lt;p&gt;Trang này kiểm tra quyền truy cập hiện tại để đảm bảo chức năng này hoạt động chính xác.&lt;/p&gt;</value>
+  </data>
+  <data name="Page1Title.Text" xml:space="preserve">
+    <value>Kiểm Tra Quyền Truy Cập</value>
+  </data>
+  <data name="Page2.Title" xml:space="preserve">
+    <value>Cấu Hình Cơ Sở Dữ Liệu</value>
+  </data>
+  <data name="Page2Detail.Text" xml:space="preserve">
+    <value>&lt;p&gt;Bạn có thể cấu hình cơ sở dữ liệu được sử dụng bởi DotNetNuke trên trang này.  Nếu bạn đang cài đặt DotNetNuke bằng một "tài khoản Hosting" thì nhà cung cấp dịch vụ của bạn đã phải cung cấp cho bạn những thông tin này rồi.&lt;/p&gt;
+&lt;p&gt;Có hai lựa chọn cho SQL Server 2005.  SQLServer 2005 hỗ trợ việc sử dụng của các File Cơ Sở Dữ Liệu.  Trong hầu hết các trường hợp bạn nên lựa chọn Cơ sở dữ liệu, nhưng nếu bạn đang sử dụng SQL Server 2005 Express thì bạn nên sử dụng File Cơ Sở Dữ Liệu.&lt;/p&gt;</value>
+  </data>
+  <data name="Page2Title.Text" xml:space="preserve">
+    <value>Cấu Hình Kết Nối Cơ Sở Dữ Liệu</value>
+  </data>
+  <data name="Page3.Title" xml:space="preserve">
+    <value>Cài Đặt Cơ Sở Dữ Liệu</value>
+  </data>
+  <data name="Page3Detail.Text" xml:space="preserve">
+    <value>&lt;p&gt;Quá trình cài đặt cơ sở dữ liệu đã được bắt đầu khi trang này được nạp. Nút Tiếp sẽ bị vô hiệu hóa đến khi quá trình cài đặt mã hoàn tất.&lt;/p&gt;</value>
+  </data>
+  <data name="Page3Title.Text" xml:space="preserve">
+    <value>Chạy Mã Cài Đặt Cơ Sở Dữ Liệu</value>
+  </data>
+  <data name="Page4.Title" xml:space="preserve">
+    <value>Tài Khoản Host</value>
+  </data>
+  <data name="Page4Detail.Text" xml:space="preserve">
+    <value>&lt;p&gt;Ở trang này bạn nên cung cấp thông tin cho tài khoản Host hay còn gọi là SuperUser. Tài khoản này có quyền truy cập đến tất cả portals của ứng dụng và cần phải quan tâm tới việc cung cấp tên tài khoản/mật khẩu để gây khó khăn cho việc "hack" của những người dùng không có thiện chí.&lt;/p&gt;</value>
+  </data>
+  <data name="Page4Title.Text" xml:space="preserve">
+    <value>Cấu Hình Tài Khoản Host</value>
+  </data>
+  <data name="Page5.Title" xml:space="preserve">
+    <value>Cài Đặt Module</value>
+  </data>
+  <data name="Page5Detail.Text" xml:space="preserve">
+    <value>&lt;p&gt;DotNetNuke có tính khả mở mạnh mẽ. Tính khả mở này được cung cấp dựa trên khái niệm về các module "có thể cài đặt" .&lt;/p&gt;
+&lt;p&gt;Ở trang này bạn có thể lựa chọn các module để cài đặt.  Việc cài đặt các module sẽ khiến chúng có mặt ở chức năng cấu hình trang.&lt;/p&gt;</value>
+  </data>
+  <data name="Page5Title.Text" xml:space="preserve">
+    <value>Cài Đặt Module</value>
+  </data>
+  <data name="Page6.Title" xml:space="preserve">
+    <value>Cài Đặt Portal</value>
+  </data>
+  <data name="Page6Detail.Text" xml:space="preserve">
+    <value>&lt;p&gt;Ở trang này bạn sẽ cấu hình Portal Host.&lt;/p&gt;
+&lt;p&gt;bạn sẽ phải cung cấp một tài khoản quản trị. Người dùng này có quyền truy cập đến tất cả các chức năng của portal, và cũng như tài khoản Host, cần thiết phải có một cặp Tên Tài Khoản/Mật Khẩu để gây khó khăn cho việc  "hack" bởi những người dụng không có thiện chí.&lt;/p&gt;</value>
+  </data>
+  <data name="Page6Title.Text" xml:space="preserve">
+    <value>Cài Đặt Portal Host</value>
+  </data>
+  <data name="Page7.Title" xml:space="preserve">
+    <value>Cài Đặt Skin</value>
+  </data>
+  <data name="Page7Detail.Text" xml:space="preserve">
+    <value>&lt;p&gt;DotNetNuke có hỗ trợ thay đổi giao diện.  Ở trang này bạn có thể lựa chọn cài đặt các Skin và Container.&lt;/p&gt;
+&lt;p&gt;Việc cài đặt một Skin và/hoặc container sẽ không tự động sử dụng nó, mà bạn có thể lựa chọn áp dụng nó sau này.&lt;/p&gt;</value>
+  </data>
+  <data name="Page7Title.Text" xml:space="preserve">
+    <value>Cài Đặt Skin Và Container</value>
+  </data>
+  <data name="Page8.Title" xml:space="preserve">
+    <value>Cài Đặt Ngôn Ngữ</value>
+  </data>
+  <data name="Page8Detail.Text" xml:space="preserve">
+    <value>&lt;p&gt;DotNetNuke có hỗ trợ ngôn ngữ. Ở trang này bạn sẽ lựa chọn ngôn ngữ để cài đặt.&lt;/p&gt;
+&lt;p&gt;Việc cài đặt ngôn ngữ sẽ không lập tức sử dụng nó, mà bạn có thể lựa chọn áp dụng nó sau này.&lt;/p&gt;</value>
+  </data>
+  <data name="Page8Title.Text" xml:space="preserve">
+    <value>Cài Đặt Gói Ngôn Ngữ</value>
+  </data>
+  <data name="Password.Text" xml:space="preserve">
+    <value>Mật Khẩu:</value>
+  </data>
+  <data name="PasswordHelp.Text" xml:space="preserve">
+    <value>Nhập Mật khẩu cho cơ sở dữ liệu</value>
+  </data>
+  <data name="PasswordLength.Text" xml:space="preserve">
+    <value>Mật khẩu phải có tối thiểu {0} ký tự.</value>
+  </data>
+  <data name="PasswordUser.Text" xml:space="preserve">
+    <value>Bạn không thể đặt mật khẩu trùng với tên tài khoản.</value>
+  </data>
+  <data name="Permissions.Text" xml:space="preserve">
+    <value>Tóm Tắt Quyền Truy Cập File:</value>
+  </data>
+  <data name="PermissionsError.Text" xml:space="preserve">
+    <value>&lt;img alt="Hình ảnh hiển thị các cấu hình an ninh đối với thư mục gốc của website phải được đặt để cho phép tài khoản ASPNET hoặc NT AUTHORITY/NETWORK SERVICE có quyền Read, Write va` Change Control." src="..\403-3.gif" align="right" hspace="10"&gt;
+&lt;p&gt;&lt;b&gt;&lt;font color='red'&gt;Site của bạn thất bại trong quá trình kiểm tra quyền truy cập.&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
+Sử dụng Windows Explorer, tìm đến thư mục gốc của website (mặc định là C:\DotNetNuke ). Right-click lên thư mục và chọn Sharing từ danh sách thả xuống ( hãy chú ý là nếu bạn đang sử dụng Windows XP bạn có thể sẽ phải &lt;a href="http://whoozoo.co.uk/winxpFilePerms.htm" target="_blank"&gt;Cho phép Simple File Sharing&lt;/a&gt; để các tùy chọn này hiện ra ). Chọn tab Security. Đưa Tài khoản người dùng tương ứng vào danh sách và đặt các quyền truy cập.
+&lt;br/&gt;&lt;br/&gt;
+&lt;h3&gt;Nếu sử dụng Windows 2000 - IIS5&lt;/h3&gt;
+&lt;p&gt;Tài khoản {Server}\ASPNET phải có các quyền Read, Write, và Change Control đối với thư mục gốc của website.&lt;/p&gt;
+&lt;h3&gt;Nếu sử dụng Windows 2003 - IIS6&lt;/h3&gt;
+&lt;p&gt;Tài khoản NT AUTHORITY\NETWORK SERVICE User Account phải có các quyền Read, Write, và Change Control đối với thư mục gốc của website.&lt;/p&gt;
+&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;</value>
+  </data>
+  <data name="PermissionsOk.Text" xml:space="preserve">
+    <value>&lt;b&gt;&lt;font color='green'&gt;Site của bạn vượt qua quá trình kiểm tra quyền truy cập.&lt;/font&gt;&lt;/b&gt;</value>
+  </data>
+  <data name="Portal.Text" xml:space="preserve">
+    <value>Thuộc Tính Portal</value>
+  </data>
+  <data name="PortalTemplate.Text" xml:space="preserve">
+    <value>Mẫu:</value>
+  </data>
+  <data name="PortalTitle.Text" xml:space="preserve">
+    <value>Tiêu Đề Portal:</value>
+  </data>
+  <data name="Previous.Text" xml:space="preserve">
+    <value>Trở Về</value>
+  </data>
+  <data name="Qualifier.Text" xml:space="preserve">
+    <value>Object Qualifier: </value>
+  </data>
+  <data name="QualifierHelp.Text" xml:space="preserve">
+    <value>Nhập một tiền tố được dùng cho tất cả đối tượng cơ sở dữ liệu của bạn - điều này sẽ đảm bảo không có tên đối tượng nào đụng độ với một ứng dụng khác.</value>
+  </data>
+  <data name="ScriptError.Text" xml:space="preserve">
+    <value>Xem {0} để biết thêm thông tin</value>
+  </data>
+  <data name="Server.Text" xml:space="preserve">
+    <value>Máy Chủ:</value>
+  </data>
+  <data name="ServerHelp.Text" xml:space="preserve">
+    <value>Nhập Tên hoặc địa chỉ IP của máy tính đặt Cơ sở dữ liệu.  (nếu sử dụng Oracle nhập vào Data Source (SID))
+</value>
+  </data>
+  <data name="Skins.Text" xml:space="preserve">
+    <value>Skin</value>
+  </data>
+  <data name="SQLServer.Text" xml:space="preserve">
+    <value>Cơ sở dữ liệu SQL Server 2000/2005</value>
+  </data>
+  <data name="SQLServerXPress.Text" xml:space="preserve">
+    <value>File SQL Server 2005 (Express)</value>
+  </data>
+  <data name="Success.Text" xml:space="preserve">
+    <value>Thành Công</value>
+  </data>
+  <data name="TestDB.Text" xml:space="preserve">
+    <value>Thử Nghiệm Kết Nối Cơ Sở Dữ Liệu</value>
+  </data>
+  <data name="TestPerm.Text" xml:space="preserve">
+    <value>Thử Nghiệm Quyền Truy Cập</value>
+  </data>
+  <data name="Title.Text" xml:space="preserve">
+    <value>Wizard Cài Đặt DotNetNuke</value>
+  </data>
+  <data name="Typical.Text" xml:space="preserve">
+    <value>&lt;b&gt;Thông Thường&lt;/b&gt;  - Cách thức cài đặt "Thông Thường" sẽ tự động chọn một số lựa chọn thường được sử dụng hộ bạn.</value>
+  </data>
+  <data name="Upgrade.Text" xml:space="preserve">
+    <value>&lt;p&gt;DotNetNuke phiên bản {0} đã được cài đặt. Click nút Tiếp để nâng cấp lên phiên bản mới.&lt;/p&gt;</value>
+  </data>
+  <data name="UpgradeTitle.Text" xml:space="preserve">
+    <value>Quá Trình Nâng Cấp DotNetNuke - Phiên Bản {0}</value>
+  </data>
+  <data name="UserHelp.Text" xml:space="preserve">
+    <value>Nhập UserID cho cơ sở dữ liệu</value>
+  </data>
+  <data name="UserId.Text" xml:space="preserve">
+    <value>User ID: </value>
+  </data>
+  <data name="UserName.Text" xml:space="preserve">
+    <value>Tên Tài Khoản:</value>
+  </data>
+  <data name="WhatsNext.Text" xml:space="preserve">
+    <value>Tiếp Theo Là Gì?</value>
+  </data>
+</root>

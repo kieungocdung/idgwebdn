@@ -1,0 +1,300 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="ResMimeType">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="Version">
+    <value>1.0.0.0</value>
+  </resheader>
+  <resheader name="Reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="Writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ShowEditorOptions.Text">
+    <value>Hiển thị các tùy chọn soạn thảo riêng</value>
+  </data>
+  <data name="plToolbarSet.Text">
+    <value>Thanh Công Cụ</value>
+  </data>
+  <data name="plToolbarSet.Help">
+    <value>Chọn thứ tự sắp xếp của các thanh công cụ. Chức danh sẽ được xác nhận theo thứ tự này từ trên xuống dưới. Nếu không có thanh công cụ nào phù hợp với nhóm chức danh hiện tại, thanh công cụ cuối cùng sẽ được sử dụng (cái cuối cùng)</value>
+  </data>
+  <data name="plToolbarSkin.Text">
+    <value>Giao Diện Thanh Công Cụ</value>
+  </data>
+  <data name="plToolbarSkin.Help">
+    <value>Giao diện thanh công cụ cho instance này</value>
+  </data>
+  <data name="plImageBrowserTheme.Text">
+    <value>Giao Diện Browser Ảnh</value>
+  </data>
+  <data name="plImageBrowserTheme.Help">
+    <value>Giao diện được sử dụng bởi file browser</value>
+  </data>
+  <data name="plFlashBrowserTheme.Text">
+    <value>Giao Diện Flash Browser</value>
+  </data>
+  <data name="plFlashBrowserTheme.Help">
+    <value>Giao diện được sử dụng bởi FlashBrowser</value>
+  </data>
+  <data name="plToolbarRoles.Text">
+    <value>Chức Danh Truy Cập</value>
+  </data>
+  <data name="plToolbarRoles.Help">
+    <value>Chọn tất cả chức danh với quyền được truy cập vào thanh công cụ này</value>
+  </data>
+  <data name="plToolbarDisabled.Text">
+    <value>Vô Hiệu Các Thanh Công Cụ Được Chọn</value>
+  </data>
+  <data name="plToolbarDisabled.Help">
+    <value>Chọn để vô hiệu thanh công cụ được chọn. (Nếu tất cả thanh công cụ bị vô hiệu, cái cuối cùng sẽ được sử dụng)</value>
+  </data>
+  <data name="imgToolbarUp.Text">
+    <value>Chuyển thanh công cụ lên trên</value>
+  </data>
+  <data name="imgToolbarDn.Text">
+    <value>Chuyển thanh công cụ xuống dưới</value>
+  </data>
+  <data name="imgUpdateRoles.Text">
+    <value>Cập nhật thanh công cụ hiện tại (sửa tùy chọn bên dưới trước)</value>
+  </data>
+  <data name="typeInstance.Text">
+    <value>Instance </value>
+  </data>
+  <data name="typeModule.Text">
+    <value>Module </value>
+  </data>
+  <data name="typePortal.Text">
+    <value>Portal </value>
+  </data>
+  <data name="plSettingsType.Text">
+    <value>Kiểu Cấu Hình</value>
+  </data>
+  <data name="plSettingsType.Help">
+    <value>Chọn kiểu cấu hình để thay đổi</value>
+  </data>
+  <data name="plToolbarNotExpanded.Text">
+    <value>Thanh công cụ không mở rộng</value>
+  </data>
+  <data name="plToolbarNotExpanded.Help">
+    <value>Chọn để buộc thanh công cụ không mở rộng khi vào trình biên soạn</value>
+  </data>
+  <data name="dshToolbarRoles.Text">
+    <value>Tùy chọn thanh công cụ soạn thảo</value>
+  </data>
+  <data name="plApplyTo.Text">
+    <value>Áp dụng thiết lập tại</value>
+  </data>
+  <data name="plApplyTo.Help">
+    <value>Chọn nơi áp dụng các thiết lập</value>
+  </data>
+  <data name="cmdUpdate.Text">
+    <value>Áp Dụng</value>
+  </data>
+  <data name="cmdClear.Text">
+    <value>Xóa</value>
+  </data>
+  <data name="plLinkBrowserTheme.Text">
+    <value>Giao Diện Browser Liên Kết</value>
+  </data>
+  <data name="plLinkBrowserTheme.Help">
+    <value>Giao diện được sử dụng bởi cửa sổ browser liên kết</value>
+  </data>
+  <data name="plEnhancedSecurity.Text">
+    <value>An Ninh Mở Rộng</value>
+  </data>
+  <data name="plEnhancedSecurity.Help">
+    <value>Sẽ thử sử dụng các quy tắc cơ bản được tạo để chống lại spam (có thể tránh việc đưa vào một số kiểu nội dung)</value>
+  </data>
+  <data name="confirmUpdate.Text">
+    <value>Áp dụng giá trị?</value>
+  </data>
+  <data name="confirmClear.Text">
+    <value>Xóa giá trị đặt?</value>
+  </data>
+  <data name="dshThemes.Text">
+    <value>Giao Diện Soạn Thảo</value>
+  </data>
+  <data name="dshAvailableStyles.Text">
+    <value>Danh sách các style của trình soạn thảo</value>
+  </data>
+  <data name="dshOther.Text">
+    <value>Các tùy chọn soạn thảo khác</value>
+  </data>
+  <data name="plStyleMode.Text">
+    <value>Cách thức tạo danh sách style</value>
+  </data>
+  <data name="plStyleMode.Help">
+    <value>Xác định cách thức danh sách style được tạo ra</value>
+  </data>
+  <data name="plStyleFilter.Text">
+    <value>Lọc style động</value>
+  </data>
+  <data name="plStyleFilter.Help">
+    <value>Khi ở chế độ động, bạn có thể lọc style của bạn</value>
+  </data>
+  <data name="plPortalStyle.Text">
+    <value>File XML</value>
+  </data>
+  <data name="plPortalStyle.Help">
+    <value>Xác định một file được dùng làm danh sách style</value>
+  </data>
+  <data name="plCssMode.Text">
+    <value>Chế Độ Tạo CSS</value>
+  </data>
+  <data name="plCssMode.Help">
+    <value>Xác định cách thức file css được tạo ra</value>
+  </data>
+  <data name="dshEditorAreaCss.Text">
+    <value>CSS vùng soạn thảo</value>
+  </data>
+  <data name="plPortalCss.Text">
+    <value>File CSS</value>
+  </data>
+  <data name="plPortalCss.Help">
+    <value>Xác định file css được dùng cho vùng soạn thảo của bạn</value>
+  </data>
+  <data name="plFullImagePath.Text">
+    <value>Đường Dẫn Ảnh Đầy Đủ</value>
+  </data>
+  <data name="plFullImagePath.Help">
+    <value>Thay đường dẫn ảnh với một đường dẫn đầy đủ gồm cả tên máy chủ</value>
+  </data>
+  <data name="toolbarTip.Text">
+    <value>Tip: đặt thanh công cụ phức tạp nhất đầu tiên và các cái khác sau</value>
+  </data>
+  <data name="plForceWidth.Text">
+    <value>Độ Rộng Bắt Buộc (Tùy chọn)</value>
+  </data>
+  <data name="plForceWidth.Help">
+    <value>Buộc trình soạn thảo phải có một độ rộng xác định</value>
+  </data>
+  <data name="plForceHeight.Text">
+    <value>Độ Cao Bắt Buộc (Tùy chọn)</value>
+  </data>
+  <data name="plForceHeight.Help">
+    <value>Buộc trình soạn thảo phải có một chiều cao xác định</value>
+  </data>
+  <data name="Toolbar.Header">
+    <value>Thanh Công Cụ</value>
+  </data>
+  <data name="Disabled.Header">
+    <value>Vô Hiệu</value>
+  </data>
+  <data name="ViewRoles.Header">
+    <value>Chức Danh Truy Cập</value>
+  </data>
+  <data name="EditToolbar.Text">
+    <value>Cấu hình quyền truy cập thanh công cụ hiện tại</value>
+  </data>
+  <data name="UpdateToolbar.Text">
+    <value>Cập Nhật Thanh Công Cụ</value>
+  </data>
+  <data name="CancelToolbar.Text">
+    <value>Hủy Bỏ</value>
+  </data>
+  <data name="plImageFolder.Text">
+    <value>Thư mục ảnh (tùy chọn)</value>
+  </data>
+  <data name="plImageFolder.Help">
+    <value>Thư mục ảnh được sử dụng làm thư mục gốc để chứa ảnh và flash. Trình soạn thảo phải có quyền Đọc (READ) đối với thư mục này</value>
+  </data>
+  <data name="RootFolder.Text">
+    <value>Gốc</value>
+  </data>
+  <data name="UseDefault.Text">
+    <value>&lt;Sử Dụng Mặc Định&gt;</value>
+  </data>
+  <data name="NoneRoles.Text">
+    <value>Không (phải định nghĩa chức danh)</value>
+  </data>
+  <data name="cmdMakeAllUsers.Text">
+    <value>Làm tất cả thanh công cụ được hiển thị cho tất cả người dùng (cần đến nếu bạn không muốn sửa chức danh)</value>
+  </data>
+  <data name="plFontColors.Text">
+    <value>Màu Font</value>
+  </data>
+  <data name="plFontColors.Help">
+    <value>Danh sách ngăn cách nhau bởi dấu ',' của các giá trị thập lục phân cho màu sắc. Bỏ trống để sử dụng danh sách mặc định</value>
+  </data>
+  <data name="plFontNames.Text">
+    <value>Tên Các Font</value>
+  </data>
+  <data name="plFontNames.Help">
+    <value>Bạn có thể gộp danh sách các tên font của bạn. Hãy nhớ là font phải có ở máy của client. Bỏ trống nếu bạn muốn sử dụng danh sách mặc định</value>
+  </data>
+  <data name="plFontFormats.Text">
+    <value>Định Dạng Font</value>
+  </data>
+  <data name="plFontFormats.Help">
+    <value>Một danh sách ngăn cách nhau bởi dấu ',' của các giá trị. Mỗi giá trị phải chứa một thẻ định dạng. Ví dụ: p;div;pre;address;</value>
+  </data>
+  <data name="plFontSizes.Text">
+    <value>Cỡ Font</value>
+  </data>
+  <data name="plFontSizes.Help">
+    <value>Một danh sách ngăn cách nhau bởi các dấu ','. Mỗi giá trị phải chứa hai phần ngăn cách nhau bởi một dấu '/'. Ví dụ: 1/xx-small;2/x-small;3/small. Bỏ trống để sử dụng danh sách mặc định</value>
+  </data>
+  <data name="RefreshEditor.Text">
+    <value>Làm Tươi Trình Soạn Thảo</value>
+  </data>
+  <data name="lblModuleType.Text">
+    <value>Kiểu Module</value>
+  </data>
+  <data name="lblModuleName.Text">
+    <value>Tên Module</value>
+  </data>
+  <data name="lblModuleInstance.Text">
+    <value>Instance module</value>
+  </data>
+  <data name="NoModuleDefinition.Text">
+    <value>Không có định nghĩa module</value>
+  </data>
+  <data name="NoUser.Text">
+    <value>[NO USER] </value>
+  </data>
+  <data name="NoInstance.Text">
+    <value>Không tìm thấy instance nào</value>
+  </data>
+  <data name="UpdateSuccess.Text">
+    <value>Thiết lập được áp dụng thành công với {0}</value>
+  </data>
+  <data name="CleanSuccess.Text">
+    <value>Thiết lập đã được xóa bỏ thành công khỏi {0}</value>
+  </data>
+  <data name="UpdateError.Text">
+    <value>Có lỗi xảy ra khi áp dụng thiết lập soạn thảo đối với {0}</value>
+  </data>
+  <data name="CleanError.Text">
+    <value>Có lỗi xảy ra khi xóa thiết lập soạn thảo cho {0}</value>
+  </data>
+</root>

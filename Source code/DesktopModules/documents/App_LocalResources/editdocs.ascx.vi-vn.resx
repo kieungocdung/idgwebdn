@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <!-- 
+    Vietnamese Translation 2005 by Nguyen Viet Trung,  viechinguyen@gmail.com
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="ResMimeType">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="Version">
+    <value>1.0.0.0</value>
+  </resheader>
+  <resheader name="Reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="Writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="plName.Text">
+    <value>Tiêu Đề</value>
+  </data>
+  <data name="plName.Help">
+    <value>Nhập tên của văn bản</value>
+  </data>
+  <data name="Name.ErrorMessage">
+    <value>&lt;br&gt;Bạn Phải Nhập Một Tiêu Đề Cho Văn Bản</value>
+  </data>
+  <data name="plURL.Text">
+    <value>Liên Kết</value>
+  </data>
+  <data name="plURL.Help">
+    <value>Nhập URL của văn bản</value>
+  </data>
+  <data name="plCategory.Text">
+    <value>Thể Loại</value>
+  </data>
+  <data name="plCategory.Help">
+    <value>Nhập thể loại cho văn bản</value>
+  </data>
+  <data name="ModuleHelp.Text">
+    <value>&lt;h1&gt;Về Module Văn Bản&lt;/h1&gt;&lt;p&gt;Module Văn Bản tạo ra một danh sách các văn bản với liên kết để xem (tuỳ thuộc vào sự liên hệ của người dùng) hoặc tải về văn bản. Các văn bản có thể được tìm thấy bên trong portal, hoặc có thể là một liên kết đến một văn bản ở một site khác. Mỗi danh sách văn bản hiển thị một tiêu đề văn bản và thể loại văn bản. Tên của người dùng được phép cập nhật văn bản lần gần nhất, ngày tháng mà văn bản được tạo ra hoặc được cập nhật, và cỡ file (chỉ những văn bản bên trong) được tự động sắp xếp trong mỗi danh sách.  Ngoài ra còn có cả chức năng theo dõi  và ghi lại các click vào liên kết.&lt;/p&gt;&lt;h1&gt;Thêm Một Văn Bản Mới&lt;/h1&gt;&lt;ol&gt;&lt;li&gt;Thêm một module  &lt;b&gt;văn bản&lt;/b&gt; mới hoặc chuyển đến một module &lt;b&gt;Văn Bản&lt;/b&gt; hiện có. 
+&lt;li&gt;Click &lt;b&gt;Thêm Văn Bản Mới&lt;/b&gt;. 
+&lt;li&gt;Ở &lt;b&gt;Tiêu Đề&lt;/b&gt;, nhập một tiêu đề cho văn bản. 
+&lt;li&gt;Ở &lt;b&gt;Kiểu Liên Kết&lt;/b&gt;, chọn &lt;b&gt;URL&lt;/b&gt; hoặc &lt;b&gt;File&lt;/b&gt; và sau đó ở &lt;b&gt;Liên Kết&lt;/b&gt; chọn hoặc nhập vào URL cần thiết.
+&lt;li&gt;Ở &lt;b&gt;Theo Dõi Số Lần Liên Kết Được Click?&lt;/b&gt; (tuỳ chọn), chọn hộp kiểm nếu cần thiết.
+&lt;li&gt;Ở &lt;b&gt;Ghi Lại Người Dùng, Ngày Tháng, Và Thời Gian Cho Mỗi Click&lt;/b&gt; (tuỳ chọn), chọn hộp kiểm nếu cần thiết.
+&lt;li&gt;Ở &lt;b&gt;Thể Loại&lt;/b&gt; (tuỳ chọn), nhập vào thể loại của văn bản.
+&lt;li&gt;Click &lt;b&gt;Update&lt;/b&gt;.&lt;/ol&gt;</value>
+  </data>
+  <data name="ControlTitle_edit.Text">
+    <value>Soạn Văn Bản</value>
+  </data>
+  <data name="lnkChangeOwner.Text">
+    <value>Thay Đổi Tác Giả</value>
+  </data>
+  <data name="plDescription.Help">
+    <value>Nhập một mô tả cho Văn bản</value>
+  </data>
+  <data name="plDescription.Text">
+    <value>Mô Tả</value>
+  </data>
+  <data name="plOwner.Help">
+    <value>Chọn tác giả của Văn Bản</value>
+  </data>
+  <data name="plOwner.Text">
+    <value>Tác Giả</value>
+  </data>
+  <data name="plSortIndex.Help">
+    <value>Nhập chỉ mục sắp xếp cho văn bản. Bạn có thể sử dụng chỉ mục sắp xếp như là một tiêu chuẩn sắp xếp trên trang thiết lập module.</value>
+  </data>
+  <data name="plSortIndex.Text">
+    <value>Chỉ Mục Sắp Xếp</value>
+  </data>
+</root>

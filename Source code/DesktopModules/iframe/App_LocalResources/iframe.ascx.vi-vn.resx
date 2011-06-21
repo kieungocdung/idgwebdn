@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+<!-- 
+    Vietnamese Translation 2005 by Nguyen Viet Trung,  viechinguyen@gmail.com
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="ResMimeType">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="Version">
+    <value>1.0.0.0</value>
+  </resheader>
+  <resheader name="Reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="Writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AddContent.Action">
+    <value>Thay Đổi Các Tuỳ Chọn IFrame</value>
+  </data>
+  <data name="Support.Text">
+    <value>Trình Duyệt Của Bạn Không Hỗ Trợ Frame</value>
+  </data>
+  <data name="ModuleHelp.Text">
+    <value>&lt;h1&gt;Về Module IFrame&lt;/h1&gt;
+
+&lt;p&gt;Module IFrame hiển thị nộ dung từ một website khác bên trong một frame bên trong portal của bạn.&lt;/p&gt;
+
+&lt;h1&gt;Thay Đổi Thuộc Tính Của IFrame &lt;/h1&gt;
+
+&lt;ol&gt;&lt;li&gt;Thêm một module &lt;b&gt;IFrame&lt;/b&gt;, hoặc chuyển đến một module &lt;b&gt;IFrame&lt;/b&gt; sẵn có.&lt;/li&gt;
+&lt;li&gt;Click &lt;b&gt;Thay Đổi Thuộc Tính IFrame&lt;/b&gt;.
+&lt;li&gt;Ở &lt;b&gt;Nguồn&lt;/b&gt;, nhập Url của nội dung cần hiển thị. 
+&lt;li&gt;Ở &lt;b&gt;Chiều Rộng&lt;/b&gt;, nhập độ rộng của IFrame.
+&lt;li&gt;Ở &lt;b&gt;Chiều Cao&lt;/b&gt;, nhập chiều cao của IFrame.
+&lt;li&gt;Ở &lt;b&gt;Tiêu Đề&lt;/b&gt;, nhập một tiêu đề cho IFrame. 
+&lt;li&gt;Ở &lt;b&gt;Cuộn&lt;/b&gt;, chọn &lt;b&gt;Tự Động&lt;/b&gt;, &lt;b&gt;Không&lt;/b&gt; hoặc &lt;b&gt;Có&lt;/b&gt; để đặt các thuộc tính thanh cuộn.
+&lt;li&gt;Ở &lt;b&gt;Đường Biên&lt;/b&gt;, chọn &lt;b&gt;Có&lt;/b&gt; hoặc &lt;b&gt;Không&lt;/b&gt; để đặt các thuộc tính của đường biên. 
+&lt;li&gt;Click &lt;b&gt;Cập Nhật&lt;/b&gt;.&lt;/li&gt;&lt;/ol&gt;</value>
+  </data>
+</root>

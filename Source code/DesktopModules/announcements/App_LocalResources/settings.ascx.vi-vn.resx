@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="ResMimeType">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="Version">
+    <value>1.0.0.0</value>
+  </resheader>
+  <resheader name="Reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="Writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="plHistory.Text">
+    <value>Lịch Sử (Ngày)</value>
+  </data>
+  <data name="History.ErrorMessage">
+    <value>Bạn Phải Nhập Một Số Ngày Hợp Lệ</value>
+  </data>
+  <data name="plTemplate.Text">
+    <value>Mẫu</value>
+  </data>
+  <data name="ModuleHelp.Text">
+    <value>&lt;h1&gt;Về Module Thông Báo&lt;/h1&gt;&lt;p&gt;Module Thông Báo tạo ra một danh sách các thông báo dạng chữ đơn giản bao gồm một tiêu đề và một mô tả ngắn gọn.  Các tùy chọn bao gồm một liên kết Xem Thêm liên kết đến một file, một trang hay một site khác. Cũng có cả chức năng theo dõi số click vào liên kết. Các thông báo được sắp xếp từ mới nhất đến cũ nhất, trừ khi một thứ tự hiển thị được xác định.&lt;/p&gt;&lt;h1&gt;Tạo Thông Báo&lt;/h1&gt;&lt;ol&gt;&lt;li&gt;Tạo một instance của module &lt;b&gt;Thông Báo&lt;/b&gt;, hoặc chuyển đến một module &lt;b&gt;Thông Báo &lt;/b&gt;có sẵn.&lt;li&gt;Click &lt;b&gt;Thêm Thông Báo Mới&lt;/b&gt;. 
+&lt;li&gt; Trên &lt;b&gt;Tiêu Đề&lt;/b&gt;, nhập một tiêu đề cho thông báo.&lt;li&gt;Ở &lt;b&gt;Thêm Ngày Tháng&lt;/b&gt; (tùy chọn), loại bỏ việc tính thời gian nếu bạn không muốn hiển thị ngày tháng hiện tại bên cạnh tiêu đề.&lt;li&gt;Mục &lt;b&gt;Mô Tả&lt;/b&gt;, nhập vào một mô tả cho thông báo.&lt;li&gt;Trên mục &lt;b&gt;Kiểu Liên Kết&lt;/b&gt; (tùy chọn), chọn &lt;b&gt;URL&lt;/b&gt;, &lt;b&gt;Trang&lt;/b&gt; hoặc &lt;b&gt;File&lt;/b&gt; và sau đó ở &lt;b&gt;Liên Kết&lt;/b&gt; chọn hoặc nhập vào liên kết, trang hay URL cần thiết.
+&lt;li&gt;Ở &lt;b&gt;Theo dõi Số Lần Liên Kết Được Click?&lt;/b&gt; (tùy chọn), có thể tick vào hộp lựa chọn nếu cần.&lt;li&gt;Ở &lt;b&gt;Ghi Lại Người Dùng, Ngày Tháng cho mỗi Click&lt;/b&gt; (tùy chọn), chọn nếu cần thiết.&lt;li&gt;Ở &lt;b&gt;Thứ Tự Hiển Thị&lt;/b&gt; (tùy chọn), nhập vào thứ tự hiển thị cho thông báo.
+&lt;li&gt;Click &lt;b&gt;Update&lt;/b&gt;.&lt;/ol&gt;</value>
+  </data>
+  <data name="ControlTitle_settings.Text">
+    <value>Thiết Lập Thông Báo</value>
+  </data>
+  <data name="plHistory.Help">
+    <value>Nhập số ngày để hiển thị thông báo. Các thông báo được công khai lâu hơn số ngày được nhập vào sẽ không được hiển thị. Để trống để không hiển thị thông báo.</value>
+  </data>
+  <data name="plTemplate.Help">
+    <value>Đây là mẫu được dùng để hiển thị cho mỗi thông báo.&lt;br&gt;&lt;b&gt;CHÚ Ý:&lt;/b&gt; Xem Trợ Giúp Module để biết thêm thông tin về các dấu hiệu được sử dụng.</value>
+  </data>
+  <data name="plFuture.Help">
+    <value>Tùy chọn này cho phép bạn quyết định có hiển thị các mục chưa được công khai( do ngày được phép công khai là một thời điểm trong tương lai)</value>
+  </data>
+  <data name="plFuture.Text">
+    <value>Hiển Thị Mục Chưa Công Khai</value>
+  </data>
+  <data name="plDescriptionLength.Help">
+    <value>Xác định số ký tự trong mô tả được sử dụng trong các kết quả tìm kiếm và RSS&lt;br /&gt;&lt;b&gt;Tip: &lt;/b&gt;nhập 0 để sử dụng độ dài tối đa có thể (2000 ký tự)</value>
+  </data>
+  <data name="plDescriptionLength.Text">
+    <value>Độ Dài Mô Tả (Tìm Kiếm &amp; RSS)</value>
+  </data>
+</root>

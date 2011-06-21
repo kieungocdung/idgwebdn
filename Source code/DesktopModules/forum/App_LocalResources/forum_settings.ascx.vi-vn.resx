@@ -1,0 +1,335 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="ResMimeType">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="Version">
+    <value>1.0.0.0</value>
+  </resheader>
+  <resheader name="Reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="Writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="GeneralSettings.Text">
+    <value>Thiết Lập Chung</value>
+  </data>
+  <data name="NotificationEmail.Text">
+    <value>Email Thông Báo</value>
+  </data>
+  <data name="PostAttachments.Text">
+    <value>Đính Kèm</value>
+  </data>
+  <data name="PostRanks.Text">
+    <value>Đánh Giá Bài Viết</value>
+  </data>
+  <data name="ForumStatistics.Text">
+    <value>Thống Kê</value>
+  </data>
+  <data name="ForumWhatsNew.Text">
+    <value>Tin Tức Forum</value>
+  </data>
+  <data name="EditorProvider.Text">
+    <value>Editor Provider </value>
+  </data>
+  <data name="RSSFeeds.Text">
+    <value>RSS Feed</value>
+  </data>
+  <data name="plForumName.Text">
+    <value>Tên Forum:</value>
+  </data>
+  <data name="plForumName.Help">
+    <value>Tên module forum này.</value>
+  </data>
+  <data name="plSourceDirectory.Text">
+    <value>Thư Mục Nguồn:</value>
+  </data>
+  <data name="plSourceDirectory.Help">
+    <value>Thư mục chứa module Forum. (Chỉ Đọc)</value>
+  </data>
+  <data name="plThreadsPerPage.Text">
+    <value>Chủ Đề Trên Trang:</value>
+  </data>
+  <data name="plThreadsPerPage.Help">
+    <value>Số chủ đề được hiển thị trên một trang.&lt;br&gt;&lt;b&gt;CHÚ Ý&lt;/b&gt;&lt;br&gt;Thiết lập này bị override trên mỗi thiết lập thành viên. Chỉ áp dụng đối với người dùng đã đăng ký.</value>
+  </data>
+  <data name="plPostsPerPage.Text">
+    <value>Bài Trên Trang:</value>
+  </data>
+  <data name="plPostsPerPage.Help">
+    <value>Số bài được hiển thị trên một trang trong một lần.&lt;br&gt;&lt;b&gt;Chú Ý&lt;/b&gt;&lt;br&gt;Trên mỗi thiết lập người dùng thiết lập này sẽ bị override. CHỈ áp dụng được cho người dùng đã đăng ký.</value>
+  </data>
+  <data name="plPopularPostsView.Text">
+    <value>Xem:</value>
+  </data>
+  <data name="plPopularPostsView.Help">
+    <value>Số lần xem bài viết để một chủ đề được coi là được yêu thích.</value>
+  </data>
+  <data name="plPopularPostsReply.Text">
+    <value>Trả Lời:</value>
+  </data>
+  <data name="plPopularPostsReply.Help">
+    <value>Số bài trả lời cần thiết để chủ đề được coi là được yêu thích.</value>
+  </data>
+  <data name="plSkin.Text">
+    <value>Theme: </value>
+  </data>
+  <data name="plSkin.Help">
+    <value>Theme được dùng cho module forum này.&lt;br&gt;Checkbox, nếu được chọn, cho phép người dùng chọn chủ đề của họ từ danh sách.&lt;br&gt;&lt;b&gt;Tip&lt;/b&gt;&lt;br&gt;Theme ở trên thư mục Forum\Skins.</value>
+  </data>
+  <data name="plTimeZone.Text">
+    <value>Múi Giờ:</value>
+  </data>
+  <data name="plTimeZone.Help">
+    <value>Múi giờ dùng cho module.</value>
+  </data>
+  <data name="plNofify.Text">
+    <value>Email Thông Báo?</value>
+  </data>
+  <data name="plNofify.Help">
+    <value>Nếu được chọn, cho phép thông báo bằng email.&lt;br&gt;(Cần có cấu hình SMTP trên Thiết Lập Host.)</value>
+  </data>
+  <data name="plSenderAddress.Text">
+    <value>Hiện Địa Chỉ Người Gửi?</value>
+  </data>
+  <data name="plSenderAddress.Help">
+    <value>Nếu được chọn, email thông báo sẽ hiển thị địa chỉ email của người gửi trên mục FROM.</value>
+  </data>
+  <data name="plEmailFormat.Text">
+    <value>Định Dạng Email:</value>
+  </data>
+  <data name="plEmailFormat.Help">
+    <value>Định dạng email thông báo được gửi đi.</value>
+  </data>
+  <data name="plTemplateEmail.Text">
+    <value>Mẫu Email:</value>
+  </data>
+  <data name="plTemplateEmail.Help">
+    <value>Mẫu cho email được gửi đi.</value>
+  </data>
+  <data name="plAutomatedAddress.Text">
+    <value>Địa Chỉ Tự Động:</value>
+  </data>
+  <data name="plAutomatedAddress.Help">
+    <value>Mục FROM của địa chỉ email được dùng nếu mục Hiển Thị Địa Chỉ Người Gửi không được chọn.</value>
+  </data>
+  <data name="plAttachment.Text">
+    <value>Cho Phép Đính Kèm File?</value>
+  </data>
+  <data name="plAttachment.Help">
+    <value>Nếu được chọn, cho phép người dùng đính kèm file với bài viết.</value>
+  </data>
+  <data name="plAttachmentFolder.Text">
+    <value>Thư Mục:</value>
+  </data>
+  <data name="plAttachmentFolder.Help">
+    <value>Thư mục chứa file đính kèm.</value>
+  </data>
+  <data name="plWhatsNew.Text">
+    <value>Mở Whats New?</value>
+  </data>
+  <data name="plWhatsNew.Help">
+    <value>Khi được chọn, hiển thị bảng whats new trên trang chủ forum.</value>
+  </data>
+  <data name="plWhatsNewTemplate.Text">
+    <value>Mẫu Whats New:</value>
+  </data>
+  <data name="plWhatsNewTemplate.Help">
+    <value>Chọn mẫu cho bảng whats new.</value>
+  </data>
+  <data name="plScrollDelay.Text">
+    <value>Giá Trị Chờ Whats New:</value>
+  </data>
+  <data name="plScrollDelay.Help">
+    <value>Giá trị chờ của marquee Whats New</value>
+  </data>
+  <data name="plScrollAmount.Text">
+    <value>Tốc Độ Whats New:</value>
+  </data>
+  <data name="plScrollAmount.Help">
+    <value>Giá trị cuốn của marquee Whats New</value>
+  </data>
+  <data name="plRSSFeeds.Text">
+    <value>Cho Phép RSS Feed?</value>
+  </data>
+  <data name="plRSSFeeds.Help">
+    <value>Tạo các RSS Feed cho tất cả các forum công khai.</value>
+  </data>
+  <data name="plRSSThreadsPerFeed.Text">
+    <value>Số Bài Trên Feed:</value>
+  </data>
+  <data name="plRSSThreadsPerFeed.Help">
+    <value>Số chủ đề được hiển thị trên mỗi RSS feed.</value>
+  </data>
+  <data name="plRSSUpdateInterval.Text">
+    <value>Khoảng Thời Gian Cập Nhật RSS:</value>
+  </data>
+  <data name="plRSSUpdateInterval.Help">
+    <value>Bài được cache trong bao lâu (theo phút)</value>
+  </data>
+  <data name="plUserOnline.Text">
+    <value>Cho Phép Người Dùng Online?</value>
+  </data>
+  <data name="plUserOnline.Help">
+    <value>Nếu được chọn, hiển thị trạng thái người dùng online, có thể được override bởi thiết lập từng người dùng.</value>
+  </data>
+  <data name="NumericValidation.ErrorMessage">
+    <value>Phải là một số!</value>
+  </data>
+  <data name="SaveAndBack.AlternateText">
+    <value>Lưu và trở về</value>
+  </data>
+  <data name="CancelAndBack.AlternateText">
+    <value>Hủy bỏ và trở lại</value>
+  </data>
+  <data name="MySettings.Text">
+    <value>Thiết Lập Cá Nhân</value>
+  </data>
+  <data name="MyProfile.Text">
+    <value>Thông Tin Cá Nhân</value>
+  </data>
+  <data name="Search.Text">
+    <value>Tìm Kiếm</value>
+  </data>
+  <data name="ForumHome.Text">
+    <value>Forum Home </value>
+  </data>
+  <data name="ModuleHelp.Text">
+    <value>&lt;h1&gt;Forum - Thiết Lập Forum &lt;/h1&gt;&lt;p&gt;Khu vực này chỉ được truy cập bởi các quản trị.  Các quản trị có thể cấu hình module để phù hợp với nhu cầu của họ ở đây.&lt;/p&gt;</value>
+  </data>
+  <data name="chkUserSkin.Text">
+    <value>Cho phép người dùng chọn chủ đề.</value>
+  </data>
+  <data name="chkTimeZone.Text">
+    <value>Cho phép múi giờ theo người dùng</value>
+  </data>
+  <data name="chkRSSFeeds.Text">
+    <value>
+    </value>
+  </data>
+  <data name="chkStatistics.Text">
+    <value>
+    </value>
+  </data>
+  <data name="chkWhatsNew.Text">
+    <value>
+    </value>
+  </data>
+  <data name="chkAttachment.Text">
+    <value>
+    </value>
+  </data>
+  <data name="chkNotify.Text">
+    <value>
+    </value>
+  </data>
+  <data name="chkSenderAddress.Text">
+    <value>
+    </value>
+  </data>
+  <data name="ControlTitle_configuration.Text">
+    <value>Cấu Hình Forum</value>
+  </data>
+  <data name="MyPosts.Text">
+    <value>Bài Cá Nhân</value>
+  </data>
+  <data name="plShowNavigator.Text">
+    <value>Hiện Menu:</value>
+  </data>
+  <data name="plShowNavigator.Help">
+    <value>Nếu được chọn, sẽ hiển thị menu Solpart</value>
+  </data>
+  <data name="chkShowNavigator.Text">
+    <value>
+    </value>
+  </data>
+  <data name="chkUserOnline.Text">
+    <value>
+    </value>
+  </data>
+  <data name="plDisplayPosterLocation.Text">
+    <value>Hiển Thị Vị Trí Người Gửi:</value>
+  </data>
+  <data name="plDisplayPosterLocation.Help">
+    <value>Xác định ai được thấy thông tin về đất nước của người gửi bài.</value>
+  </data>
+  <data name="chkEnableMemberList.Text">
+    <value />
+  </data>
+  <data name="chkEnablePMSystem.Text">
+    <value />
+  </data>
+  <data name="cmdResetDate.Text">
+    <value>Đặt Lại Ngày</value>
+  </data>
+  <data name="Community.Text">
+    <value>Cộng Đồng</value>
+  </data>
+  <data name="lblForumConfiguration.Text">
+    <value>Cấu Hình Forum</value>
+  </data>
+  <data name="plAggregatedForums.Help">
+    <value>Chọn xem bạn có muốn đưa ra một tổng hợp về các bài viết của tất cả các forum công khai.</value>
+  </data>
+  <data name="plAggregatedForums.Text">
+    <value>Hiển Thị Tổng Hợp Bài Viết:</value>
+  </data>
+  <data name="plAnonDownloads.Help">
+    <value>Nếu được chọn, tất cả người dùng đều có thể download.&lt;br&gt;&lt;b&gt;Tip&lt;/b&gt;&lt;br&gt;Quyền Truy Cập Đến File cũng điều khiển truy cập đến file.</value>
+  </data>
+  <data name="plAnonDownloads.Text">
+    <value>Download Ẩn Danh?</value>
+  </data>
+  <data name="plEnableMemberList.Help">
+    <value>Nếu được chọn, người dùng sẽ có thể xem danh sách thành viên của forum.</value>
+  </data>
+  <data name="plEnableMemberList.Text">
+    <value>Cho Phép Danh Sách Thành Viên:</value>
+  </data>
+  <data name="plEnablePMSystem.Help">
+    <value>Nếu được chọn, forum sẽ cho phép người dùng gửi tin nhắn cá nhân cho nhau.  </value>
+  </data>
+  <data name="plEnablePMSystem.Text">
+    <value>Cho Phép Gửi Tin Nhắn:</value>
+  </data>
+  <data name="plSearchIndexDate.Help">
+    <value>Đây là thời điểm module được công cụ tìm kiếm trỏ đến cuối cùng. Click để đặt lại liên kết ngày tháng để buộc tất cả bài trước kia được bộc lộ ra để tìm kiếm lại.</value>
+  </data>
+  <data name="plSearchIndexDate.Text">
+    <value>Thời Điểm Trỏ Đến Cuối Cùng:</value>
+  </data>
+  <data name="plDefaultForum.Help">
+    <value>Chọn forum mặc định được sử dụng cho gửi bài bên trong hiển thị Tổng Hợp Forum.</value>
+  </data>
+  <data name="plDefaultForum.Text">
+    <value>Forum Mặc Định:</value>
+  </data>
+</root>

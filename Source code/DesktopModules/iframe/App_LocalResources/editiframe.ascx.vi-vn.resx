@@ -1,0 +1,278 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <!-- 
+    Vietnamese Translation 2005 by Nguyen Viet Trung,  viechinguyen@gmail.com
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="ResMimeType">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="Version">
+    <value>1.0.0.0</value>
+  </resheader>
+  <resheader name="Reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="Writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="plWidth.Text">
+    <value>Độ Rộng</value>
+  </data>
+  <data name="plWidth.Help">
+    <value>Nhập độ rộng của IFrame</value>
+  </data>
+  <data name="plHeight.Text">
+    <value>Chiều Cao</value>
+  </data>
+  <data name="plHeight.Help">
+    <value>Nhập chiều cao của IFrame</value>
+  </data>
+  <data name="plScrolling.Text">
+    <value>Thanh Cuộn</value>
+  </data>
+  <data name="plScrolling.Help">
+    <value>Chọn kiểu thanh cuộn (có, không hoặc tự động)</value>
+  </data>
+  <data name="plBorder.Text">
+    <value>Đường Biên</value>
+  </data>
+  <data name="plBorder.Help">
+    <value>Chọn xem bạn có muốn có một đường biên xung quanh IFrame không</value>
+  </data>
+  <data name="ModuleHelp.Text">
+    <value>&lt;h1&gt;Về Module IFrame&lt;/h1&gt;
+
+&lt;p&gt;Module IFrame hiển thị nộ dung từ một website khác bên trong một frame bên trong portal của bạn.&lt;/p&gt;
+
+&lt;h1&gt;Thay Đổi Thuộc Tính Của IFrame &lt;/h1&gt;
+
+&lt;ol&gt;&lt;li&gt;Thêm một module &lt;b&gt;IFrame&lt;/b&gt;, hoặc chuyển đến một module &lt;b&gt;IFrame&lt;/b&gt; sẵn có.&lt;/li&gt;
+&lt;li&gt;Click &lt;b&gt;Thay Đổi Thuộc Tính IFrame&lt;/b&gt;.
+&lt;li&gt;Ở &lt;b&gt;Nguồn&lt;/b&gt;, nhập Url của nội dung cần hiển thị. 
+&lt;li&gt;Ở &lt;b&gt;Chiều Rộng&lt;/b&gt;, nhập độ rộng của IFrame.
+&lt;li&gt;Ở &lt;b&gt;Chiều Cao&lt;/b&gt;, nhập chiều cao của IFrame.
+&lt;li&gt;Ở &lt;b&gt;Tiêu Đề&lt;/b&gt;, nhập một tiêu đề cho IFrame. 
+&lt;li&gt;Ở &lt;b&gt;Cuộn&lt;/b&gt;, chọn &lt;b&gt;Tự Động&lt;/b&gt;, &lt;b&gt;Không&lt;/b&gt; hoặc &lt;b&gt;Có&lt;/b&gt; để đặt các thuộc tính thanh cuộn.
+&lt;li&gt;Ở &lt;b&gt;Đường Biên&lt;/b&gt;, chọn &lt;b&gt;Có&lt;/b&gt; hoặc &lt;b&gt;Không&lt;/b&gt; để đặt các thuộc tính của đường biên. 
+&lt;li&gt;Click &lt;b&gt;Cập Nhật&lt;/b&gt;.&lt;/li&gt;&lt;/ol&gt;</value>
+  </data>
+  <data name="valWidth.Text">
+    <value>&lt;br&gt;Chiều Rộng phải là một số lớn hơn không</value>
+  </data>
+  <data name="valHeight.Text">
+    <value>&lt;br&gt;Chiều cao phải là một số lớn hơn không</value>
+  </data>
+  <data name="valURL.ErrorMessage">
+    <value>&lt;br&gt;Bạn phải nhập một URL hợp lệ</value>
+  </data>
+  <data name="Argument.Header">
+    <value>Tham Số</value>
+  </data>
+  <data name="Auto.Text">
+    <value>Tự Động</value>
+  </data>
+  <data name="Cancel.Text">
+    <value>Hủy Bỏ</value>
+  </data>
+  <data name="cmdAddParam.Text">
+    <value>Thêm Tham Số QueryString</value>
+  </data>
+  <data name="ControlTitle_edit.Text">
+    <value>Sửa IFrame</value>
+  </data>
+  <data name="Delete.Text">
+    <value>Xóa</value>
+  </data>
+  <data name="DeleteParamConfirmation.Text">
+    <value>Bạn có chắc bạn muốn loại bỏ mục này khỏi cơ sở dữ liệu? Một khi đã xóa nó không thể được lấy lại.</value>
+  </data>
+  <data name="dshOptions.Text">
+    <value>Tùy Chọn</value>
+  </data>
+  <data name="dshParams.Text">
+    <value>Tham Số QueryString</value>
+  </data>
+  <data name="Edit.Text">
+    <value>Sửa</value>
+  </data>
+  <data name="Name.Header">
+    <value>Tên</value>
+  </data>
+  <data name="No.Text">
+    <value>Không</value>
+  </data>
+  <data name="ParameterInvalid.Header">
+    <value>Parameter Không Hợp Lệ</value>
+  </data>
+  <data name="ParameterInvalid.Text">
+    <value>Các tùy chọn tham số là không hợp lệ. Bảo đảm rằng &lt;b&gt;Tên&lt;/b&gt; và, nếu cần, kiểu tham số đều được xác định.</value>
+  </data>
+  <data name="PassThrough.Text">
+    <value>Pass-Through Parameter </value>
+  </data>
+  <data name="plName.Help">
+    <value>Cho một tên riêng biệt của iframe (để sử dụng trong mã hoặc như là đích cho liên kết/iframes)</value>
+  </data>
+  <data name="plName.Text">
+    <value>Tên</value>
+  </data>
+  <data name="plSource.Help">
+    <value>URL của văn bản được hiển thị trong iframe</value>
+  </data>
+  <data name="plSource.Text">
+    <value>Nguồn</value>
+  </data>
+  <data name="plToolTip.Help">
+    <value>Dòng chữ được hiển thị trong tooltip khi người dùng di chuột qua iframe</value>
+  </data>
+  <data name="plToolTip.Text">
+    <value>Tooltip</value>
+  </data>
+  <data name="plUrlParameter.Help">
+    <value>Tham số querystring được dùng cho nguồn của iframe</value>
+  </data>
+  <data name="plUrlParameter.Text">
+    <value>Tham Số URL</value>
+  </data>
+  <data name="PortalID.Text">
+    <value>PortalID</value>
+  </data>
+  <data name="PortalName.Text">
+    <value>Tên Portal</value>
+  </data>
+  <data name="Save.Text">
+    <value>Lưu</value>
+  </data>
+  <data name="StaticValue.Text">
+    <value>Giá Trị Tĩnh</value>
+  </data>
+  <data name="TabID.Text">
+    <value>TabID</value>
+  </data>
+  <data name="Type.Header">
+    <value>Kiểu</value>
+  </data>
+  <data name="UserCell.Text">
+    <value>Số Di Động</value>
+  </data>
+  <data name="UserCity.Text">
+    <value>Thành Phố</value>
+  </data>
+  <data name="UserCountry.Text">
+    <value>Nước</value>
+  </data>
+  <data name="UserCustomProperty.Text">
+    <value>Các Thuộc Tính Người Dùng</value>
+  </data>
+  <data name="UserEmail.Text">
+    <value>Email</value>
+  </data>
+  <data name="UserFax.Text">
+    <value>Fax</value>
+  </data>
+  <data name="UserFirstName.Text">
+    <value>Họ</value>
+  </data>
+  <data name="UserFullName.Text">
+    <value>Tên</value>
+  </data>
+  <data name="UserID.Text">
+    <value>UserID</value>
+  </data>
+  <data name="UserIM.Text">
+    <value>IM</value>
+  </data>
+  <data name="UserIsAuthorized.Text">
+    <value>Trang Thái Chấp Nhận</value>
+  </data>
+  <data name="UserIsLockedOut.Text">
+    <value>Trạng Thái Lock Out</value>
+  </data>
+  <data name="UserIsSuperUser.Text">
+    <value>Trạng Thái SuperUser</value>
+  </data>
+  <data name="UserLastName.Text">
+    <value>Tên</value>
+  </data>
+  <data name="UserLocale.Text">
+    <value>Thiết Lập Ngôn Ngữ</value>
+  </data>
+  <data name="UserPhone.Text">
+    <value>Số Điện Thoại</value>
+  </data>
+  <data name="UserPostalCode.Text">
+    <value>Mã Bưu Điện</value>
+  </data>
+  <data name="UserRegion.Text">
+    <value>Vùng</value>
+  </data>
+  <data name="UserStreet.Text">
+    <value>Phố</value>
+  </data>
+  <data name="UserTimeZone.Text">
+    <value>Múi Giờ</value>
+  </data>
+  <data name="UserUnit.Text">
+    <value>Đơn Vị (Số nhà)</value>
+  </data>
+  <data name="UserUsername.Text">
+    <value>Username</value>
+  </data>
+  <data name="UserWebsite.Text">
+    <value>Website</value>
+  </data>
+  <data name="Value.Header">
+    <value>Giá Trị</value>
+  </data>
+  <data name="Yes.Text">
+    <value>Có</value>
+  </data>
+  <data name="FormPassThrough.Text">
+    <value>Pass-Through Form Post </value>
+  </data>
+  <data name="plCssStyle.Help">
+    <value>Ví dụ:&lt;br\&gt;height:expression(contentWindow.document.body.scrollHeight+50);</value>
+  </data>
+  <data name="plCssStyle.Text">
+    <value>Css Style </value>
+  </data>
+  <data name="plOnLoad.Help">
+    <value>Javascript để được thực thi trong onload, thường được dùng để thay đổi kích thước. Chỉ Administrator được phép cấu hình.</value>
+  </data>
+  <data name="plOnLoad.Text">
+    <value>onload (Javascript) </value>
+  </data>
+  <data name="plAllowTransparency.Help">
+    <value>Đặt thuộc tính allowtransparancy=true cho iframe. Phần bên trong cũng cần một thiết lập css tương ứng.</value>
+  </data>
+  <data name="plAllowTransparency.Text">
+    <value>Cho Phép Trong Suốt</value>
+  </data>
+</root>

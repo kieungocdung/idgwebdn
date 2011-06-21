@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="ResMimeType">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="Version">
+    <value>1.0.0.0</value>
+  </resheader>
+  <resheader name="Reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="Writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Alias.Header">
+    <value>Alias </value>
+  </data>
+  <data name="Email.Header" type="">
+    <value>Email </value>
+  </data>
+  <data name="Posts.Header">
+    <value>Bài Viết</value>
+  </data>
+  <data name="Moderator?.Header">
+    <value>Kiểm Duyệt?</value>
+  </data>
+  <data name="Configuration.Text">
+    <value>Cấu Hình</value>
+  </data>
+  <data name="ManageUsers.Text">
+    <value>Quản Lý Thành Viên</value>
+  </data>
+  <data name="ManageForums.Text">
+    <value>Quản Lý Forum</value>
+  </data>
+  <data name="MySettings.Text">
+    <value>Thiết Lập Cá Nhân</value>
+  </data>
+  <data name="MyProfile.Text">
+    <value>Thông Tin Cá Nhân</value>
+  </data>
+  <data name="Search.Text">
+    <value>Tìm Kiếm</value>
+  </data>
+  <data name="ForumHome.Text">
+    <value>Forum Home </value>
+  </data>
+  <data name="ModuleHelp.Text">
+    <value>&lt;h1&gt;Forum - Quản Lý THành Viên&lt;/h1&gt;&lt;p&gt;Đây là nơi quảng trị site quản lý người dùng của forum.&lt;br&gt;Thành viên có thể được lọc bởi chữ cái đầu của tên, họ, alias, và tên tài khoản.&lt;br&gt;Chi tiết về từng người dùng có thể được thay đổi bằng cách click vào hình chiếc bút chì bên cạnh tên của họ.&lt;/p&gt;</value>
+  </data>
+  <data name="ControlTitle_usermanage.Text">
+    <value>Quản Lý Thành Viên Forum</value>
+  </data>
+  <data name="UserInfo.Text">
+    <value>  [UserCount] thành viên </value>
+  </data>
+  <data name="Username.Header">
+    <value>Tên Tài Khoản</value>
+  </data>
+  <data name="lblTitle.Text">
+    <value>Lọc Người Dùng Bởi:</value>
+  </data>
+  <data name="FirstName.Text">
+    <value>Tên</value>
+  </data>
+  <data name="LastName.Text">
+    <value>Họ</value>
+  </data>
+  <data name="Username.Text">
+    <value>Tên Tài Khoản</value>
+  </data>
+  <data name="Alias.Text">
+    <value>Alias </value>
+  </data>
+  <data name="First Name.Header">
+    <value>Tên</value>
+  </data>
+  <data name="Last Name.Header">
+    <value>Họ</value>
+  </data>
+  <data name="lblInfo.Text">
+    <value>
+    </value>
+  </data>
+  <data name="MyPosts.Text">
+    <value>Bài Cá Nhân</value>
+  </data>
+  <data name="cmdPMUser.Text">
+    <value>Gửi Tin Nhắn</value>
+  </data>
+  <data name="lblManageUsers.Text">
+    <value>Quản Lý Thành Viên</value>
+  </data>
+  <data name="UserInfo.Header">
+    <value>Thông Tin Thành Viên</value>
+  </data>
+</root>

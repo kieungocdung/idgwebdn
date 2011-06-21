@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="ResMimeType">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="Version">
+    <value>1.0.0.0</value>
+  </resheader>
+  <resheader name="Reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="Writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="plAuthor.Text">
+    <value>Tác Giả:</value>
+  </data>
+  <data name="plAuthor.Help">
+    <value>Tác giả gốc của bài.</value>
+  </data>
+  <data name="lblAuthor.Text">
+    <value>
+    </value>
+  </data>
+  <data name="lblAuthor.Help">
+    <value>
+    </value>
+  </data>
+  <data name="plOriginalMessage.Text">
+    <value>Thông Điệp:</value>
+  </data>
+  <data name="plOriginalMessage.Help">
+    <value>Bài viết bạn đang trả lời.</value>
+  </data>
+  <data name="lblMessage.Text">
+    <value>
+    </value>
+  </data>
+  <data name="lblMessage.Help">
+    <value>
+    </value>
+  </data>
+  <data name="plSubject.Text">
+    <value>Tiêu Đề:</value>
+  </data>
+  <data name="plSubject.Help">
+    <value>Tiêu đề bài viết.</value>
+  </data>
+  <data name="plMessage.Text">
+    <value>Nội Dung:</value>
+  </data>
+  <data name="plMessage.Help">
+    <value>Nội dung bài viết.</value>
+  </data>
+  <data name="plAttachments.Text">
+    <value>Đính Kèm:</value>
+  </data>
+  <data name="plAttachments.Help">
+    <value>Gửi một file đính kèm cho mục blog này.</value>
+  </data>
+  <data name="InsertAttachment.Text">
+    <value>Gửi file đính kèm</value>
+  </data>
+  <data name="RemoveAttachment.Text">
+    <value>Loại bỏ đính kèm</value>
+  </data>
+  <data name="InsertImage.Text">
+    <value>Chèn Ảnh</value>
+  </data>
+  <data name="InsertSmiley.Text">
+    <value>Chèn Smiley</value>
+  </data>
+  <data name="plPinned.Text">
+    <value>Pinned?</value>
+  </data>
+  <data name="plPinned.Help">
+    <value>Gắn bài viết ở trên đầu nhóm .</value>
+  </data>
+  <data name="chkPinned.Text">
+    <value>
+    </value>
+  </data>
+  <data name="plNotify.Text">
+    <value>Thông Báo?</value>
+  </data>
+  <data name="plNotify.Help">
+    <value>Nếu được chọn, sẽ email cho bạn khi bài viết có trả lời.</value>
+  </data>
+  <data name="chkNotify.Text">
+    <value>
+    </value>
+  </data>
+  <data name="plClose.Text">
+    <value>Khóa?</value>
+  </data>
+  <data name="plClose.Help">
+    <value>Nếu chọn, bài viết sẽ không cho phép trả lời.</value>
+  </data>
+  <data name="chkClose.Text">
+    <value>
+    </value>
+  </data>
+  <data name="lblInfo.Text">
+    <value>
+    </value>
+  </data>
+  <data name="lblInfo.Help">
+    <value>
+    </value>
+  </data>
+  <data name="plPreview.Text">
+    <value>Xem Trước:</value>
+  </data>
+  <data name="plPreview.Help">
+    <value>Xem trước của bài viết của bạn.</value>
+  </data>
+  <data name="lblPreview.Help">
+    <value>Xem Trước </value>
+  </data>
+  <data name="Configuration.Text">
+    <value>Cấu Hình</value>
+  </data>
+  <data name="ForumHome.Text">
+    <value>Forum Home </value>
+  </data>
+  <data name="MySettings.Text">
+    <value>Thiết Lập Cá Nhân</value>
+  </data>
+  <data name="valSubject.Text">
+    <value>* Bắt Buộc</value>
+  </data>
+  <data name="OriginalPost.Text">
+    <value>Bài Gốc</value>
+  </data>
+  <data name="ControlTitle_pmadd.Text">
+    <value>Gửi Tin Nhắn</value>
+  </data>
+  <data name="cmdPreview.Text">
+    <value>Xem Trước</value>
+  </data>
+  <data name="ModuleHelp.Text">
+    <value>&lt;h1&gt;Gửi Tin Nhắn&lt;/h1&gt;&lt;p&gt;Bạn có thể gửi một tin nhắn cho một thành viên ở đây. Bạn cần phải co một tiêu đề cho mỗi tin nhắn.  Chức năng chèn hình ảnh và smiley sẽ xuất hiện dưới dạng nút bấm nếu tùy chọn này dược quản trị cho phép. Từ đây là nơi xác định bài viết có là pinned hay không hay có thể có file đính kèm hay không nếu được quản trị cho phép.</value>
+  </data>
+  <data name="lblPreviewHead.Text">
+    <value>Xem Trước</value>
+  </data>
+  <data name="cmdBackToForum.Text">
+    <value>Trở Về Forum</value>
+  </data>
+  <data name="MyPosts.Text">
+    <value>Bài Cá Nhân</value>
+  </data>
+  <data name="lblPostEdit.Text">
+    <value>Gửi Tin Nhắn</value>
+  </data>
+  <data name="plRecipient.Text">
+    <value>Tới:</value>
+  </data>
+  <data name="plRecipient.Help">
+    <value>Ai sẽ nhận tin nhắn này.</value>
+  </data>
+</root>

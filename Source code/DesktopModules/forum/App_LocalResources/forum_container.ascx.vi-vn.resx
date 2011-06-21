@@ -1,0 +1,327 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="ResMimeType">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="Version">
+    <value>1.0.0.0</value>
+  </resheader>
+  <resheader name="Reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="Writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Expand.Text">
+    <value>Mở</value>
+  </data>
+  <data name="Collapse.Text">
+    <value>Giấu</value>
+  </data>
+  <data name="Forums.Text">
+    <value>Forum</value>
+  </data>
+  <data name="ForumContainsNothing.Text">
+    <value>Forum Không Chứa Gì Cả!</value>
+  </data>
+  <data name="ForumConfigInstruction.Text">
+    <value>Chọn Cấu Hình từ menu để cấu hình các thiết lập của Forum.</value>
+  </data>
+  <data name="ForumManageInstruction.Text">
+    <value>Chọn Quản Lý Forum từ menu để tạo Nhóm/Forum</value>
+  </data>
+  <data name="Threads.Text">
+    <value>Chủ Đề</value>
+  </data>
+  <data name="Posts.Text">
+    <value>Bài</value>
+  </data>
+  <data name="LastPost.Text">
+    <value>Bài Mới Nhất</value>
+  </data>
+  <data name="ForumsCountInfoPosts.Text">
+    <value>[ForumCount] Forum trong [GroupCount] Nhóm</value>
+  </data>
+  <data name="Statistics.Text">
+    <value>Thống Kê</value>
+  </data>
+  <data name="WhatsNew.Text">
+    <value>Có Gì Mới?</value>
+  </data>
+  <data name="StatisticsUpdateInfo.Text">
+    <value>Thống Kê Cập Nhật Vào [DateTime] </value>
+  </data>
+  <data name="NoThread.Text">
+    <value>Không Có Chủ Đề</value>
+  </data>
+  <data name="NoPost.Text">
+    <value>Không Có Bài</value>
+  </data>
+  <data name="NoNewPostToday.Text">
+    <value>Hôm Nay Không Có Bài Nào Mới</value>
+  </data>
+  <data name="NoNewPostFromDateTime.Text">
+    <value>Không Có Bài Viết Nào Mới Từ[DateTime]</value>
+  </data>
+  <data name="NewPostsToday.Text">
+    <value>[PostCount] Bài Hôm Nay</value>
+  </data>
+  <data name="NewPostsFromDateTime.Text">
+    <value>[PostCount] Bài Từ [DateTime] </value>
+  </data>
+  <data name="StatisticsSummary.Text">
+    <value>[UserCount] thành viên đã đóng góp [ThreadCount] chủ đề và [PostCount] bài viết.</value>
+  </data>
+  <data name="Statistics24HoursSummary.Text">
+    <value>Trong 24 giờ trước, chúng ta có [ThreadCount] chủ đề mới và [PostCount] bài mới.</value>
+  </data>
+  <data name="StatisticsMostPopularThread.Text">
+    <value>Chủ đề được yêu thích nhất [ThreadURL]</value>
+  </data>
+  <data name="StatisticsMostActiveThread.Text">
+    <value>Chủ đề có nhiều bài mới nhất [ThreadURL]</value>
+  </data>
+  <data name="StatisticsMostActiveUsers.Text">
+    <value>Người Dùng Năng Động Nhất:</value>
+  </data>
+  <data name="imgOnline.Text">
+    <value>Đang Online...</value>
+  </data>
+  <data name="MarkThreadAsRead.Text">
+    <value>Đánh dấu tất cả chủ đề ở [ForumName] là đã đọc.</value>
+  </data>
+  <data name="MarkThreadAsUnread.Text">
+    <value>Đánh dấu tất cả chủ đề ở [ForumName] là chưa được đọc.</value>
+  </data>
+  <data name="MailWhenNewThread.Text">
+    <value>Gửi Email cho tôi khi forum [ForumName] có bài mới.</value>
+  </data>
+  <data name="MailWhenReply.Text">
+    <value>Email cho tôi khi chủ đề[ThreadSubject] có bài mới.</value>
+  </data>
+  <data name="Started.Text">
+    <value>Bắt Đầu</value>
+  </data>
+  <data name="Views.Text">
+    <value>Lần Xem</value>
+  </data>
+  <data name="Replies.Text">
+    <value>Trả Lời</value>
+  </data>
+  <data name="Previous.Text">
+    <value>Trước</value>
+  </data>
+  <data name="Next.Text">
+    <value>Tiếp Theo</value>
+  </data>
+  <data name="imgRSS.Text">
+    <value>Xem dưới dạng RSS news feed ở XML...</value>
+  </data>
+  <data name="PageCountInfo.Text">
+    <value>Trang Số [PageNumber] trên [PageCount]</value>
+  </data>
+  <data name="Rate.Text">
+    <value>Đánh Giá:</value>
+  </data>
+  <data name="ViewFullSize.Text">
+    <value>Xem Đầy Đủ Kích Thước...</value>
+  </data>
+  <data name="FlatView.Text">
+    <value>Hiển Thị Dạng Tầng</value>
+  </data>
+  <data name="TreeView.Text">
+    <value>Hiển Thị Dạng Cây</value>
+  </data>
+  <data name="NewestToOldest.Text">
+    <value>Mới Nhất Đến Cũ Nhất</value>
+  </data>
+  <data name="OldestToNewest.Text">
+    <value>Cũ Nhất Đến Mới Nhất</value>
+  </data>
+  <data name="PostCount.Text">
+    <value>[PostCount] bài</value>
+  </data>
+  <data name="PostedDateTime.Text">
+    <value>Bài: [CreatedDate] [PostTime]</value>
+  </data>
+  <data name="imgNewSearch.Text">
+    <value>Bắt đầu một tìm kiếm mới...</value>
+  </data>
+  <data name="SearchResults.Text">
+    <value>Kết Quả Tìm Kiếm</value>
+  </data>
+  <data name="InForum.Text">
+    <value>Trong Forum</value>
+  </data>
+  <data name="ThreadStartedBy.Text">
+    <value>Chủ Đề Bắt Đầu Bởi</value>
+  </data>
+  <data name="PostsToModerated.Text">
+    <value>Bài để Kiểm Duyệt</value>
+  </data>
+  <data name="MySettings.Text">
+    <value>Thiết Lập Cá Nhân</value>
+  </data>
+  <data name="MyProfile.Text">
+    <value>Thông Tin Cá Nhân</value>
+  </data>
+  <data name="Search.Text">
+    <value>Tìm Kiếm</value>
+  </data>
+  <data name="ModuleHelp.Text">
+    <value>&lt;H1&gt;Core Forum Module&lt;/h1&gt;&lt;P&gt;Module Core Forum là một module phục vụ cho trao đổi thông tin.&lt;/p&gt;</value>
+  </data>
+  <data name="Moderate.Text">
+    <value>Kiểm Duyệt</value>
+  </data>
+  <data name="NewThread.Text">
+    <value>Chủ Đề Mới</value>
+  </data>
+  <data name="Delete.Text">
+    <value>Xóa</value>
+  </data>
+  <data name="Quote.Text">
+    <value>Trích Dẫn</value>
+  </data>
+  <data name="Reply.Text">
+    <value>Trả Lời</value>
+  </data>
+  <data name="Move.Text">
+    <value>Chuyển</value>
+  </data>
+  <data name="NewSearch.Text">
+    <value>Tìm Kiếm Mới</value>
+  </data>
+  <data name="Date.Text">
+    <value>Ngày Gửi</value>
+  </data>
+  <data name="ControlTitle_.Text">
+    <value>Bài Cá Nhân</value>
+  </data>
+  <data name="ForumHome.Text">
+    <value>Forum Home </value>
+  </data>
+  <data name="Forum Home.Text">
+    <value>Forum Home </value>
+  </data>
+  <data name="MyPosts.Text">
+    <value>Bài Cá Nhân</value>
+  </data>
+  <data name="My Settings.Text">
+    <value>Thiết Lập Cá Nhân</value>
+  </data>
+  <data name="LatestThreads.Text">
+    <value>Hiển thị bài viết cho:</value>
+  </data>
+  <data name="NoneSpecified.Text">
+    <value>(Chưa Xác Định)</value>
+  </data>
+  <data name="HasContributed.Text">
+    <value> đã đóng góp</value>
+  </data>
+  <data name="by.Text">
+    <value> bởi </value>
+  </data>
+  <data name="in.Text">
+    <value>trong</value>
+  </data>
+  <data name="ModifiedBy.Text">
+    <value>Thay Đổi Bởi</value>
+  </data>
+  <data name="Administration.Text">
+    <value>Quản Trị Forum</value>
+  </data>
+  <data name="imgLockedThread.Text">
+    <value>Thread Bị Khóa</value>
+  </data>
+  <data name="imgModerated.Text">
+    <value>Forum Bị Kiểm Duyệt</value>
+  </data>
+  <data name="imgNewLockedThread.Text">
+    <value>Thread bị khóa với bài viết mới</value>
+  </data>
+  <data name="imgNewModerated.Text">
+    <value>Forum bị kiểm duyệt với bài viết mới</value>
+  </data>
+  <data name="imgNewPinnedThread.Text">
+    <value>Pinned Thread với bài mới</value>
+  </data>
+  <data name="imgNewPopLockedThread.Text">
+    <value>Thread bị khóa được yêu thích với bài mới</value>
+  </data>
+  <data name="imgNewPopThread.Text">
+    <value>Thread được yêu thích với bài mới</value>
+  </data>
+  <data name="imgNewPrivate.Text">
+    <value>Forum Riêng Tư với bài mới</value>
+  </data>
+  <data name="imgNewThread.Text">
+    <value>Thread với bài mới</value>
+  </data>
+  <data name="imgNewUnmoderated.Text">
+    <value>Forum không bị kiểm duyệt với bài mới</value>
+  </data>
+  <data name="imgOffline.Text">
+    <value>Thành viên offline</value>
+  </data>
+  <data name="imgPinnedThread.Text">
+    <value>Pinned Thread </value>
+  </data>
+  <data name="imgPopLockedThread.Text">
+    <value>Thread Yêu Thích Bị Khóa</value>
+  </data>
+  <data name="imgPopThread.Text">
+    <value>Thread Yêu Thích</value>
+  </data>
+  <data name="imgPrivate.Text">
+    <value>Forum Riêng Tư</value>
+  </data>
+  <data name="imgThread.Text">
+    <value>Thread </value>
+  </data>
+  <data name="imgUnmoderated.Text">
+    <value>Forum Không Bị Kiểm Duyệt</value>
+  </data>
+  <data name="Inbox.Text">
+    <value>Hộp Thư</value>
+  </data>
+  <data name="Joined.Text">
+    <value>Ngày Tham Gia</value>
+  </data>
+  <data name="on.Text">
+    <value>vào</value>
+  </data>
+  <data name="ReadPost.Text">
+    <value>Bài Cũ</value>
+  </data>
+  <data name="UnreadPost.Text">
+    <value>Bài Mới</value>
+  </data>
+</root>

@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <!-- 
+    Vietnamese Translation 2005 by Nguyen Viet Trung,  viechinguyen@gmail.com
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="ResMimeType">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="Version">
+    <value>1.0.0.0</value>
+  </resheader>
+  <resheader name="Reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="Writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AddContent.Action">
+    <value>Thêm FAQ Mới</value>
+  </data>
+  <data name="ModuleHelp.Text">
+    <value>&lt;h1&gt;Về Module FAQ&lt;/h1&gt;
+
+&lt;p&gt;Module FAQ (Frequently Ask Question - Những Câu Hỏi Thường Xuyên) cho phép Người sử dụng được uỷ quyền quản lý một danh sách các câu hỏi thường xuyên và những câu trả lời tương ứng với chúng. Câu hỏi được hiển thị dưới dạng liên kết, đòi hỏi người sử dụng phải click vào câu hỏi để xem câu trả lời tương ứng.&lt;/p&gt;
+
+&lt;h1&gt;Thêm một FAQ&lt;/h1&gt;
+&lt;ol&gt;&lt;li&gt;Thêm một module &lt;b&gt;FAQ&lt;/b&gt; , hoặc chuyển đến một module &lt;b&gt;FAQs&lt;/b&gt; hiện có. &lt;/li&gt;
+&lt;li&gt;Click &lt;b&gt;Thêm FAQ Mới&lt;/b&gt;. &lt;/li&gt;
+&lt;li&gt;Ở &lt;b&gt;Câu Hỏi&lt;/b&gt;, nhập câu hỏi.&lt;/li&gt;
+&lt;li&gt;Ở &lt;b&gt;Trả Lời&lt;/b&gt;, nhập vào câu trả lời cho câu hỏi.&lt;/li&gt;
+&lt;li&gt;Click &lt;b&gt;Cập Nhật&lt;/b&gt;.&lt;/li&gt;&lt;/ol&gt;</value>
+  </data>
+  <data name="DefaultAnswerTemplate.Text">
+    <value>&lt;div Class="Normal" Style="padding: 5px;"&gt;
+&lt;b&gt;Trả Lời:&lt;/b&gt; [ANSWER]
+&lt;/div&gt;</value>
+  </data>
+  <data name="DefaultLoadingTemplate.Text">
+    <value>&lt;div Class="Normal" Style="padding: 5px;"&gt;Đang Nạp...&lt;/div&gt;</value>
+  </data>
+  <data name="DefaultQuestionTemplate.Text">
+    <value>&lt;div Class="Normal"&gt;
+&lt;b&gt;Q[INDEX]. [QUESTION]&lt;/b&gt;
+&lt;/div&gt; </value>
+  </data>
+  <data name="ManageCategories.Text">
+    <value>Quản Lý Thể Loại</value>
+  </data>
+  <data name="OrderBy.Text">
+    <value>&lt;Sắp Xếp&gt;</value>
+  </data>
+  <data name="OrderByDateNew.Text">
+    <value>Ngày (mới nhất trước)</value>
+  </data>
+  <data name="OrderByDateOld.Text">
+    <value>Ngày (cũ nhất trước)</value>
+  </data>
+  <data name="OrderByPopularityHigh.Text">
+    <value>Mức Độ Được Quan Tâm(cao nhất trước)</value>
+  </data>
+  <data name="OrderByPopularityLow.Text">
+    <value>Mức Độ Được Quan Tâm(thấp nhất trước)</value>
+  </data>
+  <data name="SearchFieldTitle.Text">
+    <value>Tìm Kiếm</value>
+  </data>
+  <data name="SelectCategory.Text">
+    <value>&lt;Chọn Thể Loại&gt;</value>
+  </data>
+</root>

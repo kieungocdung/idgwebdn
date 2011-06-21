@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="ResMimeType">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="Version">
+    <value>1.0.0.0</value>
+  </resheader>
+  <resheader name="Reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="Writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Create New Row.Permission">
+    <value>Tạo Hàng Mới</value>
+  </data>
+  <data name="Delete Row.Permission">
+    <value>Xóa Hàng</value>
+  </data>
+  <data name="Edit Row.Permission">
+    <value>Sửa Hàng</value>
+  </data>
+  <data name="ShowColumns.Permission">
+    <value>Hiện tất cả bảng người dùng</value>
+  </data>
+  <data name="Integer.ErrorMessage">
+    <value>Phải chứa một giá trị nguyên hợp lệ</value>
+  </data>
+  <data name="Date.ErrorMessage">
+    <value>Phải chứa một giá trị Ngày  hợp lệ</value>
+  </data>
+  <data name="Decimal.ErrorMessage">
+    <value>Phải chứa một giá trị thực hợp lệ</value>
+  </data>
+  <data name="Boolean.ErrorMessage">
+    <value>Phải Chứa Một Giá Trị True/False </value>
+  </data>
+  <data name="EMail.ErrorMessage">
+    <value>Phải chứa một giá trị email hợp lệ</value>
+  </data>
+  <data name="Time.ErrorMessage">
+    <value>Phải chứa một giá trị thời gian hợp lệ</value>
+  </data>
+  <data name="DateTime.ErrorMessage">
+    <value>Phải chứa một giá trị Ngày Giờ hợp lệ</value>
+  </data>
+  <data name="Currency.ErrorMessage">
+    <value>Phải chứa một giá trị tiền tệ hợp lệ</value>
+  </data>
+  <data name="RequiredIndicator.Text">
+    <value>* </value>
+  </data>
+  <data name="RequiredFootnote.Text">
+    <value>* bắt buộc</value>
+  </data>
+  <data name="Required.ErrorMessage">
+    <value>Bạn phải nhập một giá trị!</value>
+  </data>
+  <data name="Integer.Text">
+    <value>Số Nguyên</value>
+  </data>
+  <data name="Decimal.Text">
+    <value>Decimal </value>
+  </data>
+  <data name="Date.Text">
+    <value>Ngày </value>
+  </data>
+  <data name="Time.Text">
+    <value>Thời Gian</value>
+  </data>
+  <data name="TrueFalse.Text">
+    <value>True/False </value>
+  </data>
+  <data name="DateTime.Text">
+    <value>Ngày và giờ</value>
+  </data>
+  <data name="EMail.Text">
+    <value>Email </value>
+  </data>
+  <data name="URL.Text">
+    <value>URL </value>
+  </data>
+  <data name="Currency.Text">
+    <value>Tiền tệ</value>
+  </data>
+  <data name="Image.Text">
+    <value>Ảnh</value>
+  </data>
+  <data name="ImageViewSettings.Text">
+    <value>hiển thị tùy chọn cho các trường ảnh sau:</value>
+  </data>
+  <data name="CreatedBy.Text">
+    <value>Tạo bởi</value>
+  </data>
+  <data name="CreatedAt.Text">
+    <value>Được tạo vào</value>
+  </data>
+  <data name="ChangedAt.Text">
+    <value>Thay đổi vào</value>
+  </data>
+  <data name="ChangedBy.Text">
+    <value>Thay Đổi bởi</value>
+  </data>
+  <data name="TextHtml.Text">
+    <value>Rich Text (Html) </value>
+  </data>
+  <data name="Expression.Text">
+    <value>Cột Tính Toán</value>
+  </data>
+  <data name="PageNotFound.ErrorMessage">
+    <value>Không tìm thấy trang</value>
+  </data>
+  <data name="ValueTooLong.ErrorMessage">
+    <value>Giá trị nhập vào quá dài. Hãy rút ngắn lại!</value>
+  </data>
+  <data name="String.Text">
+    <value>Text </value>
+  </data>
+  <data name="Download.Text">
+    <value>Tải Xuống</value>
+  </data>
+</root>

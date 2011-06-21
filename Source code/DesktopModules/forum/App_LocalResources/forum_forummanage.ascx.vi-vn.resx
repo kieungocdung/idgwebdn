@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="ResMimeType">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="Version">
+    <value>1.0.0.0</value>
+  </resheader>
+  <resheader name="Reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="Writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="btnBack.AlternateText">
+    <value>Trở về forum...</value>
+  </data>
+  <data name="btnAddGroup.AlternateText">
+    <value>Thêm nhóm mới...</value>
+  </data>
+  <data name="btnExpand.AlternateText">
+    <value>Mở rộng nhóm để cấu hình...</value>
+  </data>
+  <data name="btnGroupDelete2.AlternateText">
+    <value>Xóa nhóm...</value>
+  </data>
+  <data name="btnGroupUp2.AlternateText">
+    <value>Chuyển nhóm lên trên...</value>
+  </data>
+  <data name="btnGroupDown2.AlternateText">
+    <value>Chuyển nhóm xuống dưới...</value>
+  </data>
+  <data name="btnCloseGroup.AlternateText">
+    <value>Giấu nhóm...</value>
+  </data>
+  <data name="btnCancelGroup.AlternateText">
+    <value>Hủy bỏ...</value>
+  </data>
+  <data name="btnUpdateGroup.AlternateText">
+    <value>Cập nhật nhóm...</value>
+  </data>
+  <data name="btnForumEdit.AlternateText">
+    <value>Cấu hình forum...</value>
+  </data>
+  <data name="btnForumDelete.AlternateText">
+    <value>Xóa forum...</value>
+  </data>
+  <data name="btnForumUp.AlternateText">
+    <value>Chuyển forum lên...</value>
+  </data>
+  <data name="btnForumDown.AlternateText">
+    <value>Chuyển forum xuống dưới...</value>
+  </data>
+  <data name="btnAddForum.AlternateText">
+    <value>Thêm forum mới vào nhóm...</value>
+  </data>
+  <data name="btnAddNewsGroupForum.AlternateText">
+    <value>Thêm nhóm tin mới...</value>
+  </data>
+  <data name="Configuration.Text">
+    <value>Cấu Hình</value>
+  </data>
+  <data name="ManageUsers.Text">
+    <value>Quản Lý Người Dùng</value>
+  </data>
+  <data name="ManageForums.Text">
+    <value>Quản Lý Forum</value>
+  </data>
+  <data name="MySettings.Text">
+    <value>Thiết Lập Cá Nhân</value>
+  </data>
+  <data name="MyProfile.Text">
+    <value>Thông Tin Cá Nhân</value>
+  </data>
+  <data name="Search.Text">
+    <value>Tìm Kiếm</value>
+  </data>
+  <data name="ForumHome.Text">
+    <value>Forum Home </value>
+  </data>
+  <data name="ManageBadWords.Text">
+    <value>Quản Lý Lọc Từ</value>
+  </data>
+  <data name="ModuleHelp.Text">
+    <value>&lt;h1&gt;Forum - Quản Lý Forums&lt;/h1&gt;&lt;p&gt;Các nhóm Forum và các Forum có thể được tạo và cấu hình ở đây.  Một nhóm phải chứa ít nhất một Diễn đàn trước khi người dùng có thể gửi Chủ Đề trong Forum và Nhóm đó.  Forum phải cũng phải được cho phép.&lt;/p&gt;&lt;p&gt;Khi một Forum được thêm vào Nhóm, bạn có thể click vào hình chiếc bút chì bên cạnh tên Forum để cấu hình các thiết lập đó. Các Thiết lập Forum cho phép bạn điều khiển nếu Forum được kiểm duyệt, ai được phép xem Forum (Người dùng phải là một thành viên của một vai trò được phép cấu hình module này để có thể gửi bài vào bất cứ đâu trên module này.)  Thiết lập đặt module là riêng tư để nó có thể được xem bởi các vai trò xác định cũng được điều khiển ở đây.&lt;/p&gt;</value>
+  </data>
+  <data name="ControlTitle_forummanage.Text">
+    <value>Quản Lý Forum</value>
+  </data>
+  <data name="cmdAddForum.Text">
+    <value>Thêm</value>
+  </data>
+  <data name="GeneralInformation.Text">
+    <value>Thông Tin Chung</value>
+  </data>
+  <data name="MyPosts.Text">
+    <value>Bài Cá Nhân</value>
+  </data>
+  <data name="plForumList.Text">
+    <value>Danh Sách Forum</value>
+  </data>
+  <data name="plForumList.Help">
+    <value>Đây là một danh sách các forum hiện tại có trong nhóm.</value>
+  </data>
+  <data name="plAddNewGroup.Text">
+    <value>Thêm Nhóm Mới:</value>
+  </data>
+  <data name="plAddNewGroup.Help">
+    <value>Thêm forum mới vào nhóm.</value>
+  </data>
+  <data name="btnForumEnable.AlternateText">
+    <value>Cho phép/Cấm Forum</value>
+  </data>
+  <data name="cmdAddGroup.Text">
+    <value>Thêm Nhóm</value>
+  </data>
+  <data name="lblForumsManage.Text">
+    <value>Quản Lý Forum</value>
+  </data>
+  <data name="lblGroupEdit.AlternateText">
+    <value>Cấu Hình Nhóm</value>
+  </data>
+</root>

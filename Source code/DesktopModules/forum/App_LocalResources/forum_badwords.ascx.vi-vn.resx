@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="ResMimeType">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="Version">
+    <value>1.0.0.0</value>
+  </resheader>
+  <resheader name="Reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="Writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ModuleHelp.Text">
+    <value>&lt;h1&gt;Trợ Giúp Lọc Từ&lt;/h1&gt;&lt;P&gt;Thêm từ để lọc và thay thế trên các bài viết của forum. Nếu cho phép bên trong module, các từ sẽ bị thay thế trước khi được đưa vào cơ sở dữ liệu và vào bất cứ lần sửa đổi sau này. Các từ được thay thế có thể khác nhau trên các portal nhưng giống nhau trên tất cả các module forum trên một portal.&lt;/P&gt;</value>
+  </data>
+  <data name="ControlTitle_badwords.Text">
+    <value>Quản Lý Từ Lọc</value>
+  </data>
+  <data name="cmdAdd.Text">
+    <value>Thêm Từ</value>
+  </data>
+  <data name="Word To Filter.Header">
+    <value>Từ Để Lọc</value>
+  </data>
+  <data name="Replacement For Filtered Word.Header">
+    <value>Thay Thế Cho Từ Được Lọc</value>
+  </data>
+  <data name="Created By.Header">
+    <value>Tạo Bởi</value>
+  </data>
+  <data name="Created Date.Header">
+    <value>Ngày Tạo</value>
+  </data>
+  <data name="BadWordFilter.Text">
+    <value>Quản Lý Lọc Từ</value>
+  </data>
+  <data name="lblManageFilteredWords.Text">
+    <value>Quản Lý Từ Lọc</value>
+  </data>
+  <data name="plBadWord.Help">
+    <value>Nếu chọn, cho phép nội dung bài viết được lọc với các từ được định nghĩa ở đây.</value>
+  </data>
+  <data name="plBadWord.Text">
+    <value>Mở Lọc Từ?</value>
+  </data>
+  <data name="plFilterSubject.Help">
+    <value>Nếu chọn, lọc từ ở cả tiêu đề bài viết.</value>
+  </data>
+  <data name="plFilterSubject.Text">
+    <value>Lọc Tiêu Đề?</value>
+  </data>
+</root>

@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="ResMimeType">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="Version">
+    <value>1.0.0.0</value>
+  </resheader>
+  <resheader name="Reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="Writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="plClosingDate.Text">
+    <value>Ngày Kết Thúc Điều Tra:</value>
+  </data>
+  <data name="plClosingDate.Help">
+    <value>Nhập ngày kết thúc cho điều tra. Bạn có thể sử dụng một lịch để chọn ngày, bằng cách click vào một Liên Kết Lịch.</value>
+  </data>
+  <data name="valClosingDate.ErrorMessage">
+    <value>&lt;br&gt;Ngày Kết Thúc Không Hợp Lệ!</value>
+  </data>
+  <data name="plGraphWidth.Text">
+    <value>Độ Rộng Tối Đa Biểu Đồ Cột:</value>
+  </data>
+  <data name="plGraphWidth.Help">
+    <value>Nhập độ rộng tối đa cho biểu đồ kết quả</value>
+  </data>
+  <data name="plPersonal.Text">
+    <value>Theo Dõi Điều Tra:</value>
+  </data>
+  <data name="plPersonal.Help">
+    <value>Chọn cách theo dõi điều tra</value>
+  </data>
+  <data name="plSurveyResults.Text">
+    <value>Kết Quả Điều Tra:</value>
+  </data>
+  <data name="plSurveyResults.Help">
+    <value>Chọn xem kết quả được hiển thị công khai hay chỉ cho các Quản Trị</value>
+  </data>
+  <data name="No.Text">
+    <value>Theo dõi điều tra thông qua cookie</value>
+  </data>
+  <data name="Yes.Text">
+    <value>1 Điều Tra/Thành Viên Đăng Ký</value>
+  </data>
+  <data name="PublicResults.Text">
+    <value>Công Khai</value>
+  </data>
+  <data name="PrivateResults.Text">
+    <value>Riêng Tư</value>
+  </data>
+  <data name="ControlTitle_settings.Text">
+    <value>Thiết Lập Điều Tra</value>
+  </data>
+  <data name="ModuleHelp.Text">
+    <value>Trợ Giúp Thiết Lập</value>
+  </data>
+</root>

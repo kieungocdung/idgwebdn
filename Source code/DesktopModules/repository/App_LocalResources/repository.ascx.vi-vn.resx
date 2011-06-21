@@ -1,0 +1,307 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 1.3
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">1.3</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1">this is my long string</data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        [base64 mime encoded serialized .NET Framework object]
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        [base64 mime encoded string representing a byte array form of the .NET Framework object]
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used forserialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>1.3</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AuthorCopyright.Text">
+    <value>Tác Quyền và mọi quyền khác thuộc về Tác giả</value>
+  </data>
+  <data name="About.Text">
+    <value>Về...</value>
+  </data>
+  <data name="AddComment.Text">
+    <value>Gửi Bình Luận Của Bạn:</value>
+  </data>
+  <data name="AddContent.Action">
+    <value>Thêm mục mới</value>
+  </data>
+  <data name="AddRating.Text">
+    <value>Đánh Giá Của Bạn:</value>
+  </data>
+  <data name="Author.Text">
+    <value>Tác giả</value>
+  </data>
+  <data name="AuthorEMailTooltip.Text">
+    <value />
+  </data>
+  <data name="by.Text">
+    <value>bởi</value>
+  </data>
+  <data name="Categories.Text">
+    <value>Thể Loại</value>
+  </data>
+  <data name="ClickNext.Text">
+    <value>Click để xem trang tiếp</value>
+  </data>
+  <data name="ClickPrev.Text">
+    <value>Click để xem trang trước</value>
+  </data>
+  <data name="ClickToDownload.Text">
+    <value>Click để tải xuống</value>
+  </data>
+  <data name="ClickToEdit.Text">
+    <value>Click để sửa</value>
+  </data>
+  <data name="ClickToEditComment.Text">
+    <value>Click để sửa lời bình luận này</value>
+  </data>
+  <data name="ClickToModerate.Text">
+    <value>Click để kiểm duyệt tải lên</value>
+  </data>
+  <data name="ClickToSearch.Text">
+    <value>Click để tìm kiếm</value>
+  </data>
+  <data name="ClickToUpload.Text">
+    <value>Click để tải lên</value>
+  </data>
+  <data name="ClickToView.Text">
+    <value>Click để xem</value>
+  </data>
+  <data name="ClickToViewAddComments.Text">
+    <value>Click để xem/gửi bình luận</value>
+  </data>
+  <data name="ClickToVisit.Text">
+    <value>Click để thăm</value>
+  </data>
+  <data name="Comments.Text">
+    <value>Bình Luận</value>
+  </data>
+  <data name="Date.Text">
+    <value>Ngày</value>
+  </data>
+  <data name="Description.Text">
+    <value>Mô Tả</value>
+  </data>
+  <data name="DownloadButton.Text">
+    <value>TẢI XUỐNG</value>
+  </data>
+  <data name="Downloads.Text">
+    <value>Số tải xuống</value>
+  </data>
+  <data name="EMail.Text">
+    <value>Email</value>
+  </data>
+  <data name="File.Text">
+    <value>File </value>
+  </data>
+  <data name="FileSize.Text">
+    <value>Cỡ File</value>
+  </data>
+  <data name="FileSync.Text">
+    <value>Đồng Bộ File...</value>
+  </data>
+  <data name="Hits.Text">
+    <value>Hits </value>
+  </data>
+  <data name="InitialMessage.Text">
+    <value>&lt;b&gt;&lt;font color=red&gt;ADMIN:&lt;/font&gt;&lt;/b&gt; Chọn Thiết Lập Repository từ menu của Module để đặt đoạn Mô Tả Repository  cũng như đặt số đối tượng được hiển thị trên mỗi trang.&lt;br&gt;</value>
+  </data>
+  <data name="LoadingVideo.Text">
+    <value>Nạp Thành phần Microsoft Windows Media Player ...</value>
+  </data>
+  <data name="ModerateButton.Text">
+    <value>Kiểm Duyệt</value>
+  </data>
+  <data name="ModuleSettings.Action">
+    <value>Tùy Chọn Repository</value>
+  </data>
+  <data name="NextButton.Text">
+    <value>Tiếp &gt;</value>
+  </data>
+  <data name="of.Text">
+    <value>của</value>
+  </data>
+  <data name="on.Text">
+    <value>vào</value>
+  </data>
+  <data name="PostCommentButton.Text">
+    <value>Gửi Bình Luận</value>
+  </data>
+  <data name="PostCommentTooltip.Text">
+    <value />
+  </data>
+  <data name="Posted.Text">
+    <value>Đã Gửi @</value>
+  </data>
+  <data name="PostRatingButton.Text">
+    <value>Gửi Đánh Giá</value>
+  </data>
+  <data name="PostRatingTooltip.Text">
+    <value />
+  </data>
+  <data name="PrevButton.Text">
+    <value>&lt; Trở Về</value>
+  </data>
+  <data name="Ratings.Text">
+    <value>Đánh Giá:&amp;nbsp;</value>
+  </data>
+  <data name="RatingStats1.Text">
+    <value>Đã có&amp;nbsp;</value>
+  </data>
+  <data name="RatingStats2.Text">
+    <value>&amp;nbsp;đánh giá được gửi. Đánh giá trung bình là&amp;nbsp;</value>
+  </data>
+  <data name="RatingTooltip.Text">
+    <value>Đánh Giá: {0} Số Đánh Giá: {1} (Click để đánh giá)</value>
+  </data>
+  <data name="said.Text">
+    <value>đã nói</value>
+  </data>
+  <data name="Search.Text">
+    <value>Tìm Kiếm</value>
+  </data>
+  <data name="SearchButton.Text">
+    <value>GO </value>
+  </data>
+  <data name="SelectCategoryTooltip.Text">
+    <value>Chọn Thể Loại</value>
+  </data>
+  <data name="SelectValueTooltip.Text">
+    <value>Chọn Giá Trị</value>
+  </data>
+  <data name="Size.Text">
+    <value>Cỡ</value>
+  </data>
+  <data name="Sort.Text">
+    <value>Sắp xếp theo</value>
+  </data>
+  <data name="SortByAuthor.Text">
+    <value>Tên Tác Giả</value>
+  </data>
+  <data name="SortByDate.Text">
+    <value>Ngày</value>
+  </data>
+  <data name="SortByDownloads.Text">
+    <value>Tải Xuống</value>
+  </data>
+  <data name="SortByTitle.Text">
+    <value>Tiêu Đề</value>
+  </data>
+  <data name="SortByUserRating.Text">
+    <value>Đánh Giá</value>
+  </data>
+  <data name="Updated.Text">
+    <value>Cập Nhật</value>
+  </data>
+  <data name="UploadButton.Text">
+    <value>Tải Lên</value>
+  </data>
+  <data name="UploadedBy.Text">
+    <value>Tải Lên Bởi</value>
+  </data>
+  <data name="UserComments.Text">
+    <value>Bình Luận:</value>
+  </data>
+  <data name="UserRating.Text">
+    <value>Đánh Giá:</value>
+  </data>
+  <data name="VisitButton.Text">
+    <value>Ghé Thăm</value>
+  </data>
+  <data name="YourComment.Text">
+    <value>Bình Luận Của Bạn</value>
+  </data>
+  <data name="YourName.Text">
+    <value>Tên Của Bạn</value>
+  </data>
+  <data name="ReadArticle.Text">
+    <value>xem bài</value>
+  </data>
+  <data name="HideArticle.Text">
+    <value>đóng</value>
+  </data>
+</root>

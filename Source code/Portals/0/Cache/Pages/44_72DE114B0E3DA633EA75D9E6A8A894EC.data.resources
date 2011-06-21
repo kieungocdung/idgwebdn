@@ -1,0 +1,57 @@
+<div id="dnn_ctr355_HtmlModule_lblContent" class="Normal">
+	<div class="branding-top">
+<div class="link_main">
+<div class="link_proedition" onclick="window.open('http://www.dotnetnuke.com/tabid/1250/Default.aspx')"></div>
+<div class="link_manuals" onclick="window.open('http://www.dotnetnuke.com/tabid/1667/Default.aspx')"></div>
+<div></div>
+</div>
+</div>
+<div class="branding-bottom">
+<ul>
+    <li class="commmunity" onclick="window.open('http://www.dotnetnuke.com/tabid/1350/Default.aspx')">
+    <ul class="feature-block">
+        <li class="feature-icon"></li>
+        <li>
+        <div class="feature-text">Engage with other members of the DotNetNuke community</div>
+        </li>
+    </ul>
+    <ul class="bt">
+        <li class="action-btn engage-action"></li>
+    </ul>
+    </li>
+    <li class="marketplace" onclick="window.open('http://www.snowcovered.com/Snowcovered2/Default.aspx')">
+    <ul class="feature-block">
+        <li class="feature-icon"></li>
+        <li>
+        <div class="feature-text">Select from nearly 10,000 apps at Snowcovered.com</div>
+        </li>
+    </ul>
+    <ul class="bt">
+        <li class="action-btn shop-action"></li>
+    </ul>
+    </li>
+    <li class="conferences" onclick="window.open('http://www.dotnetnuke.com/News/Events/tabid/1282/Default.aspx')">
+    <ul class="feature-block">
+        <li class="feature-icon"></li>
+        <li>
+        <div class="feature-text">Look for DotNetNuke conferences and user groups in your area</div>
+        </li>
+    </ul>
+    <ul class="bt">
+        <li class="action-btn connect-action"></li>
+    </ul>
+    </li>
+    <li class="training" onclick="window.open('http://www.dotnetnuke.com/Resources/Training/tabid/1299/Default.aspx')">
+    <ul class="feature-block">
+        <li class="feature-icon"></li>
+        <li>
+        <div class="feature-text">View training videos or register for upcoming sessions</div>
+        </li>
+    </ul>
+    <ul class="bt">
+        <li class="action-btn learn-action"></li>
+    </ul>
+    </li>
+</ul>
+</div>
+</div>

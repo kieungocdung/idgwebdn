@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="ResMimeType">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="Version">
+    <value>1.0.0.0</value>
+  </resheader>
+  <resheader name="Reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="Writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AllExpanded">
+    <value>Mở Tất Cả</value>
+  </data>
+  <data name="AllCollapsed">
+    <value>Giấu Tất Cả</value>
+  </data>
+  <data name="AsLastViewed">
+    <value>Như Lần Xem Trước</value>
+  </data>
+  <data name="Configuration.Text">
+    <value>Cấu Hình</value>
+  </data>
+  <data name="MySettings.Text">
+    <value>Thiết Lập Cá Nhân</value>
+  </data>
+  <data name="Search.Text">
+    <value>Tìm Kiếm</value>
+  </data>
+  <data name="ForumHome.Text">
+    <value>Forum Home </value>
+  </data>
+  <data name="ManageCategory.Text">
+    <value>Quản Lý Phân Loại</value>
+  </data>
+  <data name="plSubject.Text">
+    <value>Tiêu Đề:</value>
+  </data>
+  <data name="plSubject.Help">
+    <value>Tiêu đề của chủ đề bạn đang chuyển.</value>
+  </data>
+  <data name="plOldForum.Text">
+    <value>Forum Gốc:</value>
+  </data>
+  <data name="plOldForum.Help">
+    <value>Forum mà từ đó bạn đang chuyển chủ đề này.</value>
+  </data>
+  <data name="plNewForum.Text">
+    <value>Forum Mới:</value>
+  </data>
+  <data name="plNewForum.Help">
+    <value>Forum mà bạn đang chuyển chủ đề này đến.</value>
+  </data>
+  <data name="NoForumSeleted.Text">
+    <value>Bạn cần chọn forum đích.</value>
+  </data>
+  <data name="OldForumSeleted.Text">
+    <value>Bạn cần chọn một forum để chuyển chủ đề này.</value>
+  </data>
+  <data name="ThreadMove.Text">
+    <value>Chuyển Chủ Đề</value>
+  </data>
+  <data name="ModuleHelp.Text">
+    <value>&lt;h1&gt;Forum - Chuyển Chủ Đề&lt;/h1&gt;&lt;p&gt;Từ màn hình này một moderator có thể chuyển một chủ đề sang một forum khác.&lt;br&gt;Điều này có ích khi đôi khi người dùng gửi chủ đề vào một Forum mà không phù hợp như một forum khác.&lt;/p&gt;</value>
+  </data>
+  <data name="lblInfo.Text">
+    <value>Bạn cần chọn một forum để chuyển chủ đề này đến.</value>
+  </data>
+  <data name="ControlTitle_threadmove.Text">
+    <value>Chuyển Chủ Đề</value>
+  </data>
+  <data name="cmdMove.Text">
+    <value>Chuyển Chủ Đề</value>
+  </data>
+  <data name="MyPosts.Text">
+    <value>Bài Cá Nhân</value>
+  </data>
+  <data name="chkEmailUsers.Text">
+    <value />
+  </data>
+  <data name="lblMoveThread.Text">
+    <value>Chuyển Chủ Đề</value>
+  </data>
+  <data name="plEmailUsers.Help">
+    <value>Nếu chọn, tất cả thành viên tham gia vào chủ đề này sẽ nhận được một email thông báo về việc di chuyển chủ đề.</value>
+  </data>
+  <data name="plEmailUsers.Text">
+    <value>Thông Báo Thành Viên Về Di Chuyển:</value>
+  </data>
+</root>
