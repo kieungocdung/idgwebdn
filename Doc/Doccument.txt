@@ -1,2 +1,3 @@
 // web hoc tap asp.net
 http://thantoc.net
+http://kythuataspnet.wordpress.com/2011/03/08/bai-3-v%E1%BA%A5n-d%E1%BB%81-m%E1%BA%A5t-cac-lien-k%E1%BA%BFt-hinh-%E1%BA%A3nh-css-javascript-khi-rewrite-url/
