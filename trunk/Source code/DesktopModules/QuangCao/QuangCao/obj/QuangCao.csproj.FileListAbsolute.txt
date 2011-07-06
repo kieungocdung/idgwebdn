@@ -1,0 +1,7 @@
+E:\IDG\Web doanh nghiep\Source code\DesktopModules\Bin\QuangCao.dll
+E:\IDG\Web doanh nghiep\Source code\DesktopModules\Bin\QuangCao.pdb
+E:\IDG\Web doanh nghiep\Source code\DesktopModules\QuangCao\QuangCao\obj\Debug\ResolveAssemblyReference.cache
+E:\IDG\Web doanh nghiep\Source code\DesktopModules\QuangCao\QuangCao\obj\Debug\QuangCao.dll
+E:\IDG\Web doanh nghiep\Source code\DesktopModules\QuangCao\QuangCao\obj\Debug\QuangCao.pdb
+E:\IDG\Web doanh nghiep\Source code\bin\QuangCao.dll
+E:\IDG\Web doanh nghiep\Source code\bin\QuangCao.pdb

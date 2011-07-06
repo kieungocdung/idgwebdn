@@ -1,0 +1,44 @@
+﻿/************************************************************/
+/*****              SqlDataProvider                     *****/
+/*****                                                  *****/
+/*****                                                  *****/
+/***** Note: To manually execute this script you must   *****/
+/*****       perform a search and replace operation     *****/
+/*****       for {databaseOwner} and {objectQualifier}  *****/
+/*****                                                  *****/
+/************************************************************/
+
+/** Drop FAQs Table **/
+
+ALTER TABLE {databaseOwner}[{objectQualifier}YourCompany_QuangCao] DROP CONSTRAINT [FK_{objectQualifier}YourCompany_QuangCao_{objectQualifier}Modules]
+GO
+
+ALTER TABLE {databaseOwner}[{objectQualifier}YourCompany_QuangCao] DROP CONSTRAINT [PK_{objectQualifier}YourCompany_QuangCao]
+GO
+
+DROP INDEX {databaseOwner}[{objectQualifier}YourCompany_QuangCao].[IX_{objectQualifier}YourCompany_QuangCao]
+GO
+
+DROP TABLE {databaseOwner}[{objectQualifier}YourCompany_QuangCao]
+GO
+
+/** Drop Stored Procedures **/
+
+DROP PROCEDURE {databaseOwner}[{objectQualifier}YourCompany_GetQuangCaos]
+GO
+
+DROP PROCEDURE {databaseOwner}[{objectQualifier}YourCompany_GetQuangCao]
+GO
+
+DROP PROCEDURE {databaseOwner}[{objectQualifier}YourCompany_AddQuangCao]
+GO
+
+DROP PROCEDURE {databaseOwner}[{objectQualifier}YourCompany_UpdateQuangCao]
+GO
+
+DROP PROCEDURE {databaseOwner}[{objectQualifier}YourCompany_DeleteQuangCao]
+GO
+
+/************************************************************/
+/*****              SqlDataProvider                     *****/
+/************************************************************/

@@ -1,0 +1,7 @@
+E:\IDG\Web doanh nghiep\Source code\DesktopModules\Demo\Demo\obj\Debug\ResolveAssemblyReference.cache
+E:\IDG\Web doanh nghiep\Source code\DesktopModules\Bin\Demo.dll
+E:\IDG\Web doanh nghiep\Source code\DesktopModules\Bin\Demo.pdb
+E:\IDG\Web doanh nghiep\Source code\DesktopModules\Demo\Demo\obj\Debug\Demo.dll
+E:\IDG\Web doanh nghiep\Source code\DesktopModules\Demo\Demo\obj\Debug\Demo.pdb
+E:\IDG\Web doanh nghiep\Source code\bin\Demo.dll
+E:\IDG\Web doanh nghiep\Source code\bin\Demo.pdb
