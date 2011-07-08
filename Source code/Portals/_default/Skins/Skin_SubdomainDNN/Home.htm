@@ -1,0 +1,94 @@
+﻿
+<link href="skin.css" rel="stylesheet" type="text/css" />
+<div id="container">
+    <%--header--%>
+    <div id="banner">
+        <div id="header45">
+        </div>
+    </div>
+    <%--end--%>
+    <%--menu--%>
+    <div id="menu_main">
+        <div id="navigation">
+            <div id="n-nav">
+                [NAV]
+            </div>
+            <div id="n-search">
+            <div class="search_position" id="Search">
+                [SEARCH] </div>
+                    </div>
+        </div>
+    </div>
+    <%--end--%>
+    <%--content--%>
+    <div id="main_content">
+        <div id="content-container">
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                    <td valign="top">
+                   <div id="ContentPane" class="content" runat="server">
+                        </div>
+                        <div >
+                        <table >
+                        <tr>
+                        <td id="c_content_left" class="c_left" runat="server"></td>
+                        <td id="c_content_right" class="c_left" runat="server"></td>
+                        </tr>
+                        </table>
+                        </div>
+                        
+                        <div id="bottomPane" class="content" runat="server">
+                        </div>
+                    </td>
+                    <td valign="top" id="RightPane" class="aside" runat="server">
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <%--end--%>
+    <%--footer--%>
+    <div id="footer23">
+        <div id="linkvnn">
+            <div id="linl_foy">
+               [LINKS]
+            </div>
+            <div id="text">
+                <p>
+                    Copyright by Lại Văn Nghĩa và Trần Văn Hoằng</p>
+                <p>
+                    Nhóm phát triển ý tưởng IDG Group</p>
+            </div>
+        </div>
+    </div>
+    <%--end--%>
+</div>
+
+<script type="text/javascript">
+// <![CDATA[
+function TextPrompt(targetdiv,textvalue) {
+	if (!document.getElementById) return false;
+	if (!document.getElementsByTagName) return false;
+	if (!document.getElementById(targetdiv)) return false;
+	var search = document.getElementById(targetdiv);
+	var searchText = search.getElementsByTagName("input");
+	for (i=0; i<searchText.length; i++) {
+		if (searchText[i].getAttribute("type") == "text") {
+			searchText[i].value = textvalue;
+			searchText[i].onfocus = function() {
+				if (this.value == textvalue) {
+					this.value = "";
+				}
+			}
+			searchText[i].onblur = function() {
+				if (this.value == "") {
+					this.value = textvalue;
+				}
+			}
+		}
+	}
+}
+TextPrompt("Search","  Search");
+// ]]>
+</script>
+

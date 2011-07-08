@@ -1,0 +1,180 @@
+﻿body {
+}
+#sub_main
+{
+	width:290px;
+	text-align:center;
+	padding:5px;
+	
+}
+#sub_top
+{
+	width:290px;
+	float:left;
+	height:31px;
+	background:url(images/menu_right.gif) no-repeat;
+}
+#sub_top table
+{
+	float:left;
+	margin-LEFT:40PX;
+	padding:2px;
+	text-align:left;
+}
+.sub_titile
+{
+	font-size:14px;
+	font-weight:bold;
+	font-family:Tahoma;
+}
+#sub_center
+{
+	width:290px;
+	float:left;
+}
+#sub_footer
+{
+		width:290px;
+	float:left;
+	text-align:right;
+
+}
+a.CommandButton:link, a.CommandButton:visited
+{
+	color:#b9b9b9;
+}
+.contentpane
+{
+	padding:2px;
+}
+
+
+/* main */
+#content_sub_main
+{
+	width:650px;
+	text-align:center;
+	padding:5px;
+}
+#content_sub_top
+{
+	
+	float:left;
+	height:31px;
+	
+}
+#content_sub_top table
+{
+	float:left;
+	margin-LEFT:40PX;
+	padding:2px;
+	text-align:left;
+}
+.sub_titile
+{
+	font-size:14px;
+	font-weight:bold;
+	font-family:Tahoma;
+}
+#content_sub_center
+{
+	
+	float:left;
+}
+#content_sub_footer
+{
+		
+	float:left;
+	text-align:right;
+
+}
+/* main content noi dung ben trong content*/
+#m_sub_main
+{
+	width:315px;
+	text-align:center;
+	padding:5px 0 0 10px;
+	
+}
+#m_sub_top
+{
+	width:280px;
+	border-bottom:dotted 2px #b9b9b9;
+	float:left;
+	height:31px;
+	
+}
+#m_sub_top table
+{
+	float:left;
+	margin-LEFT:40PX;
+	padding:2px;
+	text-align:left;
+}
+.sub_titile
+{
+	font-size:14px;
+	font-weight:bold;
+	font-family:Tahoma;
+}
+#m_sub_center
+{
+	
+	float:left;
+}
+#m_sub_footer
+{
+		
+	float:left;
+	text-align:right;
+
+}
+
+/* main bottom */
+#b_sub_main
+{
+	width:315px;
+	text-align:center;
+	padding:5px 0 0 10px;
+	
+}
+#title_fg
+{
+	background:url(images/titlebag.gif) no-repeat;
+	width:168px;
+	height:39px;
+}
+#b_sub_top
+{
+	width:280px;
+	
+	float:left;
+	height:42px;
+	
+}
+#b_sub_top table
+{
+	float:left;
+	margin-LEFT:10PX;
+	padding:2px;
+	text-align:left;
+}
+.sub_titile
+{
+	font-size:14px;
+	font-weight:bold;
+	font-family:Tahoma;
+}
+#b_sub_center
+{
+	
+	float:left;
+}
+#b_sub_footer
+{
+		
+	float:left;
+	text-align:right;
+
+}
+
