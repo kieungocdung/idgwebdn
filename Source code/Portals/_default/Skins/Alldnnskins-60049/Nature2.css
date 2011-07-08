@@ -1,0 +1,226 @@
+BODY {
+	background:#FFE922;
+	margin:0px 0px 0px 0px;
+	padding:10px 0px 0px 0px;
+	border:0px;
+	height:100%;
+	}
+
+TH,TD,DIV {	font-size:12px; color:#3DA8DC; FONT-FAMILY:Tahoma,Arial,Helvetica}
+
+#wrapper {
+	position:relative; height:258px
+}
+#logo {
+	z-index:3; position:absolute; left:25px; width:228px; top:25px; height:60px
+}
+#user {
+	z-index:3; position:absolute; right:8px; top:8px; height:18px; TEXT-ALIGN:right
+}
+#header {
+	z-index:2; position:absolute; width:100%; bottom:40px
+}
+#menu {
+	z-index:1; position:absolute; background:transparent; width:auto; bottom:0px; height:54px
+}
+
+/*--------------------------------------------------------------------------------------------------------------------------*/
+
+.lt{ text-align:left;vertical-align:top; }
+.rt{ text-align:right;vertical-align:top; }
+.lb{ text-align:left; vertical-align:bottom;}
+.rb{ text-align:right; vertical-align:bottom;}
+.cm{ text-align:center; vertical-align:middle;}
+.ct{ text-align:center; vertical-align:top;}
+.cb{ text-align:center; vertical-align:bottom;}
+.rm{ text-align:right; vertical-align:middle;}
+.lm{ text-align:left; vertical-align:middle;}
+
+.bg-x{ background-repeat:repeat-x;}
+.bg-y{ background-repeat:repeat-y;}
+.bg-no{ background-repeat:no-repeat;}
+
+.bg-p-lt{ background-position: left top;}
+.bg-p-rt{ background-position: right top;} 
+.bg-p-lb{ background-position: left bottom;} 
+.bg-p-rb{ background-position: right bottom;}
+
+.panecss{padding:5px 10px 5px 10px;}
+
+/*--------------------------------------------------------------------------------------------------------------------------*/
+
+/* Title, Module Title */
+.Head					{font-size:11px; color:#030303; font-weight:bold}
+.SubHead				{font-size:11px; color:#030303}
+.SubSubHead				{font-size:11px; color:#030303}
+.Normal 				{font-size:11px; color:#3DA8DC}
+
+.CommandButton,
+A.CommandButton:link,
+A.CommandButton:visited,
+A.CommandButton:active		{color:#030303; TEXT-DECORATION:underline}
+A.CommandButton:hover		{color:#F4E12D; TEXT-DECORATION:none}
+
+.link,
+A:link,
+A:visited,
+A:active					{color:#42A0DE; TEXT-DECORATION:none}
+A:hover						{color:#F4E12D; TEXT-DECORATION:underline}
+
+.topcss,
+A.topcss:link,
+A.topcss:active,
+A.topcss:visited			{font-weight:bold; font-size:12px; color:#4AA8E8; TEXT-DECORATION:none}
+A.topcss:hover				{font-weight:bold; font-size:12px; color:#030303; TEXT-DECORATION:underline}
+
+.usercss,
+A.usercss:link,
+A.usercss:active,
+A.usercss:visited			{font-weight:bold;	font-size:12px;	color:#4AA8E8;	TEXT-DECORATION:none;}
+A.usercss:hover				{font-weight:bold; font-size:12px; color:#030303; TEXT-DECORATION:underline;}
+
+
+.searchcss,
+A.searchcss:link,
+A.searchcss:active,
+A.searchcss:visited			{font-weight:bold; font-size:12px; color:#030303; TEXT-DECORATION:none}
+A.searchcss:hover				{font-weight:bold; font-size:12px; color:#F4E12D; TEXT-DECORATION:underline}
+
+.links,
+A.links:link,
+A.links:active,
+A.links:visited			{font-weight:bold; font-size:11px; color:#030303; TEXT-DECORATION:none}
+A.links:hover			{font-weight:bold; font-size:11px; color:#F4E12D; TEXT-DECORATION:underline}
+
+.bottomcss,
+A.bottomcss:link,
+A.bottomcss:active,
+A.bottomcss:visited			{font-weight:normal; font-size:11px; color:#626262; TEXT-DECORATION:none}
+A.bottomcss:hover			{font-weight:normal; font-size:11px; color:#236FDD; TEXT-DECORATION:underline}
+
+/*--------------------------------------------------------------------------------------------------------------------------*/
+
+/*--------------------   Horizontal   -----------------------*/  
+.MainMenu_MenuItemSel
+{
+   BACKGROUND: transparent;
+}
+
+.MainMenu_MenuContainer {
+	background-color: Transparent;
+}
+.MainMenu_MenuBar {
+}
+.MainMenu_MenuIcon {
+display:none;
+}
+
+/*�˵���ʽ*/
+.MainMenu_TabRootMenuItem TD	{
+	font-size:		12px;
+	font-weight:	bold;
+	color:			#000000;
+	height:			23px;
+    text-align:     center;
+	padding-left:    11px;
+	padding-right:   11px;
+   }
+   
+.MainMenu_TabRootMenuItemSel TD  {
+	font-size:		12px;
+	font-weight:	bold;
+	color:			#FEFFFB;
+	height:			23px;
+    text-align:     center;
+	padding-left:    11px;
+	padding-right:   11px;
+	background:  url(images/2menubgmiddle.jpg) top;
+}
+ 
+.MainMenu_TabMenuItemHover TD	 {
+	font-size:		12px;
+	font-weight:	bold;
+	color:			#FEFFFB;
+	height:			23px;
+    text-align:     center;
+	padding-left:    11px;
+	padding-right:   11px;
+	background:  url(images/2menubgmiddle.jpg) top;   
+   
+}
+
+ /*�Ӳ˵���ʽ*/ 
+.MainMenu_MenuItem				{
+ 	font-size:		11px;
+	font-weight:	normal; 
+    color: 			#000000;  
+	border:			0px;
+	padding:		0px 15px 0px 10px;
+	height:			20px;
+	cursor:			pointer;	
+	cursor: 		hand;
+}
+
+.submenu						{ 
+	background: 	#E6E6E6;
+	border:      transparent;
+	margin:   0px 0px 0px 0px;
+	filter:     	Alpha(Opacity=88); 
+	z-index:    	1000;
+}
+
+.submenuitemselected, .submenuitembreadcrumb			{ 
+	background:		#256ADB;
+  	font-size:		11px;
+	font-weight:	normal;  
+    color:			#FEFFFF;  
+   	padding:	    0px 15px 0px 10px;	
+    cursor: 		pointer;
+	cursor: 		hand;	
+	border:			0px; 
+	height:         20px;
+}
+
+
+.MainMenu_MenuBreak {
+   	border: transparent 0px solid; 
+	background-color: transparent; 
+	height: 0px;
+}
+
+.MainMenu_MenuArrow {
+    DISPLAY: none
+}
+
+.MainMenu_RootMenuArrow {
+	DISPLAY:none;
+}
+
+.Eventday,.Eventweekenday{	background-color: #FFFFFF}
+.Eventday,.Eventweekenday{	background-color: #FFFFFF}
+.DataGrid_Item{				background-color: transparent;  color:#FFFFFF;   }
+.DataGrid_AlternatingItem{	background-color: transparent;color:#FFFFFF;}
+
+/* Pane Structure */
+.leftpane				{padding:5px 10px 5px 10px}
+.rightpane				{padding:5px 10px 5px 10px}
+.toppane				{padding:5px 10px 5px 10px}
+.bottompane				{padding:5px 10px 5px 10px}
+.contentpane			{padding:5px 10px 5px 10px}
+
+.myleftpane				{padding:5px 10px 5px 10px}
+.mycontentpane			{padding:5px 10px 5px 10px}
+.myrightpane			{padding:5px 10px 5px 10px}
+.mybottompane			{padding:5px 10px 5px 10px}
+.logopane				{padding:5px 10px 5px 10px}
+.showcasepane			{padding:5px 10px 5px 10px}
+.bannerpane				{padding:5px 10px 5px 10px}
+.vspacepane				{padding:5px 10px 5px 10px}
+.hspacepane				{padding:5px 10px 5px 10px}
+.allspacepane			{padding:5px 10px 5px 10px}
+
+.test{
+background-color:#33FF33;
+filter:     	Alpha(Opacity=25); 
+}
+

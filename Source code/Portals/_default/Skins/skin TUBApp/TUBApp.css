@@ -1,0 +1,197 @@
+/**************** CSS DOCUMENT ****************/
+/* STYLESHEET FOR BLUEHORIZON SKIN*/
+
+/* PAGE BACKGROUND */
+
+/* background color for the content part of the pages */
+body {
+	font-family:Arial, Helvetica, sans-serif; font-size:12px;; color:#000000;
+}
+
+
+.panelBackground{
+	background-attachment:fixed;
+	background-repeat:repeat;
+	BORDER-RIGHT: #e5e5e5  0px solid; 
+	BORDER-TOP: #e5e5e5 0px solid; 
+	BORDER-LEFT: #e5e5e5 0px solid; 
+	BORDER-BOTTOM: #e5e5e5 0px solid;
+}
+
+.Login_Logout_Style {font-weight: normal;
+    font-size: 12px;
+    color:#FFFFFF;
+    font-family: Arial, Helvetica;
+    text-decoration: none;
+}
+.style1 {font-family: Tahoma,Verdana;
+	font-size: 12px;
+	color:white;
+}
+
+/*SolPart Menu Style*/
+
+
+
+
+.footer
+{
+ font-family:arial; font-size:12px; color:#0c1e40;
+}
+.chantrang
+{
+font-family:arial,Tahoma,Georgia,Verdana,Arial;
+color: #0C1E40;
+font-weight:0.8em;
+}
+.user{
+font-family:Arial,Tahoma,Verdana;
+color:#004c98;
+font-size:12px;
+}
+.menubar{
+color:#000000;
+}
+
+
+.toppane{
+padding-left:5px;padding-right:5px;padding-top:5px;padding-bottom:5px;
+}
+.leftpane{padding-left:7px;padding-right:7px;padding-top:7px;padding-bottom:7px; width:58%;
+
+}
+.contentpne{padding-left:0px;padding-right:0px;padding-top:0px;padding-bottom:0px;}
+.rightpane{padding-left:7px;padding-right:7px;padding-top:7px;padding-bottom:7px; width:41%;}
+.bottompane{padding-left:7px;padding-right:7px;padding-top:7px;padding-bottom:7px;}
+/*
+.MainMenu_MenuContainer			{background-color: transparent;}
+.MainMenu_MenuBar				{}
+.MainMenu_TabRootMenuItem TD	{ PADDING-RIGHT: 5px; PADDING-LEFT: 5px; font-family:Arial,Tahoma, Geneva, sans-serif; FONT-WEIGHT: bold; FONT-SIZE: 12px;COLOR:#282828;  text-align:center; BACKGROUND: transparent;}
+.MainMenu_TabRootMenuItemSel TD { PADDING-RIGHT: 5px; PADDING-LEFT: 5px; font-family:Arial,Tahoma, Geneva, sans-serif; FONT-WEIGHT: bold; FONT-SIZE: 12px;  COLOR:#3c6fcc;  text-align:center; background: url(imgs/menu_cent.png) repeat-x; height:20px;/*  background-image: url(images/brown_r3_c9.jpg);*/	}
+/*
+.MainMenu_TabMenuItemHover TD	{ PADDING-RIGHT: 5px; PADDING-LEFT: 5px; font-family:Arial,Tahoma, Geneva, sans-serif; FONT-WEIGHT: bold; FONT-SIZE: 12px;  COLOR:#3c6fcc; text-align:center;}
+.MainMenu_MenuItemSel			{ BACKGROUND: transparent;}
+.MainMenu_MenuItem				{ FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR:#004c98; padding:0px 0px 0px 0px;border:0px;height: 20px;} /*submenu*/
+/*
+.MainMenu_MenuIcon				{ display:none;}
+.submenuitemselected,
+.submenuitembreadcrumb			{ FONT-WEIGHT: normal; FONT-SIZE: 11px; BACKGROUND:#8fc2e8; COLOR: #004c98; padding:0px 2px 0px 0px; cursor: pointer;cursor: hand;	border:0px;  height: 20px; position:inherit;min-width: 180px;}
+.submenu						{ padding:0 2px 0 0px  ;Z-INDEX: 1000; BACKGROUND:white; border:1px solid #004c98;padding:0px;	margin:1px 0px 0px 0px;	filter: Alpha(Opacity=88);	cursor: pointer;	cursor: hand; min-width: 180px;}
+.MainMenu_MenuBreak				{border-bottom: transparent 0px solid; border-left: transparent 0px solid; border-top: transparent 0px solid;  border-right: transparent 0px solid; background-color: transparent; height: 1px;}
+.MainMenu_MenuArrow				{DISPLAY:none}
+.MainMenu_RootMenuArrow			{DISPLAY:none;}
+*/
+.MainMenu_MenuItemSel
+{
+   BACKGROUND: transparent;
+}
+
+.MainMenu_MenuContainer {
+	background-color: Transparent;
+}
+.MainMenu_MenuBar {
+}
+.MainMenu_MenuIcon {
+display:none;
+}
+
+/*??????*/
+.MainMenu_TabRootMenuItem TD	{
+	font-family:arial;
+	font-size:		12px;
+	font-weight:	bold;
+	COLOR:       #282828;
+	height:			23px;
+    text-align:     center;
+	padding-left:    11px;
+	padding-right:   11px;
+   }
+   
+.MainMenu_TabRootMenuItemSel TD  {
+	font-family:arial;
+	font-size:		12px;
+	font-weight:	bold;
+	COLOR:       #3c6fcc;
+    text-align:     center;
+	padding-left:    11px;
+	padding-right:   11px;
+	background: url(imgs/menu_cent.png) repeat-x;
+	height:20px;
+}
+ 
+.MainMenu_TabMenuItemHover TD	 {
+	font-family:arial;
+	font-size:		12px;
+	font-weight:	bold;
+	color:			#004c98;
+    text-align:     center;
+	padding-left:    11px;
+	padding-right:   11px;
+	background-color: Transparent;
+   
+}
+
+ /*???????*/ 
+.MainMenu_MenuItem				{
+ 	font-family:arial;
+	font-size:		11px;
+	font-weight:	normal; 
+    color: 			#000000;  
+	border:			0px;
+	padding:		0px 15px 0px 10px;
+	height:			20px;
+	cursor:			pointer;	
+	cursor: 		hand;
+}
+
+.submenu						{ 
+	font-family:arial;
+	background: 	#e7f8ff;
+	border:      transparent;
+	margin:   0px 0px 0px 0px;
+	filter:     	Alpha(Opacity=88); 
+	z-index:    	1000;
+}
+
+.submenuitemselected, .submenuitembreadcrumb			{ 
+	font-family:arial;
+  	font-size:		11px;
+	font-weight:	normal;  
+    color:			#FFFFFF;  
+   	padding:	    0px 15px 0px 10px;	
+    cursor: 		pointer;
+	cursor: 		hand;	
+	border:			0px; 
+	height:         20px;
+	background-color:#93bccd;
+}
+
+
+.MainMenu_MenuBreak {
+   	border: transparent 0px solid; 
+	background-color: transparent; 
+	height: 0px;
+}
+
+.MainMenu_MenuArrow {
+    DISPLAY: none
+}
+
+.MainMenu_RootMenuArrow {
+	DISPLAY:none;
+}
+.logo
+{
+padding:0;
+margin:0;
+}
+a:link{font-family:arial; font-size:12px; color:#FFFFFF;}
+a:hover {color:#FFFFFF; text-decoration:none;}
+.login a:link{font-family:arial; font-size:12px; color:#FFFFFF;}
+.login { font-family:arial; font-size:12px; color:#FFFFFF;}
+.login a {color:#FFFFFF; text-decoration:none;}
+.login a:hover{color:#FFFFFF; text-decoration:none;}
+.login a:active{color:#FFFFFF; text-decoration:none;}
+.login a:visited{color:#FFFFFF; text-decoration:none;}
+.ngay_thang { color:white; font-family:arial; font-size:12px;}
+.wrap{background:#FFFFFF url(imgs/body_bg.jpg) repeat-x 0 top;}
