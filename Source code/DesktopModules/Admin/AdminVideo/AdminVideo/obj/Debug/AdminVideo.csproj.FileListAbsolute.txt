@@ -1,0 +1,5 @@
+E:\IDG\Source code\bin\AdminVideo.dll
+E:\IDG\Source code\bin\AdminVideo.pdb
+E:\IDG\Source code\DesktopModules\Admin\AdminVideo\AdminVideo\obj\Debug\ResolveAssemblyReference.cache
+E:\IDG\Source code\DesktopModules\Admin\AdminVideo\AdminVideo\obj\Debug\AdminVideo.dll
+E:\IDG\Source code\DesktopModules\Admin\AdminVideo\AdminVideo\obj\Debug\AdminVideo.pdb

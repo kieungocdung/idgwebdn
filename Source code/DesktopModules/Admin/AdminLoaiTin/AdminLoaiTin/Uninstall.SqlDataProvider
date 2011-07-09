@@ -1,0 +1,44 @@
+﻿/************************************************************/
+/*****              SqlDataProvider                     *****/
+/*****                                                  *****/
+/*****                                                  *****/
+/***** Note: To manually execute this script you must   *****/
+/*****       perform a search and replace operation     *****/
+/*****       for {databaseOwner} and {objectQualifier}  *****/
+/*****                                                  *****/
+/************************************************************/
+
+/** Drop FAQs Table **/
+
+ALTER TABLE {databaseOwner}[{objectQualifier}YourCompany_AdminLoaiTin] DROP CONSTRAINT [FK_{objectQualifier}YourCompany_AdminLoaiTin_{objectQualifier}Modules]
+GO
+
+ALTER TABLE {databaseOwner}[{objectQualifier}YourCompany_AdminLoaiTin] DROP CONSTRAINT [PK_{objectQualifier}YourCompany_AdminLoaiTin]
+GO
+
+DROP INDEX {databaseOwner}[{objectQualifier}YourCompany_AdminLoaiTin].[IX_{objectQualifier}YourCompany_AdminLoaiTin]
+GO
+
+DROP TABLE {databaseOwner}[{objectQualifier}YourCompany_AdminLoaiTin]
+GO
+
+/** Drop Stored Procedures **/
+
+DROP PROCEDURE {databaseOwner}[{objectQualifier}YourCompany_GetAdminLoaiTins]
+GO
+
+DROP PROCEDURE {databaseOwner}[{objectQualifier}YourCompany_GetAdminLoaiTin]
+GO
+
+DROP PROCEDURE {databaseOwner}[{objectQualifier}YourCompany_AddAdminLoaiTin]
+GO
+
+DROP PROCEDURE {databaseOwner}[{objectQualifier}YourCompany_UpdateAdminLoaiTin]
+GO
+
+DROP PROCEDURE {databaseOwner}[{objectQualifier}YourCompany_DeleteAdminLoaiTin]
+GO
+
+/************************************************************/
+/*****              SqlDataProvider                     *****/
+/************************************************************/
