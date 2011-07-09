@@ -1,0 +1,5 @@
+E:\IDG\Source code\DesktopModules\Admin\AdminQuangCao\AdminQuangCao\obj\Debug\ResolveAssemblyReference.cache
+E:\IDG\Source code\bin\AdminQuangCao.dll
+E:\IDG\Source code\bin\AdminQuangCao.pdb
+E:\IDG\Source code\DesktopModules\Admin\AdminQuangCao\AdminQuangCao\obj\Debug\AdminQuangCao.dll
+E:\IDG\Source code\DesktopModules\Admin\AdminQuangCao\AdminQuangCao\obj\Debug\AdminQuangCao.pdb

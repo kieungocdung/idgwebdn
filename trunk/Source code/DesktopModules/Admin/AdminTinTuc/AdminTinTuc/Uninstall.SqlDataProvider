@@ -1,0 +1,44 @@
+﻿/************************************************************/
+/*****              SqlDataProvider                     *****/
+/*****                                                  *****/
+/*****                                                  *****/
+/***** Note: To manually execute this script you must   *****/
+/*****       perform a search and replace operation     *****/
+/*****       for {databaseOwner} and {objectQualifier}  *****/
+/*****                                                  *****/
+/************************************************************/
+
+/** Drop FAQs Table **/
+
+ALTER TABLE {databaseOwner}[{objectQualifier}YourCompany_AdminTinTuc] DROP CONSTRAINT [FK_{objectQualifier}YourCompany_AdminTinTuc_{objectQualifier}Modules]
+GO
+
+ALTER TABLE {databaseOwner}[{objectQualifier}YourCompany_AdminTinTuc] DROP CONSTRAINT [PK_{objectQualifier}YourCompany_AdminTinTuc]
+GO
+
+DROP INDEX {databaseOwner}[{objectQualifier}YourCompany_AdminTinTuc].[IX_{objectQualifier}YourCompany_AdminTinTuc]
+GO
+
+DROP TABLE {databaseOwner}[{objectQualifier}YourCompany_AdminTinTuc]
+GO
+
+/** Drop Stored Procedures **/
+
+DROP PROCEDURE {databaseOwner}[{objectQualifier}YourCompany_GetAdminTinTucs]
+GO
+
+DROP PROCEDURE {databaseOwner}[{objectQualifier}YourCompany_GetAdminTinTuc]
+GO
+
+DROP PROCEDURE {databaseOwner}[{objectQualifier}YourCompany_AddAdminTinTuc]
+GO
+
+DROP PROCEDURE {databaseOwner}[{objectQualifier}YourCompany_UpdateAdminTinTuc]
+GO
+
+DROP PROCEDURE {databaseOwner}[{objectQualifier}YourCompany_DeleteAdminTinTuc]
+GO
+
+/************************************************************/
+/*****              SqlDataProvider                     *****/
+/************************************************************/

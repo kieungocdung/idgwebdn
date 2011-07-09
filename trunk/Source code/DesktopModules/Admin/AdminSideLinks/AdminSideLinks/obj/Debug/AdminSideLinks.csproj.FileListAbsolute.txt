@@ -1,0 +1,5 @@
+E:\IDG\Source code\DesktopModules\Admin\AdminSideLinks\AdminSideLinks\obj\Debug\ResolveAssemblyReference.cache
+E:\IDG\Source code\bin\AdminSideLinks.dll
+E:\IDG\Source code\bin\AdminSideLinks.pdb
+E:\IDG\Source code\DesktopModules\Admin\AdminSideLinks\AdminSideLinks\obj\Debug\AdminSideLinks.dll
+E:\IDG\Source code\DesktopModules\Admin\AdminSideLinks\AdminSideLinks\obj\Debug\AdminSideLinks.pdb
