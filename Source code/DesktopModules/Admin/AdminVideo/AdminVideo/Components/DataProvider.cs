@@ -38,14 +38,11 @@ namespace IDG.Dnn.AdminVideo.Components
         #endregion
 
         #region Abstract methods
-        public abstract IDataReader Get_IDGAdminVideo(int id);
-        public abstract IDataReader List_IDGAdminVideo();
-        //public abstract IDataReader List_IDGAdminVideo(int id);
-        public abstract int Add_IDGAdminVideo(int Id, string tenVideo, string mota, bool trangThai, string videoPath);
-        public abstract void Update_IDGAdminVideo(int Id, string tenVideo, string mota, bool trangThai, string videoPath);
-        public abstract void Delete_IDGAdminVideo(int id);
-        //public abstract void Bindata(ref System.Web.UI.WebControls.SqlDataSource sqlData, int donViId, long AdminVideoId, int nhanVienId, int phuCapId, int thang, int nam, decimal giaTri);
-        //public abstract IDataReader ListIDGAdminVideo(int AdminVideoId, int thang, int nam, string soDanhBo, string tenNhanVien, int donViId);
+        public abstract IDataReader GetAdminVideo(int id);
+        public abstract IDataReader ListAdminVideo();
+        public abstract void AddAdminVideo(string tenVideo, string moTa,string videoPath,bool tinhTrang);
+        public abstract void UpdateAdminVideo(int id,string tenVideo, string moTa, string videoPath, bool tinhTrang);
+        public abstract void DeleteAdminVideo(int id);
         #endregion
 
 

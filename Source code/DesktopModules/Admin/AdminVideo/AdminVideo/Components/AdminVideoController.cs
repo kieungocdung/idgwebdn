@@ -12,47 +12,56 @@ namespace IDG.Dnn.AdminVideo.Components
     public class AdminVideoController 
     {
 
-       #region Constructors
-        public AdminVideoController()
+        /// <summary>
+        /// Gets all the TestInfo objects for items matching the this moduleId
+        /// </summary>
+        /// <param name="moduleId"></param>
+        /// <returns></returns>
+        public List<AdminVideoInfo> GetAdminVideo()
         {
+            return CBO.FillCollection<AdminVideoInfo>(DataProvider.Instance().ListAdminVideo());
         }
-        #endregion
 
-        #region public method
-        public List<AdminVideoInfo> List()
+        /// <summary>
+        /// Get an info object from the database
+        /// </summary>
+        /// <param name="moduleId"></param>
+        /// <param name="itemId"></param>
+        /// <returns></returns>
+        public AdminVideoInfo GetAdminVideo(int id)
         {
-            return CBO.FillCollection<AdminVideoInfo>(DataProvider.Instance().List_IDGAdminVideo());
+            return CBO.FillObject<AdminVideoInfo>(DataProvider.Instance().GetAdminVideo(id));
         }
-        //public List<AdminVideoInfo> List(int id)
-        //{
-        //    return CBO.FillCollection<AdminVideoInfo>(DataProvider.Instance().List_IDGAdminVideo(id));
-        //}
-        public AdminVideoInfo Get(int id)
+
+
+        /// <summary>
+        /// Adds a new TestInfo object into the database
+        /// </summary>
+        /// <param name="info"></param>
+        public void AddAdminVideo(AdminVideoInfo info)
         {
-            return CBO.FillObject<AdminVideoInfo>(DataProvider.Instance().Get_IDGAdminVideo(id));
+            DataProvider.Instance().AddAdminVideo(info.TenVideo, info.MoTa, info.VideoPath, info.TrangThai);
         }
-        public void Add(AdminVideoInfo info)
+
+        /// <summary>
+        /// update a info object already stored in the database
+        /// </summary>
+        /// <param name="info"></param>
+        public void UpdateAdminVideo(AdminVideoInfo info)
         {
-            //check we have some content to store
-            DataProvider.Instance().Add_IDGAdminVideo(info.ID, info.TenVideo, info.MoTa, info.TrangThai, info.VideoPath);
+
+            DataProvider.Instance().UpdateAdminVideo(info.ID, info.TenVideo, info.MoTa, info.VideoPath, info.TrangThai);
         }
-        public void Update(AdminVideoInfo info)
+
+
+        /// <summary>
+        /// Delete a given item from the database
+        /// </summary>
+        /// <param name="moduleId"></param>
+        /// <param name="itemId"></param>
+        public void DeleteAdminLoaiTin(int id)
         {
-            //check we have some content to store
-            DataProvider.Instance().Update_IDGAdminVideo(info.ID, info.TenVideo, info.MoTa, info.TrangThai, info.VideoPath);
+            DataProvider.Instance().DeleteAdminVideo(id);
         }
-        public void Delete(int id)
-        {
-            DataProvider.Instance().Delete_IDGAdminVideo(id);
-        }
-        //public void Bindata(ref System.Web.UI.WebControls.SqlDataSource sqlData, int donViId, long AdminVideoId, int nhanVienId, int phuCapId, int thang, int nam, decimal giaTri)
-        //{
-        //    DataProvider.Instance().Bindata(ref sqlData, donViId, AdminVideoId, nhanVienId, phuCapId, thang, nam, giaTri);
-        //}
-        //public List<AdminVideoInfo> ListIDGAdminVideo(int AdminVideoId, int thang, int nam, string soDanhBo, string tenNhanVien, int donViId)
-        //{
-        //    return CBO.FillCollection<AdminVideoInfo>(DataProvider.Instance().ListIDGAdminVideo(AdminVideoId, thang, nam, soDanhBo, tenNhanVien, donViId));
-        //}
-        #endregion
     }
 }

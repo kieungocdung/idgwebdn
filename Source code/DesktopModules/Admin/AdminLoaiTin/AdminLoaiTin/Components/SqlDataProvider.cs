@@ -12,7 +12,7 @@ namespace IDG.Dnn.AdminLoaiTin.Components
         #region vars
 
         private const string providerType = "data";
-        private const string moduleQualifier = "YourCompany_";
+        private const string moduleQualifier = "";
 
         private ProviderConfiguration providerConfiguration = ProviderConfiguration.GetProviderConfiguration(providerType);
         private string connectionString;
@@ -91,29 +91,29 @@ namespace IDG.Dnn.AdminLoaiTin.Components
 
         #region override methods
 
-        public override IDataReader GetAdminLoaiTins(int moduleId)
+        public override IDataReader GetAdminLoaiTins(int id)
         {
-            return (IDataReader)SqlHelper.ExecuteReader(connectionString, GetFullyQualifiedName("GetAdminLoaiTins"), moduleId);
+            return (IDataReader)SqlHelper.ExecuteReader(connectionString, GetFullyQualifiedName("tblLoaiTin_SelectByID"), id);
         }
 
-        public override IDataReader GetAdminLoaiTin(int moduleId, int itemId)
+        public override IDataReader ListAdminLoaiTin()
         {
-            return (IDataReader)SqlHelper.ExecuteReader(connectionString, GetFullyQualifiedName("GetAdminLoaiTin"), moduleId, itemId);
+            return (IDataReader)SqlHelper.ExecuteReader(connectionString, GetFullyQualifiedName("tblLoaiTin_SelectAll"));
         }
 
-        public override void AddAdminLoaiTin(int moduleId, string content, int userId)
+        public override void AddAdminLoaiTin(string ten, int cha, int thuTu, DateTime ngayTao, int nguonTin, string lang, bool tinhTrang)
         {
-            SqlHelper.ExecuteNonQuery(connectionString, GetFullyQualifiedName("AddAdminLoaiTin"), moduleId, content, userId);
+            SqlHelper.ExecuteNonQuery(connectionString, GetFullyQualifiedName("tblLoaiTin_Insert"), ten,cha,thuTu,ngayTao,nguonTin,lang,tinhTrang);
         }
 
-        public override void UpdateAdminLoaiTin(int moduleId, int itemId, string content, int userId)
+        public override void UpdateAdminLoaiTin(int id,string ten, int cha, int thuTu, DateTime ngayTao, int nguonTin, string lang, bool tinhTrang)
         {
-            SqlHelper.ExecuteNonQuery(connectionString, GetFullyQualifiedName("UpdateAdminLoaiTin"), moduleId, itemId, content, userId);
+            SqlHelper.ExecuteNonQuery(connectionString, GetFullyQualifiedName("tblLoaiTin_Update"),id, ten, cha, thuTu, ngayTao, nguonTin, lang, tinhTrang);
         }
 
-        public override void DeleteAdminLoaiTin(int moduleId, int itemId)
+        public override void DeleteAdminLoaiTin(int id)
         {
-            SqlHelper.ExecuteNonQuery(connectionString, GetFullyQualifiedName("DeleteAdminLoaiTin"), moduleId, itemId);
+            SqlHelper.ExecuteNonQuery(connectionString, GetFullyQualifiedName("tblLoaiTin_Delete"), id);
         }
 
         #endregion
