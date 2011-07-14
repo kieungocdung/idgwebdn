@@ -1,0 +1,44 @@
+﻿/************************************************************/
+/*****              SqlDataProvider                     *****/
+/*****                                                  *****/
+/*****                                                  *****/
+/***** Note: To manually execute this script you must   *****/
+/*****       perform a search and replace operation     *****/
+/*****       for {databaseOwner} and {objectQualifier}  *****/
+/*****                                                  *****/
+/************************************************************/
+
+/** Drop FAQs Table **/
+
+ALTER TABLE {databaseOwner}[{objectQualifier}YourCompany_SideShow] DROP CONSTRAINT [FK_{objectQualifier}YourCompany_SideShow_{objectQualifier}Modules]
+GO
+
+ALTER TABLE {databaseOwner}[{objectQualifier}YourCompany_SideShow] DROP CONSTRAINT [PK_{objectQualifier}YourCompany_SideShow]
+GO
+
+DROP INDEX {databaseOwner}[{objectQualifier}YourCompany_SideShow].[IX_{objectQualifier}YourCompany_SideShow]
+GO
+
+DROP TABLE {databaseOwner}[{objectQualifier}YourCompany_SideShow]
+GO
+
+/** Drop Stored Procedures **/
+
+DROP PROCEDURE {databaseOwner}[{objectQualifier}YourCompany_GetSideShows]
+GO
+
+DROP PROCEDURE {databaseOwner}[{objectQualifier}YourCompany_GetSideShow]
+GO
+
+DROP PROCEDURE {databaseOwner}[{objectQualifier}YourCompany_AddSideShow]
+GO
+
+DROP PROCEDURE {databaseOwner}[{objectQualifier}YourCompany_UpdateSideShow]
+GO
+
+DROP PROCEDURE {databaseOwner}[{objectQualifier}YourCompany_DeleteSideShow]
+GO
+
+/************************************************************/
+/*****              SqlDataProvider                     *****/
+/************************************************************/
