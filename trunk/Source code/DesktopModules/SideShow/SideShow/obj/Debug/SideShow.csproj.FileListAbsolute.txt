@@ -1,0 +1,5 @@
+E:\IDG\Source code\bin\SideShow.dll
+E:\IDG\Source code\bin\SideShow.pdb
+E:\IDG\Source code\DesktopModules\SideShow\SideShow\obj\Debug\ResolveAssemblyReference.cache
+E:\IDG\Source code\DesktopModules\SideShow\SideShow\obj\Debug\SideShow.dll
+E:\IDG\Source code\DesktopModules\SideShow\SideShow\obj\Debug\SideShow.pdb
