@@ -90,55 +90,30 @@ namespace IDG.Dnn.AdminVideo.Components
         #endregion
 
         #region IDGAdminVideo method
-        public override IDataReader Get_IDGAdminVideo(int id)
+        public override IDataReader GetAdminVideo(int id)
         {
-            return (IDataReader)SqlHelper.ExecuteReader(ConnectionString, GetFullyQualifiedName("tblVideo_SelectByID"), id);
+            return (IDataReader)SqlHelper.ExecuteReader(connectionString, GetFullyQualifiedName("tblVideo_SelectByID"), id);
         }
 
-        public override IDataReader List_IDGAdminVideo()
+        public override IDataReader ListAdminVideo()
         {
-            return (IDataReader)SqlHelper.ExecuteReader(ConnectionString, GetFullyQualifiedName("tblVideo_SelectAll"));
+            return (IDataReader)SqlHelper.ExecuteReader(connectionString, GetFullyQualifiedName("tblVideo_SelectAll"));
         }
 
-        //public override IDataReader List_IDGAdminVideo(int id)
-        //{
-        //    return (IDataReader)SqlHelper.ExecuteReader(ConnectionString, GetFullyQualifiedName("IDG_IDGAdminVideo_GET"), -1, "-1", nhanVienId, phuCapId, "-1", "-1", "-1");
-        //}
-
-        public override int Add_IDGAdminVideo(int ID, string TenVideo, string MoTa, bool TrangThai, string VideoPath)
+        public override void AddAdminVideo(string tenVideo, string moTa, string videoPath, bool tinhTrang)
         {
-            return int.Parse(SqlHelper.ExecuteScalar(ConnectionString, GetFullyQualifiedName("tblVideo_Insert"), GetNull(ID), GetNull(TenVideo), GetNull(MoTa), GetNull(TrangThai), GetNull(VideoPath)).ToString());
+            SqlHelper.ExecuteNonQuery(connectionString, GetFullyQualifiedName("tblVideo_Insert"), tenVideo, moTa, videoPath,tinhTrang);
         }
 
-        public override void Update_IDGAdminVideo(int ID, string TenVideo, string MoTa, bool TrangThai, string VideoPath)
+        public override void UpdateAdminVideo(int id,string tenVideo, string moTa, string videoPath, bool tinhTrang)
         {
-            //check we have some content to store
-            SqlHelper.ExecuteNonQuery(ConnectionString, GetFullyQualifiedName("tblVideo_Update"), ID, TenVideo, MoTa, TrangThai, VideoPath);
+            SqlHelper.ExecuteNonQuery(connectionString, GetFullyQualifiedName("tblVideo_Update"), id, tenVideo, moTa, videoPath, tinhTrang);
         }
 
-        public override void Delete_IDGAdminVideo(int id)
+        public override void DeleteAdminVideo(int id)
         {
-            SqlHelper.ExecuteNonQuery(ConnectionString, GetFullyQualifiedName("tblVideo_Delete"), id);
+            SqlHelper.ExecuteNonQuery(connectionString, GetFullyQualifiedName("tblVideo_Delete"), id);
         }
-
-        //public override void Bindata(ref System.Web.UI.WebControls.SqlDataSource sqlData, int donViId, long AdminVideoId, int nhanVienId, int phuCapId, int thang, int nam, decimal giaTri)
-        //{
-        //    sqlData.SelectCommandType = System.Web.UI.WebControls.SqlDataSourceCommandType.StoredProcedure;
-        //    sqlData.SelectCommand = "IDG_IDGAdminVideo_GET";
-        //    sqlData.SelectParameters.Clear();
-        //    sqlData.SelectParameters.Add("DonViId", donViId.ToString());
-        //    sqlData.SelectParameters.Add("AdminVideoId", AdminVideoId.ToString());
-        //    sqlData.SelectParameters.Add("NhanVienId", nhanVienId.ToString());
-        //    sqlData.SelectParameters.Add("PhuCapId", phuCapId.ToString());
-        //    sqlData.SelectParameters.Add("Thang", thang.ToString());
-        //    sqlData.SelectParameters.Add("Nam", nam.ToString());
-        //    sqlData.SelectParameters.Add("GiaTri", giaTri.ToString());
-        //}
-
-        //public override IDataReader ListIDGAdminVideo(int AdminVideoId, int thang, int nam, string soDanhBo, string tenNhanVien, int donViId)
-        //{
-        //    return (IDataReader)SqlHelper.ExecuteReader(ConnectionString, GetFullyQualifiedName("IDGListAdminVideo"), AdminVideoId, thang, nam, soDanhBo, tenNhanVien, donViId);
-        //}
         #endregion
     }
 }

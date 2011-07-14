@@ -42,11 +42,11 @@ namespace IDG.Dnn.AdminQuangCao.Components
 
         /* implement the methods that the dataprovider should */
 
-        public abstract IDataReader GetAdminQuangCaos(int moduleId);
-        public abstract IDataReader GetAdminQuangCao(int moduleId, int itemId);
-        public abstract void AddAdminQuangCao(int moduleId, string content, int userId);
-        public abstract void UpdateAdminQuangCao(int moduleId, int itemId, string content, int userId);
-        public abstract void DeleteAdminQuangCao(int moduleId, int itemId);
+        public abstract IDataReader GetAdminQuangCao(int id);
+        public abstract IDataReader ListAdminQuangCao();
+        public abstract void AddAdminQuangCao(string tieuDe, string moTa, string url_Image, string link, int thuTu, DateTime ngayKetThuc, int vung, bool tinhTrang);
+        public abstract void UpdateAdminQuangCao(int id, string tieuDe, string moTa, string url_Image, string link, int thuTu, DateTime ngayKetThuc, int vung, bool tinhTrang);
+        public abstract void DeleteAdminQuangCao(int id);
 
         #endregion
 

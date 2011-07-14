@@ -12,7 +12,7 @@ namespace IDG.Dnn.AdminTinTuc.Components
         #region vars
 
         private const string providerType = "data";
-        private const string moduleQualifier = "YourCompany_";
+        private const string moduleQualifier = "";
 
         private ProviderConfiguration providerConfiguration = ProviderConfiguration.GetProviderConfiguration(providerType);
         private string connectionString;
@@ -91,29 +91,29 @@ namespace IDG.Dnn.AdminTinTuc.Components
 
         #region override methods
 
-        public override IDataReader GetAdminTinTucs(int moduleId)
+        public override IDataReader GetAdminTinTuc(int id)
         {
-            return (IDataReader)SqlHelper.ExecuteReader(connectionString, GetFullyQualifiedName("GetAdminTinTucs"), moduleId);
+            return (IDataReader)SqlHelper.ExecuteReader(connectionString, GetFullyQualifiedName("tblTinTuc_SelectByID"), id);
         }
 
-        public override IDataReader GetAdminTinTuc(int moduleId, int itemId)
+        public override IDataReader ListAdminTinTuc()
         {
-            return (IDataReader)SqlHelper.ExecuteReader(connectionString, GetFullyQualifiedName("GetAdminTinTuc"), moduleId, itemId);
+            return (IDataReader)SqlHelper.ExecuteReader(connectionString, GetFullyQualifiedName("tblTinTuc_SelectAll"));
         }
 
-        public override void AddAdminTinTuc(int moduleId, string content, int userId)
+        public override void AddAdminTinTuc(int loaiTinId, string tieuDe, string tomTat, string noiDung, string tacGia, string nguoiTao, string anh, DateTime ngayTao, int luotXem, string NguonTin, bool noiBat, string lang, bool tinhTrang)
         {
-            SqlHelper.ExecuteNonQuery(connectionString, GetFullyQualifiedName("AddAdminTinTuc"), moduleId, content, userId);
+            SqlHelper.ExecuteNonQuery(connectionString, GetFullyQualifiedName("tblTinTuc_Insert"), loaiTinId, tieuDe, tomTat, noiDung, tacGia, nguoiTao, anh, ngayTao, luotXem, NguonTin, noiBat, lang, tinhTrang);
         }
 
-        public override void UpdateAdminTinTuc(int moduleId, int itemId, string content, int userId)
+        public override void UpdateAdminTinTuc(int id, int loaiTinId, string tieuDe, string tomTat, string noiDung, string tacGia, string nguoiTao, string anh, DateTime ngayTao, int luotXem, string NguonTin, bool noiBat, string lang, bool tinhTrang)
         {
-            SqlHelper.ExecuteNonQuery(connectionString, GetFullyQualifiedName("UpdateAdminTinTuc"), moduleId, itemId, content, userId);
+            SqlHelper.ExecuteNonQuery(connectionString, GetFullyQualifiedName("tblTinTuc_Update"), id, loaiTinId, tieuDe, tomTat, noiDung, tacGia, nguoiTao,anh,ngayTao,luotXem,NguonTin,noiBat,lang,tinhTrang );
         }
 
-        public override void DeleteAdminTinTuc(int moduleId, int itemId)
+        public override void DeleteAdminTinTuc(int id)
         {
-            SqlHelper.ExecuteNonQuery(connectionString, GetFullyQualifiedName("DeleteAdminTinTuc"), moduleId, itemId);
+            SqlHelper.ExecuteNonQuery(connectionString, GetFullyQualifiedName("tblTinTuc_Delete"), id);
         }
 
         #endregion

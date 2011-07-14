@@ -42,11 +42,11 @@ namespace IDG.Dnn.AdminTinTuc.Components
 
         /* implement the methods that the dataprovider should */
 
-        public abstract IDataReader GetAdminTinTucs(int moduleId);
-        public abstract IDataReader GetAdminTinTuc(int moduleId, int itemId);
-        public abstract void AddAdminTinTuc(int moduleId, string content, int userId);
-        public abstract void UpdateAdminTinTuc(int moduleId, int itemId, string content, int userId);
-        public abstract void DeleteAdminTinTuc(int moduleId, int itemId);
+        public abstract IDataReader GetAdminTinTuc(int id);
+        public abstract IDataReader ListAdminTinTuc();
+        public abstract void AddAdminTinTuc(int loaiTinId,string tieuDe,string tomTat,string noiDung,string tacGia,string nguoiTao,string anh,DateTime ngayTao,int luotXem,string NguonTin,bool noiBat,string lang,bool tinhTrang);
+        public abstract void UpdateAdminTinTuc(int id,int loaiTinId, string tieuDe, string tomTat, string noiDung, string tacGia, string nguoiTao, string anh, DateTime ngayTao, int luotXem, string NguonTin, bool noiBat, string lang, bool tinhTrang);
+        public abstract void DeleteAdminTinTuc(int id);
 
         #endregion
 

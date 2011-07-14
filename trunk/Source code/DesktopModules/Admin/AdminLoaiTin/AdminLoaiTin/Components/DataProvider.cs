@@ -22,7 +22,7 @@ namespace IDG.Dnn.AdminLoaiTin.Components
         /// </summary>
         static DataProvider()
         {
-            instance = (DataProvider)Reflection.CreateObject("data", "YourCompany.AdminLoaiTin.Components", "");
+            instance = (DataProvider)Reflection.CreateObject("data", "IDG.Dnn.AdminLoaiTin.Components", "");
         }
 
         /// <summary>
@@ -42,11 +42,11 @@ namespace IDG.Dnn.AdminLoaiTin.Components
 
         /* implement the methods that the dataprovider should */
 
-        public abstract IDataReader GetAdminLoaiTins(int moduleId);
-        public abstract IDataReader GetAdminLoaiTin(int moduleId, int itemId);
-        public abstract void AddAdminLoaiTin(int moduleId, string content, int userId);
-        public abstract void UpdateAdminLoaiTin(int moduleId, int itemId, string content, int userId);
-        public abstract void DeleteAdminLoaiTin(int moduleId, int itemId);
+        public abstract IDataReader GetAdminLoaiTins(int id);
+        public abstract IDataReader ListAdminLoaiTin();
+        public abstract void AddAdminLoaiTin( string ten , int cha,int thuTu,DateTime ngayTao,int nguonTin,string lang,bool tinhTrang);
+        public abstract void UpdateAdminLoaiTin(int id, string ten, int cha, int thuTu, DateTime ngayTao, int nguonTin, string lang, bool tinhTrang);
+        public abstract void DeleteAdminLoaiTin(int id);
 
         #endregion
 

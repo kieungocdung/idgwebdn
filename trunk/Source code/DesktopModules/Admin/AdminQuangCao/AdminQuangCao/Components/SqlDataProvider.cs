@@ -91,29 +91,29 @@ namespace IDG.Dnn.AdminQuangCao.Components
 
         #region override methods
 
-        public override IDataReader GetAdminQuangCaos(int moduleId)
+        public override IDataReader GetAdminQuangCao(int id)
         {
-            return (IDataReader)SqlHelper.ExecuteReader(connectionString, GetFullyQualifiedName("GetAdminQuangCaos"), moduleId);
+            return (IDataReader)SqlHelper.ExecuteReader(connectionString, GetFullyQualifiedName("tblQuangCao_SelectByID"), id);
         }
 
-        public override IDataReader GetAdminQuangCao(int moduleId, int itemId)
+        public override IDataReader ListAdminQuangCao()
         {
-            return (IDataReader)SqlHelper.ExecuteReader(connectionString, GetFullyQualifiedName("GetAdminQuangCao"), moduleId, itemId);
+            return (IDataReader)SqlHelper.ExecuteReader(connectionString, GetFullyQualifiedName("tblQuangCao_SelectAll"));
         }
 
-        public override void AddAdminQuangCao(int moduleId, string content, int userId)
+        public override void AddAdminQuangCao(string tieuDe, string moTa, string url_Image, string link, int thuTu, DateTime ngayKetThuc, int vung,bool tinhTrang)
         {
-            SqlHelper.ExecuteNonQuery(connectionString, GetFullyQualifiedName("AddAdminQuangCao"), moduleId, content, userId);
+            SqlHelper.ExecuteNonQuery(connectionString, GetFullyQualifiedName("tblQuangCao_Insert"), tieuDe, moTa, url_Image, link, thuTu, ngayKetThuc,vung, tinhTrang);
         }
 
-        public override void UpdateAdminQuangCao(int moduleId, int itemId, string content, int userId)
+        public override void UpdateAdminQuangCao(int id, string tieuDe, string moTa, string url_Image, string link, int thuTu, DateTime ngayKetThuc, int vung, bool tinhTrang)
         {
-            SqlHelper.ExecuteNonQuery(connectionString, GetFullyQualifiedName("UpdateAdminQuangCao"), moduleId, itemId, content, userId);
+            SqlHelper.ExecuteNonQuery(connectionString, GetFullyQualifiedName("tblQuangCao_Update"), id, tieuDe, moTa, url_Image, link, thuTu, ngayKetThuc, vung, tinhTrang);
         }
 
-        public override void DeleteAdminQuangCao(int moduleId, int itemId)
+        public override void DeleteAdminQuangCao(int id)
         {
-            SqlHelper.ExecuteNonQuery(connectionString, GetFullyQualifiedName("DeleteAdminQuangCao"), moduleId, itemId);
+            SqlHelper.ExecuteNonQuery(connectionString, GetFullyQualifiedName("tblQuangCao_Delete"), id);
         }
 
         #endregion
