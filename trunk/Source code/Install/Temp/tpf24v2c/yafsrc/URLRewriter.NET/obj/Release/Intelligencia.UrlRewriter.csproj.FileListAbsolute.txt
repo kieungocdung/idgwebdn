@@ -1,7 +1,0 @@
-C:\Temp\trunk\yafsrc\YetAnotherForum.NET\Bin\Intelligencia.UrlRewriter.dll
-C:\Temp\trunk\yafsrc\YetAnotherForum.NET\Bin\Intelligencia.UrlRewriter.XML
-C:\Temp\trunk\yafsrc\URLRewriter.NET\obj\Release\ResolveAssemblyReference.cache
-C:\Temp\trunk\yafsrc\URLRewriter.NET\obj\Release\Intelligencia.UrlRewriter.Messages.resources
-C:\Temp\trunk\yafsrc\URLRewriter.NET\obj\Release\ResGen.read.1.tlog
-C:\Temp\trunk\yafsrc\URLRewriter.NET\obj\Release\ResGen.write.1.tlog
-C:\Temp\trunk\yafsrc\URLRewriter.NET\obj\Release\Intelligencia.UrlRewriter.dll
