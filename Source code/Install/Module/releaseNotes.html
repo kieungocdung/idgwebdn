@@ -1,0 +1,5 @@
+Please note: You will still need to run ~/DesktopModules/YetAnotherForumDotNet/install/ on a fresh install to setup the Database and Forum for YAF.
+Also note after install you need to modify your web.config file slightly. In your system.web/profile section you need to add the following under the profile:
+inherits="YAF.Classes.Utils.YafUserProfile"<br><br>The most common profile entry would look like:<br>
+<br>profile enabled="true" defaultProvider="AspNetSqlProfileProvider" inherits="YAF.Classes.Utils.YafUserProfile"<br>
+<br>Also, if you uninstall YetAnotherForum.NET Module you'll need to remove the inherits="YAF.Classes.Utils.YafUserProfile" section.
