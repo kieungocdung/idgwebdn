@@ -1,0 +1,11 @@
+﻿body {
+}
+#s_main ul li
+{
+	list-style-image:url(images/list.gif);
+	
+}
+#s_main ul li a
+{
+	color:#B9B9B9;
+}

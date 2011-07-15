@@ -1,0 +1,31 @@
+﻿body {
+}
+#imgidg
+{
+	width:274px;
+	height:167px;
+	background:url(images/anh2.gif);
+	margin-top:5px;
+	float:left;
+}
+#noidung
+{
+	float:left;
+}
+#noidung p
+{
+	text-align:left;
+}
+#list_dm
+{
+	float:left;
+}
+#list_dm ul li
+{
+	list-style-image:url(images/list.gif)
+}
+#list_dm ul li a
+{
+	color:#B9B9B9;
+	
+}

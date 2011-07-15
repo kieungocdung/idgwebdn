@@ -1,0 +1,50 @@
+﻿body {
+}
+.chitiet
+{
+	width:100%;
+}
+
+.mail_chitiet h3
+{
+	color:#359FC8;padding:5px;
+}
+.mail_chitiet p
+{
+	padding:5px;
+}
+.mail_chitiet .video
+{
+	background:url(images/play.jpg) no-repeat;
+	width:402px;
+	height:332px;
+	margin:0px auto;
+	padding:0px auto;
+}
+
+.mail_chitiet ul li
+{
+	float:left;
+	padding:15px;
+	list-style:none;
+}
+.listchitiet
+{
+	float:left;
+}
+.listchitiet ul li 
+{
+	list-style-image:url(images/list.gif);
+	padding:5px;
+	
+
+}
+.listchitiet ul li a
+{
+	color:#359FC8;
+}
+.listchitiet h4
+{
+	padding-left:10px;
+}
+

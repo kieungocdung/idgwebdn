@@ -1,0 +1,27 @@
+﻿body {
+}
+#menu_skin ul
+{
+	
+	float:left;
+	  
+	   margin-left: -39px;
+    width: 286px;
+}
+#menu_skin ul li
+{
+	list-style:none;
+	padding:5px;
+list-style:none;
+	border-bottom:solid 1px #b9b9b9;
+text-align:left;
+}
+#menu_skin ul li a
+{
+	color:#b9b9b9;
+	font-size:12px;
+	font-weight:bold;
+	padding-right:15px;
+
+	
+}

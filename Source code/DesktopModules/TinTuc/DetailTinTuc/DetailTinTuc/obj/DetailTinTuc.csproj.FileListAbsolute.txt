@@ -1,0 +1,5 @@
+E:\IDG\Web doanh nghiep\Source code\bin\DetailTinTuc.dll
+E:\IDG\Web doanh nghiep\Source code\bin\DetailTinTuc.pdb
+E:\IDG\Web doanh nghiep\Source code\DesktopModules\TinTuc\DetailTinTuc\DetailTinTuc\obj\Debug\ResolveAssemblyReference.cache
+E:\IDG\Web doanh nghiep\Source code\DesktopModules\TinTuc\DetailTinTuc\DetailTinTuc\obj\Debug\DetailTinTuc.dll
+E:\IDG\Web doanh nghiep\Source code\DesktopModules\TinTuc\DetailTinTuc\DetailTinTuc\obj\Debug\DetailTinTuc.pdb

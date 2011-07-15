@@ -1,0 +1,29 @@
+﻿body {
+}
+#online ul
+{
+	width:280px;
+	list-style:none;
+	
+}
+#online ul li 
+{
+		list-style:none;
+		padding-left:10px;
+		width:250px;
+		float:left;
+}
+
+#online ul li a
+{
+	text-align:right;
+	float:left;
+}
+#online ul li h3
+{
+	float: left;
+    margin-top: 6px;
+    text-align: left;
+    width: 116px;
+    margin-left:-30px;
+}

@@ -1,0 +1,5 @@
+E:\IDG\Web doanh nghiep\Source code\DesktopModules\TinTuc\LienKet\LienKet\obj\Debug\ResolveAssemblyReference.cache
+E:\IDG\Web doanh nghiep\Source code\bin\LienKet.dll
+E:\IDG\Web doanh nghiep\Source code\bin\LienKet.pdb
+E:\IDG\Web doanh nghiep\Source code\DesktopModules\TinTuc\LienKet\LienKet\obj\Debug\LienKet.dll
+E:\IDG\Web doanh nghiep\Source code\DesktopModules\TinTuc\LienKet\LienKet\obj\Debug\LienKet.pdb

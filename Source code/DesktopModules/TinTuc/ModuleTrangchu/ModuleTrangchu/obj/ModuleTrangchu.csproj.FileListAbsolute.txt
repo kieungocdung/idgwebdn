@@ -1,0 +1,5 @@
+E:\IDG\Web doanh nghiep\Source code\bin\ModuleTrangchu.dll
+E:\IDG\Web doanh nghiep\Source code\bin\ModuleTrangchu.pdb
+E:\IDG\Web doanh nghiep\Source code\DesktopModules\TinTuc\ModuleTrangchu\ModuleTrangchu\obj\Debug\ResolveAssemblyReference.cache
+E:\IDG\Web doanh nghiep\Source code\DesktopModules\TinTuc\ModuleTrangchu\ModuleTrangchu\obj\Debug\ModuleTrangchu.dll
+E:\IDG\Web doanh nghiep\Source code\DesktopModules\TinTuc\ModuleTrangchu\ModuleTrangchu\obj\Debug\ModuleTrangchu.pdb
