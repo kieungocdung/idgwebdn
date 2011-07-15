@@ -1,0 +1,5 @@
+E:\IDG\Web doanh nghiep\Source code\DesktopModules\TinTuc\BaiVietModule\BaiVietModule\obj\Debug\ResolveAssemblyReference.cache
+E:\IDG\Web doanh nghiep\Source code\bin\BaiVietModule.dll
+E:\IDG\Web doanh nghiep\Source code\bin\BaiVietModule.pdb
+E:\IDG\Web doanh nghiep\Source code\DesktopModules\TinTuc\BaiVietModule\BaiVietModule\obj\Debug\BaiVietModule.dll
+E:\IDG\Web doanh nghiep\Source code\DesktopModules\TinTuc\BaiVietModule\BaiVietModule\obj\Debug\BaiVietModule.pdb

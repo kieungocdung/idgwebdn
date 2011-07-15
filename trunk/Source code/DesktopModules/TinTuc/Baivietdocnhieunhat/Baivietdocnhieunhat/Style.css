@@ -1,0 +1,21 @@
+﻿body {
+}
+#bd_max ul
+{
+	width:280px;
+	list-style:none;
+}
+#bd_max ul li
+{
+	width:280px;
+	list-style:none;
+	font-size:13px;
+	font-family:Tahoma;
+	padding:5px;
+	list-style-image:none;
+	margin-left:-40px;
+}
+#bd_max ul li a
+{
+	color:#B9B9B9;
+}

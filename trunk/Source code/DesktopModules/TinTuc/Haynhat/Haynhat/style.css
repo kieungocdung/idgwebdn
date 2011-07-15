@@ -1,0 +1,25 @@
+﻿body {
+}
+.wanh
+{
+	width:135px;
+	height:150px;
+	padding:0px 2px 2px 0px;
+	
+	margin-top:-5PX;
+}
+#menu_haynhat
+{
+	width:290px;
+	float:left;
+	
+    margin-left: -40px;
+}
+#menu_haynhat ul 
+{
+	width:290px;
+}
+#menu_haynhat ul li
+{
+	list-style:none;
+}

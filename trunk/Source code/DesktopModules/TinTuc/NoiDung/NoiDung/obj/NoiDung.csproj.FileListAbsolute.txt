@@ -1,0 +1,5 @@
+E:\IDG\Web doanh nghiep\Source code\DesktopModules\TinTuc\NoiDung\NoiDung\obj\Debug\ResolveAssemblyReference.cache
+E:\IDG\Web doanh nghiep\Source code\bin\NoiDung.dll
+E:\IDG\Web doanh nghiep\Source code\bin\NoiDung.pdb
+E:\IDG\Web doanh nghiep\Source code\DesktopModules\TinTuc\NoiDung\NoiDung\obj\Debug\NoiDung.dll
+E:\IDG\Web doanh nghiep\Source code\DesktopModules\TinTuc\NoiDung\NoiDung\obj\Debug\NoiDung.pdb

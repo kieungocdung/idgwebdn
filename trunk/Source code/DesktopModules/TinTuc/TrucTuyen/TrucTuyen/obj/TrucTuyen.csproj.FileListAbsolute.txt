@@ -1,0 +1,5 @@
+E:\IDG\Web doanh nghiep\Source code\DesktopModules\TinTuc\TrucTuyen\TrucTuyen\obj\Debug\ResolveAssemblyReference.cache
+E:\IDG\Web doanh nghiep\Source code\bin\TrucTuyen.dll
+E:\IDG\Web doanh nghiep\Source code\bin\TrucTuyen.pdb
+E:\IDG\Web doanh nghiep\Source code\DesktopModules\TinTuc\TrucTuyen\TrucTuyen\obj\Debug\TrucTuyen.dll
+E:\IDG\Web doanh nghiep\Source code\DesktopModules\TinTuc\TrucTuyen\TrucTuyen\obj\Debug\TrucTuyen.pdb
