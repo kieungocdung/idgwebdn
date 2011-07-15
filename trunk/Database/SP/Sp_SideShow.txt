@@ -1,0 +1,37 @@
+﻿Create PROCEDURE [dbo].[tblSlideHome_Insert]
+@Anh NVarChar(250),
+@Anh_thumb NVarChar(50),
+@Tieude NChar(100),
+@TrangThai Bit
+as
+insert into tblSlideHome
+([Anh],[Anh_thumb],[Tieude],[TrangThai])
+Values
+(@Anh,@Anh_thumb,@Tieude,@TrangThai)
+go
+Create PROCEDURE [dbo].[tblSlideHome_Update]
+@ID Int,
+@Anh NVarChar(250),
+@Anh_thumb NVarChar(50),
+@Tieude NChar(100),
+@TrangThai Bit
+as
+Update tblSlideHome Set
+ [Anh]= @Anh,[Anh_thumb]= @Anh_thumb,[Tieude]= @Tieude,[TrangThai]= @TrangThai
+ Where ([ID]= @ID)
+go
+Create PROCEDURE [dbo].[tblSlideHome_Delete]
+@ID Int
+as
+Delete tblSlideHome
+ Where  ([ID]= @ID)
+go
+Create PROCEDURE [dbo].[tblSlideHome_SelectAll]
+as
+Select * from tblSlideHome
+go
+Create PROCEDURE [dbo].[tblSlideHome_SelectByID]
+@ID Int
+as
+Select * from tblSlideHome
+ Where  ([ID]= @ID)
