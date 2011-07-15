@@ -1,0 +1,100 @@
+Create PROCEDURE [dbo].[tblLoaiTin_Insert]
+@Ten NVarChar(256),
+@Cha Int,
+@ThuTu Int,
+@NgayTao DateTime,
+@IconLoaiTin VarChar(50),
+@NguonTin Int,
+@Lang NChar(5),
+@TinhTrang Bit
+as
+insert into tblLoaiTin
+([Ten],[Cha],[ThuTu],[NgayTao],[IconLoaiTin],[NguonTin],[Lang],[TinhTrang])
+Values
+(@Ten,@Cha,@ThuTu,@NgayTao,@IconLoaiTin,@NguonTin,@Lang,@TinhTrang)
+go
+Create PROCEDURE [dbo].[tblLoaiTin_Update]
+@ID Int,
+@Ten NVarChar(256),
+@Cha Int,
+@ThuTu Int,
+@NgayTao DateTime,
+@IconLoaiTin VarChar(50),
+@NguonTin Int,
+@Lang NChar(5),
+@TinhTrang Bit
+as
+Update tblLoaiTin Set
+ [Ten]= @Ten,[Cha]= @Cha,[ThuTu]= @ThuTu,[NgayTao]= @NgayTao,[IconLoaiTin]= @IconLoaiTin,[NguonTin]= @NguonTin,[Lang]= @Lang,[TinhTrang]= @TinhTrang
+ Where ([ID]= @ID)
+go
+Create PROCEDURE [dbo].[tblLoaiTin_Delete]
+@ID Int
+as
+Delete tblLoaiTin
+ Where  ([ID]= @ID)
+go
+Create PROCEDURE [dbo].[tblLoaiTin_SelectAll]
+as
+Select * from tblLoaiTin
+go
+Create PROCEDURE [dbo].[tblLoaiTin_SelectByID]
+@ID Int
+as
+Select * from tblLoaiTin
+ Where  ([ID]= @ID)
+go
+Create PROCEDURE [dbo].[tblTinTuc_Insert]
+@LoaiTinID Int,
+@TieuDe NVarChar(256),
+@TomTat NText,
+@NoiDung NText,
+@TacGia NVarChar(128),
+@NguoiTao NVarChar(128),
+@Anh NVarChar(500),
+@NgayTao DateTime,
+@LuotXem Int,
+@NguonTin NVarChar(150),
+@NoiBat Bit,
+@Lang NChar(5),
+@TinhTrang Bit
+as
+insert into tblTinTuc
+([LoaiTinID],[TieuDe],[TomTat],[NoiDung],[TacGia],[NguoiTao],[Anh],[NgayTao],[LuotXem],[NguonTin],[NoiBat],[Lang],[TinhTrang])
+Values
+(@LoaiTinID,@TieuDe,@TomTat,@NoiDung,@TacGia,@NguoiTao,@Anh,@NgayTao,@LuotXem,@NguonTin,@NoiBat,@Lang,@TinhTrang)
+go
+Create PROCEDURE [dbo].[tblTinTuc_Update]
+@ID Int,
+@LoaiTinID Int,
+@TieuDe NVarChar(256),
+@TomTat NText,
+@NoiDung NText,
+@TacGia NVarChar(128),
+@NguoiTao NVarChar(128),
+@Anh NVarChar(500),
+@NgayTao DateTime,
+@LuotXem Int,
+@NguonTin NVarChar(150),
+@NoiBat Bit,
+@Lang NChar(5),
+@TinhTrang Bit
+as
+Update tblTinTuc Set
+ [LoaiTinID]= @LoaiTinID,[TieuDe]= @TieuDe,[TomTat]= @TomTat,[NoiDung]= @NoiDung,[TacGia]= @TacGia,[NguoiTao]= @NguoiTao,[Anh]= @Anh,[NgayTao]= @NgayTao,[LuotXem]= @LuotXem,[NguonTin]= @NguonTin,[NoiBat]= @NoiBat,[Lang]= @Lang,[TinhTrang]= @TinhTrang
+ Where ([ID]= @ID)
+go
+Create PROCEDURE [dbo].[tblTinTuc_Delete]
+@ID Int
+as
+Delete tblTinTuc
+ Where  ([ID]= @ID)
+go
+Create PROCEDURE [dbo].[tblTinTuc_SelectAll]
+as
+Select * from tblTinTuc
+Create PROCEDURE [dbo].[tblTinTuc_SelectByID]
+@ID Int
+as
+Select * from tblTinTuc
+ Where  ([ID]= @ID)
