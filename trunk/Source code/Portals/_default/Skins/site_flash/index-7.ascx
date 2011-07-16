@@ -1,0 +1,104 @@
+<%@ Control language="vb" AutoEventWireup="false" Explicit="True" Inherits="DotNetNuke.UI.Skins.Skin" %>
+
+<div class="tail-top">
+  <div id="main">
+    <!-- header -->
+    <div id="header">
+      <div class="row-1 indent">
+        <div class="header-box">
+          <div class="left">
+            <div class="right">
+              <div class="inner">
+                <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
+                    codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,24"
+           width="980" height="138">
+                  <param name="movie" value="/portals/_default/skins/site_flash/flash/menu_v8.swf?button=0" />
+                  <param name="quality" value="high" />
+                  <param name="menu" value="false" />
+                  <param name="wmode" value="transparent" />
+                  <!--[if !IE]> <-->
+                  <object data="/portals/_default/skins/site_flash/flash/menu_v8.swf?button=0"
+           width="980" height="138" type="application/x-shockwave-flash">
+                    <param name="quality" value="high" />
+                    <param name="menu" value="false" />
+                    <param name="pluginurl" value="http://www.macromedia.com/go/getflashplayer" />
+                    <param name="wmode" value="transparent" />
+                    FAIL (the browser should render some flash content, not this).
+                  </object>
+                  <!--> <![endif]-->
+                </object>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row-2">
+        <div class="left">
+          <div class="right">
+            <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
+                    codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,24"
+           width="980" height="421">
+              <param name="movie" value="/portals/_default/skins/site_flash/flash/header_v8.swf" />
+              <param name="quality" value="high" />
+              <param name="menu" value="false" />
+              <!--[if !IE]> <-->
+              <object data="/portals/_default/skins/site_flash/flash/header_v8.swf"
+           width="980" height="421" type="application/x-shockwave-flash">
+                <param name="quality" value="high" />
+                <param name="menu" value="false" />
+                <param name="pluginurl" value="http://www.macromedia.com/go/getflashplayer" />
+                FAIL (the browser should render some flash content, not this).
+              </object>
+              <!--> <![endif]-->
+            </object>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- content -->
+    <div id="content">
+      <div class="cont-box">
+        <div class="border-right">
+          <div class="border-bot">
+            <div class="border-left">
+              <div class="right-bot-corner">
+                <div class="left-bot-corner">
+                  <div class="inner">
+                    <div class="indent">
+                      
+                      <div class="row-1 indent1">
+                        <h3>Privacy Policy</h3>
+                        <h5><a href="/portals/_default/skins/site_flash/#">Velerisque egemalesuada emus</a></h5>
+                        <p class="p1">Eget nibamirsus leoc velulla facilinean nec erostibulum ante ipsum primis faucibuctus ultrices posuerspendisse sollici tusdin velit sed le phar maendrerit sit ancidunt iverranec porta diam eu masuisque diam lorem interdum. vitpibus ac scelerisque vitae nec eget tellus non erat lacinia fermentum. Donec in velit vel ipsum auctor pulvinar. Proin ullamcorper urna et felis. Vestibulum iaculis lacinia est. Proin dictum elementum velit. Fusce euismod consequat ante. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque sed dolor. Aliquam congue fermentum nisl. Mauris accumsan nulla vel diam. Sed in lacus ut enim adipiscing aliquet. Nulla venenatis. In pede mi, aliquet sit amet, euismod in, auctor ut, ligula. Aliquam dapibus tincidunt metus. Praesent justo dolor, lobortis quis, lobortis dignissim, pulvinar ac, lorem. Vestibulum sed ante. Donec sagittis euismod purus.</p>
+                        <h4><a href="/portals/_default/skins/site_flash/#">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium</a></h4>
+                        <p class="p1">Totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+                          Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consenostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid.</p>
+                        <p>E-mail: <a href="/portals/_default/skins/site_flash/#">info@companyname.com</a></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- footer -->
+    <div id="footer">
+      <div class="indent">
+        <ul class="footer-nav">
+          <li><a href="/portals/_default/skins/site_flash/index.html">First page</a></li>
+          <li><a href="/portals/_default/skins/site_flash/index-1.html">Services</a></li>
+          <li><a href="/portals/_default/skins/site_flash/index-2.html">Solutions</a></li>
+          <li><a href="/portals/_default/skins/site_flash/index-3.html">Partners</a></li>
+          <li><a href="/portals/_default/skins/site_flash/index-4.html">Clients</a></li>
+          <li><a href="/portals/_default/skins/site_flash/index-5.html">Benefits</a></li>
+          <li><a href="/portals/_default/skins/site_flash/index-6.html">Contacts</a></li>
+        </ul>
+        <p><span>BlexMart</span> &copy;  2009. <a href="/portals/_default/skins/site_flash/index-7.html">Privacy Policy</a></p>
+      </div>
+    </div>
+  </div>
+</div>
+
